@@ -1,0 +1,588 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-06 19:46+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../contributing-website.rst:2 bef8228b3da24c2e8cd765aa2c8343df
+msgid "Website Development"
+msgstr "Розробка веб -сайтів"
+
+#: ../../contributing-website.rst:4 65999b94dbbd46a986b0080b1285c9fc
+msgid "Contributing to БАБАЙ project website."
+msgstr "Вклад на веб -сайт проекту Бабара."
+
+#: ../../contributing-website.rst:7 036ba867c4c84118a09391929b3409e5
+msgid "**Website requirements will be defined as the project develops.**"
+msgstr "** Вимоги до веб -сайту будуть визначені в міру розвитку проекту. **"
+
+#: ../../contributing-website.rst:10 59d5d7d49a4e44c281d2556c56e191bf
+msgid "Overview"
+msgstr "Огляд"
+
+#: ../../contributing-website.rst:12 c1d516050b334f73b7f2c039afb184ab
+msgid "БАБАЙ website will include:"
+msgstr "Бабай веб -сайту включатиме:"
+
+#: ../../contributing-website.rst:14 fd24e3eb0ea545a1a9d5dd386bcacf7f
+msgid "Project information"
+msgstr "Інформація про проект"
+
+#: ../../contributing-website.rst:15 be8363b1177f4c839f9ed2c2786d00d9
+msgid "Documentation portal"
+msgstr "Портал документації"
+
+#: ../../contributing-website.rst:16 a90c3936c3804cac83bdba5682eacb5e
+msgid "Community forum"
+msgstr "Форум спільноти"
+
+#: ../../contributing-website.rst:17 2f7b300dfc2e43beb54d6dd7414ce538
+msgid "Resource library"
+msgstr "Бібліотека ресурсів"
+
+#: ../../contributing-website.rst:18 f68711287f034d118b9275f12b86a5ac
+msgid "News and updates"
+msgstr "Новини та оновлення"
+
+#: ../../contributing-website.rst:21 edcbf7e58a094ab39b849f40d7c9f62a
+msgid "Requirements"
+msgstr "Вимоги"
+
+#: ../../contributing-website.rst:24 8700e589dd484690a4f57f1f2c9388c8
+msgid "Technical Stack"
+msgstr "Технічний стек"
+
+#: ../../contributing-website.rst:26 7a146fc618a844e0a3bcf97d644bb37f
+msgid "*(To be determined)*"
+msgstr "*(Для визначення)**"
+
+#: ../../contributing-website.rst:28 9dcc187ac84a49dbae7aaa420dc89a1f
+msgid "Possible technologies:"
+msgstr "Можливі технології:"
+
+#: ../../contributing-website.rst:30 c9282d4fdbb54faab6e3dd905c6bbb56
+msgid "Frontend: React, Vue, or similar"
+msgstr "Фронт: реагувати, vue або подібні"
+
+#: ../../contributing-website.rst:31 abac575ac97546a9a7314468caed606c
+msgid "Backend: Node.js, Python, or similar"
+msgstr "Backend: node.js, python або подібні"
+
+#: ../../contributing-website.rst:32 2b8cff724c0b4f1bb0b7781c32f13f30
+msgid "Database: PostgreSQL, MongoDB"
+msgstr "База даних: Postgresql, MongoDB"
+
+#: ../../contributing-website.rst:33 ee861cd21a764531afb3b22d8e29b0f0
+msgid "Hosting: Open-source friendly platform"
+msgstr "Хостинг: дружня платформа з відкритим кодом"
+
+#: ../../contributing-website.rst:36 31a2dc1c40bd48d8b7d6971f5cb71bb9
+msgid "Design Guidelines"
+msgstr "Настанови щодо дизайну"
+
+#: ../../contributing-website.rst:38 84215e1734084093b833b070236bcc3e
+msgid "The website should be:"
+msgstr "Веб -сайт повинен бути:"
+
+#: ../../contributing-website.rst:40 53be8d2115e44a7c855818d14fe49112
+msgid "✅ **User-Friendly**"
+msgstr "✅ ** зручний для користувачів **"
+
+#: ../../contributing-website.rst:41 6427d73785904f0f993dea394806c47d
+msgid "Intuitive navigation"
+msgstr "Інтуїтивна навігація"
+
+#: ../../contributing-website.rst:42 1d26540c9b8843a781b29a089de2359d
+msgid "Clear structure"
+msgstr "Чітка структура"
+
+#: ../../contributing-website.rst:43 7612190b69ba4c5694df5b9ffadea248
+msgid "Easy to find information"
+msgstr "Легко знайти інформацію"
+
+#: ../../contributing-website.rst:45 e908f0ed4d4448028b476be252bad01d
+msgid "✅ **Accessible**"
+msgstr "✅ ** доступний **"
+
+#: ../../contributing-website.rst:46 64718aaad8c94150a4df1dba5336bd3c
+msgid "WCAG 2.1 compliance"
+msgstr "Відповідність WCAG 2.1"
+
+#: ../../contributing-website.rst:47 8f2f0245553c4cc2b49971a3afd18775
+msgid "Mobile responsive"
+msgstr "Мобільний реагуючий"
+
+#: ../../contributing-website.rst:48 f4d704c8cf2c47ae922c30a3afbad9ef
+msgid "Fast loading"
+msgstr "Швидке завантаження"
+
+#: ../../contributing-website.rst:50 4481fb2027d744ceaa9970a6e491ba76
+msgid "✅ **Multi-Language**"
+msgstr "✅ ** Багатомовна **"
+
+#: ../../contributing-website.rst:51 a3fbad65f2884a02a82c7a414a875b41
+msgid "English, Ukrainian, Russian"
+msgstr "Англійська, українська, російська"
+
+#: ../../contributing-website.rst:52 35a66608ce044ef1a09901842a059d54
+msgid "Easy language switching"
+msgstr "Легке перемикання мови"
+
+#: ../../contributing-website.rst:53 2f7aa016b48a47fbb7de4e46502c8340
+msgid "Consistent translations"
+msgstr "Послідовні переклади"
+
+#: ../../contributing-website.rst:55 ea20c10c2ee447439a1ce4e9a171fe3e
+msgid "✅ **Educational Focus**"
+msgstr "✅ ** Освітній фокус **"
+
+#: ../../contributing-website.rst:56 f25f945c58fc4c5d8e27d3fa9c20e91f
+msgid "Support learning goals"
+msgstr "Підтримуйте цілі навчання"
+
+#: ../../contributing-website.rst:57 858f42932dd84b9ab53a78daaaf0bf05
+msgid "Clear documentation"
+msgstr "Чітка документація"
+
+#: ../../contributing-website.rst:58 c9b137c717de4f8ea3b66731b011a344
+msgid "Interactive examples"
+msgstr "Інтерактивні приклади"
+
+#: ../../contributing-website.rst:61 47043d7b82ab4541b47d6654088ed941
+msgid "Content Requirements"
+msgstr "Вимоги до вмісту"
+
+#: ../../contributing-website.rst:63 e28c27459c28402989b286b2e7bf31c3
+msgid "Clear, concise text"
+msgstr "Чіткий, стислий текст"
+
+#: ../../contributing-website.rst:64 059326b7821141628f90646a350eaf9c
+msgid "High-quality images"
+msgstr "Якісні образи"
+
+#: ../../contributing-website.rst:65 8f56acd9c6fe46bca2be3d7f2341d23a
+msgid "Video tutorials (when applicable)"
+msgstr "Відеоуроки (якщо це можливо)"
+
+#: ../../contributing-website.rst:66 8e672d281cd04b599cec5542f36794b0
+msgid "Downloadable resources"
+msgstr "Ресурси, що завантажуються"
+
+#: ../../contributing-website.rst:67 ../../contributing-website.rst:84
+#: 689e5f4f4f3c4f2bbe57e728f00a844f 73dee4076346401dba076d5867b70546
+msgid "Search functionality"
+msgstr "Функціональність пошуку"
+
+#: ../../contributing-website.rst:70 ee46c7cdafb34768bbd959359cf4780f
+msgid "Features"
+msgstr "Особливості"
+
+#: ../../contributing-website.rst:73 fd5ef75c68f240de8c10e199f612d7af
+msgid "Core Features"
+msgstr "Основні особливості"
+
+#: ../../contributing-website.rst:75 5ac0d65b17514df08de9fc4d346a0553
+msgid "**Home Page**"
+msgstr "** Домашня сторінка **"
+
+#: ../../contributing-website.rst:77 91ff24d130f64446a28f719dc128d8ee
+msgid "Project overview"
+msgstr "Огляд проекту"
+
+#: ../../contributing-website.rst:78 54c11d3df878474dbf159a69acc1b2c2
+msgid "Quick start guide"
+msgstr "Посібник з швидкого початку"
+
+#: ../../contributing-website.rst:79 8096e521a1e145349e4e940152d0483f
+msgid "Latest news"
+msgstr "Останні новини"
+
+#: ../../contributing-website.rst:81 afcacd87d3c34bd4ab97d7f7366e4a1f
+msgid "**Documentation**"
+msgstr "** Документація **"
+
+#: ../../contributing-website.rst:83 f0553146b97d415f8e0280abd8e3979b
+msgid "Integration with ReadTheDocs"
+msgstr "Інтеграція з readthedocs"
+
+#: ../../contributing-website.rst:85 3897ddea01634743b7c405a661fa2b6e
+msgid "Version control"
+msgstr "Контроль версії"
+
+#: ../../contributing-website.rst:87 71c57f751ebb4dbe88a1c572c6f928fa
+msgid "**Community**"
+msgstr "** Спільнота **"
+
+#: ../../contributing-website.rst:89 e7e2056dfb13419191668b9f4f7d8698
+msgid "Discussion forum"
+msgstr "Дискусійний форум"
+
+#: ../../contributing-website.rst:90 8f4af279c15e4a8fa3e6ab9f6bbbf536
+msgid "User projects showcase"
+msgstr "Вітрина проектів користувачів"
+
+#: ../../contributing-website.rst:91 a59b5ca36d1240489bbd31852f388167
+msgid "Contributor list"
+msgstr "Список учасників"
+
+#: ../../contributing-website.rst:93 acc2fb9eedb4416fb11999b9b9fd1807
+msgid "**Resources**"
+msgstr "** Ресурси **"
+
+#: ../../contributing-website.rst:95 58ef4ffd7b3e4847b7acf265f78d368e
+msgid "Lesson library"
+msgstr "Бібліотека уроків"
+
+#: ../../contributing-website.rst:96 9951ff631f8a4210969f65c4292786cc
+msgid "Code examples"
+msgstr "Приклади коду"
+
+#: ../../contributing-website.rst:97 727457d18e92477e953ef49756f20a94
+msgid "Hardware designs"
+msgstr "Апаратні конструкції"
+
+#: ../../contributing-website.rst:98 69273b1d715b47ecbbb47a9d5e25ff12
+msgid "3D models"
+msgstr "3D -моделі"
+
+#: ../../contributing-website.rst:100 7a6ec06470854ee4a33c4325e42e8d40
+msgid "**Support**"
+msgstr "** Підтримка **"
+
+#: ../../contributing-website.rst:102 a603517331b649718dc2564f4a95ebbb
+msgid "FAQ"
+msgstr "Поширення"
+
+#: ../../contributing-website.rst:103 9007a53a09a645258a6ce86ffe0a690f
+msgid "Troubleshooting guides"
+msgstr "Посібники з усунення несправностей"
+
+#: ../../contributing-website.rst:104 4f886b1b880347568d8fd6fa50441a7e
+msgid "Contact information"
+msgstr "Контактна інформація"
+
+#: ../../contributing-website.rst:107 b02b2cd77a964920a2c47d838939c0b9
+msgid "Development Process"
+msgstr "Процес розробки"
+
+#: ../../contributing-website.rst:109 96928d50d6014e6d9d2d636c69a7c7fe
+msgid "*(To be defined as project needs emerge)*"
+msgstr "*(Для визначення як виникнення потреб у проекті)*"
+
+#: ../../contributing-website.rst:111 8f73c61703c0468ea3ee37ed21523dbc
+msgid "**Current Status:** Planning phase"
+msgstr "** Поточний статус: ** Фаза планування"
+
+#: ../../contributing-website.rst:113 ed9f0bcd44684ab7923bfe7aff53304b
+msgid "**Help needed:**"
+msgstr "** Необхідна допомога: **"
+
+#: ../../contributing-website.rst:115 1368764db73940c8b47a9ea82ffa2018
+msgid "Web developers"
+msgstr "Веб -розробники"
+
+#: ../../contributing-website.rst:116 91dbedf07cc34a81b6402cfa8f28b6e3
+msgid "UI/UX designers"
+msgstr "UI/UX Дизайнери"
+
+#: ../../contributing-website.rst:117 194f0fa38dc349b9a555a607d87105f3
+msgid "Content creators"
+msgstr "Творці контенту"
+
+#: ../../contributing-website.rst:118 65da38a2044d46d09ce28e2a539e5ce8
+msgid "Translators"
+msgstr "Перекладачі"
+
+#: ../../contributing-website.rst:121 f38b2ae863dd4ff5b144dccfac9f6f03
+msgid "Submission Guidelines"
+msgstr "Настанови щодо подання"
+
+#: ../../contributing-website.rst:123 f6fe5c95a7a1430882cc2ed43d681f94
+msgid "**Propose Feature**"
+msgstr "** Пропонуйте функцію **"
+
+#: ../../contributing-website.rst:125 696c6b34b4b24bb8863fb529e919406d
+msgid "Open GitHub Issue:"
+msgstr "Відкритий випуск Github:"
+
+#: ../../contributing-website.rst:127 26d8293ca5a74d1c8402b47d347e227f
+msgid "Describe feature"
+msgstr "Опишіть особливість"
+
+#: ../../contributing-website.rst:128 b3b8f245b8894e10adac6030ea060da5
+msgid "Explain benefits"
+msgstr "Поясніть переваги"
+
+#: ../../contributing-website.rst:129 6c43e290910c415a8fb120bc50cacc50
+msgid "Show examples (if available)"
+msgstr "Показати приклади (якщо вони є)"
+
+#: ../../contributing-website.rst:131 37d09c31c2f34333b295f95036d6fe72
+msgid "**Discuss with Team**"
+msgstr "** Обговоріть з командою **"
+
+#: ../../contributing-website.rst:133 54e403addf064c3a8cfd73826a01de6c
+msgid "Get feedback"
+msgstr "Отримати відгук"
+
+#: ../../contributing-website.rst:134 6d29029766c64f5ab27f78f6b552fea7
+msgid "Refine proposal"
+msgstr "Уточнити пропозицію"
+
+#: ../../contributing-website.rst:135 96e16e7dc2c741f5a47a106b481c64a9
+msgid "Get approval"
+msgstr "Отримати схвалення"
+
+#: ../../contributing-website.rst:137 b6fd5aae5cd84a629b3b104512a59dbb
+msgid "**Implement**"
+msgstr "** Впровадження **"
+
+#: ../../contributing-website.rst:139 48dc7c4fb81a472f94fb3a2c97d5b01a
+msgid "Follow coding standards"
+msgstr "Дотримуйтесь стандартів кодування"
+
+#: ../../contributing-website.rst:140 ../../contributing-website.rst:157
+#: 7b0ae5bf95f5418eb788d742549a4a24 d069dce374104250a5500e2b15097f59
+msgid "Write tests"
+msgstr "Напишіть тести"
+
+#: ../../contributing-website.rst:141 d50281185dad40c6921073643b37f0d9
+msgid "Document changes"
+msgstr "Зміни документа"
+
+#: ../../contributing-website.rst:143 3f469e0c251f48839ec202e4131b312e
+msgid "**Submit PR**"
+msgstr "** Надіслати PR **"
+
+#: ../../contributing-website.rst:145 0d8771dfca47405aa22ef63563a10119
+msgid "Clear description"
+msgstr "Чіткий опис"
+
+#: ../../contributing-website.rst:146 3e30f6f7dfe74bd1bf24e9b777ef1267
+msgid "Screenshots/demo"
+msgstr "Скріншоти/демонстрація"
+
+#: ../../contributing-website.rst:147 c45bb32d07f6466a8aff8d3dbc203b85
+msgid "Update documentation"
+msgstr "Оновити документацію"
+
+#: ../../contributing-website.rst:150 2146fa8e98e848de8973bd3952a86c0b
+msgid "Code Standards"
+msgstr "Стандарти коду"
+
+#: ../../contributing-website.rst:152 6024b1cf4e0d4eddbee83b6619ce8a0e
+msgid "*(To be defined)*"
+msgstr "*(Для визначення)**"
+
+#: ../../contributing-website.rst:154 265549c8c6094035b2970108256cace1
+msgid "Follow framework best practices"
+msgstr "Дотримуйтесь найкращих практик рамок"
+
+#: ../../contributing-website.rst:155 51f7b997cdf64db4af9f65606a2f81cc
+msgid "Write clean, maintainable code"
+msgstr "Напишіть чистий, реконструйований код"
+
+#: ../../contributing-website.rst:156 4b60e15de1c04d319739537dc9411352
+msgid "Include comments"
+msgstr "Включіть коментарі"
+
+#: ../../contributing-website.rst:158 96b64624e3df4fc08dc8176f233bcbcd
+msgid "Ensure accessibility"
+msgstr "Забезпечити доступність"
+
+#: ../../contributing-website.rst:161 6b222279a42b41c988793ac366aec818
+msgid "Testing"
+msgstr "Тестування"
+
+#: ../../contributing-website.rst:163 ff454c89005645049c75730d0bd103eb
+msgid "All website features must be tested:"
+msgstr "Всі функції веб -сайту повинні бути перевірені:"
+
+#: ../../contributing-website.rst:165 98109bdb18d0433fb76bacdf36415a18
+msgid "Functionality tests"
+msgstr "Тести на функціональність"
+
+#: ../../contributing-website.rst:166 b3f231b54a344c6c8c8ab2c4f586f9fc
+msgid "Browser compatibility"
+msgstr "Сумісність браузера"
+
+#: ../../contributing-website.rst:167 2157e13187d64602b116f3bf5d3919fc
+msgid "Mobile responsiveness"
+msgstr "Мобільна чутливість"
+
+#: ../../contributing-website.rst:168 39aacfab86b24def95a7f0c0c4dd6966
+msgid "Performance tests"
+msgstr "Тести на продуктивність"
+
+#: ../../contributing-website.rst:169 0448dc14e597468d9985c34c8dd90265
+msgid "Accessibility audit"
+msgstr "Аудит доступності"
+
+#: ../../contributing-website.rst:172 176e0aea1c5141a59f3d93ef6754df8c
+msgid "Roadmap"
+msgstr "Дорожня карта"
+
+#: ../../contributing-website.rst:174 dcaede9cb010470586dc2c3aea4146a2
+msgid "**Phase 1: Basic Site** *(Current)*"
+msgstr "** Фаза 1: Основний сайт ***(струм)*"
+
+#: ../../contributing-website.rst:176 adb24bb6cc4141b59e9d965c1a201536
+msgid "Project information page"
+msgstr "Сторінка інформації про проект"
+
+#: ../../contributing-website.rst:177 d94c74d4637a4af898ba154dcf963c19
+msgid "Documentation integration"
+msgstr "Інтеграція документації"
+
+#: ../../contributing-website.rst:178 6005a1801a0540da97e3d704512c4804
+msgid "Basic navigation"
+msgstr "Основна навігація"
+
+#: ../../contributing-website.rst:180 648ce12d39d148d6888a8104672ac916
+msgid "**Phase 2: Community Features**"
+msgstr "** Фаза 2: Особливості спільноти **"
+
+#: ../../contributing-website.rst:182 955f6ec720bc4cdfa0ae272edbd09b4e
+msgid "User accounts"
+msgstr "Облікові записи користувача"
+
+#: ../../contributing-website.rst:183 72c1f3305b2241488bc32c3da9a0b1ab
+msgid "Forum/discussions"
+msgstr "Форум/дискусії"
+
+#: ../../contributing-website.rst:184 adbd1190ec2d443180264e4e0b418c3a
+msgid "Project showcase"
+msgstr "Вітрина проекту"
+
+#: ../../contributing-website.rst:186 810b1da421b84d6bb16448b2e9fa1d68
+msgid "**Phase 3: Advanced Features**"
+msgstr "** Фаза 3: Додаткові функції **"
+
+#: ../../contributing-website.rst:188 b2c5235e3edb4f0f8b845c5d0c12c99f
+msgid "Interactive tutorials"
+msgstr "Інтерактивні підручники"
+
+#: ../../contributing-website.rst:189 6f13ec008c804e26843c6c589726b434
+msgid "Progress tracking"
+msgstr "Відстеження прогресу"
+
+#: ../../contributing-website.rst:190 d37acabcaa5e4a2f9d9eaa6612862a26
+msgid "Certificate generation"
+msgstr "Генерація сертифікатів"
+
+#: ../../contributing-website.rst:193 9f5ccb3470744c0ab158cd152d654d8f
+msgid "How to Help Now"
+msgstr "Як допомогти зараз"
+
+#: ../../contributing-website.rst:195 535edf5076d0472086b659fb4ba6b21a
+msgid "Currently needed:"
+msgstr "В даний час потрібно:"
+
+#: ../../contributing-website.rst:197 2b9c569a14794aaf83cb9a02dc2e149f
+msgid "**Planning Input**"
+msgstr "** Планування введення **"
+
+#: ../../contributing-website.rst:199 d0927041fe3f4ff2990a4e5575777c05
+msgid "Share ideas for website features"
+msgstr "Поділіться ідеями для функцій веб -сайту"
+
+#: ../../contributing-website.rst:200 c36cdd4f7a7345faa6f5e9b4af6cff26
+msgid "Suggest useful resources"
+msgstr "Пропонують корисні ресурси"
+
+#: ../../contributing-website.rst:201 e06a1002df0849178303dd5cfa976f01
+msgid "Provide feedback on mockups"
+msgstr "Надайте відгуки про макети"
+
+#: ../../contributing-website.rst:203 45cb43b2e9a640b3bc6311fb5d8dd40c
+msgid "**Design Concepts**"
+msgstr "** Концепції дизайну **"
+
+#: ../../contributing-website.rst:205 21f641868c6f4cdcb09322b8f5ae232b
+msgid "Create UI/UX proposals"
+msgstr "Створіть пропозиції UI/UX"
+
+#: ../../contributing-website.rst:206 e199076f0f9e417f8e7cfe3dfb819ba9
+msgid "Design logo/branding"
+msgstr "Логотип дизайну/брендинг"
+
+#: ../../contributing-website.rst:207 477626085bf7428caa2717a5ffff4d69
+msgid "Develop style guides"
+msgstr "Розробити путівники стилю"
+
+#: ../../contributing-website.rst:209 1a55db6fe6fe4e64b9190889ce9bac70
+msgid "**Content Creation**"
+msgstr "** Створення вмісту **"
+
+#: ../../contributing-website.rst:211 68f35282ec814e339f290c942783d271
+msgid "Write website copy"
+msgstr "Напишіть копію веб -сайту"
+
+#: ../../contributing-website.rst:212 99c69116adbd47fb8d4305bebb1e4264
+msgid "Create graphics"
+msgstr "Створити графіку"
+
+#: ../../contributing-website.rst:213 f5bdbc00c5c54d6b9c5ef79d6f8cb28d
+msgid "Prepare video content"
+msgstr "Підготуйте відеоконтент"
+
+#: ../../contributing-website.rst:216 be057456ce4243e899f105d397631f77
+msgid "Technologies Under Consideration"
+msgstr "Технології, що розглядаються"
+
+#: ../../contributing-website.rst:218 72e04fdc38574f06a300e1394a38bc64
+msgid "**Static Site Generators:** Hugo, Jekyll, Sphinx"
+msgstr "** Статичні генератори сайтів: ** Hugo, Jekyll, Sphinx"
+
+#: ../../contributing-website.rst:219 16644137973743ce824d0d11dd760a6a
+msgid "**CMS:** Strapi, Ghost, WordPress"
+msgstr "** cms: ** strapi, ghost, wordpress"
+
+#: ../../contributing-website.rst:220 0c48e8672abf4ee1a6124d3a938bf617
+msgid "**Frameworks:** Next.js, Nuxt.js, SvelteKit"
+msgstr "** Рамки: ** next.js, nuxt.js, sveltekit"
+
+#: ../../contributing-website.rst:221 07de668842e84b9db56b61284412c7f3
+msgid "**Documentation:** ReadTheDocs, Docusaurus, VuePress"
+msgstr "** Документація: ** Readthedocs, Docusaurus, vuepress"
+
+#: ../../contributing-website.rst:224 bc724290d46143a49b7b6b7d1c4ab4d9
+msgid "Questions?"
+msgstr "Питання?"
+
+#: ../../contributing-website.rst:226 65956b528b024f1a923379f5266f1d34
+msgid "Open GitHub Issue with tag ``website``"
+msgstr "Відкрийте проблему Github з тегом `` веб -сайтом```"
+
+#: ../../contributing-website.rst:227 54eaaf11a78c481e9ed149f78cc4ec9a
+msgid "Contact ``@vergilium``"
+msgstr "Зверніться до ``@vergilium``"
+
+#: ../../contributing-website.rst:228 525320f2dc0c42ffba2ad7ae65992339
+msgid "Join website development discussion"
+msgstr "Приєднуйтесь до обговорення розробки веб -сайтів"
+
+#: ../../contributing-website.rst:230 a3954dd748124727bf2fe6bcecbce243
+msgid "---"
+msgstr "None"
+
+#: ../../contributing-website.rst:232 bd0c8a63adee4ee99e7f3f7f15c912ba
+msgid ":doc:`Back to Contributing Overview <contributing>`"
+msgstr ": doc: `Повернутися до огляду <plosing>` `"
+

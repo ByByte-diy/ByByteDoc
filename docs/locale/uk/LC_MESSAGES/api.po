@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-06 15:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../api.rst:2 0fafefc943cc49718a50e21b0b0fc3b5
+msgid "API Reference"
+msgstr "Посилання API"
+
+#: ../../api.rst:4 360e78cf53294a42a2d3cca85f560732
+msgid "This page contains the complete API reference for ByByte."
+msgstr "Ця сторінка містить повне посилання API для Bybyte."
+
+#: ../../api.rst:7 73ced666ebb34805b25088b194b10182
+msgid "Core Classes"
+msgstr "Основні класи"
+
+#: ../../api.rst:10 5125de72b6484bbfbec5fdec330af209
+msgid "Device"
+msgstr "Пристрій"
+
+#: ../../api.rst:54 0a59032f648044f49e6f49e968958659
+msgid "Connection Functions"
+msgstr "Функції з'єднання"
+
+#: ../../api.rst:78 36567cbf5b184c0bab3b5b36771e6ce7
+msgid "Exceptions"
+msgstr "Винятки"
+
+#: ../../api.rst:81 6222a71fe243413ea56354cc94163ff2
+msgid "ConnectionError"
+msgstr "ConnectionError"
+
+#: ../../api.rst:83 f5d810250ed943ee9577edc6c732e438
+msgid "Raised when connection to device fails."
+msgstr "Піднятий при переході до пристрою не вдається."
+
+#: ../../api.rst:92 e87f39eae4934ea0ad57fb12c97b749d
+msgid "TimeoutError"
+msgstr "Timeouterror"
+
+#: ../../api.rst:94 be0823163ec44f2bbfd62d360801230e
+msgid "Raised when operation exceeds timeout."
+msgstr "Піднята, коли операція перевищує тайм -аут."
+
+#: ../../api.rst:103 b68dba8f09bc4241a9dfdb03924ad1eb
+msgid "CommandError"
+msgstr "Командувач"
+
+#: ../../api.rst:105 4c7dbad2216345b293202ef5f8fa661c
+msgid "Raised when command execution fails."
+msgstr "Піднятий, коли виконання команд не вдається."
+
+#: ../../api.rst:114 1ea666b42bea4aba9350297866560112
+msgid "Utilities"
+msgstr "Утиліта"
+
+#: ../../api.rst:117 05efaae7e9584b2ebb1239f1b335ff14
+msgid "Logging"
+msgstr "Реєстрація"
+
+#: ../../api.rst:131 83117da4a2f54c26a4ed6a18118d83aa
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#: ../../api.rst:159 4f6011a972a44b569963bf255fac5805
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../api.rst:162 b77a60d988db481791740181eaa3f0db
+msgid "Basic Connection"
+msgstr "Основне з'єднання"
+
+#: ../../api.rst:179 39d36dd30a1d43aaa474fdf685d8fc49
+msgid "With Context Manager"
+msgstr "З менеджером контексту"
+
+#: ../../api.rst:188 d6b014213241419f9787a50c546c13f2
+msgid "Scanning for Devices"
+msgstr "Сканування пристроїв"
+

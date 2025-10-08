@@ -1,0 +1,911 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-06 20:02+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../contributing-documentation.rst:2 88ca1f07ec554b5ca7f1664aa5d49981
+msgid "Documentation Development"
+msgstr "Розробка документації"
+
+#: ../../contributing-documentation.rst:4 f7641a6628d445c584f661f1adff4f6c
+msgid "Contributing to БАБАЙ project documentation."
+msgstr "Сприяє документації проекту в Бабах."
+
+#: ../../contributing-documentation.rst:7 bf8076d613e64e3a93f41330bae361e1
+msgid "**Good documentation is essential for educational projects!**"
+msgstr "** Хороша документація важлива для навчальних проектів! **"
+
+#: ../../contributing-documentation.rst:10 4d79be9ca3374636910f48c54c880c52
+msgid "Overview"
+msgstr "Огляд"
+
+#: ../../contributing-documentation.rst:12 8d807fc2f8e14131abc0db0bf2ed6181
+msgid "БАБАЙ documentation includes:"
+msgstr "Бабай Документація включає:"
+
+#: ../../contributing-documentation.rst:14 6a2d3ae9ebf242f3ad4a05ec0e157aee
+msgid "**User Guides** - For students and teachers"
+msgstr "** Посібники користувача ** - для учнів та викладачів"
+
+#: ../../contributing-documentation.rst:15 b2a9b0a6f3b841f1bb275ff9e0f16f4e
+msgid "**Developer Docs** - For contributors"
+msgstr "** Документи розробників ** - для учасників"
+
+#: ../../contributing-documentation.rst:16 3ee186a203354d31856a18ea247e8e5a
+msgid "**API Reference** - For library users"
+msgstr "** Довідка API ** - для користувачів бібліотеки"
+
+#: ../../contributing-documentation.rst:17 97d6fd96bff74eb7b96baad30dff66cf
+msgid "**Tutorials** - Step-by-step learning"
+msgstr "** Підручники **-покрокове навчання"
+
+#: ../../contributing-documentation.rst:18 45415d3ab39d4b8b841fe793a157d269
+msgid "**Translations** - Multi-language support"
+msgstr "** Переклади ** - Багатомовна підтримка"
+
+#: ../../contributing-documentation.rst:20 e1c7c6826b014f7aadedb94992a14565
+msgid "All documentation must be:"
+msgstr "Вся документація повинна бути:"
+
+#: ../../contributing-documentation.rst:22 af317f6dcec54f23b56b209aac9093c8
+msgid ""
+"✅ **Clear** - Easy to understand ✅ **Complete** - Cover all aspects ✅ "
+"**Accurate** - Technically correct ✅ **Accessible** - Well-structured ✅ "
+"**Translated** - Available in EN, UK, RU"
+msgstr "✅ ** Очистити ** - Легко для розуміння ✅ ** Повна ** - покрийте всі аспекти ✅ ** Точні ** - Технічно правильне ✅ ** Доступно ** - Добре структурований ✅ ** Переклад ** - Доступно в EN, Великобританія, Ru"
+
+#: ../../contributing-documentation.rst:29 862f9f3a14544eeda22a16a668108e19
+msgid "Documentation Stack"
+msgstr "Стек документації"
+
+#: ../../contributing-documentation.rst:31 9b2b216854fe4f6a9280aa9beda38c50
+msgid "We use:"
+msgstr "Ми використовуємо:"
+
+#: ../../contributing-documentation.rst:33 d752a94f9abb499faa4d54b53ea144dc
+msgid "**Sphinx** - Documentation generator"
+msgstr "** Сфінкс ** - Генератор документації"
+
+#: ../../contributing-documentation.rst:34 683c636c625c45779670a12e033dc2f2
+msgid "**reStructuredText** - Markup language"
+msgstr "** RebertructureDText ** - Мова розмітки"
+
+#: ../../contributing-documentation.rst:35 a92326721d2e436fb780875d618389a3
+msgid "**ReadTheDocs** - Hosting platform"
+msgstr "** Readthedocs ** - Хостингова платформа"
+
+#: ../../contributing-documentation.rst:36 d238782aa9624ac8838fce31e93c6b02
+msgid "**sphinx-intl** - Translation management"
+msgstr "** Sphinx -intl ** - Управління перекладом"
+
+#: ../../contributing-documentation.rst:37 fee433d032ac43b89f4048f9462a02cc
+msgid "**Git** - Version control"
+msgstr "** git ** - контроль версії"
+
+#: ../../contributing-documentation.rst:40 55ca31cb254c49b5b6274d0889b1da31
+msgid "Requirements"
+msgstr "Вимоги"
+
+#: ../../contributing-documentation.rst:43 8d8d1f1ac8e44ac1bacb7207d87d52bb
+msgid "Writing Style"
+msgstr "Стиль письма"
+
+#: ../../contributing-documentation.rst:45 b8acc8e967bf48018d47c05376ee9cd0
+msgid "**For User Documentation:**"
+msgstr "** Для документації користувача: **"
+
+#: ../../contributing-documentation.rst:47 a895e14ee89c43c6b452af2b5355464d
+msgid "Use simple, clear language"
+msgstr "Використовуйте просту, чітку мову"
+
+#: ../../contributing-documentation.rst:48 d1712fd2357343dcbb115f8361b57d2e
+msgid "Avoid technical jargon"
+msgstr "Уникайте технічного жаргону"
+
+#: ../../contributing-documentation.rst:49
+#: ../../contributing-documentation.rst:336 80dd8b72f2594db98feaff79d6526b43
+#: d73a88b96e8d415aac2331b04d4c45a5
+msgid "Provide examples"
+msgstr "Наведіть приклади"
+
+#: ../../contributing-documentation.rst:50 7a267232122048bbbefd55bd02ea13c1
+msgid "Use active voice"
+msgstr "Використовуйте активний голос"
+
+#: ../../contributing-documentation.rst:51 1cb2ceddb3714233a667d2e4fa2975fc
+msgid "Keep sentences short"
+msgstr "Зберігайте речення короткими"
+
+#: ../../contributing-documentation.rst:53 5d18dc1bb4e84d979c1e024ffca6cad3
+msgid "**For Technical Documentation:**"
+msgstr "** Для технічної документації: **"
+
+#: ../../contributing-documentation.rst:55 aabe6fcabb3a4fdd9fa3a71e759545d3
+msgid "Be precise and accurate"
+msgstr "Бути точним і точним"
+
+#: ../../contributing-documentation.rst:56 48e09db68b964bbcafa3cd93deef3e55
+msgid "Define terms"
+msgstr "Визначте терміни"
+
+#: ../../contributing-documentation.rst:57 498f44d7343d4c32930fab9918430c67
+msgid "Include code examples"
+msgstr "Включіть приклади коду"
+
+#: ../../contributing-documentation.rst:58 bc814ab0e1fe4c318617d440bbe753fc
+msgid "Reference related docs"
+msgstr "Довідкові документи"
+
+#: ../../contributing-documentation.rst:59 8061c219badf4cfc82ceaaa94ce8ef0c
+msgid "Use proper formatting"
+msgstr "Використовуйте належне форматування"
+
+#: ../../contributing-documentation.rst:62 1725ee67afeb46fa814a68b9ad0e23c1
+msgid "Structure"
+msgstr "Структура"
+
+#: ../../contributing-documentation.rst:64 6faecb521c0c4fcda5fb57b8b62615a3
+msgid "Each document should have:"
+msgstr "Кожен документ повинен мати:"
+
+#: ../../contributing-documentation.rst:66 18db898a724a4cd3b450b074c3d68fda
+msgid "**Title** - Clear, descriptive"
+msgstr "** заголовок ** - чіткий, описовий"
+
+#: ../../contributing-documentation.rst:67 fe922237d8fa49d59984d1ebee1fa9bc
+msgid "**Overview** - Brief introduction"
+msgstr "** Огляд ** - Короткий вступ"
+
+#: ../../contributing-documentation.rst:68 a7f9463575824547bf40b3c0b39cce38
+msgid "**Prerequisites** - What reader needs to know"
+msgstr "** Передумови ** - Що читач повинен знати"
+
+#: ../../contributing-documentation.rst:69 508f00b306eb4e5eb86ecdb72ba5ee14
+msgid "**Main Content** - Detailed information"
+msgstr "** Основний вміст ** - Детальна інформація"
+
+#: ../../contributing-documentation.rst:70 11fa6778265c409faa495e2d746c43f0
+msgid "**Examples** - Practical demonstrations"
+msgstr "** Приклади ** - практичні демонстрації"
+
+#: ../../contributing-documentation.rst:71 4a327f1bb23846c5b709836eb41bbddb
+msgid "**Troubleshooting** - Common issues"
+msgstr "** Усунення несправностей ** - Загальні проблеми"
+
+#: ../../contributing-documentation.rst:72 92c1983e123b4c49a88e037ed07c74d0
+msgid "**Next Steps** - Where to go next"
+msgstr "** Наступні кроки ** - куди йти далі"
+
+#: ../../contributing-documentation.rst:75 7111bfdf61c04bdb998889ad9b37b35f
+msgid "Formatting"
+msgstr "Форматування"
+
+#: ../../contributing-documentation.rst:77 578cf9dea47544fcbe2b9b4d5e3da55b
+msgid "Use proper reStructuredText:"
+msgstr "Використовуйте належне реструктуризацію:"
+
+#: ../../contributing-documentation.rst:110 9e54d3d52c6e4dd0b376feec0855a35b
+msgid "Content Guidelines"
+msgstr "Керівні принципи змісту"
+
+#: ../../contributing-documentation.rst:113 9c52cdd2aa014f8f826094840174eb4a
+msgid "Images"
+msgstr "Зображення"
+
+#: ../../contributing-documentation.rst:115 087150d410e3419fb028006a26ef5a88
+msgid "Use high-quality screenshots"
+msgstr "Використовуйте якісні скріншоти"
+
+#: ../../contributing-documentation.rst:116 c2203ad695384dcc8ce7f28d0d57ad27
+msgid "Add descriptive captions"
+msgstr "Додати описові підписи"
+
+#: ../../contributing-documentation.rst:117 2d9e392e896d4534a3205d76c8d04124
+msgid "Optimize file sizes"
+msgstr "Оптимізуйте розміри файлів"
+
+#: ../../contributing-documentation.rst:118 bb8a7aef522f48e0ba6e2efe41a04923
+msgid "Place in ``_static/images/``"
+msgstr "Місце в `` _static/зображення/`` ``"
+
+#: ../../contributing-documentation.rst:119 99b3e4484c67440eaaac2aafa43c1a50
+msgid "Reference properly"
+msgstr "Посилання належним чином"
+
+#: ../../contributing-documentation.rst:129 7b520c940a4243f8a764edcfffcd429f
+msgid "Code Blocks"
+msgstr "Кодові блоки"
+
+#: ../../contributing-documentation.rst:131 98fc2548a4704dd7af40f0850d47435b
+msgid "Always specify language:"
+msgstr "Завжди визначте мову:"
+
+#: ../../contributing-documentation.rst:154 c96de770041748c3a7c9bc0a0cb04725
+msgid "Links"
+msgstr "Посилання"
+
+#: ../../contributing-documentation.rst:156 53d5bc3690aa47c98450c90ca08a2057
+msgid "**Internal links:**"
+msgstr "** Внутрішні посилання: **"
+
+#: ../../contributing-documentation.rst:164 0b2b7225db91432b9b268e99b77ef910
+msgid "**External links:**"
+msgstr "** Зовнішні посилання: **"
+
+#: ../../contributing-documentation.rst:171 939db5f1c09749629d1ca2565e5c7cc7
+msgid "Lists"
+msgstr "Списки"
+
+#: ../../contributing-documentation.rst:189 f5b782cc9be14e2285154196cd70ab2f
+msgid "Tables"
+msgstr "Столи"
+
+#: ../../contributing-documentation.rst:211 79cef00c999746bca0c0951f4e980314
+msgid "Translation Workflow"
+msgstr "Робочий процес перекладу"
+
+#: ../../contributing-documentation.rst:213 7a3c0ec8399248c69e69b2a744db6b54
+msgid "БАБАЙ docs are available in 3 languages:"
+msgstr "Бабай документів доступні на 3 мовах:"
+
+#: ../../contributing-documentation.rst:215 8f4f0251dc214a7cbe1a0f02027d3ee3
+msgid "**English (en)** - Primary language"
+msgstr "** Англійська (en) ** - Первинна мова"
+
+#: ../../contributing-documentation.rst:216 b482d97f526b44e1a84c4f3e73cc7d1d
+msgid "**Ukrainian (uk)** - Рідна мова"
+msgstr "** Український (Великобританія) ** - rіdna moua"
+
+#: ../../contributing-documentation.rst:217 146262806b4e4be58b7d30ddb9bcd04f
+msgid "**Russian (ru)** - Дополнительный язык"
+msgstr "4"
+
+#: ../../contributing-documentation.rst:220 b938a3c87ce54555ab522eedffedc928
+msgid "Translation Process"
+msgstr "Процес перекладу"
+
+#: ../../contributing-documentation.rst:222 747a2f5727c6469796077bd745731cbb
+msgid "**Extract Translatable Strings**"
+msgstr "** Екстракт перекладею **"
+
+#: ../../contributing-documentation.rst:228 d4d1c7458e004e24b4a54635e714d1a7
+msgid "**Update Translation Catalogs**"
+msgstr "** Каталоги перекладу оновлення **"
+
+#: ../../contributing-documentation.rst:234 1eb9b14f740044bc9d8a4749c6b5a994
+msgid "**Translate .po Files**"
+msgstr "** Перекладіть .po файли **"
+
+#: ../../contributing-documentation.rst:236 c5d6270a206d4226adb85deb6867330f
+msgid "Edit files in ``docs/locale/[lang]/LC_MESSAGES/``"
+msgstr "Редагувати файли в `` docs/locale/[lang]/lc_messages/`` `"
+
+#: ../../contributing-documentation.rst:244 8a07e0050cf24a308768d6a45c9d68a4
+msgid "**Build Translated Docs**"
+msgstr "** Побудувати перекладені документи **"
+
+#: ../../contributing-documentation.rst:253 f7e6c1b0768e4f7ca8bae8dbd22c9eee
+msgid "Translation Guidelines"
+msgstr "Керівні принципи перекладу"
+
+#: ../../contributing-documentation.rst:255 a10c14ff45cc4242bbc5235709ad1640
+msgid "Keep technical terms consistent"
+msgstr "Зберігайте технічні умови послідовними"
+
+#: ../../contributing-documentation.rst:256 abcdff36d6ee48719fe8b532ff52cec0
+msgid "Preserve formatting (``**bold**``, code blocks)"
+msgstr "Зберігайте форматування (`` ** BOLD ** ``, блоки коду)"
+
+#: ../../contributing-documentation.rst:257 3088f0af95cf4015b4338f17524b63b3
+msgid "Don't translate code examples"
+msgstr "Не перекладіть приклади коду"
+
+#: ../../contributing-documentation.rst:258 109b339a5cdf4bb4a95c771f8fed5d93
+msgid "Translate comments in code"
+msgstr "Перекладіть коментарі в коді"
+
+#: ../../contributing-documentation.rst:259 3a06c4f5e9f04677abfa92ddee86139f
+msgid "Review translations before committing"
+msgstr "Перегляньте переклади перед вчиненням"
+
+#: ../../contributing-documentation.rst:262 1896e45d700a422580ea49cb360f33b0
+msgid "Development Setup"
+msgstr "Налаштування розвитку"
+
+#: ../../contributing-documentation.rst:264 dd722e6779b640148e1225434e25eea2
+msgid "**Clone Repository**"
+msgstr "** Клон -сховище **"
+
+#: ../../contributing-documentation.rst:271 d4bf2d9b9f9e489fa8292f8d877758e9
+msgid "**Install Dependencies**"
+msgstr "** Встановіть залежності **"
+
+#: ../../contributing-documentation.rst:277 8ccf88a16eb542e4984ecd3316685d98
+msgid "**Test Local Build**"
+msgstr "** Перевірте місцеву збірку **"
+
+#: ../../contributing-documentation.rst:284 424ec26c78fa4a7f82fb77199d7454aa
+msgid "**Create Branch**"
+msgstr "** Створити гілку **"
+
+#: ../../contributing-documentation.rst:291 f7cb6ff00b6c4446b29af6fd5675ad2e
+msgid "Making Changes"
+msgstr "Внесення змін"
+
+#: ../../contributing-documentation.rst:294 df357dc876ca40199d7721ca92381ea0
+msgid "Workflow"
+msgstr "Робочий процес"
+
+#: ../../contributing-documentation.rst:296 8228daaeecef47be936ee48c489d0019
+msgid "**Edit .rst Files**"
+msgstr "** редагувати .rst файли **"
+
+#: ../../contributing-documentation.rst:298 d246f70fa22d4ce3ba175674162d9ce3
+msgid "Use any text editor"
+msgstr "Використовуйте будь -який текстовий редактор"
+
+#: ../../contributing-documentation.rst:300 b34d7c1aab524e1aa62e908a68f88eb8
+msgid "**Build Locally**"
+msgstr "** Побудувати локально **"
+
+#: ../../contributing-documentation.rst:306 00e5582d7ca84770a3b23508e9fe1bca
+msgid "**Check for Errors**"
+msgstr "** Перевірте наявність помилок **"
+
+#: ../../contributing-documentation.rst:308 b9920a21806940d3b34f4771732a70de
+msgid "Fix any warnings or errors"
+msgstr "Виправити будь -які попередження або помилки"
+
+#: ../../contributing-documentation.rst:310 ab64ce90725641a69e24e1121a0d79ac
+msgid "**Preview Changes**"
+msgstr "** Зміни попереднього перегляду **"
+
+#: ../../contributing-documentation.rst:312 0aca5039bafc4a998309de22e49a0596
+msgid "Open in browser to verify"
+msgstr "Відкрити в браузері для перевірки"
+
+#: ../../contributing-documentation.rst:314 c49aa7704cef4e8bb3b31926bc014881
+msgid "**Commit Changes**"
+msgstr "** Викладати зміни **"
+
+#: ../../contributing-documentation.rst:321 3de5037d05144cc2b1ec6dba5507e7d9
+msgid "**Push and Create PR**"
+msgstr "** Натисніть і створіть PR **"
+
+#: ../../contributing-documentation.rst:328 78666cf7e24948ebb68b54afcf730aba
+msgid "Submission Process"
+msgstr "Процес подання"
+
+#: ../../contributing-documentation.rst:330 e3e965cc33f94689a1d369c65c74c46b
+msgid "**Proposal**"
+msgstr "** Пропозиція **"
+
+#: ../../contributing-documentation.rst:332 fbf383da14c54f83a015a55fd8c1cbca
+msgid "For major changes, open GitHub Issue first:"
+msgstr "Для основних змін спочатку відкритим випуск Github:"
+
+#: ../../contributing-documentation.rst:334 4ff10b653d9d4ecc90892c58991e4adc
+msgid "Describe what you want to improve"
+msgstr "Опишіть, що ви хочете вдосконалити"
+
+#: ../../contributing-documentation.rst:335 6019f98b56f64a8b95cb36d3f937b752
+msgid "Explain why it's needed"
+msgstr "Поясніть, чому це потрібно"
+
+#: ../../contributing-documentation.rst:338 abf7252a8ba44d668bc4187f75b6032f
+msgid "**Make Changes**"
+msgstr "** внести зміни **"
+
+#: ../../contributing-documentation.rst:340 f02e37fb15e040569ce76a50a171c3e0
+msgid "Follow style guidelines"
+msgstr "Дотримуйтесь вказівок стилю"
+
+#: ../../contributing-documentation.rst:341 1efe93b493f64af6912df878edb5635d
+msgid "Build and test locally"
+msgstr "Будуйте та тестуйте локально"
+
+#: ../../contributing-documentation.rst:342 0f607c8284ce40b9b05829a34048e0f8
+msgid "Check for broken links"
+msgstr "Перевірте наявність зламаних посилань"
+
+#: ../../contributing-documentation.rst:344 aa6d6ec12c1d412eaf309792a1622d07
+msgid "**Submit PR**"
+msgstr "** Надіслати PR **"
+
+#: ../../contributing-documentation.rst:346 01477415e08742b496dca2f0c7abdd69
+msgid "Include in PR description:"
+msgstr "Включіть в опис PR:"
+
+#: ../../contributing-documentation.rst:348 57f21079d9b647d89caafba154e16776
+msgid "What was changed"
+msgstr "Що змінилося"
+
+#: ../../contributing-documentation.rst:349 c05264e012574ffaad78b9832d86fe33
+msgid "Why it was changed"
+msgstr "Чому це було змінено"
+
+#: ../../contributing-documentation.rst:350 007637a2d53e43ab91cb95b3bb94f782
+msgid "Screenshots (if visual changes)"
+msgstr "Скріншоти (якщо візуальні зміни)"
+
+#: ../../contributing-documentation.rst:352 d15f67b5954845c7972b8263a595b027
+msgid "**Review**"
+msgstr "** Огляд **"
+
+#: ../../contributing-documentation.rst:354 3cedf6dd1dba4e3aa34638aabe370e41
+msgid "Maintainers will:"
+msgstr "Службові працівники будуть:"
+
+#: ../../contributing-documentation.rst:356 1694fa0c27154dc8a32b92a23f0ee677
+msgid "Check accuracy"
+msgstr "Перевірте точність"
+
+#: ../../contributing-documentation.rst:357 f655ef5111d74357aa6b29ca2db22898
+msgid "Verify formatting"
+msgstr "Перевірте форматування"
+
+#: ../../contributing-documentation.rst:358 4bca414efb0248c1b257ea901663ad81
+msgid "Test builds"
+msgstr "Тестові конструкції"
+
+#: ../../contributing-documentation.rst:359 72d2e7d89b5a49bca7b05d8fe18d70f3
+msgid "Provide feedback"
+msgstr "Надайте зворотній зв'язок"
+
+#: ../../contributing-documentation.rst:361 e6ef70af345d44019b0489fc7902fde9
+msgid "**Merge**"
+msgstr "** Злиття **"
+
+#: ../../contributing-documentation.rst:363 e03a34dfc151492e9c4ede0d6251c513
+msgid "Once approved, changes are merged"
+msgstr "Після затвердження зміни об'єднуються"
+
+#: ../../contributing-documentation.rst:366 4961805a19fe46eb9a462ae514a8238c
+msgid "Quality Checklist"
+msgstr "Контрольний список якості"
+
+#: ../../contributing-documentation.rst:368 5bb40ca0a90147fba97d7c53d523b907
+msgid "Before submitting:"
+msgstr "Перед поданням:"
+
+#: ../../contributing-documentation.rst:370 4d00f4414fb247d0919641c6bfe2b907
+msgid "[ ] Content is accurate"
+msgstr "[] Вміст точний"
+
+#: ../../contributing-documentation.rst:371 3fb235529df64e02b3a0e8c5029fa130
+msgid "[ ] Spelling and grammar checked"
+msgstr "[] Орфографічна та граматика перевірили"
+
+#: ../../contributing-documentation.rst:372 b74dfabff15742fc896871656d83b597
+msgid "[ ] Code examples tested"
+msgstr "[] Приклади коду"
+
+#: ../../contributing-documentation.rst:373 430e5bdc4010471f9b80aabda6917232
+msgid "[ ] Images optimized"
+msgstr "[] Зображення оптимізовані"
+
+#: ../../contributing-documentation.rst:374 d1acd2f59bcd4a92ab17d90a414e0817
+msgid "[ ] Links work"
+msgstr "[] Посилання працюють"
+
+#: ../../contributing-documentation.rst:375 acdff938b3d440d6a0b3d5536b25b237
+msgid "[ ] Builds without warnings"
+msgstr "[] Будує без попереджень"
+
+#: ../../contributing-documentation.rst:376 e2a13596533b4e75b53938deda1a2e2f
+msgid "[ ] Follows style guide"
+msgstr "[] Слідує посібник із стилю"
+
+#: ../../contributing-documentation.rst:377 50df5e381bee4de5bd9f2eb62c1426de
+msgid "[ ] Translations updated (if applicable)"
+msgstr "[] Переклади оновлені (якщо застосовуються)"
+
+#: ../../contributing-documentation.rst:378 409585acb6504e839cae12304ec6dfdb
+msgid "[ ] Preview looks correct"
+msgstr "[] Попередній перегляд виглядає правильно"
+
+#: ../../contributing-documentation.rst:381 1c1c387d1c544c76b70cd1695bc3ee39
+msgid "Common Tasks"
+msgstr "Поширені завдання"
+
+#: ../../contributing-documentation.rst:384 bf633b7c9ad44e96850daea9c8c669b3
+msgid "Adding New Page"
+msgstr "Додавання нової сторінки"
+
+#: ../../contributing-documentation.rst:386 46a71113fec2437a816ccd8a44efd2aa
+msgid "Create ``.rst`` file in ``docs/``"
+msgstr "Створити файл `` .rst`` 'у `` docs/`` `` `"
+
+#: ../../contributing-documentation.rst:387 82875e5d4b864709a14e7c3e343af8f0
+msgid "Add to ``toctree`` in ``index.rst``"
+msgstr "Додати до `` toctree`` в `` index.rst``````"
+
+#: ../../contributing-documentation.rst:388
+#: ../../contributing-documentation.rst:415 2f01a4eccb1942a1ae02ef700e1cb46b
+#: 3fca4afd98e6402f8d284144da14027d
+msgid "Build and verify"
+msgstr "Будувати та перевірити"
+
+#: ../../contributing-documentation.rst:389
+#: ../../contributing-documentation.rst:398 31ea5833c3214ca1b823585b9ddd7b21
+#: 8aa089728ed249359a58889867d45f79
+msgid "Commit and submit"
+msgstr "Здійснити та подати"
+
+#: ../../contributing-documentation.rst:392 a5190984b25c49bab281514c0fee2db3
+msgid "Updating Existing Page"
+msgstr "Оновлення існуючої сторінки"
+
+#: ../../contributing-documentation.rst:394 685efa4a3be440148c53051c4e65252f
+msgid "Edit ``.rst`` file"
+msgstr "Редагувати файл `` .rst``"
+
+#: ../../contributing-documentation.rst:395 0e1e780890424885970c0f851339f1f9
+msgid "Build locally"
+msgstr "Побудувати місцево"
+
+#: ../../contributing-documentation.rst:396 acbd4ac456e14829b86e3a9db7b702f4
+msgid "Verify changes"
+msgstr "Перевірте зміни"
+
+#: ../../contributing-documentation.rst:397 c43939eac1774205b484804b53fb4d05
+msgid "Update translations if needed"
+msgstr "Оновіть переклади, якщо потрібно"
+
+#: ../../contributing-documentation.rst:401 c2dd2e12932d40d3ad39c4cf80b4054c
+msgid "Adding Images"
+msgstr "Додавання зображень"
+
+#: ../../contributing-documentation.rst:403 57ca4016c23d48339a9b809498271a7d
+msgid "Place image in ``docs/_static/images/``"
+msgstr "Розмістіть зображення в `` docs/_static/зображення/`` `` ``"
+
+#: ../../contributing-documentation.rst:404 c7ba15ce1e004aac8b94fae6f5750640
+msgid "Optimize size (< 500KB)"
+msgstr "Оптимізуйте розмір (<500 кб)"
+
+#: ../../contributing-documentation.rst:405 a9193320eef1473681c48538453a1e2d
+msgid "Reference in ``.rst`` file"
+msgstr "Довідка у файлі `` .rst``"
+
+#: ../../contributing-documentation.rst:406 f92d0ed072ac409c9019a814b94e3794
+msgid "Add descriptive alt text"
+msgstr "Додати описовий текст Alt"
+
+#: ../../contributing-documentation.rst:407 c0bf5962c4a749c9abbbdbe25e05a5f6
+msgid "Test rendering"
+msgstr "Тестування"
+
+#: ../../contributing-documentation.rst:410 02aa547595d54d0d9850880f7c68c441
+msgid "Fixing Broken Links"
+msgstr "Виправлення зламаних посилань"
+
+#: ../../contributing-documentation.rst:412 bb2f7ac33d974c6fb1f648659850797e
+msgid "Identify broken link"
+msgstr "Визначте зламане посилання"
+
+#: ../../contributing-documentation.rst:413 2533880d58a349e685e722ebbf5e44c3
+msgid "Update or remove"
+msgstr "Оновити або видалити"
+
+#: ../../contributing-documentation.rst:414 e8a7f00ba6164c50b2c84368709f98ba
+msgid "Check related pages"
+msgstr "Перевірте пов’язані сторінки"
+
+#: ../../contributing-documentation.rst:416 a9c95132aaed4ce9bff1a12febcfaef1
+msgid "Commit fix"
+msgstr "Здійснити виправлення"
+
+#: ../../contributing-documentation.rst:419 0b95340abfd64a269f3711729ded6db8
+msgid "Troubleshooting"
+msgstr "Усунення несправностей"
+
+#: ../../contributing-documentation.rst:422 dc1d8b9476bc4b07b5239346d7706488
+msgid "Build Errors"
+msgstr "Побудувати помилки"
+
+#: ../../contributing-documentation.rst:424 d712fcd08c334e9f81186c4a5a31f105
+msgid "**\"WARNING: document isn't included in any toctree\"**"
+msgstr "** \ "ПОПЕРЕДЖЕННЯ: Документ не включається в будь -який Toctree \" **"
+
+#: ../../contributing-documentation.rst:426 774e4056c8a04a339e8af76117bceec2
+msgid "Add document to ``index.rst`` toctree"
+msgstr "Додати документ до `` index.rst`` 'toctree"
+
+#: ../../contributing-documentation.rst:428 f740e0ffb96a45a183f9dda7220723a0
+msgid "**\"WARNING: undefined label\"**"
+msgstr "** \ "Попередження: невизначена мітка \" **"
+
+#: ../../contributing-documentation.rst:430 0307d69c2d85405cb76ced1cbdbc8454
+msgid "Check reference targets exist"
+msgstr "Перевірте довідкові цілі існують"
+
+#: ../../contributing-documentation.rst:431 87052e0ee9ad4e208eeab887edfeab88
+msgid "Fix typos in references"
+msgstr "Виправити помилки в посиланнях"
+
+#: ../../contributing-documentation.rst:433 45768c0ba96e463497a9684f3553486a
+msgid "**\"ERROR: Unknown directive type\"**"
+msgstr "** \ "Помилка: Невідомий тип директиви \" **"
+
+#: ../../contributing-documentation.rst:435 100ee4021ab747ae8b749f152de6101b
+msgid "Check directive spelling"
+msgstr "Перевірте Директиву правопис"
+
+#: ../../contributing-documentation.rst:436 b330dbf850ec40efa8f918d991c850ad
+msgid "Ensure extensions loaded in ``conf.py``"
+msgstr "Забезпечте розширення, завантажені в `` conf.py``"
+
+#: ../../contributing-documentation.rst:439 8a74686357e64920b5216d0dce5eeb12
+msgid "Translation Issues"
+msgstr "Проблеми з перекладом"
+
+#: ../../contributing-documentation.rst:441 87e8c53911ce413ab9cd7b3d3ae6a67f
+msgid "**Missing translations:**"
+msgstr "** Відсутні переклади: **"
+
+#: ../../contributing-documentation.rst:447 7f7c5cce75634ef9b4ec739fb2099a63
+msgid "**Encoding errors:**"
+msgstr "** Помилки кодування: **"
+
+#: ../../contributing-documentation.rst:449 3670ff4a62634957b19365c8c90ecdc7
+msgid "Ensure .po files are UTF-8"
+msgstr "Переконайтесь."
+
+#: ../../contributing-documentation.rst:450 14b1ddde3f8e4f7797a64b4f4998eb4f
+msgid "Check for special characters"
+msgstr "Перевірте наявність спеціальних символів"
+
+#: ../../contributing-documentation.rst:453 8e3426eabdbf424c860e3421f68e7209
+msgid "Tools"
+msgstr "Інструменти"
+
+#: ../../contributing-documentation.rst:456 a3eff1b8d3d04baaa6820b4a105e62e8
+msgid "Recommended Editors"
+msgstr "Рекомендовані редактори"
+
+#: ../../contributing-documentation.rst:458 21e93779e19a487fb75fb600b466ace0
+msgid "**VS Code** - With reStructuredText extension"
+msgstr "** проти коду ** - з розширенням RecorductureDText"
+
+#: ../../contributing-documentation.rst:459 e0be5dd643b341039c5eebdaa9221ae8
+msgid "**Sublime Text** - With RST plugins"
+msgstr "** Піднесений текст ** - з RST плагінами"
+
+#: ../../contributing-documentation.rst:460 b4e9eea601454bd6bda58c85c7417d91
+msgid "**PyCharm** - Built-in RST support"
+msgstr "** Pycharm ** - вбудована підтримка"
+
+#: ../../contributing-documentation.rst:461 4187ed99fa4144e793e7fbfcf1732939
+msgid "**Vim/Emacs** - With RST modes"
+msgstr "** vim/emacs ** - з режимами RST"
+
+#: ../../contributing-documentation.rst:464 f287f6dda09e4b95939ccdddb97dcf3c
+msgid "Translation Tools"
+msgstr "Інструменти перекладу"
+
+#: ../../contributing-documentation.rst:466 4625dd0cef1c4f7b9a06b97fcccb06c9
+msgid "**Poedit** - GUI for .po files"
+msgstr "** poedit ** - gui for .po файлів"
+
+#: ../../contributing-documentation.rst:467 5a4824cc182549c6b5dcddca8a33fe86
+msgid "**Lokalize** - KDE translation tool"
+msgstr "** Lokalize ** - інструмент перекладу KDE"
+
+#: ../../contributing-documentation.rst:468 a5ddc16b32ba40279e34fcd9fec56b8f
+msgid "**Text editor** - Manual editing"
+msgstr "** Текстовий редактор ** - Редагування вручну"
+
+#: ../../contributing-documentation.rst:471 62a24dcf92db45aea1e487a854fa535e
+msgid "Resources"
+msgstr "Ресурси"
+
+#: ../../contributing-documentation.rst:473 58012abbadba4b75956c61fe4844ef8c
+msgid "**Sphinx Documentation** - https://www.sphinx-doc.org/"
+msgstr "** Документація Сфінкса ** - https://www.sphinx-doc.org/"
+
+#: ../../contributing-documentation.rst:474 eccd80e1e4944a4bb9f030dc20a66add
+msgid ""
+"**reStructuredText Primer** - https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/basics.html"
+msgstr "** Primer RescortuctureDText ** - https: //www.sphinx- doc.org/en/master/usage/restructuredtext/basics.html"
+
+#: ../../contributing-documentation.rst:475 95c3b460d2b0468797deaaf2d4dead1c
+msgid "**ReadTheDocs Guide** - https://docs.readthedocs.io/"
+msgstr "** Посібник з readthedocs ** - https://docs.readthedocs.io/"
+
+#: ../../contributing-documentation.rst:476 8d441d33cfa94189a6eb68861e7718de
+msgid "**Developer Guide** - See ``guides/development/`` in repository"
+msgstr "** Посібник для розробників ** - див. `` Посібники/Розробка/`` у сховищі"
+
+#: ../../contributing-documentation.rst:479 1f8fb23475794149a8138882b68060cc
+msgid "Examples"
+msgstr "Приклади"
+
+#: ../../contributing-documentation.rst:481 b4988bd1ff1f4e3a9857ce3f874bdafa
+msgid "Good Documentation Examples:"
+msgstr "Хороші приклади документації:"
+
+#: ../../contributing-documentation.rst:483 7cd8241e074d4d4fa56f848cebf2a419
+msgid "Clear installation instructions"
+msgstr "Чіткі інструкції з установки"
+
+#: ../../contributing-documentation.rst:484 661bebe05b02415e96278f7e2d47d5ce
+msgid "Step-by-step tutorials with images"
+msgstr "Покрокові підручники із зображеннями"
+
+#: ../../contributing-documentation.rst:485 6f02fdb9c9bb417d9ad6487d4722d4c6
+msgid "Complete API references"
+msgstr "Повні посилання API"
+
+#: ../../contributing-documentation.rst:486 300f829237ec4cf69abc288a3ca8fca1
+msgid "Troubleshooting guides"
+msgstr "Посібники з усунення несправностей"
+
+#: ../../contributing-documentation.rst:489 c181fb96337f4850be7a73f3a3d89da8
+msgid "Questions?"
+msgstr "Питання?"
+
+#: ../../contributing-documentation.rst:491 48f231341d064a83b5dc90056af56864
+msgid "Open GitHub Issue with tag ``documentation``"
+msgstr "Відкрийте проблему Github з тегом `` Документація``"
+
+#: ../../contributing-documentation.rst:492 c0966511c6e64ff7adf80620cdb2c536
+msgid "Contact ``@vergilium``"
+msgstr "Зверніться до ``@vergilium``"
+
+#: ../../contributing-documentation.rst:493 52fcc3f9b392465ea920422b2cbdcbc9
+msgid "Join documentation discussion"
+msgstr "Приєднуйтесь до обговорення документації"
+
+#: ../../contributing-documentation.rst:495 a7971fe837334b85b3fde7991d3910be
+msgid "---"
+msgstr "None"
+
+#: ../../contributing-documentation.rst:497 196141f856664686995b71a9758a0a69
+msgid ":doc:`Back to Contributing Overview <contributing>`"
+msgstr ": doc: `Повернутися до огляду <plosing>` `"
+
+#~ msgid "Documentation Development / Розробка документації"
+#~ msgstr ""
+
+#~ msgid "Внесок у документацію проекту БАБАЙ."
+#~ msgstr ""
+
+#~ msgid "**Якісна документація є критично важливою для освітніх проектів!**"
+#~ msgstr ""
+
+#~ msgid "Overview / Огляд"
+#~ msgstr ""
+
+#~ msgid "Documentation Stack / Технічний стек"
+#~ msgstr ""
+
+#~ msgid "Requirements / Вимоги"
+#~ msgstr ""
+
+#~ msgid "Writing Style / Стиль написання"
+#~ msgstr ""
+
+#~ msgid "Structure / Структура"
+#~ msgstr ""
+
+#~ msgid "Formatting / Форматування"
+#~ msgstr ""
+
+#~ msgid "Content Guidelines / Керівництво зі створення контенту"
+#~ msgstr ""
+
+#~ msgid "Images / Зображення"
+#~ msgstr ""
+
+#~ msgid "Code Blocks / Блоки коду"
+#~ msgstr ""
+
+#~ msgid "Links / Посилання"
+#~ msgstr ""
+
+#~ msgid "Lists / Списки"
+#~ msgstr ""
+
+#~ msgid "Tables / Таблиці"
+#~ msgstr ""
+
+#~ msgid "Translation Workflow / Робочий процес перекладу"
+#~ msgstr ""
+
+#~ msgid "Translation Process / Процес перекладу"
+#~ msgstr ""
+
+#~ msgid "Translation Guidelines / Керівництво з перекладу"
+#~ msgstr ""
+
+#~ msgid "Development Setup / Налаштування середовища"
+#~ msgstr ""
+
+#~ msgid "Making Changes / Внесення змін"
+#~ msgstr ""
+
+#~ msgid "Workflow / Робочий процес"
+#~ msgstr ""
+
+#~ msgid "Submission Process / Процес подання"
+#~ msgstr ""
+
+#~ msgid "**Proposal / Пропозиція**"
+#~ msgstr ""
+
+#~ msgid "**Make Changes / Внесіть зміни**"
+#~ msgstr ""
+
+#~ msgid "**Submit PR / Подайте PR**"
+#~ msgstr ""
+
+#~ msgid "**Review / Перевірка**"
+#~ msgstr ""
+
+#~ msgid "**Merge / Злиття**"
+#~ msgstr ""
+
+#~ msgid "Quality Checklist / Контрольний список якості"
+#~ msgstr ""
+
+#~ msgid "Common Tasks / Типові задачі"
+#~ msgstr ""
+
+#~ msgid "Adding New Page / Додавання нової сторінки"
+#~ msgstr ""
+
+#~ msgid "Updating Existing Page / Оновлення існуючої сторінки"
+#~ msgstr ""
+
+#~ msgid "Adding Images / Додавання зображень"
+#~ msgstr ""
+
+#~ msgid "Fixing Broken Links / Виправлення зламаних посилань"
+#~ msgstr ""
+
+#~ msgid "Troubleshooting / Усунення проблем"
+#~ msgstr ""
+
+#~ msgid "Build Errors / Помилки збірки"
+#~ msgstr ""
+
+#~ msgid "Translation Issues / Проблеми з перекладом"
+#~ msgstr ""
+
+#~ msgid "Tools / Інструменти"
+#~ msgstr ""
+
+#~ msgid "Recommended Editors / Рекомендовані редактори"
+#~ msgstr ""
+
+#~ msgid "Translation Tools / Інструменти перекладу"
+#~ msgstr ""
+
+#~ msgid "Resources / Ресурси"
+#~ msgstr ""
+
+#~ msgid "Examples / Приклади"
+#~ msgstr ""
+
+#~ msgid "Questions? / Питання?"
+#~ msgstr ""
+

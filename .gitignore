@@ -1,7 +1,10 @@
 # Sphinx documentation
 docs/_build/
-docs/_static/
 docs/_templates/
+
+# Translation files (compiled)
+docs/locale/**/LC_MESSAGES/*.mo
+docs/locale/**/*.mo
 
 # Python
 __pycache__/

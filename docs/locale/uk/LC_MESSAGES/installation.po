@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-06 15:34+0300\n"
+"PO-Revision-Date: 2025-10-06 16:00+0300\n"
+"Last-Translator: ByByte Team\n"
+"Language: uk\n"
+"Language-Team: Ukrainian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../installation.rst:2 e1da6bf6bafa486ca1e3b5a5049bd3a2
+msgid "Installation"
+msgstr "Встановлення"
+
+#: ../../installation.rst:4 854db2c425e04b639280bfa03ced811f
+msgid "This guide will help you install and set up ByByte."
+msgstr "Цей посібник допоможе вам встановити та налаштувати ByByte."
+
+#: ../../installation.rst:7 d2f24aa441c84ae58932df8f09ad261a
+msgid "Requirements"
+msgstr "Вимоги"
+
+#: ../../installation.rst:9 f6e2749fe64e43d7ae9a6afba2a185cb
+msgid "Arduino IDE or compatible software"
+msgstr "Arduino IDE або сумісне програмне забезпечення"
+
+#: ../../installation.rst:10 8a80abd3b9ff4f48b8c241d1f8836306
+msgid "Required hardware components"
+msgstr "Необхідні апаратні компоненти"
+
+#: ../../installation.rst:11 563981ebd4be45089d6a88c943d64767
+msgid "Python 3.x (for tools)"
+msgstr "Python 3.x (для інструментів)"
+
+#: ../../installation.rst:14 beef718a235942f8ab706e504251790e
+msgid "Installation Steps"
+msgstr "Кроки встановлення"
+
+#: ../../installation.rst:16 7a2fc8fc0c42415e8663e9bad0737e4e
+msgid "Clone the repository:"
+msgstr "Клонуйте репозиторій:"
+
+#: ../../installation.rst:23 7810b499e7e6490bab343da59693d5d0
+msgid "Install dependencies:"
+msgstr "Встановіть залежності:"
+
+#: ../../installation.rst:30 16a4bc18cb7c4333979515724891bc36
+msgid "Configure the project:"
+msgstr "Налаштуйте проект:"
+
+#: ../../installation.rst:39 d424a98a0d33496989b2035dab8e5a67
+msgid "Hardware Setup"
+msgstr "Налаштування обладнання"
+
+#: ../../installation.rst:41 e6c960514b0f4ac6addc422af9fc9aa8
+msgid "Connect your Arduino board according to the wiring diagram."
+msgstr "Підключіть вашу плату Arduino згідно зі схемою підключення."
+
+#: ../../installation.rst:44 cc87d8316f2d4c16b1ceda8e58bbffb7
+msgid "Make sure to disconnect power before making any hardware connections."
+msgstr "Переконайтеся, що живлення відключено перед виконанням будь-яких апаратних підключень."
+
+#: ../../installation.rst:47 75fdf0be384b43d8a55387a66136fd47
+msgid "Verification"
+msgstr "Перевірка"
+
+#: ../../installation.rst:49 f4af47af760b499999af6d9a24bcfb6f
+msgid "To verify your installation:"
+msgstr "Щоб перевірити ваше встановлення:"
+
+#: ../../installation.rst:56 233f4599a7ef434bbef3f1dda52e258e
+msgid "If everything is configured correctly, you should see a success message."
+msgstr "Якщо все налаштовано правильно, ви побачите повідомлення про успіх."
+
+#: ../../installation.rst:59 846964e7d065499c812d6db502d54053
+msgid "Next Steps"
+msgstr "Наступні кроки"
+
+#: ../../installation.rst:61 2b83c9a12aa945219d9bab8aba3d8738
+msgid "Continue to the :doc:`quickstart` guide to begin using ByByte."
+msgstr "Перейдіть до посібника :doc:`quickstart`, щоб почати використовувати ByByte."
+

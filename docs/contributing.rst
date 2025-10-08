@@ -1,164 +1,338 @@
-Contributing
-============
+Contributing to ByByte.DIY Project
+===============================
 
-We welcome contributions to ByByte! This document provides guidelines for contributing.
+Thank you for your interest in contributing to ByByte.DIY!
 
-Getting Started
----------------
+.. warning::
+   **⚠️ IMPORTANT: Discuss Before Contributing**
+   
+   **Before making any changes or adding new contributions, you MUST communicate and coordinate your intentions with project moderators.**
+   
+   This ensures:
+   
+   * Your efforts align with project goals
+   * We can guide your skills in the right direction
+   * Maximum benefit for both you and the project
+   * Your work will not be wasted
+   
+   **We value every contribution and want your efforts to be meaningful!**
 
-1. Fork the repository on GitHub
-2. Clone your fork locally
-3. Create a new branch for your feature or bugfix
-4. Make your changes
-5. Test your changes
-6. Submit a pull request
+About ByByte.DIY Project
+-------------------
 
-Development Setup
+ByByte.DIY is an open educational robotics platform consisting of:
+
+* **Hardware platforms** (ByByte nano and ByByte Mega)
+* **Educational curriculum** (lessons and workshops)
+* **Software libraries** and tools
+* **Documentation** for users and developers
+* **Community website** and resources
+
+All contributions must meet project quality standards and educational goals.
+
+How to Contribute
 -----------------
 
-Clone the repository:
+Step 1: Discuss Your Ideas
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: bash
+**Before starting any work**, reach out to moderators:
 
-   git clone https://github.com/vergilium/ByByte.git
-   cd ByByte
+1. **Open a Discussion**
+   
+   * Go to `GitHub Discussions <https://github.com/vergilium/ByByte/discussions>`_
+   * Describe what you want to contribute
+   * Explain why it's beneficial
+   * Wait for approval from maintainers
 
-Install development dependencies:
+2. **Create an Issue**
+   
+   * Go to `GitHub Issues <https://github.com/vergilium/ByByte/issues>`_
+   * Use "Contribution Proposal" template
+   * Provide detailed description
+   * Tag ``@vergilium`` for review
 
-.. code-block:: bash
+3. **Join Community Chat**
+   
+   * Contact project maintainers directly
+   * Discuss your plans and get guidance
 
-   pip install -r requirements-dev.txt
+**Only after receiving approval, proceed with your contribution!**
 
-Coding Standards
-----------------
+Step 2: Choose Contribution Area
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Follow PEP 8 style guide for Python code
-* Use meaningful variable and function names
-* Add docstrings to all functions and classes
-* Write unit tests for new features
-* Keep commits focused and atomic
+Select the area where you want to contribute:
 
-Testing
--------
+🤖 **Hardware Development**
+   Design and improve robot platforms (ByByte nano, ByByte Mega)
+   
+   See: :doc:`contributing-hardware`
 
-Run tests before submitting:
+📚 **Educational Content**
+   Create lessons, tutorials, and workshops
+   
+   See: :doc:`contributing-lessons`
 
-.. code-block:: bash
+📖 **Documentation**
+   Improve guides, translate documentation
+   
+   See: :doc:`contributing-documentation`
 
-   # Run unit tests
-   pytest tests/
+🌐 **Website Development**
+   Build and enhance project website
+   
+   See: :doc:`contributing-website`
 
-   # Run with coverage
-   pytest --cov=bybyte tests/
+💻 **Software & Libraries**
+   Develop code, libraries, and tools
+   
+   See: :doc:`contributing-software`
 
-   # Run linting
-   flake8 bybyte/
-   pylint bybyte/
+Step 3: Follow Guidelines
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Documentation
--------------
+Each contribution area has specific requirements:
 
-Update documentation when adding new features:
+* **Quality standards** - All work must meet project standards
+* **Educational focus** - Content must support learning goals
+* **Review process** - All contributions reviewed by maintainers
+* **Testing** - Hardware and software must be tested
+* **Documentation** - All features must be documented
 
-1. Add docstrings to code
-2. Update relevant .rst files in docs/
-3. Build documentation locally to verify:
+.. important::
+   **All new lessons and educational content MUST be reviewed and approved by moderators before publication.**
+
+General Requirements
+--------------------
+
+For All Contributors
+~~~~~~~~~~~~~~~~~~~~
+
+✅ **Communication**
+   * Discuss before starting work
+   * Respond to feedback
+   * Ask questions if unclear
+
+✅ **Quality**
+   * Follow project standards
+   * Test your work thoroughly
+   * Provide clear documentation
+
+✅ **Educational Value**
+   * Consider learning objectives
+   * Make content accessible
+   * Support different skill levels
+
+✅ **Open Source Spirit**
+   * Share knowledge
+   * Help others
+   * Be respectful
+
+Git Workflow
+~~~~~~~~~~~~
+
+1. **Fork the repository**
 
    .. code-block:: bash
 
-      cd docs
-      make html
-      # Open docs/_build/html/index.html
+      # Fork on GitHub, then clone
+      git clone https://github.com/YOUR_USERNAME/ByByte.git
+      cd ByByte
 
-Submitting Changes
-------------------
+2. **Create a branch**
 
-Pull Request Process
-~~~~~~~~~~~~~~~~~~~~
+   .. code-block:: bash
 
-1. Update the README.md with details of changes if needed
-2. Update the CHANGELOG.rst with your changes
-3. Ensure all tests pass
-4. Submit pull request with clear description
+      # Create descriptive branch name
+      git checkout -b feature/add-ultrasonic-lesson
 
-Commit Messages
-~~~~~~~~~~~~~~~
+3. **Make your changes**
 
-Write clear commit messages:
+   .. code-block:: bash
 
-* Use present tense ("Add feature" not "Added feature")
-* Use imperative mood ("Move cursor to..." not "Moves cursor to...")
-* Limit first line to 72 characters
-* Reference issues and pull requests
+      # Make changes, test them
+      # Add documentation
 
-Example:
+4. **Commit with clear messages**
+
+   .. code-block:: bash
+
+      git add .
+      git commit -m "Add lesson: Ultrasonic sensor basics
+      
+      - Create lesson plan for HC-SR04 sensor
+      - Add code examples
+      - Include troubleshooting section
+      
+      Refs #42"
+
+5. **Push and create Pull Request**
+
+   .. code-block:: bash
+
+      git push origin feature/add-ultrasonic-lesson
+      # Create PR on GitHub
+
+6. **Respond to review feedback**
+
+   * Address all comments
+   * Make requested changes
+   * Update documentation
+
+Commit Message Guidelines
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Good commit messages:
 
 .. code-block:: text
 
-   Add temperature sensor support
-
-   - Implement TemperatureSensor class
-   - Add calibration methods
-   - Update documentation
-   - Add unit tests
-
+   Add lesson: Introduction to servo motors
+   
+   - Create step-by-step guide
+   - Add circuit diagrams
+   - Include code examples
+   - Add safety warnings
+   
    Fixes #123
 
-Code Review
+Format:
+   * Use present tense ("Add" not "Added")
+   * Use imperative mood ("Move" not "Moves")
+   * First line ≤ 72 characters
+   * Reference issues
+
+Code Review Process
+-------------------
+
+All contributions go through review:
+
+1. **Maintainer Review**
+   
+   * Check alignment with project goals
+   * Verify educational value
+   * Test functionality
+   * Review documentation
+
+2. **Technical Review**
+   
+   * Code quality
+   * Hardware design
+   * Safety considerations
+   * Compatibility
+
+3. **Educational Review**
+   
+   * Learning objectives clear
+   * Age-appropriate content
+   * Practical applicability
+   * Proper difficulty level
+
+4. **Approval**
+   
+   * All feedback addressed
+   * Tests passing
+   * Documentation complete
+   * Merged to main branch
+
+Quality Standards
+-----------------
+
+Hardware
+~~~~~~~~
+
+* Use common, affordable components
+* Provide clear assembly instructions
+* Include safety warnings
+* Test all designs
+
+Software
+~~~~~~~~
+
+* Follow coding standards
+* Include comments
+* Write tests
+* Provide examples
+
+Educational Content
+~~~~~~~~~~~~~~~~~~~
+
+* Clear learning objectives
+* Step-by-step instructions
+* Age-appropriate language
+* Practical examples
+* Safety information
+
+Documentation
+~~~~~~~~~~~~~
+
+* Clear and concise
+* Include images/diagrams
+* Provide examples
+* Multiple languages (EN, UK, RU)
+
+Community Guidelines
+--------------------
+
+🤝 **Be Respectful**
+   * Treat everyone with respect
+   * Welcome newcomers
+   * Be patient and helpful
+
+💡 **Be Collaborative**
+   * Share knowledge
+   * Help others learn
+   * Give constructive feedback
+
+📚 **Be Educational**
+   * Focus on learning
+   * Explain your decisions
+   * Create accessible content
+
+🌟 **Be Open**
+   * Share your work
+   * Accept feedback
+   * Iterate and improve
+
+Getting Help
+------------
+
+Need assistance?
+
+* 💬 **GitHub Discussions** - Ask questions, share ideas
+* 🐛 **GitHub Issues** - Report bugs, request features
+* 📧 **Maintainers** - Contact project leads
+* 📖 **Documentation** - Read detailed guides
+
+Recognition
 -----------
 
-All submissions require review. We use GitHub pull requests for this purpose.
+All contributors will be:
 
-Reviewers will check:
-
-* Code quality and style
-* Test coverage
-* Documentation completeness
-* Backwards compatibility
-
-Bug Reports
------------
-
-When filing a bug report, include:
-
-* Clear description of the issue
-* Steps to reproduce
-* Expected behavior
-* Actual behavior
-* System information (OS, Python version, etc.)
-* Error messages and stack traces
-
-Feature Requests
-----------------
-
-We welcome feature requests! Please include:
-
-* Clear description of the feature
-* Use cases and benefits
-* Possible implementation approach
-* Willingness to contribute implementation
-
-Community
----------
-
-* Be respectful and inclusive
-* Welcome newcomers
-* Help others learn
-* Give constructive feedback
+* ✨ Listed in project contributors
+* 📝 Credited in release notes
+* 🎓 Part of educational impact
+* 🌍 Building better learning tools
 
 License
 -------
 
 By contributing, you agree that your contributions will be licensed under the same license as the project.
 
-Questions?
+Next Steps
 ----------
 
-If you have questions about contributing, feel free to:
+Ready to contribute? Choose your area:
 
-* Open an issue on GitHub
-* Contact the maintainers
-* Join our community discussions
+.. toctree::
+   :maxdepth: 1
 
-Thank you for contributing to ByByte! 🎉
+   contributing-hardware
+   contributing-lessons
+   contributing-documentation
+   contributing-website
+   contributing-software
 
+**Thank you for helping make ByByte.DIY better!**
+
+.. centered:: 🚀 **Together we build the future of education!** 🚀

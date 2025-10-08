@@ -5,5 +5,8 @@ sphinx-rtd-theme>=2.0.0,<3.0.0
 # Sphinx extensions
 sphinxcontrib-apidoc>=0.3.0
 
+# Internationalization
+sphinx-intl>=2.0.0
+
 # Documentation utilities
 docutils>=0.18,<0.22

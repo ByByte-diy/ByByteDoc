@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-06 15:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../usage.rst:2 6e8e45626bd8453db4993c0445c161ac
+msgid "Usage Guide"
+msgstr "Посібник з використання"
+
+#: ../../usage.rst:4 d3a7a74ae4b24a208183f2c97431beec
+msgid "This guide covers the main features and usage patterns of ByByte."
+msgstr "Цей посібник охоплює основні особливості та моделі використання Bybyte."
+
+#: ../../usage.rst:7 123e224de89e49aab106314c11329cd6
+msgid "Overview"
+msgstr "Огляд"
+
+#: ../../usage.rst:9 ac5b369e16c94536ab17c9f430639548
+msgid ""
+"ByByte provides a simple interface for communicating with Arduino-based "
+"devices."
+msgstr "Bybyte забезпечує простий інтерфейс для спілкування з пристроями на основі Arduino."
+
+#: ../../usage.rst:12 601938241415421d881ae6122dd2f7f2
+msgid "Basic Concepts"
+msgstr "Основні поняття"
+
+#: ../../usage.rst:15 e31ae926e55f49b88a065ee509fd1bff
+msgid "Connection Management"
+msgstr "Управління з'єднаннями"
+
+#: ../../usage.rst:17 91b458fa105845f48f53d303d03a4605
+msgid "Managing device connections:"
+msgstr "Управління з'єднаннями пристрою:"
+
+#: ../../usage.rst:34 d61ca975c7d945348319f9ded25bb202
+msgid "Using context manager (recommended):"
+msgstr "Використання контекстного менеджера (рекомендується):"
+
+#: ../../usage.rst:43 e07bff6b4cd249289fefc89f467b0cfa
+msgid "Sending Commands"
+msgstr "Надсилання команд"
+
+#: ../../usage.rst:45 0c72459af53943ca94eea8980158d187
+msgid "Send commands to your device:"
+msgstr "Надіслати команди на свій пристрій:"
+
+#: ../../usage.rst:59 54c3c87d945b4ec1b5642824a1f7161e
+msgid "Advanced Features"
+msgstr "Розширені функції"
+
+#: ../../usage.rst:62 1eeca9bde417471a8f75636a2c7ed67f
+msgid "Async Operations"
+msgstr "Асинхічні операції"
+
+#: ../../usage.rst:64 5f4b29b522d44b42a90e9deb0fd797b3
+msgid "For non-blocking operations:"
+msgstr "Для не блокуючих операцій:"
+
+#: ../../usage.rst:79 77256d07d6be4cafaddcf1f77c5fc1f9
+msgid "Event Handling"
+msgstr "Обробка подій"
+
+#: ../../usage.rst:81 0c5c8350769a47549c07ac73e3ac0ed8
+msgid "Listen for device events:"
+msgstr "Слухайте події пристрою:"
+
+#: ../../usage.rst:92 faa76ae10dc54568b6963dd1c4e1a505
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#: ../../usage.rst:94 c89b17536cd5489591d12e6419b75fb0
+msgid ""
+"You can configure ByByte using a configuration file or environment "
+"variables."
+msgstr "Ви можете налаштувати Bybyte за допомогою файлу конфігурації або змінних середовища."
+
+#: ../../usage.rst:97 f31a86521f374f928fba5d1598527c4b
+msgid "Configuration File"
+msgstr "Файл конфігурації"
+
+#: ../../usage.rst:99 a999d968f0ec4d8e8361e17411b3b31e
+msgid "Create a ``config.ini`` file:"
+msgstr "Створіть файл `` config.ini``:"
+
+#: ../../usage.rst:112 e51290a91d6f4839b600b25960942ace
+msgid "Load configuration:"
+msgstr "Конфігурація завантаження:"
+
+#: ../../usage.rst:119 38d9db93115240cdb522dc45ae70844c
+msgid "Environment Variables"
+msgstr "Змінні середовища"
+
+#: ../../usage.rst:121 3ed00bfb1ae04e3cbe688bf1447686e3
+msgid "Alternatively, use environment variables:"
+msgstr "Крім того, використовуйте змінні середовища:"
+
+#: ../../usage.rst:129 042fdbc7d8b348eba84795a8b7a08f72
+msgid "Best Practices"
+msgstr "Найкращі практики"
+
+#: ../../usage.rst:131 9594bea0ed22417dbe6cd5625be9920b
+msgid "**Always close connections** - Use context managers when possible"
+msgstr "** Завжди закрийте з'єднання ** - Використовуйте менеджерів контексту, коли це можливо"
+
+#: ../../usage.rst:132 c9d6370d26384de08e2e87ef18f541ff
+msgid "**Handle exceptions** - Wrap operations in try-except blocks"
+msgstr "** Обробляйте винятки ** - Загортання операцій у Try -Oxcept блоках"
+
+#: ../../usage.rst:133 3a78ccac44234733bd6c1ccdbd07b213
+msgid "**Set appropriate timeouts** - Prevent hanging operations"
+msgstr "** Встановіть відповідні тайм -аути ** - запобігти висячим операціям"
+
+#: ../../usage.rst:134 f476b82364fa40a7b18a01b9afc62e42
+msgid "**Validate responses** - Check command responses before using them"
+msgstr "** Перевірте відповіді ** - Перевірте відповіді на команд"
+
+#: ../../usage.rst:135 2918893b37754125b11fde4262615949
+msgid "**Log operations** - Enable logging for debugging"
+msgstr "** Операції журналу ** - Увімкніть журнал для налагодження"
+
+#: ../../usage.rst:138 a5d9a3ea1e1c4b7496b12398f396562b
+msgid "Error Handling"
+msgstr "Обробка помилок"
+
+#: ../../usage.rst:140 a08fdc2c0b01488599f84fc3385db03c
+msgid "Common exceptions and how to handle them:"
+msgstr "Поширені винятки та як з ними впоратися:"
+
+#: ../../usage.rst:164 96e2e753d8cb4d11aa1848197d9f8e41
+msgid "See Also"
+msgstr "Див. Також"
+
+#: ../../usage.rst:166 b6790ab924fa45e2b9c6e92ac7499253
+msgid ":doc:`api` - Complete API reference"
+msgstr ": doc: `api` - Повна посилання API"
+
+#: ../../usage.rst:167 ca299e92cb6f4619810a26acc87e73de
+msgid ":doc:`quickstart` - Quick start guide"
+msgstr ": doc: `Quickstart` - Посібник з швидкого початку"
+
+#: ../../usage.rst:168 cdb017a03dde4fd884b4d80123cf7843
+msgid ":doc:`contributing` - Contributing guidelines"
+msgstr ": doc: `contresting` - Внесення рекомендацій"
+
