@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/mega.rst:11
+msgid "Overview:"
+msgstr ""
+
+#: ../../platforms/mega.rst:17
+msgid "Specification:"
+msgstr ""
+
+#: ../../platforms/mega.rst:23
+msgid "Build & Schematics"
+msgstr ""
+
+#: ../../platforms/mega.rst:29
+msgid "Programming:"
+msgstr ""
+
+#: ../../platforms/mega.rst:35
+msgid "FAQ:"
+msgstr ""
+
+#: ../../platforms/mega.rst:2 b35ded884f8847cea61105d925f7a9fc
+msgid "ByByte Mega"
+msgstr ""
+
+#: ../../platforms/mega.rst:4 e3833283f58c4b17821a9b860dd768b6
+msgid "Advanced robotics platform for schools and robotics clubs."
+msgstr ""
+
+#: ../../platforms/mega.rst:-1 63e73a132d534e1bbcfd3f2b29402965
+msgid "ByByte Mega platform"
+msgstr ""
+
+#: ../../platforms/mega.rst:42 cc28bdcb757f457a98e44c3e23dafe86
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../platforms/mega.rst:44 0833d3f9070d419da0f3f1719350cff7
+msgid "**Power Issues:**"
+msgstr ""
+
+#: ../../platforms/mega.rst:46 ebe510a312a048988c8c71d407be1056
+msgid "Check power switcher is in ON position"
+msgstr ""
+
+#: ../../platforms/mega.rst:47 31ff20448bd24894aee3a73735875d0f
+msgid "Check battery voltage (should be >3.5V and <4.2V)"
+msgstr ""
+
+#: ../../platforms/mega.rst:48 410f0e8a2a1e4a2185544641d57b1784
+msgid "Verify battery holder connections"
+msgstr ""
+
+#: ../../platforms/mega.rst:49 0a883e3916544ccd88a9858a30ab1bce
+msgid "Check for shorts"
+msgstr ""
+
+#: ../../platforms/mega.rst:50 6bddf385db604e17b86bf5277294ef06
+msgid "Probe power after MOSFETs"
+msgstr ""
+
+#: ../../platforms/mega.rst:52 3a557b03166a465d89dc35b09d08adc0
+msgid "**Sensor Problems:**"
+msgstr ""
+
+#: ../../platforms/mega.rst:54 904bd2a30e724c578df7d3abbaf6c0be
+msgid "Check wire connections to sensors"
+msgstr ""
+
+#: ../../platforms/mega.rst:55 1eaa9d6b499047a99220a230dec98cf8
+msgid "Test sensors individually (use test code from examples)"
+msgstr ""
+
+#: ../../platforms/mega.rst:56 4aa79765b5b34dc99c5c7298a556ea8a
+msgid "Check components are connected correctly"
+msgstr ""
+
+#: ../../platforms/mega.rst:58 03621240aeef4cf28c20a23d8cb37f8e
+msgid "**Motor Issues:**"
+msgstr ""
+
+#: ../../platforms/mega.rst:60 1b621505d00f45b1870a6a2fff501e05
+msgid "Verify motor driver wiring"
+msgstr ""
+
+#: ../../platforms/mega.rst:61 c5fb2ec74490466695c94e562af8f261
+msgid "Test motor power supply"
+msgstr ""
+
+#: ../../platforms/mega.rst:62 6b150073edbb4760ae3ae69d711292df
+msgid "Use test code from examples to check motor operation"
+msgstr ""
+
+#: ../../platforms/mega.rst:63 e90b919d7b774aa2bea9b47d7eab6615
+msgid "If motors rotates in wrong direction, check polarity of motors"
+msgstr ""
+
+#: ../../platforms/mega.rst:65 08437b54a5324b74be1d18bd42eda0c2
+msgid "**Bluetooth Communication Failures:**"
+msgstr ""
+
+#: ../../platforms/mega.rst:67 a73aad5b84ba4cbd86d9324fd4ff2cfe
+msgid "Check baud rate settings (9600)"
+msgstr ""
+
+#: ../../platforms/mega.rst:68 274c58f8fdd54d8c814e315d82bebfe2
+msgid "Check if Bluetooth module is powered and led is blinking"
+msgstr ""
+
+#: ../../platforms/mega.rst:69 e28532129c754b5b89b8f893c0e054c9
+msgid "Test with simple sketch (use test code from examples)"
+msgstr ""
+
+#: ../../platforms/mega.rst:70 e037ffe83b3d45ea8d3c9b6619f62e0b
+msgid "Check for interference with other devices"
+msgstr ""
+
+#: ../../platforms/mega.rst:73 5a4efc5b7d3c459fa30774fd67213266
+msgid "Support & Resources"
+msgstr ""
+
+#: ../../platforms/mega.rst:75 999ff901905948e9a61643b82ef57671
+msgid "**Advanced Support:**"
+msgstr ""
+
+#: ../../platforms/mega.rst:77 140157c4691248ffbd9a81e398fb059f
+msgid "Technical documentation"
+msgstr ""
+
+#: ../../platforms/mega.rst:78 077623f6ea1f451fa0d299a75cf0256d
+msgid "Competition guides"
+msgstr ""
+
+#: ../../platforms/mega.rst:79 c49be7c7d7d44bfc8c9d95cb7297dde7
+msgid "Video tutorials"
+msgstr ""
+
+#: ../../platforms/mega.rst:80 c1339f286ca34553a6757430cdcc7540
+msgid "Expert community"
+msgstr ""
+
+#: ../../platforms/mega.rst:82 1cb52cfae60f482c832a84c7e0cf8f9c
+msgid "**Resources:**"
+msgstr ""
+
+#: ../../platforms/mega.rst:84 97dd520ba30d4809af5aa9c683ab3feb
+msgid "PCB design files (KiCad/Gerber)"
+msgstr ""
+
+#: ../../platforms/mega.rst:85 07d4b33d15f8455caae68a17a2aed8d4
+msgid "3D models (STL/STEP)"
+msgstr ""
+
+#: ../../platforms/mega.rst:86 bde6297ba02d42b382e1b0c1881f2d71
+msgid "Example code library"
+msgstr ""
+
+#: ../../platforms/mega.rst:87 100c46af35d84bdcb214dccc7fa1023c
+msgid "Competition strategies"
+msgstr ""
+
+#: ../../platforms/mega.rst:89 c4b04a1dfdbb4565885d45fb665d605f
+msgid "---"
+msgstr ""
+
+#: ../../platforms/mega.rst:91 aa814ea973d046df817ee676562a9925
+msgid "**Ready for advanced robotics?** Start building your Mega platform!"
+msgstr ""
+
+#: ../../platforms/mega.rst:93 f6728a319d90467d81241e15c606c6d0
+msgid ":doc:`Back to Platforms <../platforms>` | :doc:`See ByByte nano <nano>`"
+msgstr ""
+

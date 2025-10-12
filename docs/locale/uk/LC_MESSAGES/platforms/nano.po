@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/nano.rst:11
+msgid "Overview:"
+msgstr ""
+
+#: ../../platforms/nano.rst:17
+msgid "Specification:"
+msgstr ""
+
+#: ../../platforms/nano.rst:23
+msgid "Build & Schematics"
+msgstr ""
+
+#: ../../platforms/nano.rst:29
+msgid "Programming:"
+msgstr ""
+
+#: ../../platforms/nano.rst:35
+msgid "FAQ:"
+msgstr ""
+
+#: ../../platforms/nano.rst:2 432fe55ff5e14cad8d0bdc6c49abec9a
+msgid "ByByte nano"
+msgstr ""
+
+#: ../../platforms/nano.rst:4 b0a4f35eb0be4d31a8b0866a538c5d68
+msgid "Simple robotics platform for beginners and home learning."
+msgstr ""
+
+#: ../../platforms/nano.rst:-1 15415fb2b62746e381ea9dc6902a6dac
+msgid "ByByte nano platform"
+msgstr ""
+
+#: ../../platforms/nano.rst:43 82d5d73d3b0f497da73443508bc8eb05
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../platforms/nano.rst:45 df6adc72ab04409db5be03785e104796
+msgid "**Robot doesn't move:**"
+msgstr ""
+
+#: ../../platforms/nano.rst:47 4cfa67d1573043739ca3085daa191c64
+msgid "Check battery voltage"
+msgstr ""
+
+#: ../../platforms/nano.rst:48 42a5350ce68b40ea881d6053e9887007
+msgid "Verify motor connections"
+msgstr ""
+
+#: ../../platforms/nano.rst:49 b27d4a57bc0e42df96cd44c2bbef015f
+msgid "Test motors separately"
+msgstr ""
+
+#: ../../platforms/nano.rst:50 437c92e990f3442b87f7a62644e9b645
+msgid "Check motor driver"
+msgstr ""
+
+#: ../../platforms/nano.rst:52 53fd461f7cc1471b90f71d9ed7e7a366
+msgid "**Sensors not working:**"
+msgstr ""
+
+#: ../../platforms/nano.rst:54 daf03f76acbc40c3a47e501833937b37
+msgid "Verify wiring"
+msgstr ""
+
+#: ../../platforms/nano.rst:55 8778b7d5f67d407685d648213f16ae68
+msgid "Test with simple sketch"
+msgstr ""
+
+#: ../../platforms/nano.rst:56 de966f4f7dea42089d0ab8b25051842a
+msgid "Check power supply"
+msgstr ""
+
+#: ../../platforms/nano.rst:57 1a2a4ec883b94557b4c559577e12d5ba
+msgid "Ensure sensors face correctly"
+msgstr ""
+
+#: ../../platforms/nano.rst:59 dab3e611559b494ca167bc42f7dc7a50
+msgid "**Erratic behavior:**"
+msgstr ""
+
+#: ../../platforms/nano.rst:61 c1f9365eada041f9ada6ac5fa4bd1a2f
+msgid "Check for loose wires"
+msgstr ""
+
+#: ../../platforms/nano.rst:62 dc4defc510ec4498b70cfc0af0d529e6
+msgid "Verify power is adequate"
+msgstr ""
+
+#: ../../platforms/nano.rst:63 a90d9970bda94bdd87376f49aacc6336
+msgid "Calibrate sensors"
+msgstr ""
+
+#: ../../platforms/nano.rst:64 766f9112d95a4a7997a826d83a517d5e
+msgid "Review code logic"
+msgstr ""
+
+#: ../../platforms/nano.rst:66 8d90ea9128124616a4ce9b19d8b26170
+msgid "**USB not recognized:**"
+msgstr ""
+
+#: ../../platforms/nano.rst:68 7e16af9ddeaa4d279f410f8960bb566d
+msgid "Install CH340 drivers (if using clone)"
+msgstr ""
+
+#: ../../platforms/nano.rst:69 b42109cb6f8942ff88a0b1fbbfd9e11f
+msgid "Try different USB cable"
+msgstr ""
+
+#: ../../platforms/nano.rst:70 ddd64dcd1b1d4529b800619b9e612349
+msgid "Check USB port"
+msgstr ""
+
+#: ../../platforms/nano.rst:71 2a2a88b3e8e947ef88ad26a9f5d79540
+msgid "Restart IDE"
+msgstr ""
+
+#: ../../platforms/nano.rst:74 42f65f5854f0405faa64cc8b0593a9f6
+msgid "Support & Resources"
+msgstr ""
+
+#: ../../platforms/nano.rst:76 beff43d7b06a40498c5e710088493990
+msgid "**Need Help?**"
+msgstr ""
+
+#: ../../platforms/nano.rst:78 c1028e4bf05346dcaf4a841d7a9abfa5
+msgid "Check our GitHub discussions"
+msgstr ""
+
+#: ../../platforms/nano.rst:79 54c5102031cd4a85bb274adb587ea4fa
+msgid "Post in community forum"
+msgstr ""
+
+#: ../../platforms/nano.rst:80 39fb6af0e4784ac89031c90ad7407fcc
+msgid "Contact via email"
+msgstr ""
+
+#: ../../platforms/nano.rst:81 fe7711bb444b47fe8043169099632fe8
+msgid "Join our Discord/Telegram"
+msgstr ""
+
+#: ../../platforms/nano.rst:83 92a09696bba24d36bcecfeed9a034119
+msgid "**Additional Resources:**"
+msgstr ""
+
+#: ../../platforms/nano.rst:85 e9d539bdde8340a2b11d764add9f383c
+msgid "Video tutorials (coming soon)"
+msgstr ""
+
+#: ../../platforms/nano.rst:86 c9f3270c7c804d549cbdee8ec777f01c
+msgid "Lesson plans"
+msgstr ""
+
+#: ../../platforms/nano.rst:87 3e4f712270db42e9aa452a754f75e15e
+msgid "Code library"
+msgstr ""
+
+#: ../../platforms/nano.rst:88 59b62407f15043d992bf2306f80e2648
+msgid "3D printable parts"
+msgstr ""
+
+#: ../../platforms/nano.rst:90 3d6149fab73d4b8281682d37a7864872
+msgid "---"
+msgstr ""
+
+#: ../../platforms/nano.rst:92 718ffb2ffa7943618601b0045250b187
+msgid "**Ready to build?** Get your components and start assembling!"
+msgstr ""
+
+#: ../../platforms/nano.rst:94 34fd0caf14fc4f1eb6aa5af198a98a75
+msgid ":doc:`Back to Platforms <../platforms>` | :doc:`See ByByte Mega <mega>`"
+msgstr ""
+

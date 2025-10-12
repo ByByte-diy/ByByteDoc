@@ -5,116 +5,103 @@
 #
 #, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: ByByte 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 15:34+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ru\n"
-"Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: ru\\nLanguage-Team: ru <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
 
-#: ../../quickstart.rst:2 d982f0c7041f4760a69f437efe2d4fdc
+#: ../../quickstart.rst:2 14889fcb9ea94bd5b185840eed636d7a
 msgid "Quick Start Guide"
 msgstr ""
 
-#: ../../quickstart.rst:4 b6a92b1240c64a388a267f152042b360
+#: ../../quickstart.rst:4 d6e946c0702a4e299164439b37d9d6f8
 msgid ""
 "This quick start guide will help you get up and running with ByByte in "
 "minutes."
 msgstr ""
 
-#: ../../quickstart.rst:7 39b5ed8b5b9c4a57b06a19896dcbd914
+#: ../../quickstart.rst:7 5d204cad1d7144188caa61d49d3cb3be
 msgid "Basic Usage"
 msgstr ""
 
-#: ../../quickstart.rst:9 baedf7f074ba42aeb1f903392bdf4562
+#: ../../quickstart.rst:9 fd3b975d58fd40f0b1f78b08f6482517
 msgid "Upload the firmware to your Arduino:"
 msgstr ""
 
-#: ../../quickstart.rst:18 15dd800c4651454a8e39c9a78ef50f6e
+#: ../../quickstart.rst:18 2e710acb37f0427fa15ccf35735bb957
 msgid "First Example"
 msgstr ""
 
-#: ../../quickstart.rst:20 63cee90fa7bd4e3695815b73aead1187
+#: ../../quickstart.rst:20 911a67cbfe224f1f966faf2d1c01c949
 msgid "Here's a simple example to get you started:"
 msgstr ""
 
-#: ../../quickstart.rst:37 04b16850c30747e7b24374f418305042
+#: ../../quickstart.rst:37 725ea4c1910c4c56935a9c1d31a4fca2
 msgid "Common Commands"
 msgstr ""
 
-#: ../../quickstart.rst:39 f00549dea37744bead590dd2634d4017
+#: ../../quickstart.rst:39 1693482eddc848258c9cbcbce4bf8780
 msgid "``status`` - Get device status"
 msgstr ""
 
-#: ../../quickstart.rst:40 9efa530ec35b49f5a3431cd51bdb285f
+#: ../../quickstart.rst:40 5744b666dcf34248ab7e0e22ed5d68ed
 msgid "``reset`` - Reset the device"
 msgstr ""
 
-#: ../../quickstart.rst:41 630a01fb4fd0455591fa55d22331bf32
+#: ../../quickstart.rst:41 60524b9e8f8d4c218fe60b879ff779ae
 msgid "``info`` - Get device information"
 msgstr ""
 
-#: ../../quickstart.rst:44 729fa44daec946ba95716bf3bb72e215
+#: ../../quickstart.rst:44 f918194bf8a64620b689b1ab621373d4
 msgid "Configuration"
 msgstr ""
 
-#: ../../quickstart.rst:46 f9f54bf156224e0eaea5b141b8d86dea
+#: ../../quickstart.rst:46 689ff53cc1294aed8ddb18e873f85b91
 msgid "Basic configuration options:"
 msgstr ""
 
-#: ../../quickstart.rst:60 5d996aa150b14cd7b611b5d5d240fb62
+#: ../../quickstart.rst:60 a9db156acc2342c9a1c1cbbd532057aa
 msgid "Next Steps"
 msgstr ""
 
-#: ../../quickstart.rst:62 a02a0f9e0b0c4dd0bff27405e70cc8ee
+#: ../../quickstart.rst:62 8f308b9b645c424ab0ae7ff3cd19d749
 msgid "Read the full :doc:`usage` guide"
 msgstr ""
 
-#: ../../quickstart.rst:63 d1ac287556f84a8bb4474ca88cc32f4d
+#: ../../quickstart.rst:63 8e9c7668c72c4bfa8a389e2558cb0143
 msgid "Check the :doc:`api` reference"
 msgstr ""
 
-#: ../../quickstart.rst:64 1e0f7625be9f413698f6950fa2159755
+#: ../../quickstart.rst:64 c896e24b503249b2b2fb2c54c9e8aee6
 msgid "Explore example projects"
 msgstr ""
 
-#: ../../quickstart.rst:67 6678e131d9e54ac7a5edcf5d0ce0ee67
+#: ../../quickstart.rst:67 f57b2b8140ca41d3bd7fc5ffad5c8faa
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../quickstart.rst:69 561d74cfbec746bd987e5ff9302b3151
+#: ../../quickstart.rst:69 d23bc9a46dae449b8b28c1e9ca80e972
 msgid "**Connection Issues**"
 msgstr ""
 
-#: ../../quickstart.rst:71 dcb1c6a0e9d947e8b028ddfde4f6d114
+#: ../../quickstart.rst:71 79a4a835baa049818643540207984bdb
 msgid "If you can't connect to the device:"
 msgstr ""
 
-#: ../../quickstart.rst:73 3e2dd428c2d146f39d1aac54382ca527
+#: ../../quickstart.rst:73 354e8ee50f93477f8407ca49691ec58e
 msgid "Check that the device is properly connected"
 msgstr ""
 
-#: ../../quickstart.rst:74 c32e1c13b0254e20bbfcd584b79b6b7a
+#: ../../quickstart.rst:74 95bfb3d5e63e4a76be062f0c819c2bda
 msgid "Verify the correct port is specified"
 msgstr ""
 
-#: ../../quickstart.rst:75 e9a7b4388c0044be810eba2f11ae99a6
+#: ../../quickstart.rst:75 8959e0bd2c5e42db946330f622969e73
 msgid "Ensure no other program is using the port"
 msgstr ""
 
-#: ../../quickstart.rst:77 b016a9470f1742138e776ac75098cc19
+#: ../../quickstart.rst:77 8de1038bfa76456380f8c4e0ec377e57
 msgid "**Permission Denied**"
 msgstr ""
 
-#: ../../quickstart.rst:79 d1d1a76fa41e40acbf4cdf0e7e976075
+#: ../../quickstart.rst:79 62ae596650e74ab194f75891da67322d
 msgid "On Linux, you may need to add your user to the ``dialout`` group:"
 msgstr ""
 

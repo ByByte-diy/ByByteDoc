@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/nano/spec.rst:2 fd51d02098f14f3797df8bcd19becdd5
+msgid "Technical Specifications"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:5 7136107a8b1148ea90cf67ff3c982969
+msgid "Microcontroller"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:7 3d5f4a7184d04e02877341a67c000186
+msgid "**Board:** Arduino Nano"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:8 b7ba88a5c24045c0bb5cd3826fff19c3
+msgid "**Microcontroller:** ATmega328P"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:9 b3e7f7ba374d439f8461c6986379ef5b
+msgid "**Operating Voltage:** 5V"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:10 7090eb3f0e884e25b5713efc1ad43293
+msgid "**Input Voltage:** 7-12V (recommended)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:11 2df06b5ed6f145fea6a804dd562e7a2e
+msgid "**Digital I/O Pins:** 14"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:12 ff727d46d2b14e72b88d59db84018c21
+msgid "**Analog Input Pins:** 6"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:13 312f7e05002c4196a2b0275ab329757a
+msgid "**Flash Memory:** 32 KB"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:14 99a09367dcb34bc3afbb1ab7f1a933c0
+msgid "**SRAM:** 2 KB"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:15 a52fe8941e98490a8cd25b93bc05ca27
+msgid "**EEPROM:** 1 KB"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:16 3f479a6f55104e0890ae43a155fbd40d
+msgid "**Clock Speed:** 16 MHz"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:19 69a465ff1a3a4344aef50f4c7f2f0897
+msgid "Motors & Movement"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:21 9589e6015f8041068c43a9c1d30cadc5
+msgid "**Motor Type:** DC geared motors N20"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:22 135f078be91540dbb467bb2663866bbe
+msgid "**Voltage:** 6V"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:23 03698248745c47af967083b7a2e1123a
+msgid "**RPM:** 400-750 (typical)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:24 c00fa14321b74a84b39f8ff4cbfd5982
+msgid "**Motor Driver:** DRV8833"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:25 78c09bf3dfce4a179242cc6cd1159c31
+msgid "**Speed Control:** PWM"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:26 5c87121cd86343ba8ea50c3451125838
+msgid "**Direction Control:** PWM"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:29 5460554fe8234c979c6c7a80b725a70f
+msgid "Sensors & peripherals"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:31 984d350b69734c74b0ff09799dc34c51
+msgid "**Standard sensors:**"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:33 7f5e475c917f45628d96f18fce301911
+msgid "Ultrasonic distance sensor (HC-SR04)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:35 8ec7242bcb36470ca40de68fd0bd71cb
+msgid "Range: 2-400 cm"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:36 8305656353714aed80cc80437c8b1487
+msgid "Accuracy: ±3mm"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:37 ../../platforms/nano/spec.rst:44
+#: ../../platforms/nano/spec.rst:59 a6eeaceec5f9435e9de47c12271f3d4f
+#: ccea13e457db48da9c8c8f3320bdb732 ee9d07e1c1174622accd4d6630091afd
+msgid "Interface: Digital"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:39 b7648703238a4170bb49bf2955f3f433
+msgid "Line following sensors (IR-based)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:41 3319fe0d214f43f58fc0a9be2fc19113
+msgid "Type: TCRT5000 or similar"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:42 1b2498d816404f31afd6af22cbe70174
+msgid "Quantity: 5 sensors"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:43 422867b480b6463581653487da707871
+msgid "Detection: Black/white surfaces"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:46 ed20a9ab2c2c46418ca220a44d99a7a2
+msgid "IR side sensors (SFH4545, TEFT4300)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:48 c1e1fac5e9584d6aa6490938e0662985
+msgid "Type: SFH4545, TEFT4300 or similar"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:49 938881003e70465f988d5a8747c0d55e
+msgid "Quantity: 2 sensors"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:50 6993e697f49841a5a2d1090d866a3338
+msgid "Range: 2-20 cm"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:51 890274d57cf8447fb8af2642b02c87f0
+msgid "Detection: IR emission"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:52 ../../platforms/nano/spec.rst:66
+#: 866bbd0e20d34135bd8ca2867c21caae e415261fe01f4c3a8718ebed74fd6ae2
+msgid "Interface: Analog"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:54 acc025b428db4b87bdf7862775b0884f
+msgid "IR receiver (VS1838)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:56 a6664b1857b54c36aa321b53f0af0b08
+msgid "Type: VS1838 or similar"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:57 ../../platforms/nano/spec.rst:64
+#: 682b551139f049919cdfdf69df8d46d7 9c8c1d03a33f4f8e923a004d3d41e410
+msgid "Quantity: 1 sensor"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:58 7d74d04d2f304f78a12c743b85150d70
+msgid "Detection: IR pulse receiver"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:61 8340eaf5b99c47488daa855615fbd7b2
+msgid "Light sensor (LDR)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:63 d301f384bd044501bb6a85f8a8f1186f
+msgid "Type: LDR or similar"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:65 a72b9847fde145d2bdb468cb32a73619
+msgid "Detection: Light intensity"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:68 10a24f38b73e41dfada28fdc66c38ef4
+msgid "**Communication:**"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:70 056da7bdacf34996b0613613143423c0
+msgid "USB-UART port (for programming and debugging)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:71 af3de6aae8144c8b8c8a164cb42639ee
+msgid "Bluetooth module (HC-05, HC-06, HC-02)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:72 db9feea5d065491b9fe682c312c14d8a
+msgid "WiFi module (ESP32-CAM, optional)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:73 3e86180328db42e6b235bc779282293d
+msgid "IR remote control (VS1838)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:76 71a372b2fe4540c98b5ad0f5ca6d5b82
+msgid "Power Supply"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:78 683c41b7c89c412fb052b84df0947e51
+msgid "**Battery Type:** 6F22 9v li-ion battery"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:79 3ef76be7702449a8bb5965d966b24c1f
+msgid "**Voltage:** 7.4V - 9V"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:80 278ca91504724f80b943783e3f0e2771
+msgid "**Capacity:** 1000+ mAh (recommended)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:81 4495e57c65244f74abcaab5e1c396c05
+msgid "**Runtime:** 1-2 hours (typical use)"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:84 442c45ef5102450794f3b8b394e9ddf7
+msgid "Dimensions & Weight"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:86 62b54ad4fdba4831ac49664343394a19
+msgid "**Length:** ~140-200 mm"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:87 603536dd36f34756939f2792d7133cb0
+msgid "**Width:** ~120-150 mm"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:88 4a7be48e72534810a1ed7d3af7b135d8
+msgid "**Height:** ~80-100 mm"
+msgstr ""
+
+#: ../../platforms/nano/spec.rst:89 cbeb4468fc674b0d8933d3ab62311a39
+msgid "**Weight:** ~150-200g (with batteries)"
+msgstr ""
+

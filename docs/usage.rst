@@ -165,5 +165,5 @@ See Also
 
 * :doc:`api` - Complete API reference
 * :doc:`quickstart` - Quick start guide
-* :doc:`contributing` - Contributing guidelines
+* :doc:`contributing/index` - Contributing guidelines
 

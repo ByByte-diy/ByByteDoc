@@ -5,94 +5,81 @@
 #
 #, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: ByByte 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 15:34+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ru\n"
-"Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: ru\\nLanguage-Team: ru <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
 
-#: ../../api.rst:2 0fafefc943cc49718a50e21b0b0fc3b5
+#: ../../api.rst:2 204a0f8a5fe44ce68dacb21e440ec56e
 msgid "API Reference"
 msgstr ""
 
-#: ../../api.rst:4 360e78cf53294a42a2d3cca85f560732
+#: ../../api.rst:4 564d45915397422299323e6ce72463d5
 msgid "This page contains the complete API reference for ByByte."
 msgstr ""
 
-#: ../../api.rst:7 73ced666ebb34805b25088b194b10182
+#: ../../api.rst:7 2c74a95c58ac4e22953e741a9c2baaf1
 msgid "Core Classes"
 msgstr ""
 
-#: ../../api.rst:10 5125de72b6484bbfbec5fdec330af209
+#: ../../api.rst:10 f8ef2121f86d49f0866ee24feac8b5c1
 msgid "Device"
 msgstr ""
 
-#: ../../api.rst:54 0a59032f648044f49e6f49e968958659
+#: ../../api.rst:54 5d69521e5d41452da3e8608cf84630cf
 msgid "Connection Functions"
 msgstr ""
 
-#: ../../api.rst:78 36567cbf5b184c0bab3b5b36771e6ce7
+#: ../../api.rst:78 4213468a1a8f4a2cb4215f75f3430fd4
 msgid "Exceptions"
 msgstr ""
 
-#: ../../api.rst:81 6222a71fe243413ea56354cc94163ff2
+#: ../../api.rst:81 1c42319908d74c6286ef34bde2d448e3
 msgid "ConnectionError"
 msgstr ""
 
-#: ../../api.rst:83 f5d810250ed943ee9577edc6c732e438
+#: ../../api.rst:83 2983ed8936b24c95ac90a93124eb4191
 msgid "Raised when connection to device fails."
 msgstr ""
 
-#: ../../api.rst:92 e87f39eae4934ea0ad57fb12c97b749d
+#: ../../api.rst:92 9418e5c8ebd34282b115896f693dfefc
 msgid "TimeoutError"
 msgstr ""
 
-#: ../../api.rst:94 be0823163ec44f2bbfd62d360801230e
+#: ../../api.rst:94 1fc57336684f4e58bf4860591817dc6d
 msgid "Raised when operation exceeds timeout."
 msgstr ""
 
-#: ../../api.rst:103 b68dba8f09bc4241a9dfdb03924ad1eb
+#: ../../api.rst:103 89d55d0528f342998ad86bbb4a8f0c70
 msgid "CommandError"
 msgstr ""
 
-#: ../../api.rst:105 4c7dbad2216345b293202ef5f8fa661c
+#: ../../api.rst:105 79129413258b4458844de577ada20c7a
 msgid "Raised when command execution fails."
 msgstr ""
 
-#: ../../api.rst:114 1ea666b42bea4aba9350297866560112
+#: ../../api.rst:114 437a0efe0ede4341a507671edfa682b8
 msgid "Utilities"
 msgstr ""
 
-#: ../../api.rst:117 05efaae7e9584b2ebb1239f1b335ff14
+#: ../../api.rst:117 8522be1ae7184a94890569fb61751c1f
 msgid "Logging"
 msgstr ""
 
-#: ../../api.rst:131 83117da4a2f54c26a4ed6a18118d83aa
+#: ../../api.rst:131 5d7ef4cbc25846048b8d5f1de0571be1
 msgid "Configuration"
 msgstr ""
 
-#: ../../api.rst:159 4f6011a972a44b569963bf255fac5805
+#: ../../api.rst:159 7a86e189c6f84dd298379be1fa57b9e0
 msgid "Examples"
 msgstr ""
 
-#: ../../api.rst:162 b77a60d988db481791740181eaa3f0db
+#: ../../api.rst:162 006a10322b624ca785cdfc6a1d58da63
 msgid "Basic Connection"
 msgstr ""
 
-#: ../../api.rst:179 39d36dd30a1d43aaa474fdf685d8fc49
+#: ../../api.rst:179 c2a60106547d408a85f950f83d6c3a8e
 msgid "With Context Manager"
 msgstr ""
 
-#: ../../api.rst:188 d6b014213241419f9787a50c546c13f2
+#: ../../api.rst:188 ca67e2a75c4a4c3c8012012ba0104588
 msgid "Scanning for Devices"
 msgstr ""
 

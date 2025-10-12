@@ -3,439 +3,419 @@
 # This file is distributed under the same license as the ByByte package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
+#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: ByByte 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 19:46+0300\n"
-"PO-Revision-Date: 2025-10-07 14:39+0300\n"
-"Last-Translator: ByByte Team\n"
-"Language-Team: Russian\n"
-"Language: ru\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Generated-By: Babel 2.14.0\n"
-"X-Generator: Poedit 3.0.1\n"
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: ru\\nLanguage-Team: ru <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
 
 #: ../../index.rst:9
 msgid "Home"
-msgstr "Главная"
+msgstr ""
 
 #: ../../index.rst:9
 msgid "Contents:"
-msgstr "Содержание:"
+msgstr ""
 
 #: ../../index.rst:16
-msgid "Getting Started:"
-msgstr "Начало работы:"
+msgid "Platforms:"
+msgstr ""
 
-#: ../../index.rst:23
-msgid "User Guide:"
-msgstr "Руководство пользователя:"
+#: ../../index.rst:22
+msgid "Getting Started:"
+msgstr ""
 
 #: ../../index.rst:30
-msgid "Additional Information:"
-msgstr "Дополнительная информация:"
-
-#: ../../index.rst:36
-msgid "Contributing to БАБАЙ:"
-msgstr "Вклад в БАБАЙ.DIY:"
-
-#: ../../index.rst:2 82f64d6db90c490da628cb803a8575ac
-msgid "БАБАЙ (ByByte) - Educational Robotics Platform"
-msgstr "БАБАЙ.DIY (bybyte) - платформа образовательной робототехники"
-
-#: ../../index.rst:4 3cd95f813e4e4097b5e81e7020cdbc61
-msgid "Welcome to БАБАЙ documentation! An open-source educational robotics platform for teaching programming and robotics to students and children."
+msgid "API & Reference:"
 msgstr ""
-"Добро пожаловать в документацию \"БАБАЙ\"! Платформа образовательной робототехники с открытым исходным кодом для обучения программированию и робототехники школьников и "
-"студентов."
 
-#: ../../index.rst:7 1a94dcf3f5304066b246e20158435b09
-msgid "📚 **Before using the platform or building a robot, please read this documentation carefully!**"
-msgstr "📚 **Перед использованием платформы и создания робота, пожалуйста, внимательно прочитайте эту документацию!**"
+#: ../../index.rst:37
+msgid "Contributing to ByByte.DIY:"
+msgstr ""
 
-#: ../../index.rst:48 e668b7e18bd0428a8ff812d03f31fa05
+#: ../../index.rst:2 21cf2bcd51e848fab795c708671170ca
+msgid "БАБАЙ.DIY (ByByte) - Educational Robotics Platform"
+msgstr ""
+
+#: ../../index.rst:4 00e166bfe645436dbf6656ecaf91ff18
+msgid ""
+"Welcome to ByByte.DIY documentation! An open-source educational robotics "
+"platform for teaching programming and robotics to students and children."
+msgstr ""
+
+#: ../../index.rst:7 46c4f0cb2c6c4afd93e6965c4667db15
+msgid ""
+"📚 **Before using the platform or building a robot, please read this "
+"documentation carefully!**"
+msgstr ""
+
+#: ../../index.rst:49 e3f0b3458e8e4a2ba8b3fc0c8877315e
 msgid "About the Project"
-msgstr "О проекте"
+msgstr ""
 
-#: ../../index.rst:50 005d3a230f60494f9bd921f2538f350b
-msgid "**БАБАЙ** is an open educational project aimed at teaching school-age children and students robotics and programming through practical tasks."
-msgstr "**БАБАЙ.DIY** -это открытый образовательный проект, предназначенный для обучения детей школьного возраста и и студентов программированию с помощью практических задач."
+#: ../../index.rst:51 b808da93f16d43b587c8d229407c3521
+msgid ""
+"**ByByte.DIY** is an open educational project aimed at teaching school-"
+"age children and students robotics and programming through practical "
+"tasks."
+msgstr ""
 
-#: ../../index.rst:52 26fe9643745e40bc91d228e0cd1796d6
+#: ../../index.rst:53 0f049098dc424016b688ee0c1e1c6c6b
 msgid "The foundation of the project consists of:"
-msgstr "Фонд проекта состоит из:"
+msgstr ""
 
-#: ../../index.rst:54 7d7cff1aeb7744f397cef2be022221b2
+#: ../../index.rst:55 a62eba9c0f92404e9fdb6dc8831c8d21
 msgid "**🤖 Robotic Platforms**"
-msgstr "**🤖 Роботизированные платформы**"
+msgstr ""
 
-#: ../../index.rst:56 2101c6c5022647698a3f7a38e7322fbe
+#: ../../index.rst:57 dcd208c239cd4405be86d72951b2fbf9
 msgid "Two levels of complexity for different skill levels:"
-msgstr "Два уровня сложности для разных уровней квалификации:"
+msgstr ""
 
-#: ../../index.rst:58 c1a175368b0f4359a5968893220d1cc5
-msgid "**БАБАЙ nano** - Simple platform for beginners and home learning"
-msgstr "**БАБАЙ nano** - Простая платформа для начинающих и обучения дома"
+#: ../../index.rst:59 309542c700f54e2c8725e04860ef47a5
+msgid "**ByByte nano** - Simple platform for beginners and home learning"
+msgstr ""
 
-#: ../../index.rst:60 2e9b2ec83ae54618873f43019ab492df
+#: ../../index.rst:61 2575f0866f174a6da6b97e12cf7c13a3
 msgid "Easy to assemble without professional skills"
-msgstr "Легко собираться без профессиональных навыков"
+msgstr ""
 
-#: ../../index.rst:61 c5f9129c0f2f41e6b78ae9abbd73bbff
+#: ../../index.rst:62 16d3f86377c74417bc6ffb7b13675ef6
 msgid "No special equipment required"
-msgstr "Не требуется специальное оборудование"
+msgstr ""
 
-#: ../../index.rst:62 14135f67331c47b89ab72facbddbb7c3
+#: ../../index.rst:63 ea35dd35ddd440a789c51da0b9c08f69
 msgid "Uses common, affordable components"
-msgstr "Использует общиедоступные компоненты"
+msgstr ""
 
-#: ../../index.rst:63 fbe968dde8c04f8db730ed256647660f
+#: ../../index.rst:64 224e4b2a6e444afc8fc78a856d02dcc2
 msgid "Perfect for individual learning at home"
-msgstr "Идеально подходит для индивидуального обучения дома"
+msgstr ""
 
-#: ../../index.rst:65 99bc33a9393a455db4f71c8381f73e11
-msgid "**БАБАЙ Mega** - Advanced platform with maximum peripherals"
-msgstr "**БАБАЙ Mega** - Расширенная платформа с максимум периферии и датчиков"
+#: ../../index.rst:66 d1e1816f0deb4a0f94ce2d50b5cbef11
+msgid "**ByByte Mega** - Advanced platform with maximum peripherals"
+msgstr ""
 
-#: ../../index.rst:67 ff768621454b470bac86d3ebeb554f89
+#: ../../index.rst:68 47bf15fa282c487495a4ed609c0c8bdd
 msgid "Professional-grade robotics platform"
-msgstr "Роботизированная платформа профессионального уровня"
+msgstr ""
 
-#: ../../index.rst:68 717b6bd1461145dca4fd0bb8192c7617
+#: ../../index.rst:69 0b7615b4f02645dbb2e9d24a322be99d
 msgid "Full set of sensors and modules"
-msgstr "Полный набор датчиков и модулей"
+msgstr ""
 
-#: ../../index.rst:69 d6f21f1dafd94f0d8aa8f9ea2363f25b
+#: ../../index.rst:70 715e9779a8064c099524c7f4aaa2ed9c
 msgid "Ideal for schools and educational institutions"
-msgstr "Идеально подходит для школ и учебных заведений"
+msgstr ""
 
-#: ../../index.rst:70 9a93965f65e64d6e9091053fd7aeb55c
+#: ../../index.rst:71 0285a16cd74f42fabdbee77079ccaa91
 msgid "Great for robotics clubs and workshops"
-msgstr "Отлично подходит для клубов и воркшопов с робототехники"
+msgstr ""
 
-#: ../../index.rst:72 ff041fdf2a544acab298edd2c21c305b
+#: ../../index.rst:73 1847c9375a1d4c8a9bd93526d0bb0de5
 msgid "**📚 Educational Curriculum**"
-msgstr "**📚 Образовательная учебная программа**"
+msgstr ""
 
-#: ../../index.rst:74 0f4e816dc98d4e3fa81f3227fdf1f42d
+#: ../../index.rst:75 aa63761f704a46f5a466ab81cecda15a
 msgid "Structured lessons designed by robotics teachers and IT professionals"
-msgstr "Структурированные уроки, разработанные учителями робототехники и IT-специалистами"
+msgstr ""
 
-#: ../../index.rst:75 59df272e3a194479b47431453ca5ce70
+#: ../../index.rst:76 d2e4f9af8ede4691afe51211d7eb14dd
 msgid "Different difficulty levels for various skill levels"
-msgstr "Различные уровни сложности для различных уровней навыков"
+msgstr ""
 
-#: ../../index.rst:76 29fe4ef0d3de4643ae8a32e10f189e28
+#: ../../index.rst:77 cfad8e0744984acc9c5aac440b742845
 msgid "Practical, hands-on approach to learning"
-msgstr "Практический подход к обучению"
+msgstr ""
 
-#: ../../index.rst:77 98e08aa4360948189ceee411e2a6d665
+#: ../../index.rst:78 546f269437d849eaa3a9350cdfd454c7
 msgid "All new lessons reviewed and approved by moderators"
-msgstr "Все новые уроки пересматриваются и утверждены модераторами"
+msgstr ""
 
-#: ../../index.rst:79 20195f505b2847ed8a2faf1921849711
+#: ../../index.rst:80 df697fd5aa0a4daea3f458395cb2cafa
 msgid "**🎯 STEM Approach**"
-msgstr "**🎯STEM -подход**"
+msgstr ""
 
-#: ../../index.rst:81 c6e52113b9b7442aa06820f0d9852803
+#: ../../index.rst:82 36b174375abc4fbf83065aeda5e76a12
 msgid "Our methodology: **Practice First, Theory Second**"
-msgstr "Наша методология: **Сначала практика, затем теория**"
+msgstr ""
 
-#: ../../index.rst:83 92a77586e42b43328d5a275d9e988676
+#: ../../index.rst:84 fd051f9a3f2b4288bc8c010cbd75a11f
 msgid "**Build** - Assemble your robot (hands-on practice)"
-msgstr "**Сборка** – соберите своего робота (практические навыки)."
+msgstr ""
 
-#: ../../index.rst:84 b16ab10a14284faeab9da9f961bf6ac6
+#: ../../index.rst:85 0a68e6f735de4b57bdb19ebbcc75a779
 msgid "**Program** - Learn theory through practical programming"
-msgstr "**Программа** - Изучайте теорию с помощью практического программирования"
+msgstr ""
 
-#: ../../index.rst:85 1906bda0a9f74745891e1a9251083384
+#: ../../index.rst:86 536f69248695482c8b7f5ce1eea45f3e
 msgid "**Experiment** - Develop problem-solving skills"
-msgstr "**Эксперименты** - Развивайте навыки решения проблем"
+msgstr ""
 
-#: ../../index.rst:88 07e452492b0046e2b2eb81629dd59738
+#: ../../index.rst:89 9d79eb19c17f4e59ac8b2d74011f3fc9
 msgid "Project Goals"
-msgstr "Цели проекта"
+msgstr ""
 
-#: ../../index.rst:90 225dad7a674c40f0b45090f012699a9b
-msgid "Our mission is to **collectively build a high-quality platform** for learning programming, electronics, and robotics suitable for:"
-msgstr "Наша миссия состоит в том, чтобы **коллективно построить высококачественную платформу** для обучения программирования, электроники и робототехники, подходящих для:"
+#: ../../index.rst:91 b5d60012d13c49a4908e874b6fefb1f3
+msgid ""
+"Our mission is to **collectively build a high-quality platform** for "
+"learning programming, electronics, and robotics suitable for:"
+msgstr ""
 
-#: ../../index.rst:92 826221b846c04408a9eacdd0cbae7256
+#: ../../index.rst:93 b5b0ddc733b44122b14bca32f8ae3953
 msgid "✅ **Schools** - Complete curriculum for classroom teaching"
-msgstr "✅ **Школ** - Полная учебная программа для обучения в классе"
+msgstr ""
 
-#: ../../index.rst:94 3a2ef6271eb44e11b1ca6eb694d6881a
+#: ../../index.rst:95 eff4a4cd16e64cc19ffed3fc82b0b690
 msgid "✅ **Robotics Clubs** - Ready-made lessons and projects"
-msgstr "✅ **Клубы робототехники** - готовые уроки и проекты"
+msgstr ""
 
-#: ../../index.rst:96 9e0f6c533c1646cd881c9164c496732b
-msgid "✅ **Educational Institutions** - Professional platform with full documentation"
-msgstr "✅ **Образовательные учреждения** - Профессиональная платформа с полной документацией"
+#: ../../index.rst:97 8867598c325c4947b38962eba94a4cb9
+msgid ""
+"✅ **Educational Institutions** - Professional platform with full "
+"documentation"
+msgstr ""
 
-#: ../../index.rst:98 f297a0018d9c48a58bbadab6302d4faf
-msgid "✅ **Home Learning** - Anyone can learn independently by building the simplest version"
-msgstr "✅ **Обучение дома** - Любой может самостоятельно учиться, создав самую простую версию"
+#: ../../index.rst:99 560bc54a017841cdbcd2aa52fdd32f4e
+msgid ""
+"✅ **Home Learning** - Anyone can learn independently by building the "
+"simplest version"
+msgstr ""
 
-#: ../../index.rst:101 3cbec47a811a440ca9cd38fc35c39a15
-msgid "**All information, instructions, and components needed to build both platforms are available in our repositories and this guide!**"
-msgstr "**Вся информация, инструкции и компоненты, необходимые для создания обеих платформ, доступны в наших репозиториях и в этом руководстве!**"
+#: ../../index.rst:102 00b9ee39f8c34a91a8c428e8cf742701
+msgid ""
+"**All information, instructions, and components needed to build both "
+"platforms are available in our repositories and this guide!**"
+msgstr ""
 
-#: ../../index.rst:104 54f304739c2544fab8768285985e0c53
-msgid "Why Choose БАБАЙ?"
-msgstr "Почему выбирают БАБАЙ.DIY?"
+#: ../../index.rst:105 678ba3dd1c2f4c92a33ab82447b46ae5
+msgid "Why Choose ByByte.DIY?"
+msgstr ""
 
-#: ../../index.rst:106 6a91e139207745de848d031206ff3ab4
+#: ../../index.rst:108 b47f806d450945e2996843961b50ec58
 msgid "🎓 **Educational Focus**"
-msgstr "🎓 **Фокус на образование**"
+msgstr ""
 
-#: ../../index.rst:107 bd1795241dd24d64878192b6964c8f3a
+#: ../../index.rst:108 4c9af26d192143758ede32cb2928a0cc
 msgid "Designed specifically for teaching, not just building robots"
-msgstr "Спроектировано специально для обучения, а не только создания роботов"
+msgstr ""
 
-#: ../../index.rst:109 de6b4022af794f8d969356ad13808c2e
+#: ../../index.rst:111 c72b6d8756fa40a1805a0f46332ed991
 msgid "🔓 **Open Source**"
-msgstr "🔓 **Открытый исходный код**"
+msgstr ""
 
-#: ../../index.rst:110 3e98a1602b844b6281b1c66b8c0a7587
+#: ../../index.rst:111 76e962d2148f42059eeb548365a9ed5a
 msgid "All designs, code, and materials are freely available"
-msgstr "Все проекты, код и материалы свободно доступны"
+msgstr ""
 
-#: ../../index.rst:112 8d99ae5a566543b1a10d22f6ffacc8ee
+#: ../../index.rst:114 f8f72a779ff54d4cb6505224737b9096
 msgid "🛠️ **DIY Friendly**"
-msgstr "🛠 **Простота в сборке**"
+msgstr ""
 
-#: ../../index.rst:113 4f61f34f55ec4e71a7d86f191914bdc5
+#: ../../index.rst:114 e75d66edfab3419099aa0e705b79580b
 msgid "Build it yourself with our detailed instructions"
-msgstr "Соберите своего робота самостоятельно с нашими подробными инструкциями"
+msgstr ""
 
-#: ../../index.rst:115 3473ce5b72bf45458110288dcfbcc314
+#: ../../index.rst:117 b6aa8ea11a2d42c19d6529a7d7d0b6f3
 msgid "📖 **Complete Documentation**"
-msgstr "📖 **Полная документацыя**"
+msgstr ""
 
-#: ../../index.rst:116 c45ac32e75394bc1a1b1fa93e0e21107
+#: ../../index.rst:117 0e9966b974e14968b4d2da50c126e651
 msgid "Every step covered - from assembly to programming"
-msgstr "Каждый шаг расписан - от сборки до программирования"
+msgstr ""
 
-#: ../../index.rst:118 08c77e3843bc4295bcabd7b3093f5b78
+#: ../../index.rst:120 d584b784eaec406aaa31f0e5e2a6de5f
 msgid "👥 **Community Driven**"
-msgstr "👥 **Управляется сообществом**"
+msgstr ""
 
-#: ../../index.rst:119 2894f99580d249789f49ce501eb67ab4
+#: ../../index.rst:120 21972bf5319d4dcb8a1de3a80ae04c8c
 msgid "Created by teachers and IT professionals"
-msgstr "Создано учителями и IT-специалистами"
+msgstr ""
 
-#: ../../index.rst:121 f57f8c1e3f1d4251b51a97642d59c54e
+#: ../../index.rst:123 943842bd5c0c46b28a4c85576cf5a2da
 msgid "💡 **STEM Methodology**"
-msgstr "💡 **Методология STEM**"
+msgstr ""
 
-#: ../../index.rst:122 ca364bd21ee64f9886bf5f815281e784
+#: ../../index.rst:123 2b7feb7c16254bc9a1f5635d7a308d86
 msgid "Learn by doing - practical approach to education"
-msgstr "Изучайте, используя практическое подход к образованию"
+msgstr ""
 
-#: ../../index.rst:124 cf4aa2c5790b4b9e89f8539251509131
+#: ../../index.rst:126 9be84fbd37bc45b3b9b6ae1e3cb20ef7
 msgid "🌍 **Accessible**"
-msgstr "🌍 **Доступность**"
+msgstr ""
 
-#: ../../index.rst:125 0e6c68752e7f425ab14bf1e78e6f55de
+#: ../../index.rst:126 fbb7e56da05045149e949ed84ba9bbd6
 msgid "Affordable components, no rare or expensive parts needed"
-msgstr "Доступные компоненты, не требуются редкие или дорогие детали"
+msgstr ""
 
-#: ../../index.rst:128 209de20898f2497795111dbb22fcafd7
+#: ../../index.rst:129 a05078d5f84e4e52bbdd8c56f6d34c3f
 msgid "What You'll Learn"
-msgstr "Чему вы научитесь"
+msgstr ""
 
-#: ../../index.rst:130 ff8e2c6040314fa882d8fa397a09a6ef
-msgid "Through БАБАЙ platform, students will master:"
-msgstr "Благодаря платформе БАБАЙ.DIY, студенты осваивают:"
+#: ../../index.rst:131 ab705627bcea44b4b6f9b97f9e440715
+msgid "Through ByByte.DIY platform, students will master:"
+msgstr ""
 
-#: ../../index.rst:132 1282f3e0ba964c7c862c5ce6631dfa6d
+#: ../../index.rst:133 d3fce3b297e5456ead0dedf851cba6a4
 msgid "🤖 **Robotics** - Mechanical assembly and robot design"
-msgstr "🤖 **Робототехнику** - Механическая сборка и дизайн робота"
+msgstr ""
 
-#: ../../index.rst:133 fc41e32d3ea34b4985a37a5550f64f8e
+#: ../../index.rst:134 650aad30f1fa4171a2727d585a5d10bb
 msgid "💻 **Programming** - Arduino, C++, algorithms"
-msgstr "💻 **Программирование** - Arduino, C ++, Алгоритмы"
+msgstr ""
 
-#: ../../index.rst:134 8b144bc9742f4e24ad678c1e8b26f135
+#: ../../index.rst:135 4f74c2d42d044db49e7a75c43a0b707f
 msgid "⚡ **Electronics** - Circuits, sensors, actuators"
-msgstr "⚡ **Электронику** - Схемы, датчики, приводы"
+msgstr ""
 
-#: ../../index.rst:135 295255fb6e6b4488a9636c31aa8a3db8
+#: ../../index.rst:136 f067f6b2ddf942df95b9e51db3198071
 msgid "🔧 **Problem Solving** - Debug and optimize your projects"
-msgstr "🔧 **Решение проблем** - отладка и оптимизация проектов"
+msgstr ""
 
-#: ../../index.rst:136 5553c835be7f4786880c7ddb75e0d1ee
+#: ../../index.rst:137 2aae656a6b714256ae6e79266d2422cc
 msgid "🎨 **Creativity** - Design and customize your robots"
-msgstr "🎨 **Творчество** - Создавайте и настраивайте свои роботы"
+msgstr ""
 
-#: ../../index.rst:139 a06f51e1e53c47bca16362f22a20af92
+#: ../../index.rst:140 6236e2f1f1224f8cbf8f96588ec6fb8f
 msgid "This Documentation Covers"
-msgstr "Документация БАБАЙ.DIY"
+msgstr ""
 
-#: ../../index.rst:141 1edf827147b44d9e8d9db84b2fe4654f
+#: ../../index.rst:143 b67ee666e3414aeca84c4ef9ba7b10e1
 msgid "📋 **Assembly Instructions**"
-msgstr "📋 **Инструкции по сборке**"
+msgstr ""
 
-#: ../../index.rst:142 b71650c923c34973b12b1cd3b2d5fc05
+#: ../../index.rst:143 2ec7654684f84737bdb5f26a720f89fa
 msgid "Step-by-step building guides for both platforms"
-msgstr "Пошаговые руководства по сборке для обеих платформ"
+msgstr ""
 
-#: ../../index.rst:144 b6c1c0a10f824d38aa467aba6be0a48e
+#: ../../index.rst:146 76e726d0d0e54b749ea31d094ee79a02
 msgid "🔍 **Testing & Verification**"
-msgstr "🔍 **Тестирование и проверка**"
+msgstr ""
 
-#: ../../index.rst:145 0e3d752f06c94e9199340253d6db4a0c
+#: ../../index.rst:146 b5dfce7be61043888b00d4581855b742
 msgid "How to check and validate your build"
-msgstr "Как проверить и настроить своего робота"
+msgstr ""
 
-#: ../../index.rst:147 3555f419c23a49bd862b6f5ded742b68
+#: ../../index.rst:149 83248da888fe4d3eb264bd0095e95e16
 msgid "⚙️ **Setup & Configuration**"
-msgstr "⚙ **Настройка и конфигурация**"
+msgstr ""
 
-#: ../../index.rst:148 1c36eda577054686b3bf74563c0c95b5
+#: ../../index.rst:149 b8bef72dd580464f87cfe31b4fc6c59d
 msgid "Software installation and robot setup"
-msgstr "Установка программного обеспечения и настройка робота"
+msgstr ""
 
-#: ../../index.rst:150 d2025bdb843a4b8d870d5ef6796d278b
+#: ../../index.rst:152 60652f18092f445cbca0621e2418a011
 msgid "💾 **Software Installation**"
-msgstr "💾 **Установка программного обеспечения**"
+msgstr ""
 
-#: ../../index.rst:151 0b29f23d6e4941d5a41a6710f10e4308
+#: ../../index.rst:152 178f635d90844d7183561908e7be6365
 msgid "IDE setup, libraries, and tools"
-msgstr "Настройка IDE, библиотеки и инструменты"
+msgstr ""
 
-#: ../../index.rst:153 6ca0f6fcd2814677b7fc2ae2079507b8
+#: ../../index.rst:155 fba5dc63582e412eacb48a9e78297537
 msgid "🐛 **Debugging & Troubleshooting**"
-msgstr "🐛 **Отладка и устранение неполадок**"
+msgstr ""
 
-#: ../../index.rst:154 ec78b8aea4c24fe095b34a63668fbce6
+#: ../../index.rst:155 44b5c2b9729c42d7b89ce9f7b4e819bd
 msgid "Common issues and solutions"
-msgstr "Общие проблемы и решения"
+msgstr ""
 
-#: ../../index.rst:156 6e43879059ae4473952f072b4e44e500
+#: ../../index.rst:158 9440e7aae7c84d9189f73f463fdc0c0a
 msgid "🎮 **Platform Usage**"
-msgstr "🎮 **Использование платформы**"
+msgstr ""
 
-#: ../../index.rst:157 724f2ffced2a4508bc0fa6be8f14f5df
+#: ../../index.rst:158 9cc1863b468a4ff1a1b15e7d064b59d1
 msgid "Programming tutorials and examples"
-msgstr "Учебники и примеры по программированию"
+msgstr ""
 
-#: ../../index.rst:159 f79f5a977036434a92b43b89a0cde438
+#: ../../index.rst:161 759bcb6c176f4e8482bb15d0616fdce2
 msgid "⚠️ **Safety & Recommendations**"
-msgstr "⚠️ **Безопасность и рекомендации**"
+msgstr ""
 
-#: ../../index.rst:160 55c9cdb0866542bea7484f1b74885614
+#: ../../index.rst:161 8f04ece78b824acc90f2adea821c3f07
 msgid "Important guidelines and best practices"
-msgstr "Важные руководящие принципы и лучшие практики"
+msgstr ""
 
-#: ../../index.rst:163 9949ecfe206e4a9a9a931ec0274cd142
+#: ../../index.rst:164 62c60149527d4e2298e2b985dc8e5036
 msgid "Getting Started"
-msgstr "Начало работы"
+msgstr ""
 
-#: ../../index.rst:165 83ce5382221541c9978a7b7c4d46f210
+#: ../../index.rst:166 ae182cc1646d437db9b052a2552579cc
 msgid "Ready to begin your robotics journey?"
-msgstr "Готовы начать путешествие в мир робототехники?"
+msgstr ""
 
-#: ../../index.rst:167 c70af21009b64adc9d024ddacd330e8e
-msgid "**Read** :doc:`installation` - Learn about platform requirements"
-msgstr "**Read**  :doc:`installation` - Узнайте о требованиях к платформе"
+#: ../../index.rst:168 1f8067f212e6442bae721cd60eacb0f1
+msgid "**Read** the documentation - Learn about platform requirements"
+msgstr ""
 
-#: ../../index.rst:168 3bb30c7c0ff54c059db68389001b93bf
+#: ../../index.rst:169 07c8de30a11e41a9aa53981212b1329b
 msgid "**Build** - Follow assembly instructions for your chosen platform"
-msgstr "**Build** - Следуйте инструкциям по сборке для выбранной вами платформы"
+msgstr ""
 
-#: ../../index.rst:169 a51a3fd733784ad6817089e1f343fda2
+#: ../../index.rst:170 7f7a4c5989044458ae46f4a9eaa0f34f
 msgid "**Setup** - Install software and configure your robot"
-msgstr "**Setup** - Установите программное обеспечение и настройте робота"
+msgstr ""
 
-#: ../../index.rst:170 5936f60464ae46a6b42a7c8266f9a0a2
-msgid "**Learn** - Start with :doc:`quickstart` lessons"
-msgstr "**Learn** - Начните с :doc:`quickstart` Уроков"
+#: ../../index.rst:171 5f5b04a257fd4a66919f5699d426915b
+msgid "**Learn** - Start with basic lessons"
+msgstr ""
 
-#: ../../index.rst:171 41910cc1673f498aa46fc1cea52b938b
+#: ../../index.rst:172 1c932b5ebedd466890cf3dca5fb87164
 msgid "**Create** - Build your own projects!"
-msgstr "**Create**  - Создайте свои собственные проекты!"
+msgstr ""
 
-#: ../../index.rst:174 6ffbc03646b5436c88802ab983f9dad0
-msgid "**New to robotics?** Start with БАБАЙ nano - it's designed for complete beginners!"
-msgstr "**Новичок в робототехнике?** Начните с БАБАЙ nano - он предназначен для начинающих!"
+#: ../../index.rst:175 9d5f94777c71409f97f812c1e6a63875
+msgid ""
+"**New to robotics?** Start with ByByte.DIY nano - it's designed for "
+"complete beginners!"
+msgstr ""
 
-#: ../../index.rst:177 da789d8f8ee44b5894cff599b8023745
+#: ../../index.rst:178 0e44d4cf9acd4c27a29085f4e9b03ef9
 msgid "Join the Community"
-msgstr "Присоединяйтесь к сообществу"
+msgstr ""
 
-#: ../../index.rst:179 eec2d2f021514664a2efaa87be8a0fba
-msgid "🤝 **Contribute** to the project - See :doc:`contributing`"
-msgstr "🤝 **Внесите вклад** в проект - см. :doc:`contributing`"
+#: ../../index.rst:180 58c1ada81075422e98bd6d40ba7c10db
+msgid "🤝 **Contribute** to the project - See :doc:`contributing/index`"
+msgstr ""
 
-#: ../../index.rst:181 a5ace050f55a4588b4de8dcd9612704c
+#: ../../index.rst:182 2a0f8933fb1a498f8eb4957123c33bf6
 msgid "💬 **Ask Questions** - Join our discussions on GitHub"
-msgstr "💬 **Задайте вопросы** - Присоединяйтесь к нашим обсуждениям на GitHub"
+msgstr ""
 
-#: ../../index.rst:183 42e027b43d52474fa9cfe0d496d60f89
+#: ../../index.rst:184 7464042d8ff5414d81b69d07c75eabc0
 msgid "📢 **Share** your projects and help others learn"
-msgstr "📢 **Делитесь** вашими проектами и помогайте другим учиться"
+msgstr ""
 
-#: ../../index.rst:185 824bf6cd748b465486b8474373429181
+#: ../../index.rst:186 7e779416978a4517bbd7c0361859493e
 msgid "🌟 **Support** - Star our repository and spread the word"
-msgstr "🌟 **Поддержка** - Ставь звездочки в репозитории и распространяйте проект"
+msgstr ""
 
-#: ../../index.rst:188 b61d2c5df58b4b06ad3fba563a561be1
-msgid "**Important:** Before contributing lessons or modifications, please discuss with moderators to ensure quality and alignment with educational goals."
-msgstr "**Важно!** Прежде чем добавлять уроки или изменения, обсудите это с модераторами, чтобы обеспечить качество и соответствие образовательным целям."
+#: ../../index.rst:189 781452f9f6b041719640bb5bc25ba9ce
+msgid ""
+"**Important:** Before contributing lessons or modifications, please "
+"discuss with moderators to ensure quality and alignment with educational "
+"goals."
+msgstr ""
 
-#: ../../index.rst:191 53dd155841d74b969912c2b4838fa30d
+#: ../../index.rst:192 5d80860dabbc4e59b9014de89d880270
 msgid "Quick Links"
-msgstr "Быстрые ссылки"
+msgstr ""
 
-#: ../../index.rst:193 6707965c4d334282934f2201779d9836
+#: ../../index.rst:194 e1d773df6e194b0ebd03f93d90e3e9cc
 msgid ":ref:`genindex` - Complete index"
-msgstr ":ref:`genindex` - Общее"
+msgstr ""
 
-#: ../../index.rst:194 29d817c5e648469ca9cdfdbde7589ba8
+#: ../../index.rst:195 0147c3b279304d97ac902d1d48a340c1
 msgid ":ref:`modindex` - Module index"
-msgstr ":ref:`modindex` - Модули"
+msgstr ""
 
-#: ../../index.rst:195 c3843533be814db7a66f3da232a4baea
+#: ../../index.rst:196 bb4cdd7ec99e42acbc83e92e7a3de8ca
 msgid ":ref:`search` - Search documentation"
-msgstr ":ref:`search` - Поиск по документации"
+msgstr ""
 
-#: ../../index.rst:197 bb20da4cd3ea4276a10365384db42f11
+#: ../../index.rst:198 708d5ee6bae04030bda8d27df42b4572
 msgid "---"
-msgstr "None"
+msgstr ""
 
-#: ../../index.rst:200 e4f6a7bd08844382a7ba46547f74d5a7
+#: ../../index.rst:201 93c13af9be4e4e1998d7eb1191f685b2
 msgid "🚀 Start Building. Start Learning. Start Creating! 🚀"
-msgstr "🚀 Стройте. Изучайте. Создавайте! 🚀"
+msgstr ""
 
-#~ msgid "Welcome to ByByte's documentation! This is an Arduino-based project."
-#~ msgstr "Добро пожаловать в документацию ByByte! Это проект на базе Arduino."
-
-#~ msgid "Overview"
-#~ msgstr "Обзор"
-
-#~ msgid "ByByte is an Arduino-based project designed for..."
-#~ msgstr "ByByte - это проект на базе Arduino, предназначенный для..."
-
-#~ msgid "This documentation is automatically built and published on ReadTheDocs."
-#~ msgstr "Эта документация автоматически собирается и публикуется на ReadTheDocs."
-
-#~ msgid "Features"
-#~ msgstr "Возможности"
-
-#~ msgid "Feature 1"
-#~ msgstr "Функция 1"
-
-#~ msgid "Feature 2"
-#~ msgstr "Функция 2"
-
-#~ msgid "Feature 3"
-#~ msgstr "Функция 3"
-
-#~ msgid ":ref:`search`"
-#~ msgstr ":ref:`search`"

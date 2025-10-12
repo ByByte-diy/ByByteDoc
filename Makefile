@@ -31,11 +31,13 @@ html-uk:
 	@$(MAKE) -C docs html-uk
 	@echo ""
 	@echo "Ukrainian docs: file://$(CURDIR)/docs/_build/html/uk/index.html"
+	@python3 scripts/update_translation_stats.py
 
 html-ru:
 	@$(MAKE) -C docs html-ru
 	@echo ""
 	@echo "Russian docs: file://$(CURDIR)/docs/_build/html/ru/index.html"
+	@python3 scripts/update_translation_stats.py
 
 html-all:
 	@$(MAKE) -C docs html-all
@@ -43,6 +45,7 @@ html-all:
 	@echo "English: file://$(CURDIR)/docs/_build/html/index.html"
 	@echo "Ukrainian: file://$(CURDIR)/docs/_build/html/uk/index.html"
 	@echo "Russian: file://$(CURDIR)/docs/_build/html/ru/index.html"
+	@python3 scripts/update_translation_stats.py
 
 # Catch-all target: route all unknown targets to docs/Makefile
 %:

@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/nano/index.rst:2 69ab2e5c251e4cf9a5fab79036238c2c
+msgid "Overview"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:4 9621f220286445c1ac9887fb2ebedb49
+msgid "ByByte nano is a beginner-friendly robotics platform designed for:"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:6 339fb2bc645c4ef09881a6679e2e2822
+msgid "**Individual learners** starting their robotics journey"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:7 ee8cef8051974ddf898b8e30e3dd2a8b
+msgid "**Home education** without special equipment"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:8 ecad7cb8ea3a44f78361c2cc4707b0c0
+msgid "**Quick prototyping** and experimentation"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:9 c2c68926c1dd471092b174087643e72d
+msgid "**Budget-conscious** students and hobbyists"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:12 f319c4ab570e4f34bea6345a46bfd941
+msgid "Key Features"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:14 b018164ea41b461db32438497827b759
+msgid "✅ Easy assembly - no professional skills needed"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:15 0430c8f36a7841cf9d93d9c0d6d81a23
+msgid "✅ Affordable - under $30 total cost"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:16 43e28dfb72904396b70b1ed412b36885
+msgid "✅ Complete functionality with minimal components"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:17 3940174050c947a6b29158f1ec767832
+msgid "✅ Arduino Nano hardware compatible"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:18 c6d56f98fc2141a9bae2fa3412975e43
+msgid "✅ Common components - easy to source"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:19 c7394077cff744ec8989af0df59c05fe
+msgid "✅ 60-120 minutes assembly time (for beginners)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:22 11d7caabf1ef44c1a78bcaf790afab88
+msgid "What's Included"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:24 05c01e4ed8be456fb09e4440e71b7f74
+msgid "The basic ByByte nano kit includes:"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:26 1bf5d394d410434c95c6a8386dccabd0
+msgid "Arduino Nano board (mega328p old)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:27 cbaf98f0e12a45c19dfdf2c0007aea94
+msgid "ESP32-CAM board, optional (for camera and WiFi)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:28 162dd5dac4c84b5eabecc8eb2a19210f
+msgid "HC-05 (HC-06, HC-02) Bluetooth module (for Bluetooth communication)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:29 16c78ce570934c31b3ea47cd20d36407
+msgid "Motor driver module (DRV8833)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:30 5bf71bd78faa4c9ab28a7ca12f67afb6
+msgid "2x DC motors with 45mm wheels on 3mm shaft (400 - 750rpm, 6v, N20 motors)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:31 7b648c068d2444e4a21fd17cee714dad
+msgid "Ultrasonic distance sensor (HC-SR04)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:32 31cd9b7f4c244322b6b7ffaf24fc3001
+msgid "Line following sensors (5 x TCRT5000 module)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:33 ac75ab30cee044a0b4c33725661b8ca5
+msgid "Battery holder (1 x 6F22 \"Krona\" battery holder)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:34 1ca3389e22254658a7aa73a75f70f354
+msgid "6F22 li-ion battery"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:35 7ecc7d24db764ca9bd4ec76e78feaf2f
+msgid "PCB board"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:36 63c546c3e7194c27ac71f091c707b41f
+msgid "MINI-360 DC Back (for 5v and 3.3v power supply)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:37 ac11a4a517864f41ae5ddd85906485af
+msgid "2x WS2812B LEDs 5mm (headlights)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:38 eca578b836bd40ea80b0e96b00667c83
+msgid "IR receiver VS1838 (for IR remote control)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:39 d64cfbd08269419e9b14110a08946d56
+msgid "Resistance light sensor (LDR)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:40 b6e0334b9a5649039580c65e6a2fd223
+msgid "Passive buzzer"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:41 2593699c3f6e4ad69a2283a91afe0e3b
+msgid "IR distance sensor (SFH4545, TEFT4300)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:42 692b43f0f5504eef84ddfa4a59123629
+msgid "Some electronic components (resistor, capacitor, diode, etc.)"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:43 56f8d57225834583a7370ab7b2d7c8ae
+msgid "Motor mount with screws and nuts"
+msgstr ""
+
+#: ../../platforms/nano/index.rst:44 a694c73c703d4699afe398ea9a3004bd
+msgid "Ball wheel with screws"
+msgstr ""
+

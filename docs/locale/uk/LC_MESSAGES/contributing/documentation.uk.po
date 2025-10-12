@@ -1,0 +1,802 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-12 18:40+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../contributing/documentation.uk.rst:2 8b8c2b25b6ad47deb78e3d836e806a36
+msgid "Розробка документації"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:4 cffa81dbd7954520aac8df6c1f3bb0aa
+msgid "Внесок у документацію проекту ByByte.DIY."
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:7 410f2545a31742cb99d3ec8836455279
+msgid "**Якісна документація є необхідною для освітніх проектів!**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:10 eddd6ed4821947388daf6c7dd9631002
+msgid "Огляд"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:12 35b438f51dad47b1af911dc2157274ea
+msgid "Документація ByByte.DIY включає:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:14 16c492890e454d999af5cd7553e4750e
+msgid "**Керівництва користувача** - Для учнів та вчителів"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:15 1d5fea7418eb4878945f73615aa20da9
+msgid "**Документація розробника** - Для контрибуторів"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:16 e3c356e265e84d7ab425ba748e9e51c5
+msgid "**Довідник API** - Для користувачів бібліотеки"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:17 1d5624980621499a90110df0acf1d6d3
+msgid "**Туторіали** - Покрокове навчання"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:18 5bef21e7161941c8b4ac95c483188c86
+msgid "**Переклади** - Підтримка багатьох мов"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:20 03472628a8534765b982341a13b4f1aa
+msgid "Вся документація повинна бути:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:22 4daa35e356444aa4b6298966a4a32312
+msgid "✅ **Зрозумілою** - Легко зрозуміти"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:23 1f3efc37f1974e14b6289c946462f587
+msgid "✅ **Повною** - Охоплювати всі аспекти"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:24 e1024db90e854552aacc4900d33e35ba
+msgid "✅ **Точною** - Технічно правильною"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:25 0eac03fb8fd34da3a5a0e10e29e1d227
+msgid "✅ **Доступною** - Добре структурованою"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:26 eea7404ec4d4401bbd6a387fcb70e309
+msgid "✅ **Перекладеною** - Доступною англійською, українською, російською"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:29 fe4e957bdb7e44bea74c55ddeb4314d3
+msgid "Стек документації"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:31 d124e41ac57f476783665b733b99640d
+msgid "Ми використовуємо:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:33 041d9153fd0642e098cd493dd4cc47df
+msgid "**Sphinx** - Генератор документації"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:34 3d7e3e43a5c547d6b6c20be2fa1019f4
+msgid "**reStructuredText** - Мова розмітки"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:35 755696c8486e4972b1b3d2909a64fe32
+msgid "**ReadTheDocs** - Платформа хостингу"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:36 db1fbcf5a166450ca1c93cbb032b0635
+msgid "**sphinx-intl** - Управління перекладами"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:37 dd3ee37b9be5403c93a34c4e43aeccd0
+msgid "**Git** - Контроль версій"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:40 3a6c9a57817e46089632e8834a3a12ed
+msgid "Вимоги"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:43 2b6c15bc53d74340a20bfc658bf875ab
+msgid "Стиль написання"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:45 c6d45645793e4098a52b508b6ea40bf6
+msgid "**Для документації користувача:**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:47 9db4f0e56f874cf48d03bb140cb18782
+msgid "Використовуйте просту, зрозумілу мову"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:48 022136b961a04d5e9621698021f916c3
+msgid "Уникайте технічного жаргону"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:49 0ed3ea10305c4410b45d3725b5570413
+msgid "Надавайте приклади"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:50 38907fee54974857b4ad5475cb3e9463
+msgid "Використовуйте активний стан"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:51 0699207d1ce04057a0a14169c701bab7
+msgid "Робіть речення короткими"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:53 0baebfa913eb46438a288e57a805304d
+msgid "**Для технічної документації:**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:55 1f8ed287a42f4fd6a3f5c688ecce152f
+msgid "Будьте точними та акуратними"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:56 5695123989124895bee55ed172278a9c
+msgid "Визначайте терміни"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:57 26bd020233fb4de1b79b7deab3adcb3e
+msgid "Включайте приклади коду"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:58 933d167bdb554835add5d5f384180b00
+msgid "Посилайтеся на пов'язану документацію"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:59 c62c1bee69c249e3a3b064ab28b3f593
+msgid "Використовуйте правильне форматування"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:62 9545ff02e59b4617a0aac39e11c3e60d
+msgid "Структура"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:64 ee4200bf5a5649ad93adfe5ec0b58a45
+msgid "Кожен документ повинен мати:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:66 d5a08e4071094a7d867c765df85284ff
+msgid "**Заголовок** - Чіткий, описовий"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:67 c048ac2e1d844e53b1ea5624f0308c65
+msgid "**Огляд** - Короткий вступ"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:68 4a07b8495dba4cb7bbe63d04c1a31f18
+msgid "**Передумови** - Що читачеві потрібно знати"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:69 4aaf8cad13cf4f9fa46d7cbf935ff423
+msgid "**Основний зміст** - Детальна інформація"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:70 136b26753bbd41fd8d39591c03256fc4
+msgid "**Приклади** - Практичні демонстрації"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:71 28f272af1f954684b1804ec7c177c5b7
+msgid "**Вирішення проблем** - Поширені проблеми"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:72 67219409326f4fd6b62287eb11842a90
+msgid "**Наступні кроки** - Куди рухатися далі"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:75 f60df76bb09b458592f5c680d6098582
+msgid "Форматування"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:77 0e91c264550e4cd389344e4838b953f0
+msgid "Використовуйте правильний reStructuredText:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:110 9686ad297e8c472d8f1b852a4596da67
+msgid "Рекомендації щодо змісту"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:113 4896ff1108204702ac37e798d0760a9c
+msgid "Зображення"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:115 a6f1fc1d208447d59078f7773f610e6a
+msgid "Використовуйте високоякісні скріншоти"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:116 04e388bd49294daba93d97eee7236f03
+msgid "Додавайте описові підписи"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:117 889a55e3f0a44c0d85157711df1984db
+msgid "Оптимізуйте розміри файлів"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:118 849c549b0c934842a9fbffd5d6ee6255
+msgid "Розміщуйте в ``_static/images/``"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:119 3cf922ed12bb44f587ebf03d2c5cc7ea
+msgid "Правильно посилайтеся"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:129 a48566ba4fb5453d99f5d100e766840f
+msgid "Блоки коду"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:131 9b2606b20c764256a5f052a2b9ca7fe1
+msgid "Завжди вказуйте мову:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:154 5fae43cdfb144c8693abaa4c6bd62d30
+msgid "Посилання"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:156 01b9766c5b38418ea69c901ca5f880b7
+msgid "**Внутрішні посилання:**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:164 250f2b0d8dd3484b9ad1c39bee7c5674
+msgid "**Зовнішні посилання:**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:171 ec04d3ff063942708353fd751f0de26b
+msgid "Списки"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:189 5303893762c945339ae93f0e46024909
+msgid "Таблиці"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:211 e7f9aa2ae6204abfab8a9678f1025e2e
+msgid "Робочий процес перекладу"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:213 03d07cbbd4934642b30680f70cbea9f7
+msgid "Документація ByByte.DIY доступна 3 мовами:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:215 463af07622eb47548122a6e5f631cd59
+msgid "**Англійська (en)** - Основна мова"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:216 b5cf6550be004e089a592a9d3dda1edf
+msgid "**Українська (uk)** - Рідна мова"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:217 be13053876bb41ddb58cb3631fddce4f
+msgid "**Російська (ru)** - Додаткова мова"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:220 c23d107023d345f79fa5d1b41ee1c0fd
+msgid "Процес перекладу"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:222 517d3c34fe5b4f328849197d3beef918
+msgid "**Витягніть перекладані рядки**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:228 e7a866f91fd54b1da73634c7117acc18
+msgid "**Оновіть каталоги перекладів**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:234 a46a1d942f17474ba7511f2613d6975f
+msgid "**Перекладіть .po файли**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:236 71332729600947b0b9600051c8edf902
+msgid "Редагуйте файли в ``docs/locale/[lang]/LC_MESSAGES/``"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:244 490f7b1d566b4383b4b6d01c090e9250
+msgid "**Зберіть перекладену документацію**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:253 fc21d05916604902a9079cdf611c9b28
+msgid "Рекомендації щодо перекладу"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:255 56e423b62ecd4a328630b9c2d50b42b8
+msgid "Зберігайте послідовність технічних термінів"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:256 eb5a9da0847d474fa19a68efdf357ee2
+msgid "Зберігайте форматування (``**жирний**``, блоки коду)"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:257 b2f774023aab490fa617e2681b4d50f0
+msgid "Не перекладайте приклади коду"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:258 063e07aad727410585c0fece38cab7ce
+msgid "Перекладайте коментарі в коді"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:259 1c1b893e53f640bb80f2d69156d13a9b
+msgid "Переглядайте переклади перед коммітом"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:262 270872b9325d45b2a389af9ed5dd3d21
+msgid "Налаштування розробки"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:264 d20cdbcbb4a647bd8d45e7fbc7914054
+msgid "**Клонуйте репозиторій**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:271 8c643a29b9144527ab0d55564a47925c
+msgid "**Встановіть залежності**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:277 e202449d034e4a6ba4d4f5cfe9c33c77
+msgid "**Протестуйте локальну збірку**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:284 6fd2f11f2c6b43658a88cc1a4f10341f
+msgid "**Створіть гілку**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:291 6ded5ac2c6054ca587c87ac46cd1b45b
+msgid "Внесення змін"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:294 959f32922bea46a280439979902eb1bd
+msgid "Робочий процес"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:296 f1addc582824449aafad3c392d8c685d
+msgid "**Редагуйте файли .rst**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:298 e124197c22c647d7963f6a6f9b5210fa
+msgid "Використовуйте будь-який текстовий редактор"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:300 1347396371464a3abde6d729e872d495
+msgid "**Зберіть локально**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:306 04559ceea1e0495cb5454e9f4e71f4a9
+msgid "**Перевірте на помилки**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:308 a24c52af864743269b9b320dd2eb7570
+msgid "Виправте будь-які попередження або помилки"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:310 e3e6b7f5fd3e423e92fec3a92044a7bc
+msgid "**Попередній перегляд змін**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:312 5b38a2e140fd43cd9b2be999a434874d
+msgid "Відкрийте в браузері для перевірки"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:314 dc2bff6eb27f42b4a57cb0f78e94c462
+msgid "**Зафіксуйте зміни**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:321 4679ed281c9045c39b5d798c8ade5f56
+msgid "**Надішліть та створіть PR**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:328 ab757b12b0a74c73b7543fe4a8cf95e4
+msgid "Процес подання"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:330 34c8437341d14918903f85f4a6d9844e
+msgid "**Пропозиція**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:332 0ef1e1a55d694dc99bf33151c5b576bd
+msgid "Для значних змін, спочатку відкрийте GitHub Issue:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:334 826fe9f2da3d4c87bc521f9a212614a7
+msgid "Опишіть, що ви хочете покращити"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:335 01eefa5572a54ce59a8569f9a6c22bbe
+msgid "Поясніть, чому це необхідно"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:336 6b2b815c427244f19d0b31abce975931
+msgid "Надайте приклади"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:338 d83802d492ac4d4698169a4a4d4b2121
+msgid "**Внесіть зміни**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:340 1247a355e0164d9c999cc1c7bb77db48
+msgid "Дотримуйтесь рекомендацій щодо стилю"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:341 52d771e2c20142d2a2d517a3be56074f
+msgid "Зберіть та протестуйте локально"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:342 0e704015b24a4541930c19ea6451fc1a
+msgid "Перевірте на наявність непрацюючих посилань"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:344 bace73f4708141c891bdac361f02b9e0
+msgid "**Надішліть PR**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:346 2c0031dd0ff24dd0b634c43ceafe38ec
+msgid "Включіть в опис PR:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:348 c6ce481fdae840c3af365c90c587e8a6
+msgid "Що було змінено"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:349 28a913b8973e49d4a3fef0b24c2bdb4b
+msgid "Чому це було змінено"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:350 d68d3d3c3a6446ae8b72fe814af2680d
+msgid "Скріншоти (якщо є візуальні зміни)"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:352 0902aa24f00d4980b37d48a63a4fd3ef
+msgid "**Перевірка**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:354 6a47a133c45e46cfa4455110e30246a7
+msgid "Супроводжуючі:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:356 628c0abe1d1a4defbf8f0bb9fdfd8ee5
+msgid "Перевірять точність"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:357 c47bc22d531844bcb0abdd1dc768b8c0
+msgid "Перевірять форматування"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:358 0a3bda88b189404798d9447e34417f93
+msgid "Протестують збірки"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:359 f5709b26e11848fdb1f26547234090ec
+msgid "Нададуть зворотний зв'язок"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:361 10b9983472e049ff8c28b880a0e874e7
+msgid "**Злиття**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:363 99984e35a0fa4d6c9165bae61f1f9444
+msgid "Після схвалення зміни зливаються"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:366 efd8c49b5d104751bf1bb195d51203d8
+msgid "Контрольний список якості"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:368 f597e731dfc24a01b58d7c98b45288b4
+msgid "Перед поданням:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:370 63ffa9bed11d4871835c5076d904fb2e
+msgid "[ ] Вміст точний"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:371 949bd67585564ef6b5d2cff811bf44c6
+msgid "[ ] Перевірено орфографію та граматику"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:372 49e185e22e66458c8f1f846be94a39ee
+msgid "[ ] Приклади коду протестовані"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:373 f305fd04c146475d8e76ee4ae4616259
+msgid "[ ] Зображення оптимізовані"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:374 b96b5eb91da74176b5176a63d07d4d69
+msgid "[ ] Посилання працюють"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:375 f45f0a513e1b498f8fa87bebeeb63dd6
+msgid "[ ] Збирається без попереджень"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:376 a7e1e80c9c7e41d9ae24a5608ee50b98
+msgid "[ ] Дотримується стильового керівництва"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:377 8935e4299cf34ee7affb340162d6ee1f
+msgid "[ ] Переклади оновлені (якщо застосовно)"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:378 b5460e15dac64dcf840a88d75ff5fa9f
+msgid "[ ] Попередній перегляд виглядає коректно"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:381 384ef5b9de01467d8411c8d4d5f60212
+msgid "Поширені завдання"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:384 2343ba2dfe9549a989e6f4e13893062f
+msgid "Додавання нової сторінки"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:386 30d0dcddb41c41d793fb88f5d47c1723
+msgid "Створіть ``.rst`` файл у ``docs/``"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:387 432b86a8e03243d48c8dd576c4c05163
+msgid "Додайте до ``toctree`` у ``index.rst``"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:388
+#: ../../contributing/documentation.uk.rst:415 422067253ac9445fb7aaf4e6ee82c3e2
+#: a0e37c8164da4f9bb6d2cf63fd48d23e
+msgid "Зберіть та перевірте"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:389
+#: ../../contributing/documentation.uk.rst:398 2241b4b6450b42979187dcf88bd57135
+#: e6b69e5eb2f54a9896a66419a0851740
+msgid "Зафіксуйте та надішліть"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:392 1968966ef8394bfcb12cce19d8ef74ac
+msgid "Оновлення існуючої сторінки"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:394 e53cc98dbbe94e23ac76cc0ae1e01006
+msgid "Відредагуйте файл ``.rst``"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:395 87745a1dec114ec1b01eb4b848b063e7
+msgid "Зберіть локально"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:396 61c00e8b337a4e8a9bbf20f67fead579
+msgid "Перевірте зміни"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:397 c160d87ee6b54d4b97e967547643de72
+msgid "Оновіть переклади, якщо необхідно"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:401 37f04334014245e99f8e287cac2b3ef5
+msgid "Додавання зображень"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:403 e1e3663d1d4347058aa51559cedcce8a
+msgid "Розмістіть зображення в ``docs/_static/images/``"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:404 fe4ea03e6e9d4ab2b0b4d7e20e965119
+msgid "Оптимізуйте розмір (< 500KB)"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:405 0507ffd472a34756b6d74a0fdc59025a
+msgid "Посилайтеся у файлі ``.rst``"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:406 4eded7dd9f4f4197abdca3d3eaf0fa9f
+msgid "Додайте описовий альтернативний текст"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:407 2d4942723df341c0a6c1a3264d4daf1e
+msgid "Протестуйте рендеринг"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:410 34035d92de4b4c86a6bed8ce274a2c5b
+msgid "Виправлення непрацюючих посилань"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:412 4c1c28f50deb431db782c0cd6736c254
+msgid "Визначте непрацююче посилання"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:413 d8c06471476a4ddf81222de40a95f331
+msgid "Оновіть або видаліть"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:414 eb1b49be466c4dc58ac988c60221fdf0
+msgid "Перевірте пов'язані сторінки"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:416 58764f71a2a9461a8f318f49e5b4cb5f
+msgid "Зафіксуйте виправлення"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:419 c8e927342f174b74aa8549b3206b16b2
+msgid "Вирішення проблем"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:422 aa034e625c65465ca77c3d4f2a6dbff5
+msgid "Помилки збірки"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:424 25464a29bb80486399e7ba10aa7adcc7
+msgid "**\"WARNING: document isn't included in any toctree\"**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:426 36e3d20c79f842299078fe98432f6fb7
+msgid "Додайте документ до ``index.rst`` toctree"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:428 7f2568b0ac7b439eb591c923787deb75
+msgid "**\"WARNING: undefined label\"**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:430 c43c4970aede4b9e8010f9dca7c635a3
+msgid "Перевірте, чи існують цілі посилань"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:431 5b6c52a451014965865ea3d8f3576ce4
+msgid "Виправте друкарські помилки в посиланнях"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:433 6efffecd24524d4e97aca7b41b8bfdf1
+msgid "**\"ERROR: Unknown directive type\"**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:435 fd238893e25c46d1abd4a1f7ccf42478
+msgid "Перевірте правопис директиви"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:436 cc3a18928db641edb0810908e7bbb8a1
+msgid "Переконайтеся, що розширення завантажені в ``conf.py``"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:439 2b082a54446246f4afb587bc207214aa
+msgid "Проблеми перекладу"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:441 a590529e0696498883ef60978e4581dc
+msgid "**Відсутні переклади:**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:447 d861027c53884f93bcfb644a7e60388a
+msgid "**Помилки кодування:**"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:449 095d78183ee040b1a7606d3256ca1f98
+msgid "Переконайтеся, що .po файли мають кодування UTF-8"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:450 05b01f9c2be34c9ba22d23a7abd54c31
+msgid "Перевірте на наявність спеціальних символів"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:453 9395d4ebb26c4f9693547bdd9102ee69
+msgid "Інструменти"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:456 eaf17f246b7e4ceea31e5c1c152e604a
+msgid "Рекомендовані редактори"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:458 4f14459ee0414b74990f1ee6e7fb72bf
+msgid "**VS Code** - З розширенням reStructuredText"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:459 22ea86b81b55405da4f6290f55c40bd9
+msgid "**Sublime Text** - З плагінами RST"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:460 9e4cd346d5044f57881113846ee9c271
+msgid "**PyCharm** - Вбудована підтримка RST"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:461 b57b655d52ce4e3b9b061f851042f311
+msgid "**Vim/Emacs** - З режимами RST"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:464 6f2f4c10438240c199ce1df5d9938b76
+msgid "Інструменти перекладу"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:466 004a57b44d144dce96b9070bbe1ada4e
+msgid "**Poedit** - GUI для .po файлів"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:467 6e72701bcecd4a858d188bb794fc2a93
+msgid "**Lokalize** - Інструмент перекладу KDE"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:468 a69e6cbf13ef4f10a1942e6b17092179
+msgid "**Текстовий редактор** - Ручне редагування"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:471 6dd1b655789d4e65b90f88ed395125b1
+msgid "Ресурси"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:473 6c0ac677637846fcaeed45a9d097d9cf
+msgid "**Документація Sphinx** - https://www.sphinx-doc.org/"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:474 a3ae2e2c8ed14c1b9805381613ede466
+msgid ""
+"**Посібник з reStructuredText** - https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/basics.html"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:475 1fa988dfa25647ff82942ecdf64a1703
+msgid "**Посібник ReadTheDocs** - https://docs.readthedocs.io/"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:476 654501f21bc149308339ba69d2daf126
+msgid ""
+"**Керівництво розробника** - Дивіться ``guides/development/`` в "
+"репозиторії"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:479 ae8674a6f86c42aaadeb1c59fe21b3f7
+msgid "Приклади"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:481 2e2692e5fbd74aa3acd5977ad34fe99a
+msgid "Приклади хорошої документації:"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:483 0a33d983979748c4be752a82448e861e
+msgid "Чіткі інструкції зі встановлення"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:484 c095acd76e1c4f9396c96d76a561df52
+msgid "Покрокові туторіали із зображеннями"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:485 ec09408c49764f6580467b7641f6f1ac
+msgid "Повні довідники API"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:486 aaf8e52e2c3c492990e9f418873466c0
+msgid "Керівництва з вирішення проблем"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:489 7f969dd3de3c4135bc7d85fddf52079a
+msgid "Питання?"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:491 7179fc2ef6fe44559d99352c8c807dfe
+msgid "Відкрийте GitHub Issue з тегом ``documentation``"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:492 39697f773e264bf982f1ae34157c07b0
+msgid "Зв'яжіться з ``@vergilium``"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:493 e3774c0c25d64d148672913dda59ff02
+msgid "Приєднуйтесь до обговорення документації"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:495 7d2bf27f6b0742c7b5f93fabaa602d02
+msgid "---"
+msgstr ""
+
+#: ../../contributing/documentation.uk.rst:497 fdfa301025464f5685182831fa80db61
+msgid ":doc:`Повернутися до Огляду внесків <index>`"
+msgstr ""
+

@@ -1,0 +1,705 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../contributing/index.rst:2 6eac323c7a754585b3e3295199f94c5e
+msgid "Contributing to ByByte.DIY Project"
+msgstr ""
+
+#: ../../contributing/index.rst:4 e130ca0f5cd74f628e66523814cd3586
+msgid "Thank you for your interest in contributing to ByByte.DIY!"
+msgstr ""
+
+#: ../../contributing/index.rst:7 395dcab213444b5aa6475d744b9a15b6
+msgid "**⚠️ IMPORTANT: Discuss Before Contributing**"
+msgstr ""
+
+#: ../../contributing/index.rst:9 e26780a09d27420392af9f23cd17ff2b
+msgid ""
+"**Before making any changes or adding new contributions, you MUST "
+"communicate and coordinate your intentions with project moderators.**"
+msgstr ""
+
+#: ../../contributing/index.rst:11 95905eeb2e6f4f2d87a9cffd3e70de12
+msgid "This ensures:"
+msgstr ""
+
+#: ../../contributing/index.rst:13 f4438c603a55443883c2636bedc7ec53
+msgid "Your efforts align with project goals"
+msgstr ""
+
+#: ../../contributing/index.rst:14 57c24c9901a840d492fe1a8f97c8c8b0
+msgid "We can guide your skills in the right direction"
+msgstr ""
+
+#: ../../contributing/index.rst:15 e1ca9231296744528d96103d2a240a6b
+msgid "Maximum benefit for both you and the project"
+msgstr ""
+
+#: ../../contributing/index.rst:16 39fb0aac03cc45359d3e66af97b4025a
+msgid "Your work will not be wasted"
+msgstr ""
+
+#: ../../contributing/index.rst:18 7eef54bb4eae473fbf48d2ddaf2eca06
+msgid "**We value every contribution and want your efforts to be meaningful!**"
+msgstr ""
+
+#: ../../contributing/index.rst:21 cffc0980258a404187558d177bda1d62
+msgid "About ByByte.DIY Project"
+msgstr ""
+
+#: ../../contributing/index.rst:23 9e6d8b09b1a144b3823804f3f975d1ed
+msgid "ByByte.DIY is an open educational robotics platform consisting of:"
+msgstr ""
+
+#: ../../contributing/index.rst:25 2da8b42d09d24426bab4834d626d8346
+msgid "**Hardware platforms** (ByByte nano and ByByte Mega)"
+msgstr ""
+
+#: ../../contributing/index.rst:26 dd885375346d4595af678970b546c8f9
+msgid "**Educational curriculum** (lessons and workshops)"
+msgstr ""
+
+#: ../../contributing/index.rst:27 3588815778fb4948a0760b12aaf0f432
+msgid "**Software libraries** and tools"
+msgstr ""
+
+#: ../../contributing/index.rst:28 adf48dd8a62d410a98b6b85c0df94d87
+msgid "**Documentation** for users and developers"
+msgstr ""
+
+#: ../../contributing/index.rst:29 d084cf7c51b64e7293552973fbaa69dc
+msgid "**Community website** and resources"
+msgstr ""
+
+#: ../../contributing/index.rst:31 8f215321eb354281a9d9421f2e232766
+msgid ""
+"All contributions must meet project quality standards and educational "
+"goals."
+msgstr ""
+
+#: ../../contributing/index.rst:34 a8443eafb67d4bb3afd9321992317d79
+msgid "How to Contribute"
+msgstr ""
+
+#: ../../contributing/index.rst:37 935e99c878d74fce8fa216087848372b
+msgid "Step 1: Discuss Your Ideas"
+msgstr ""
+
+#: ../../contributing/index.rst:39 38197e1be4884090ac6d8402fc99bf79
+msgid "**Before starting any work**, reach out to moderators:"
+msgstr ""
+
+#: ../../contributing/index.rst:41 bb2570fadd7141bdafab4a3c08e28542
+msgid "**Open a Discussion**"
+msgstr ""
+
+#: ../../contributing/index.rst:43 de94a675dfc6447489d04edc1f39833b
+msgid ""
+"Go to `GitHub Discussions "
+"<https://github.com/vergilium/ByByte/discussions>`_"
+msgstr ""
+
+#: ../../contributing/index.rst:44 397da476716a4bdab831105b5918369b
+msgid "Describe what you want to contribute"
+msgstr ""
+
+#: ../../contributing/index.rst:45 6feb7535298040e0bdf3179c1a188f7e
+msgid "Explain why it's beneficial"
+msgstr ""
+
+#: ../../contributing/index.rst:46 6f4d01f133c1404bb8fed80457d75ce4
+msgid "Wait for approval from maintainers"
+msgstr ""
+
+#: ../../contributing/index.rst:48 73a5c88547ad49e9af840765e969bd12
+msgid "**Create an Issue**"
+msgstr ""
+
+#: ../../contributing/index.rst:50 b7114d86162641fe913f848d3c12eaed
+msgid "Go to `GitHub Issues <https://github.com/vergilium/ByByte/issues>`_"
+msgstr ""
+
+#: ../../contributing/index.rst:51 4f301c3e065543f99fc261104f042663
+msgid "Use \"Contribution Proposal\" template"
+msgstr ""
+
+#: ../../contributing/index.rst:52 e7ab52aca5f148ce987df9ca4552a489
+msgid "Provide detailed description"
+msgstr ""
+
+#: ../../contributing/index.rst:53 4705a8c998a947468bbb49496f27c45e
+msgid "Tag ``@vergilium`` for review"
+msgstr ""
+
+#: ../../contributing/index.rst:55 f5307c3df5f648578fae4da858d58bbc
+msgid "**Join Community Chat**"
+msgstr ""
+
+#: ../../contributing/index.rst:57 7ef1dc3f2dd94d5d9df60ddfa3aaba04
+msgid "Contact project maintainers directly"
+msgstr ""
+
+#: ../../contributing/index.rst:58 09d0d6b1679f4d7ea9a1b641bc237edd
+msgid "Discuss your plans and get guidance"
+msgstr ""
+
+#: ../../contributing/index.rst:60 58bbda0ed8f6419384845be8ec544ef0
+msgid "**Only after receiving approval, proceed with your contribution!**"
+msgstr ""
+
+#: ../../contributing/index.rst:63 7219ab21b8ae44d4a9715c207728ccdd
+msgid "Step 2: Choose Contribution Area"
+msgstr ""
+
+#: ../../contributing/index.rst:65 bdf2ff4c1bc346cc9a18ec67dbff889e
+msgid "Select the area where you want to contribute:"
+msgstr ""
+
+#: ../../contributing/index.rst:70 eb112035685d4347a7a7fb602a482cbc
+msgid "🤖 **Hardware Development**"
+msgstr ""
+
+#: ../../contributing/index.rst:68 3bdf2f5a73234d8bae4959522a4d3e6a
+msgid "Design and improve robot platforms (ByByte nano, ByByte Mega)"
+msgstr ""
+
+#: ../../contributing/index.rst:70 d976de1ad48849b0a746dc17bbc049d5
+msgid "See: :doc:`hardware`"
+msgstr ""
+
+#: ../../contributing/index.rst:75 7047610966ff4a1abeb3196e416ac7f0
+msgid "📚 **Educational Content**"
+msgstr ""
+
+#: ../../contributing/index.rst:73 3df001f0777d421dace98f9a4272c438
+msgid "Create lessons, tutorials, and workshops"
+msgstr ""
+
+#: ../../contributing/index.rst:75 db8583ffb7ea454186bc9431bc7ad14c
+msgid "See: :doc:`lessons`"
+msgstr ""
+
+#: ../../contributing/index.rst:80 6d1ce7bd6c59401cbcedd0fc85f15c3a
+msgid "📖 **Documentation**"
+msgstr ""
+
+#: ../../contributing/index.rst:78 190bf6b34fd342db89d1784417576715
+msgid "Improve guides, translate documentation"
+msgstr ""
+
+#: ../../contributing/index.rst:80 197270d7fd304480b0e0e06dd6ea87c7
+msgid "See: :doc:`documentation`"
+msgstr ""
+
+#: ../../contributing/index.rst:85 308a58e0da5c424aa78239b402c288ea
+msgid "🌐 **Website Development**"
+msgstr ""
+
+#: ../../contributing/index.rst:83 b625ada7b88a4ef5beeb227f29bb2540
+msgid "Build and enhance project website"
+msgstr ""
+
+#: ../../contributing/index.rst:85 5d2dc3807ab3465790f31d650aabd81c
+msgid "See: :doc:`website`"
+msgstr ""
+
+#: ../../contributing/index.rst:90 da1c8f81d9804c84adb5237d2df65662
+msgid "💻 **Software & Libraries**"
+msgstr ""
+
+#: ../../contributing/index.rst:88 f30ca928729d4b3fbbc81f0fffb76b75
+msgid "Develop code, libraries, and tools"
+msgstr ""
+
+#: ../../contributing/index.rst:90 88b0ed1d8e0d4660bb1cc3996b948c52
+msgid "See: :doc:`software`"
+msgstr ""
+
+#: ../../contributing/index.rst:93 3a12e0dc7ec54f9fa5c453b5f4e72b57
+msgid "Step 3: Follow Guidelines"
+msgstr ""
+
+#: ../../contributing/index.rst:95 4c138ef5250244ef8a441c2a21c52d3e
+msgid "Each contribution area has specific requirements:"
+msgstr ""
+
+#: ../../contributing/index.rst:97 6a9559673d5b42b186199296ccc62ae8
+msgid "**Quality standards** - All work must meet project standards"
+msgstr ""
+
+#: ../../contributing/index.rst:98 b983214a5f9a4b8895ac0e25235fc05f
+msgid "**Educational focus** - Content must support learning goals"
+msgstr ""
+
+#: ../../contributing/index.rst:99 5c7a8aa120244b3997f4ae4b0342d977
+msgid "**Review process** - All contributions reviewed by maintainers"
+msgstr ""
+
+#: ../../contributing/index.rst:100 11778a7b1d7443a98eb1866ec0aefaa3
+msgid "**Testing** - Hardware and software must be tested"
+msgstr ""
+
+#: ../../contributing/index.rst:101 07c435bb831748b0a85a8b0c24e4862e
+msgid "**Documentation** - All features must be documented"
+msgstr ""
+
+#: ../../contributing/index.rst:104 1e902540ce324495815e9e153d036284
+msgid ""
+"**All new lessons and educational content MUST be reviewed and approved "
+"by moderators before publication.**"
+msgstr ""
+
+#: ../../contributing/index.rst:107 3b16540083bc4d97a5a87eee393e8428
+msgid "General Requirements"
+msgstr ""
+
+#: ../../contributing/index.rst:110 7bf1a14ff1454cc3bf98d0151ce94b9a
+msgid "For All Contributors"
+msgstr ""
+
+#: ../../contributing/index.rst:115 8b138a10ec604955bed5645a62e34c11
+msgid "✅ **Communication**"
+msgstr ""
+
+#: ../../contributing/index.rst:113 6625a60687544809913ff79fb4bc4904
+msgid "Discuss before starting work"
+msgstr ""
+
+#: ../../contributing/index.rst:114 8aa6607da4904b4fb5b2ff804b48524d
+msgid "Respond to feedback"
+msgstr ""
+
+#: ../../contributing/index.rst:115 2a964b7495a24ad9a0046faf8ca43465
+msgid "Ask questions if unclear"
+msgstr ""
+
+#: ../../contributing/index.rst:120 20c49b1ee11b41bd9c5a2326840ed0eb
+msgid "✅ **Quality**"
+msgstr ""
+
+#: ../../contributing/index.rst:118 dc410c260e7345cc956703ee2bb3a739
+msgid "Follow project standards"
+msgstr ""
+
+#: ../../contributing/index.rst:119 25cf1c16afbe4ec39d0e774c9bf6f8e3
+msgid "Test your work thoroughly"
+msgstr ""
+
+#: ../../contributing/index.rst:120 01c2435e5ecc4f6f92111f5d270cf027
+msgid "Provide clear documentation"
+msgstr ""
+
+#: ../../contributing/index.rst:125 787313385e984af3a478a13c5518ee70
+msgid "✅ **Educational Value**"
+msgstr ""
+
+#: ../../contributing/index.rst:123 00feb79554ef4aed8caef0d9e05bb87a
+msgid "Consider learning objectives"
+msgstr ""
+
+#: ../../contributing/index.rst:124 7374810b6e74401ea52778518e4cc9c1
+msgid "Make content accessible"
+msgstr ""
+
+#: ../../contributing/index.rst:125 c67a5d899c0d42679f6f0612593cff37
+msgid "Support different skill levels"
+msgstr ""
+
+#: ../../contributing/index.rst:130 faae143e04d44cf18d274df24b22a891
+msgid "✅ **Open Source Spirit**"
+msgstr ""
+
+#: ../../contributing/index.rst:128 ../../contributing/index.rst:283
+#: 2666db193b7540d88c6bd55e10807e79 cf0036ee9ed142f192fa8479949333f6
+msgid "Share knowledge"
+msgstr ""
+
+#: ../../contributing/index.rst:129 35fb2f5d541044429e4837f6f4445e8b
+msgid "Help others"
+msgstr ""
+
+#: ../../contributing/index.rst:130 e1b590a5778c4d6aab3496aec39edea4
+msgid "Be respectful"
+msgstr ""
+
+#: ../../contributing/index.rst:133 e8bb73ade90f404a94950fdb212fe6d2
+msgid "Git Workflow"
+msgstr ""
+
+#: ../../contributing/index.rst:135 748b921e74954d24942c39db46c64149
+msgid "**Fork the repository**"
+msgstr ""
+
+#: ../../contributing/index.rst:143 8a3721d693184192bdacfb3179b0bb4a
+msgid "**Create a branch**"
+msgstr ""
+
+#: ../../contributing/index.rst:150 c549b53a30cc471492b2a137a158ea2f
+msgid "**Make your changes**"
+msgstr ""
+
+#: ../../contributing/index.rst:157 82b245626865494a8b766b52c2f31120
+msgid "**Commit with clear messages**"
+msgstr ""
+
+#: ../../contributing/index.rst:170 c581f77c72ec421694caa5cd44cdf84b
+msgid "**Push and create Pull Request**"
+msgstr ""
+
+#: ../../contributing/index.rst:177 5a7fcbf4ebac485bb2167c0bf369ad88
+msgid "**Respond to review feedback**"
+msgstr ""
+
+#: ../../contributing/index.rst:179 ea394f40f21d47c898833704db9cc2a8
+msgid "Address all comments"
+msgstr ""
+
+#: ../../contributing/index.rst:180 ce1c6e9677db49c199e334cdd534ea7d
+msgid "Make requested changes"
+msgstr ""
+
+#: ../../contributing/index.rst:181 5aa9db0aca994ca2aee0914050123440
+msgid "Update documentation"
+msgstr ""
+
+#: ../../contributing/index.rst:184 486ef43c02f6477da0e632f25f65af39
+msgid "Commit Message Guidelines"
+msgstr ""
+
+#: ../../contributing/index.rst:186 1e4d9c683f5f440f8b0dee21fdded67d
+msgid "Good commit messages:"
+msgstr ""
+
+#: ../../contributing/index.rst:203 d0c1197aa6af431e85c7d7501d2f05f2
+msgid "Format:"
+msgstr ""
+
+#: ../../contributing/index.rst:200 cb9c57edaabe49cf91df4f354654701d
+msgid "Use present tense (\"Add\" not \"Added\")"
+msgstr ""
+
+#: ../../contributing/index.rst:201 59168b3c693b41db8fa2248dc280eedb
+msgid "Use imperative mood (\"Move\" not \"Moves\")"
+msgstr ""
+
+#: ../../contributing/index.rst:202 9886217c0a924575bbcd6fddf639ee41
+msgid "First line ≤ 72 characters"
+msgstr ""
+
+#: ../../contributing/index.rst:203 2bc0f43711b642d795ff39e9a7d5d760
+msgid "Reference issues"
+msgstr ""
+
+#: ../../contributing/index.rst:206 dc0e69216f82406db03a9aaa3d364c3d
+msgid "Code Review Process"
+msgstr ""
+
+#: ../../contributing/index.rst:208 a8db1d52cdf149999fc5d37422eb804c
+msgid "All contributions go through review:"
+msgstr ""
+
+#: ../../contributing/index.rst:210 85386a59289c48c1b25ba8cee70aa9d9
+msgid "**Maintainer Review**"
+msgstr ""
+
+#: ../../contributing/index.rst:212 ecc2f242d6944960afbcc96fca5f3776
+msgid "Check alignment with project goals"
+msgstr ""
+
+#: ../../contributing/index.rst:213 3274b20d900541edac1bebb872315fa6
+msgid "Verify educational value"
+msgstr ""
+
+#: ../../contributing/index.rst:214 14c17415fffa4b35b8401bd08ae6d088
+msgid "Test functionality"
+msgstr ""
+
+#: ../../contributing/index.rst:215 d4da8cea85b84c42868abb53fd3b3ff5
+msgid "Review documentation"
+msgstr ""
+
+#: ../../contributing/index.rst:217 95b5280985a643f29e82e9907d520f60
+msgid "**Technical Review**"
+msgstr ""
+
+#: ../../contributing/index.rst:219 58c608c512f342e3b0c6597482b883bd
+msgid "Code quality"
+msgstr ""
+
+#: ../../contributing/index.rst:220 b345740d106e4d26bb15f5ae77901ca2
+msgid "Hardware design"
+msgstr ""
+
+#: ../../contributing/index.rst:221 e41ceab201e14308a02be8d3cc1a6db6
+msgid "Safety considerations"
+msgstr ""
+
+#: ../../contributing/index.rst:222 bc40d0ae78844ce4a94a0ff6a57dc4e0
+msgid "Compatibility"
+msgstr ""
+
+#: ../../contributing/index.rst:224 86940eb6965e4b94a878aac12501d8af
+msgid "**Educational Review**"
+msgstr ""
+
+#: ../../contributing/index.rst:226 60fc26a0a9194fa58bd2ac9f93c32139
+msgid "Learning objectives clear"
+msgstr ""
+
+#: ../../contributing/index.rst:227 579c89690ca14981b63cdf8a08cbba75
+msgid "Age-appropriate content"
+msgstr ""
+
+#: ../../contributing/index.rst:228 56118b655baa4909a1859745d4dc89a1
+msgid "Practical applicability"
+msgstr ""
+
+#: ../../contributing/index.rst:229 0a2b03d897de4773ba2b7f8b266fdf3c
+msgid "Proper difficulty level"
+msgstr ""
+
+#: ../../contributing/index.rst:231 6bb6816ae887462384a8285672ffaafd
+msgid "**Approval**"
+msgstr ""
+
+#: ../../contributing/index.rst:233 8da523fd6ab147b487b401a6dcc9e225
+msgid "All feedback addressed"
+msgstr ""
+
+#: ../../contributing/index.rst:234 331b029e0bc44db39751850cf94bf714
+msgid "Tests passing"
+msgstr ""
+
+#: ../../contributing/index.rst:235 802b66d1f4b24eb7bdd8b8680019fd3d
+msgid "Documentation complete"
+msgstr ""
+
+#: ../../contributing/index.rst:236 10048803bc3a48fbb50b667203784c96
+msgid "Merged to main branch"
+msgstr ""
+
+#: ../../contributing/index.rst:239 d97e782f0a44470cb6c43ab970706c81
+msgid "Quality Standards"
+msgstr ""
+
+#: ../../contributing/index.rst:242 ab6dcc8d77f647018b43c0dbf184b1d1
+msgid "Hardware"
+msgstr ""
+
+#: ../../contributing/index.rst:244 f8466169e848447a924aa018d174ef5b
+msgid "Use common, affordable components"
+msgstr ""
+
+#: ../../contributing/index.rst:245 1f2218c3caa5460fae4dff93a51d630e
+msgid "Provide clear assembly instructions"
+msgstr ""
+
+#: ../../contributing/index.rst:246 c068b07b314a4c7281c9fd06084f9cd9
+msgid "Include safety warnings"
+msgstr ""
+
+#: ../../contributing/index.rst:247 979903f955f244acaf097becb281fdfc
+msgid "Test all designs"
+msgstr ""
+
+#: ../../contributing/index.rst:250 bcdd8f8621634cacbe6d2186ed788d1e
+msgid "Software"
+msgstr ""
+
+#: ../../contributing/index.rst:252 5b7d315308b64bdb9a6c2f83a70b5783
+msgid "Follow coding standards"
+msgstr ""
+
+#: ../../contributing/index.rst:253 04978930abb04c7f94b3e9d936e4b882
+msgid "Include comments"
+msgstr ""
+
+#: ../../contributing/index.rst:254 910a316e5aed43f1a2ccd7fe54a3f014
+msgid "Write tests"
+msgstr ""
+
+#: ../../contributing/index.rst:255 ../../contributing/index.rst:271
+#: 2d1f2e283347453f9e90a6a1251e2341 9afb49b4381343f085039407b44e2912
+msgid "Provide examples"
+msgstr ""
+
+#: ../../contributing/index.rst:258 0412b7801ceb4e0aa5574d44335d5cef
+msgid "Educational Content"
+msgstr ""
+
+#: ../../contributing/index.rst:260 57c5a79fb1394e3fa920ad97638305c8
+msgid "Clear learning objectives"
+msgstr ""
+
+#: ../../contributing/index.rst:261 30a243e81d5a4cf7aa4ceca13a6e5834
+msgid "Step-by-step instructions"
+msgstr ""
+
+#: ../../contributing/index.rst:262 9c5b296b956c46b5b27725c5ce9734a1
+msgid "Age-appropriate language"
+msgstr ""
+
+#: ../../contributing/index.rst:263 c4125124bf844bc9b13ef5f42f17b9fb
+msgid "Practical examples"
+msgstr ""
+
+#: ../../contributing/index.rst:264 53922b0fedd24ca2b3166c263e939519
+msgid "Safety information"
+msgstr ""
+
+#: ../../contributing/index.rst:267 2cd6fea8b6c84c8d8e4a22b5810058b1
+msgid "Documentation"
+msgstr ""
+
+#: ../../contributing/index.rst:269 83b5cb391bdf44949513c11d194f0fe9
+msgid "Clear and concise"
+msgstr ""
+
+#: ../../contributing/index.rst:270 6db121a31ab54cfb9dceb486e9576cc7
+msgid "Include images/diagrams"
+msgstr ""
+
+#: ../../contributing/index.rst:272 126f4f0f23214900b4699e6b6f3ef8a2
+msgid "Multiple languages (EN, UK, RU)"
+msgstr ""
+
+#: ../../contributing/index.rst:275 bb5e69efef474f95945776c7894ccda0
+msgid "Community Guidelines"
+msgstr ""
+
+#: ../../contributing/index.rst:280 bd2168ce8f6447aebb1941c0dc9e1682
+msgid "🤝 **Be Respectful**"
+msgstr ""
+
+#: ../../contributing/index.rst:278 17bc65312c1c447297930233a91a0a9f
+msgid "Treat everyone with respect"
+msgstr ""
+
+#: ../../contributing/index.rst:279 f67e5c56a18142538488f07a64a04ecf
+msgid "Welcome newcomers"
+msgstr ""
+
+#: ../../contributing/index.rst:280 41687f1e09a447159d60caf69abbf617
+msgid "Be patient and helpful"
+msgstr ""
+
+#: ../../contributing/index.rst:285 ba76731d54bd430f976c3faf884dafe4
+msgid "💡 **Be Collaborative**"
+msgstr ""
+
+#: ../../contributing/index.rst:284 43d2570f5e58449d80ab8e9a59b00efd
+msgid "Help others learn"
+msgstr ""
+
+#: ../../contributing/index.rst:285 13e94c99879542b590d3c33b4e240bb1
+msgid "Give constructive feedback"
+msgstr ""
+
+#: ../../contributing/index.rst:290 61e7bd0cb3dc49d0a334544dc767b83d
+msgid "📚 **Be Educational**"
+msgstr ""
+
+#: ../../contributing/index.rst:288 6a57945e48a0459ab1297619e92880bf
+msgid "Focus on learning"
+msgstr ""
+
+#: ../../contributing/index.rst:289 0c6f0a952203400d86a98e82306b7cd2
+msgid "Explain your decisions"
+msgstr ""
+
+#: ../../contributing/index.rst:290 edf530a466804915845aca33b3566b29
+msgid "Create accessible content"
+msgstr ""
+
+#: ../../contributing/index.rst:295 06ed2927bec4402aab2a2b418d75d6f1
+msgid "🌟 **Be Open**"
+msgstr ""
+
+#: ../../contributing/index.rst:293 c9d14f4e5c7e44989067b1a26966d948
+msgid "Share your work"
+msgstr ""
+
+#: ../../contributing/index.rst:294 727481a3a17b42d49e4f0f4abeee3add
+msgid "Accept feedback"
+msgstr ""
+
+#: ../../contributing/index.rst:295 c49093d86dbc4ae68198d400a2fc5b3e
+msgid "Iterate and improve"
+msgstr ""
+
+#: ../../contributing/index.rst:298 ec443cc1ed6344fa97bd722fe19527a6
+msgid "Getting Help"
+msgstr ""
+
+#: ../../contributing/index.rst:300 ab84224dbfe1421c80e9cb332469dd9e
+msgid "Need assistance?"
+msgstr ""
+
+#: ../../contributing/index.rst:302 efcea097eb5f4fbabd8e7ff61c853ee4
+msgid "💬 **GitHub Discussions** - Ask questions, share ideas"
+msgstr ""
+
+#: ../../contributing/index.rst:303 868db452accb4518a25e01d54c6b845b
+msgid "🐛 **GitHub Issues** - Report bugs, request features"
+msgstr ""
+
+#: ../../contributing/index.rst:304 8804eed43eb348298339e26573233f7f
+msgid "📧 **Maintainers** - Contact project leads"
+msgstr ""
+
+#: ../../contributing/index.rst:305 d080a5b7dc3742a1ad0cc7bb01955738
+msgid "📖 **Documentation** - Read detailed guides"
+msgstr ""
+
+#: ../../contributing/index.rst:308 6ac39736760649c18b251121352663b6
+msgid "Recognition"
+msgstr ""
+
+#: ../../contributing/index.rst:310 377776da49c943b184fc3361f942c47b
+msgid "All contributors will be:"
+msgstr ""
+
+#: ../../contributing/index.rst:312 bfe57fe6bce947768d41f46b5efe1ad0
+msgid "✨ Listed in project contributors"
+msgstr ""
+
+#: ../../contributing/index.rst:313 467c105808634421b8e2ca22f9c96d19
+msgid "📝 Credited in release notes"
+msgstr ""
+
+#: ../../contributing/index.rst:314 411d4e7acd8f46f39f0759bf1758efb7
+msgid "🎓 Part of educational impact"
+msgstr ""
+
+#: ../../contributing/index.rst:315 5917c6fbb1fc4fb19332645fb3fe25d3
+msgid "🌍 Building better learning tools"
+msgstr ""
+
+#: ../../contributing/index.rst:318 1d86c2ec54804a6ea1334387830e6041
+msgid "License"
+msgstr ""
+
+#: ../../contributing/index.rst:320 eaa49274378f4d9db20ca1592438c70c
+msgid ""
+"By contributing, you agree that your contributions will be licensed under"
+" the same license as the project."
+msgstr ""
+
+#: ../../contributing/index.rst:323 374a17c08fb84c989089fcf02ae8fdb8
+msgid "Next Steps"
+msgstr ""
+
+#: ../../contributing/index.rst:325 630304f847774177a4f8a16c9cfe5227
+msgid "**Thank you for helping make ByByte.DIY better!**"
+msgstr ""
+
+#: ../../contributing/index.rst:327 e31ff795ceb74aeb844e3938af897959
+msgid "🚀 Together we build the future of education! 🚀"
+msgstr ""
+

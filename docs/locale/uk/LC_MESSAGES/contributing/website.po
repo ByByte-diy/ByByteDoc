@@ -1,0 +1,575 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../contributing/website.rst:2 907c81377efc48f89aa50ebb62d2aa59
+msgid "Website Development"
+msgstr ""
+
+#: ../../contributing/website.rst:4 edb9307babe94471b1021e271e304245
+msgid "Contributing to ByByte.DIY project website."
+msgstr ""
+
+#: ../../contributing/website.rst:7 0071a9c0cf0c4cdf9f803cba119eb23a
+msgid "**Website requirements will be defined as the project develops.**"
+msgstr ""
+
+#: ../../contributing/website.rst:10 e3f292314b3e4e90ba1cc4bf3f93753b
+msgid "Overview"
+msgstr ""
+
+#: ../../contributing/website.rst:12 902af410cb1046f79f7449433a72d1fc
+msgid "ByByte.DIY website will include:"
+msgstr ""
+
+#: ../../contributing/website.rst:14 4ec022514ea9460f848d85ffd9c774d7
+msgid "Project information"
+msgstr ""
+
+#: ../../contributing/website.rst:15 12929e7639384372b63cdd9c93f0df87
+msgid "Documentation portal"
+msgstr ""
+
+#: ../../contributing/website.rst:16 f1a7e158227b4d2b87b87521aa5687d1
+msgid "Community forum"
+msgstr ""
+
+#: ../../contributing/website.rst:17 3491a23e941144e7b58cadb87312822d
+msgid "Resource library"
+msgstr ""
+
+#: ../../contributing/website.rst:18 56acb51b28ac4e42b0dbb2efd71898ac
+msgid "News and updates"
+msgstr ""
+
+#: ../../contributing/website.rst:19 e593a3dbae174474ab270c88ad4516fa
+msgid "Lessons and workshops"
+msgstr ""
+
+#: ../../contributing/website.rst:22 c2867ecde374404b9a512c9e4511f5e5
+msgid "Requirements"
+msgstr ""
+
+#: ../../contributing/website.rst:25 75e755c70ef94fbab2713541d5fae744
+msgid "Technical Stack"
+msgstr ""
+
+#: ../../contributing/website.rst:27 5da58d13aaee4fe5b611c3c919b2081c
+msgid "*(To be determined)*"
+msgstr ""
+
+#: ../../contributing/website.rst:29 6213faa5076f4b7594877c9433ac4717
+msgid "Possible technologies:"
+msgstr ""
+
+#: ../../contributing/website.rst:31 bf19e818055a4ad7af77cc09e51f1005
+msgid "Frontend: Angular 20+"
+msgstr ""
+
+#: ../../contributing/website.rst:32 8a6682656abd4a57a6b263ab325980b7
+msgid "Backend: Not used now"
+msgstr ""
+
+#: ../../contributing/website.rst:33 e03fa1cabbdc45fd82839c1f07851142
+msgid "Database: Not used now"
+msgstr ""
+
+#: ../../contributing/website.rst:34 3798024d823f48ffb7ea516be6d21e48
+msgid "Hosting: GitHub Pages"
+msgstr ""
+
+#: ../../contributing/website.rst:37 f12f8e802cb844a79db60fc3eecb40e6
+msgid "Design Guidelines"
+msgstr ""
+
+#: ../../contributing/website.rst:39 e200ebf7d8624980bf49fbb7273b610b
+msgid "The website should be:"
+msgstr ""
+
+#: ../../contributing/website.rst:44 9919439a355145cea1d491607ce1011b
+msgid "✅ **User-Friendly**"
+msgstr ""
+
+#: ../../contributing/website.rst:42 d27affdad34941e68a4e205c688c742a
+msgid "Intuitive navigation"
+msgstr ""
+
+#: ../../contributing/website.rst:43 d4090cd63071465eafe95bee943a7db9
+msgid "Clear structure"
+msgstr ""
+
+#: ../../contributing/website.rst:44 04633a9edf8048099010dc86f4f4b38c
+msgid "Easy to find information"
+msgstr ""
+
+#: ../../contributing/website.rst:49 81d6632437cb4f3bb4cd23671ef4abd9
+msgid "✅ **Accessible**"
+msgstr ""
+
+#: ../../contributing/website.rst:47 d1340a4cb78749a8b7a069e066c8f374
+msgid "WCAG 2.1 compliance"
+msgstr ""
+
+#: ../../contributing/website.rst:48 362754772e5142ac9d585513f7498023
+msgid "Mobile responsive"
+msgstr ""
+
+#: ../../contributing/website.rst:49 8c3115d452304ee68fdd4e2e0d558cba
+msgid "Fast loading"
+msgstr ""
+
+#: ../../contributing/website.rst:54 7429c1e290a24554bec223d647cd51ad
+msgid "✅ **Multi-Language**"
+msgstr ""
+
+#: ../../contributing/website.rst:52 b7fca0b391ec47468a8963046c508f2a
+msgid "English, Ukrainian, Russian"
+msgstr ""
+
+#: ../../contributing/website.rst:53 7180114d2740476fa4970c406afbe6c0
+msgid "Easy language switching"
+msgstr ""
+
+#: ../../contributing/website.rst:54 76265b0ed5834bc5939645896978b2fa
+msgid "Consistent translations"
+msgstr ""
+
+#: ../../contributing/website.rst:59 fa051d72c41e44f8b564bed66ed03fcf
+msgid "✅ **Educational Focus**"
+msgstr ""
+
+#: ../../contributing/website.rst:57 962ac40ef0a44b8bac0bf34d32779990
+msgid "Support learning goals"
+msgstr ""
+
+#: ../../contributing/website.rst:58 7e362e0e1ca14c4994c8eaa4290f0797
+msgid "Clear documentation"
+msgstr ""
+
+#: ../../contributing/website.rst:59 be2c9a9d9a3a49cc87c8a449c38bd046
+msgid "Interactive examples"
+msgstr ""
+
+#: ../../contributing/website.rst:62 d81dc0ff87f44f0f9ba6b9d105d579a9
+msgid "Content Requirements"
+msgstr ""
+
+#: ../../contributing/website.rst:64 9b3ef81e610f47a5b2f428f387a9da9a
+msgid "Clear, concise text"
+msgstr ""
+
+#: ../../contributing/website.rst:65 9997126778374e36a9cca018de3e6784
+msgid "High-quality images"
+msgstr ""
+
+#: ../../contributing/website.rst:66 75a443e5555b4ed9b0c7504662c1ac95
+msgid "Video tutorials (when applicable)"
+msgstr ""
+
+#: ../../contributing/website.rst:67 88229c613ac447ae8945dd62a63559d4
+msgid "Downloadable resources"
+msgstr ""
+
+#: ../../contributing/website.rst:68 ../../contributing/website.rst:84
+#: 2ba50cdfa4bb4b4fb1662fd664a32cf5 8ec494c6d50649309daf7f6f44426bfa
+msgid "Search functionality"
+msgstr ""
+
+#: ../../contributing/website.rst:71 c942f1de501543fa87dd512c6ec9e6ec
+msgid "Features"
+msgstr ""
+
+#: ../../contributing/website.rst:74 79e358202c3b463c8197d9c297783bff
+msgid "Core Features"
+msgstr ""
+
+#: ../../contributing/website.rst:76 a4f409af864544d48cbe5ef226356c82
+msgid "**Home Page**"
+msgstr ""
+
+#: ../../contributing/website.rst:78 065bc3413594412b9764d474a2d1a02b
+msgid "Project overview"
+msgstr ""
+
+#: ../../contributing/website.rst:79 85fecc3a53c545798a92cf6f0ebf4984
+msgid "Quick start guide"
+msgstr ""
+
+#: ../../contributing/website.rst:81 762b317261084274abb948cab89fbf77
+msgid "**Build**"
+msgstr ""
+
+#: ../../contributing/website.rst:83 8812af03437b4367bddeb602b7f726bd
+msgid "Integration with ReadTheDocs"
+msgstr ""
+
+#: ../../contributing/website.rst:85 e2c35979dc9347cfbfe04c051484556d
+msgid "Version control"
+msgstr ""
+
+#: ../../contributing/website.rst:87 4c91a2b425394ef5bacb4528de420d9f
+msgid "**Community**"
+msgstr ""
+
+#: ../../contributing/website.rst:89 940286c931e04f5c965517c93ffa456c
+msgid "Discussion forum"
+msgstr ""
+
+#: ../../contributing/website.rst:90 e79b7feacbe240338c6eb89ede879f7b
+msgid "User projects showcase"
+msgstr ""
+
+#: ../../contributing/website.rst:91 18a9fcce48924cca89147c4a672125b7
+msgid "Contributor list"
+msgstr ""
+
+#: ../../contributing/website.rst:93 19b044eac24f465f88032ec88b2387b9
+msgid "**Resources**"
+msgstr ""
+
+#: ../../contributing/website.rst:95 9486b4ea30534d5990bbbad0a13c8f85
+msgid "Lesson library"
+msgstr ""
+
+#: ../../contributing/website.rst:96 b5e85607e0ab4597aa8919cf642385fb
+msgid "Code examples"
+msgstr ""
+
+#: ../../contributing/website.rst:97 ab68d45e8ddb4ab1989f46e9e410b5a7
+msgid "Hardware designs"
+msgstr ""
+
+#: ../../contributing/website.rst:98 868ddfc47f2d437c86c7c0a7988593ee
+msgid "3D models"
+msgstr ""
+
+#: ../../contributing/website.rst:100 6022620789844b6c8f608d8387f47401
+msgid "**Support**"
+msgstr ""
+
+#: ../../contributing/website.rst:102 d617af91cad14b739e30594354202567
+msgid "FAQ"
+msgstr ""
+
+#: ../../contributing/website.rst:103 13cca875b9c444408cb086cb3a67807c
+msgid "Troubleshooting guides"
+msgstr ""
+
+#: ../../contributing/website.rst:104 532562fc89d148878514476e4272485f
+msgid "Contact information"
+msgstr ""
+
+#: ../../contributing/website.rst:107 4d97b6a30f2545c2baccbeb205a3603b
+msgid "Development Process"
+msgstr ""
+
+#: ../../contributing/website.rst:109 d5a3caf005cd48c1838ec34a53d21c2a
+msgid "*(To be defined as project needs emerge)*"
+msgstr ""
+
+#: ../../contributing/website.rst:111 7785578607b34af0831a4b21ea5f7f81
+msgid "**Current Status:** Planning phase"
+msgstr ""
+
+#: ../../contributing/website.rst:113 5c52fde0c4ad427484f9043b246db356
+msgid "**Help needed:**"
+msgstr ""
+
+#: ../../contributing/website.rst:115 16c9a19d2f0b4c13a89d86dbab139959
+msgid "Web developers"
+msgstr ""
+
+#: ../../contributing/website.rst:116 d1dd418490fe4b47b08a1c0c22ed5bec
+msgid "UI/UX designers"
+msgstr ""
+
+#: ../../contributing/website.rst:117 a8267177479c407cb7a8587ba3dcdd6c
+msgid "Content creators"
+msgstr ""
+
+#: ../../contributing/website.rst:118 630d771d33754799abacaf6d2934d3fa
+msgid "Translators"
+msgstr ""
+
+#: ../../contributing/website.rst:121 eb060ac1dbcc44c1a2ba66dd1c00b040
+msgid "Submission Guidelines"
+msgstr ""
+
+#: ../../contributing/website.rst:123 24f073552ca54589a982eda0dfd322c8
+msgid "**Propose Feature**"
+msgstr ""
+
+#: ../../contributing/website.rst:125 653ae84691c4421e9ef73663f8d119fa
+msgid "Open GitHub Issue:"
+msgstr ""
+
+#: ../../contributing/website.rst:127 d10738b5a8424ecbbc8b5b8b2cb328e1
+msgid "Describe feature"
+msgstr ""
+
+#: ../../contributing/website.rst:128 1b162cc8c93e434d897c90a3234b2733
+msgid "Explain benefits"
+msgstr ""
+
+#: ../../contributing/website.rst:129 c3b02b42a0fd49a182189705f0bee876
+msgid "Show examples (if available)"
+msgstr ""
+
+#: ../../contributing/website.rst:131 249c1268701c4657997ed46f7579cc7c
+msgid "**Discuss with Team**"
+msgstr ""
+
+#: ../../contributing/website.rst:133 1e3581aed253456a9f0fc38bcc4ff976
+msgid "Get feedback"
+msgstr ""
+
+#: ../../contributing/website.rst:134 3703aa03ec5f4a9e9e06abe9c6dcc234
+msgid "Refine proposal"
+msgstr ""
+
+#: ../../contributing/website.rst:135 6dfce3266e534070aadbabe5be4cdf70
+msgid "Get approval"
+msgstr ""
+
+#: ../../contributing/website.rst:137 304db82a10484c75a59d5aa1a1d6cbf8
+msgid "**Implement**"
+msgstr ""
+
+#: ../../contributing/website.rst:139 31d61d0ce15243329dfa614e74ac657b
+msgid "Follow coding standards"
+msgstr ""
+
+#: ../../contributing/website.rst:140 ../../contributing/website.rst:157
+#: 39358db80559432fa815cc0f16d8a4b6 c3b06c66b31c428e8a11aa07e5b418fa
+msgid "Write tests"
+msgstr ""
+
+#: ../../contributing/website.rst:141 88736ec204134a449fbc98eb8131951b
+msgid "Document changes"
+msgstr ""
+
+#: ../../contributing/website.rst:143 98a5d34eda4945d8a50f474f94aba3bf
+msgid "**Submit PR**"
+msgstr ""
+
+#: ../../contributing/website.rst:145 4fe0050fdb7541dcb4b767759cd08123
+msgid "Clear description"
+msgstr ""
+
+#: ../../contributing/website.rst:146 c42eb1e4797047ae96f17a1c07926f78
+msgid "Screenshots/demo"
+msgstr ""
+
+#: ../../contributing/website.rst:147 ba6c53c6783b4b7185aa89e3e6da7f8d
+msgid "Update documentation"
+msgstr ""
+
+#: ../../contributing/website.rst:150 2b5ec4226ec7467db229aafaa3fc60dc
+msgid "Code Standards"
+msgstr ""
+
+#: ../../contributing/website.rst:152 f3bdd4ad2097403b8eac961e61213a05
+msgid "*(To be defined)*"
+msgstr ""
+
+#: ../../contributing/website.rst:154 23b4c3134a9a41528824d40fe2f0c051
+msgid "Follow framework best practices"
+msgstr ""
+
+#: ../../contributing/website.rst:155 2cc8a65766c54133a579dc4244f1095e
+msgid "Write clean, maintainable code"
+msgstr ""
+
+#: ../../contributing/website.rst:156 1b826d40784b4b6bb7d21ac1660d38bc
+msgid "Include comments"
+msgstr ""
+
+#: ../../contributing/website.rst:158 8e03d98239a34c4abf54ada544610526
+msgid "Ensure accessibility"
+msgstr ""
+
+#: ../../contributing/website.rst:161 f3f403b73a8342beb049d05b04881ab1
+msgid "Testing"
+msgstr ""
+
+#: ../../contributing/website.rst:163 207879868619445aa5b2ace399f11a5c
+msgid "All website features must be tested:"
+msgstr ""
+
+#: ../../contributing/website.rst:165 b53112098da14732a566e256dac53cf7
+msgid "Functionality tests"
+msgstr ""
+
+#: ../../contributing/website.rst:166 952dd2686a184c559cc5fc9d7d5a50a5
+msgid "Browser compatibility"
+msgstr ""
+
+#: ../../contributing/website.rst:167 89b2eaebb8cc4c65bbbb5567f9a7ba11
+msgid "Mobile responsiveness"
+msgstr ""
+
+#: ../../contributing/website.rst:168 758ca67f749e42e3a78ea90e7f9fd779
+msgid "Performance tests"
+msgstr ""
+
+#: ../../contributing/website.rst:169 fe8ba9de5db44e669db2dbaf1a9a3276
+msgid "Accessibility audit"
+msgstr ""
+
+#: ../../contributing/website.rst:172 1f5182b8063c4340a463a9982e527699
+msgid "Roadmap"
+msgstr ""
+
+#: ../../contributing/website.rst:174 987c86076743439bb32dfb09297569e6
+msgid "**Phase 1: Basic Site** *(Current)*"
+msgstr ""
+
+#: ../../contributing/website.rst:176 1a03c999b3a84ab296e66cfd2b7a0c90
+msgid "Project information page"
+msgstr ""
+
+#: ../../contributing/website.rst:177 24fbb562bad440ec9e4d7d8ad9a7768f
+msgid "Documentation integration"
+msgstr ""
+
+#: ../../contributing/website.rst:178 2d57ed9f18e443c68a179c09b532bc7e
+msgid "Basic navigation"
+msgstr ""
+
+#: ../../contributing/website.rst:180 49f55345effb406c80cc51bb2e359478
+msgid "**Phase 2: Community Features**"
+msgstr ""
+
+#: ../../contributing/website.rst:182 81b246b623134d6e977032244839b80c
+msgid "User accounts"
+msgstr ""
+
+#: ../../contributing/website.rst:183 263b48ebda8847a98480f39ff8dbf055
+msgid "Forum/discussions"
+msgstr ""
+
+#: ../../contributing/website.rst:184 17500330d8694c489e211a586c1ffa25
+msgid "Project showcase"
+msgstr ""
+
+#: ../../contributing/website.rst:186 fbb1f643e9f246fe94201bd1a8e10404
+msgid "**Phase 3: Advanced Features**"
+msgstr ""
+
+#: ../../contributing/website.rst:188 a8d0c1de30c148b9a378e5ad757cba37
+msgid "Interactive tutorials"
+msgstr ""
+
+#: ../../contributing/website.rst:189 47699d5cf3374266bc20685ac83f6a23
+msgid "Progress tracking"
+msgstr ""
+
+#: ../../contributing/website.rst:190 5200b459d11749c788c9a983f89cc097
+msgid "Certificate generation"
+msgstr ""
+
+#: ../../contributing/website.rst:193 044e8899ab0c4a4283892499be784e04
+msgid "How to Help Now"
+msgstr ""
+
+#: ../../contributing/website.rst:195 6d21ed939518480584946a8b1d94395d
+msgid "Currently needed:"
+msgstr ""
+
+#: ../../contributing/website.rst:197 77ba65329d7245d9981d7b3770cbad42
+msgid "**Planning Input**"
+msgstr ""
+
+#: ../../contributing/website.rst:199 76ac7208c2aa407cb0adaa8b7f8904d8
+msgid "Share ideas for website features"
+msgstr ""
+
+#: ../../contributing/website.rst:200 296d642214b245d1a3eb7da840415c9f
+msgid "Suggest useful resources"
+msgstr ""
+
+#: ../../contributing/website.rst:201 3b369f74c364465889c4dc5ce900a755
+msgid "Provide feedback on mockups"
+msgstr ""
+
+#: ../../contributing/website.rst:203 2682933c6aac40eaafbff4b7a10c5f63
+msgid "**Design Concepts**"
+msgstr ""
+
+#: ../../contributing/website.rst:205 49ca37e6e80f44b8bd6f0f1c3f6226d2
+msgid "Create UI/UX proposals"
+msgstr ""
+
+#: ../../contributing/website.rst:206 f6f1598b92ca49a7b82c0fff0d6a3f7b
+msgid "Design logo/branding"
+msgstr ""
+
+#: ../../contributing/website.rst:207 19260a7519944efcad437aad359fad27
+msgid "Develop style guides"
+msgstr ""
+
+#: ../../contributing/website.rst:209 6994d3b5d71745ea91ea1e8c9826dc07
+msgid "**Content Creation**"
+msgstr ""
+
+#: ../../contributing/website.rst:211 441fd5c295134d189a280932a927706e
+msgid "Write website copy"
+msgstr ""
+
+#: ../../contributing/website.rst:212 82a4f13256084211842fc9a23a8db8a0
+msgid "Create graphics"
+msgstr ""
+
+#: ../../contributing/website.rst:213 859ef220360247ffacb7652b9a606f95
+msgid "Prepare video content"
+msgstr ""
+
+#: ../../contributing/website.rst:216 2254f4d86954434daeab6690856d0e64
+msgid "Technologies Under Consideration"
+msgstr ""
+
+#: ../../contributing/website.rst:218 8a61da08ac70411abf40aeadcfafa272
+msgid "**Static Site Generators:** Hugo, Jekyll, Sphinx"
+msgstr ""
+
+#: ../../contributing/website.rst:219 802444c8f0394f3c8094c61d9cccf619
+msgid "**CMS:** Strapi, Ghost, WordPress"
+msgstr ""
+
+#: ../../contributing/website.rst:220 e9449691e0604aeb8461f44282e12cbd
+msgid "**Frameworks:** Next.js, Nuxt.js, SvelteKit"
+msgstr ""
+
+#: ../../contributing/website.rst:221 2a97b29835674370a3c7e43a16eb76fa
+msgid "**Documentation:** ReadTheDocs, Docusaurus, VuePress"
+msgstr ""
+
+#: ../../contributing/website.rst:224 b23971d6af6a40499f5837988775f773
+msgid "Questions?"
+msgstr ""
+
+#: ../../contributing/website.rst:226 5caef74fdee54807bf9a10556ddc7eba
+msgid "Open GitHub Issue with tag ``website``"
+msgstr ""
+
+#: ../../contributing/website.rst:227 1d2b7a4f0034427488375b44e1124fe7
+msgid "Contact ``@vergilium``"
+msgstr ""
+
+#: ../../contributing/website.rst:228 fbe7973c5a7e4b279d8c3042d6892552
+msgid "Join website development discussion"
+msgstr ""
+
+#: ../../contributing/website.rst:230 5906b2eceecf4a30b9da828fc796858f
+msgid "---"
+msgstr ""
+
+#: ../../contributing/website.rst:232 69672e8f0597402d83ef9989bb81ef7e
+msgid ":doc:`Back to Contributing Overview <index>`"
+msgstr ""
+

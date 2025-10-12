@@ -5,158 +5,145 @@
 #
 #, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: ByByte 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 15:34+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: uk\n"
-"Language-Team: uk <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
 
-#: ../../usage.rst:2 6e8e45626bd8453db4993c0445c161ac
+#: ../../usage.rst:2 56f7a8c4292c459aad39298c3f1c2d8c
 msgid "Usage Guide"
-msgstr "Посібник з використання"
+msgstr ""
 
-#: ../../usage.rst:4 d3a7a74ae4b24a208183f2c97431beec
+#: ../../usage.rst:4 fae3f79bbe5c4ab6afa3804bba96d10b
 msgid "This guide covers the main features and usage patterns of ByByte."
-msgstr "Цей посібник охоплює основні особливості та моделі використання Bybyte."
+msgstr ""
 
-#: ../../usage.rst:7 123e224de89e49aab106314c11329cd6
+#: ../../usage.rst:7 01eb6be52b284419b70ffd28734be5be
 msgid "Overview"
-msgstr "Огляд"
+msgstr ""
 
-#: ../../usage.rst:9 ac5b369e16c94536ab17c9f430639548
+#: ../../usage.rst:9 d22aa515bf344830bdf42e7957c02800
 msgid ""
 "ByByte provides a simple interface for communicating with Arduino-based "
 "devices."
-msgstr "Bybyte забезпечує простий інтерфейс для спілкування з пристроями на основі Arduino."
+msgstr ""
 
-#: ../../usage.rst:12 601938241415421d881ae6122dd2f7f2
+#: ../../usage.rst:12 467b265cbb6745128b64002fa0ad8871
 msgid "Basic Concepts"
-msgstr "Основні поняття"
+msgstr ""
 
-#: ../../usage.rst:15 e31ae926e55f49b88a065ee509fd1bff
+#: ../../usage.rst:15 b3a70bac5f4a4546926ef8960ab5c521
 msgid "Connection Management"
-msgstr "Управління з'єднаннями"
+msgstr ""
 
-#: ../../usage.rst:17 91b458fa105845f48f53d303d03a4605
+#: ../../usage.rst:17 9462f8936c7f41e99b6f3544749bf4b3
 msgid "Managing device connections:"
-msgstr "Управління з'єднаннями пристрою:"
+msgstr ""
 
-#: ../../usage.rst:34 d61ca975c7d945348319f9ded25bb202
+#: ../../usage.rst:34 e652849315fc459eb7e741aaea30a2b2
 msgid "Using context manager (recommended):"
-msgstr "Використання контекстного менеджера (рекомендується):"
+msgstr ""
 
-#: ../../usage.rst:43 e07bff6b4cd249289fefc89f467b0cfa
+#: ../../usage.rst:43 c35ff8fdb1c44efa9b3c118c8964c6fe
 msgid "Sending Commands"
-msgstr "Надсилання команд"
+msgstr ""
 
-#: ../../usage.rst:45 0c72459af53943ca94eea8980158d187
+#: ../../usage.rst:45 eeb6c6fed5934c228672ac30e7d67427
 msgid "Send commands to your device:"
-msgstr "Надіслати команди на свій пристрій:"
+msgstr ""
 
-#: ../../usage.rst:59 54c3c87d945b4ec1b5642824a1f7161e
+#: ../../usage.rst:59 13fcf1b7d681460ab36dbe9cc3d9b11f
 msgid "Advanced Features"
-msgstr "Розширені функції"
+msgstr ""
 
-#: ../../usage.rst:62 1eeca9bde417471a8f75636a2c7ed67f
+#: ../../usage.rst:62 07bacca6383247dfb22335a061ee37cf
 msgid "Async Operations"
-msgstr "Асинхічні операції"
+msgstr ""
 
-#: ../../usage.rst:64 5f4b29b522d44b42a90e9deb0fd797b3
+#: ../../usage.rst:64 c31e569a999e4dc4adebeecd558a2366
 msgid "For non-blocking operations:"
-msgstr "Для не блокуючих операцій:"
+msgstr ""
 
-#: ../../usage.rst:79 77256d07d6be4cafaddcf1f77c5fc1f9
+#: ../../usage.rst:79 01be3295f469434b9e2e74077b722b99
 msgid "Event Handling"
-msgstr "Обробка подій"
+msgstr ""
 
-#: ../../usage.rst:81 0c5c8350769a47549c07ac73e3ac0ed8
+#: ../../usage.rst:81 dde3d258c0cd4ad9b32171d63db68de5
 msgid "Listen for device events:"
-msgstr "Слухайте події пристрою:"
+msgstr ""
 
-#: ../../usage.rst:92 faa76ae10dc54568b6963dd1c4e1a505
+#: ../../usage.rst:92 4849dd8ce1914829a0cbb7d2be9d819d
 msgid "Configuration"
-msgstr "Конфігурація"
+msgstr ""
 
-#: ../../usage.rst:94 c89b17536cd5489591d12e6419b75fb0
+#: ../../usage.rst:94 fd1f986520c64da188a8bb0715eeb023
 msgid ""
 "You can configure ByByte using a configuration file or environment "
 "variables."
-msgstr "Ви можете налаштувати Bybyte за допомогою файлу конфігурації або змінних середовища."
+msgstr ""
 
-#: ../../usage.rst:97 f31a86521f374f928fba5d1598527c4b
+#: ../../usage.rst:97 a619bae614cb4ca982a768c731624355
 msgid "Configuration File"
-msgstr "Файл конфігурації"
+msgstr ""
 
-#: ../../usage.rst:99 a999d968f0ec4d8e8361e17411b3b31e
+#: ../../usage.rst:99 d9bf917f7ad742f88e9db70de2bfe9b8
 msgid "Create a ``config.ini`` file:"
-msgstr "Створіть файл `` config.ini``:"
+msgstr ""
 
-#: ../../usage.rst:112 e51290a91d6f4839b600b25960942ace
+#: ../../usage.rst:112 25cda55d772947d4950d19e21eb07848
 msgid "Load configuration:"
-msgstr "Конфігурація завантаження:"
+msgstr ""
 
-#: ../../usage.rst:119 38d9db93115240cdb522dc45ae70844c
+#: ../../usage.rst:119 5b701b4c61a94f2cb53f8cc2ff14107b
 msgid "Environment Variables"
-msgstr "Змінні середовища"
+msgstr ""
 
-#: ../../usage.rst:121 3ed00bfb1ae04e3cbe688bf1447686e3
+#: ../../usage.rst:121 c92b9c2b672746968d8a1bbce5e75862
 msgid "Alternatively, use environment variables:"
-msgstr "Крім того, використовуйте змінні середовища:"
+msgstr ""
 
-#: ../../usage.rst:129 042fdbc7d8b348eba84795a8b7a08f72
+#: ../../usage.rst:129 356bb77d28f7465db15674c9079898f6
 msgid "Best Practices"
-msgstr "Найкращі практики"
+msgstr ""
 
-#: ../../usage.rst:131 9594bea0ed22417dbe6cd5625be9920b
+#: ../../usage.rst:131 9d1663b75d3a4d10879bb480208cc0f2
 msgid "**Always close connections** - Use context managers when possible"
-msgstr "** Завжди закрийте з'єднання ** - Використовуйте менеджерів контексту, коли це можливо"
+msgstr ""
 
-#: ../../usage.rst:132 c9d6370d26384de08e2e87ef18f541ff
+#: ../../usage.rst:132 2813db5fef304e1588d51f21a11ffedc
 msgid "**Handle exceptions** - Wrap operations in try-except blocks"
-msgstr "** Обробляйте винятки ** - Загортання операцій у Try -Oxcept блоках"
+msgstr ""
 
-#: ../../usage.rst:133 3a78ccac44234733bd6c1ccdbd07b213
+#: ../../usage.rst:133 8f6ac379041e4fa8b98bcfcf31403b1e
 msgid "**Set appropriate timeouts** - Prevent hanging operations"
-msgstr "** Встановіть відповідні тайм -аути ** - запобігти висячим операціям"
+msgstr ""
 
-#: ../../usage.rst:134 f476b82364fa40a7b18a01b9afc62e42
+#: ../../usage.rst:134 421b9ef76e324ca3a665820207e10195
 msgid "**Validate responses** - Check command responses before using them"
-msgstr "** Перевірте відповіді ** - Перевірте відповіді на команд"
+msgstr ""
 
-#: ../../usage.rst:135 2918893b37754125b11fde4262615949
+#: ../../usage.rst:135 b20597b05cb9499cb52e44c01ce202b7
 msgid "**Log operations** - Enable logging for debugging"
-msgstr "** Операції журналу ** - Увімкніть журнал для налагодження"
+msgstr ""
 
-#: ../../usage.rst:138 a5d9a3ea1e1c4b7496b12398f396562b
+#: ../../usage.rst:138 924bc801a0e74e2e8f1cd51b3e487be8
 msgid "Error Handling"
-msgstr "Обробка помилок"
+msgstr ""
 
-#: ../../usage.rst:140 a08fdc2c0b01488599f84fc3385db03c
+#: ../../usage.rst:140 aacd7ec5e640429aa2b9190ca1476b5d
 msgid "Common exceptions and how to handle them:"
-msgstr "Поширені винятки та як з ними впоратися:"
+msgstr ""
 
-#: ../../usage.rst:164 96e2e753d8cb4d11aa1848197d9f8e41
+#: ../../usage.rst:164 aff81213e2c94d6c811952c01286785d
 msgid "See Also"
-msgstr "Див. Також"
+msgstr ""
 
-#: ../../usage.rst:166 b6790ab924fa45e2b9c6e92ac7499253
+#: ../../usage.rst:166 4bbac6697efa4afda0bab9e0297f2093
 msgid ":doc:`api` - Complete API reference"
-msgstr ": doc: `api` - Повна посилання API"
+msgstr ""
 
-#: ../../usage.rst:167 ca299e92cb6f4619810a26acc87e73de
+#: ../../usage.rst:167 1d9523b3c5ef4a46a9436b3f84522693
 msgid ":doc:`quickstart` - Quick start guide"
-msgstr ": doc: `Quickstart` - Посібник з швидкого початку"
+msgstr ""
 
-#: ../../usage.rst:168 cdb017a03dde4fd884b4d80123cf7843
-msgid ":doc:`contributing` - Contributing guidelines"
-msgstr ": doc: `contresting` - Внесення рекомендацій"
+#: ../../usage.rst:168 9766455dfc0f4701829ebae46fc130fb
+msgid ":doc:`contributing/index` - Contributing guidelines"
+msgstr ""
 

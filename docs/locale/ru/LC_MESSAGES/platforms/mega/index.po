@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: ru\\nLanguage-Team: ru <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/mega/index.rst:2 c898a887dd074b15b0ecd8a12803cb15
+msgid "Overview"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:4 74a31f533ba045d88d4e7dc953cdba47
+msgid "Advanced robotics platform for schools and robotics clubs."
+msgstr ""
+
+#: ../../platforms/mega/index.rst:6 dd61be1bd86f495cad350576035c7384
+msgid "ByByte Mega is a professional-grade robotics platform designed for:"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:8 b95626bbfc404b3a8973db77af81bd17
+msgid "**Educational institutions** and schools"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:9 c5512ec526a14718850ccdc3d3c781fa
+msgid "**Robotics clubs** and competitions"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:10 d9d96dec669a41cfabe0ada69a9887cd
+msgid "**Advanced projects** with multiple sensors"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:11 c1a6258dba2d4b53a49699001b2a27b5
+msgid "**Classroom teaching** with full documentation"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:14 1c1b94a7c5e444819d86b9b33a3402d6
+msgid "Key Features"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:16 a634eb8cb3f84c159b6a1c7ba6791419
+msgid "✅ Professional capabilities"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:17 cd2389339ea5475eab29bb61f463117f
+msgid "✅ Arduino Mega compatible"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:18 76f03d0b8f7f46b6831fcd56a12f5aa2
+msgid "✅ Support for extended sensors/modules"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:19 e39e60a1c27a4e4fb5961057c104b15e
+msgid "✅ PCB design for reliability"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:20 3e55f446f6974a779b7841e4981d9c61
+msgid "✅ Modular expansion capability"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:21 d4f6ed6d2a054df1a19f5540b1a449d0
+msgid "✅ Competition-ready platform"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:22 c662130609e34ddf8729bbf30e34000c
+msgid "✅ Arduino UNO shield compatible"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:25 531fa435bf124de29c61d136e5fb07bd
+msgid "What's Included"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:27 9c29003da12a4fbab3d4bace9f4bd214
+msgid "The ByByte Mega platform includes:"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:29 622f57e7b3984308aed8bcba5a3c35e9
+msgid "Arduino Mega 2560 chip"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:30 d082df30fd2e4c56ad65cd062ab19e13
+msgid "Advanced motor driver"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:31 638f4a320ecb44ca9c4fa7e2f97f57a3
+msgid "2x DC motors with encoders"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:32 172b492e3d26448bba7e7a8fb41a1ac5
+msgid "Ultrasonic distance sensor"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:33 7eb8ad9d76b44921a0f2bf758db11a8d
+msgid "Line following sensor array (6 sensors)"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:34 643e4c82f2df4df7b745f7fb89983240
+msgid "IMU/Gyroscope module"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:35 256292b8d7194d2f953bfc9481ae7fc6
+msgid "Bluetooth module"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:36 4109a717806f44eeb16a9c2588b58112
+msgid "LCD display"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:37 a0bc18d6510e40f1a432fad171854121
+msgid "Multiple LEDs and indicators"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:38 3a3c3fe8646845ec848f8c71b741e047
+msgid "Custom PCB"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:39 7e16fd1a337247999d64fcc24ac3728f
+msgid "Battery management system"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:40 809c987321a049c5a9445e81d84cc098
+msgid "Charger module"
+msgstr ""
+
+#: ../../platforms/mega/index.rst:41 ae2adce5b8af44d89b0660a534062966
+msgid "Power provider functionality"
+msgstr ""
+

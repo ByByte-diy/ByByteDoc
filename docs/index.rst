@@ -15,34 +15,35 @@ Welcome to ByByte.DIY documentation! An open-source educational robotics platfor
 
 .. toctree::
    :maxdepth: 2
+   :caption: Platforms:
+
+   platforms
+
+.. toctree::
+   :maxdepth: 2
    :caption: Getting Started:
 
    installation
    quickstart
+   usage
 
 .. toctree::
    :maxdepth: 2
-   :caption: User Guide:
+   :caption: API & Reference:
 
-   usage
    api
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Additional Information:
-
    changelog
 
 .. toctree::
    :maxdepth: 2
    :caption: Contributing to ByByte.DIY:
 
-   contributing
-   contributing-hardware
-   contributing-lessons
-   contributing-documentation
-   contributing-website
-   contributing-software
+   contributing/index
+   contributing/hardware
+   contributing/lessons
+   contributing/documentation
+   contributing/website
+   contributing/software
 
 About the Project
 -----------------
@@ -164,10 +165,10 @@ Getting Started
 
 Ready to begin your robotics journey?
 
-1. **Read** :doc:`installation` - Learn about platform requirements
+1. **Read** the documentation - Learn about platform requirements
 2. **Build** - Follow assembly instructions for your chosen platform
 3. **Setup** - Install software and configure your robot
-4. **Learn** - Start with :doc:`quickstart` lessons
+4. **Learn** - Start with basic lessons
 5. **Create** - Build your own projects!
 
 .. tip::
@@ -176,7 +177,7 @@ Ready to begin your robotics journey?
 Join the Community
 ------------------
 
-🤝 **Contribute** to the project - See :doc:`contributing`
+🤝 **Contribute** to the project - See :doc:`contributing/index`
 
 💬 **Ask Questions** - Join our discussions on GitHub
 

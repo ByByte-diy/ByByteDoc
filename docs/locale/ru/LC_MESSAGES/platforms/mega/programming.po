@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: ru\\nLanguage-Team: ru <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/mega/programming.rst:2 b1bc8f4f96fc42188ceb3af981e188dc
+msgid "Programming"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:5 d99e10e687d3453bb429b7054fc79f16
+msgid "Competition Programming"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:7 b55c2ad7dec9403ebac55d5f95b5435f
+msgid "**Maze Solving:**"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:9 3f9f23935818408babe9d4b57ce5ec53
+msgid "Wall following algorithms"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:10
+#: ../../platforms/mega/programming.rst:17
+#: ../../platforms/mega/programming.rst:34 7c06d9b825a548adb2896288136502ed
+#: bc9f75d34e894b36aac20d3f5b355903 d2d088fc91664578a198c0dc9bc5d869
+msgid "PID control"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:11 803701457914410fab24a3d0a1aff027
+msgid "Flood fill algorithm"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:12 a03ba8b118874cbea0002486af2ad7d8
+msgid "Path optimization"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:13 0f74007808654347980cc6459a112e55
+msgid "Memory management"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:15 e7e700f6c15e43a7aa7524e54a419a67
+msgid "**Line Following:**"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:18 fd6a75db73c5474eabe0581ef241b829
+msgid "Speed optimization"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:19 34c4ec2438f64f39a07d3877cf1ebbe4
+msgid "Curve handling"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:20 5539d8b7876d4bd6934da426f6c1a7d0
+msgid "Junction detection"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:22 f0f55ba17ee449a8bef79cd6f9955707
+msgid "**Remote Control:**"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:24 6e3b2b2e706c443fa3bf00fd02d98ebd
+msgid "Bluetooth control"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:25 c8ea22deae764e2cafb2d47018fed5ce
+msgid "IR remote control"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:26 f7264930b9bf449d87ff043d2b9a13df
+msgid "WiFi control (with ESP32-CAM module)"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:27 bb03204065924040936ffc46e2d4bd72
+msgid "Path finding algorithms (with ESP32-CAM module)"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:29 e54efe3d57d74ae0af08f90ce1b57587
+msgid "**Obstacle Avoidance:**"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:31 ca8add1bfabd471a82db923be1893e15
+msgid "Ultrasonic measurement"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:32 5870633aa76046d8a92cca73583ed2f8
+msgid "IMU/Gyroscope orientation sensing"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:33 6e0882219f1842e8963d39353ffa1770
+msgid "Optical encoders speed feedback"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:35 683b694b973441b3b4622ffcefc62be4
+msgid "Position tracking"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:36 9ea21d37b62e4002b897785dcbf5f450
+msgid "Emergency stop"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:40 9a1d4ef195854b93846f11915977558f
+msgid "Development Environment"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:42 328cd645923c430b809e4fdce622f70e
+msgid "Install Arduino IDE 2.0 from `https://www.arduino.cc/en/software`"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:43 d171caeab98a4fdbb24bd9096de286a0
+msgid "Install libraries via Library Manager:"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:45 88edb43a7c054dc192eb94c03fbfff7c
+msgid "NewPing (ultrasonic)"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:46 47bf8725b3504c57a7ecf85df48c564e
+msgid "MPU6050 (IMU)"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:47 1f71c8b5d71b423f90d4b51d8943111b
+msgid "Adafruit_SSD1306 (OLED)"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:48 7c9ed6deff9d47a5b70dbe2cdb5cfef7
+msgid "Encoder (encoders)"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:49 778e74a34e5742fb93f30f968321d9cf
+msgid "PID_v1 (PID control)"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:52 d25a556fd4d44679b811aff21e55420f
+msgid "Board Configuration"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:54 9e4fb7fffc4048f48587ae3a4b49ef69
+msgid "Tools > Board > Arduino Mega 2560 Tools > Port > [Select your port]"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:59 334b26f4c0004d4ca73e6b209325dadd
+msgid "Examples"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:61 35f155b9fd494354a1c1f1c53ede7ce3
+msgid "Motor Encoders (snippet):"
+msgstr ""
+
+#: ../../platforms/mega/programming.rst:73 ad3eb9e6ffec4f818469a5a884c59977
+msgid "IMU (snippet):"
+msgstr ""
+

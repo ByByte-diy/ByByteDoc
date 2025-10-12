@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/nano/faq.rst:2 887f9bfe51be46ce84decdd3eab877c7
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:5 e4087a4f45f64081aaed976eeabac703
+msgid "Assembly Questions"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:7 a1b3a047ced34138afc0fd35cba74d60
+msgid "**Q: Do I need to solder anything?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:9 9c1a0cb2327a42419e3f0126e6797f99
+msgid ""
+"A: Yes, you need to solder the PCB but you need basic soldering skills "
+"and tools."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:11 7eb540a32b1749b4add71c6e581b6fed
+msgid "**Q: How long does assembly take?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:13 5108399e296c40969f4105f4084eca09
+msgid "A: First-time builders: 1-2 hours. Experienced: 30-60 minutes."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:15 14067ffd56b54449a12c5853bca23ee1
+msgid "**Q: Can I use different motors?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:17 50c98a491a2041268638f134cccfe7cb
+msgid ""
+"A: Yes, as long as they're 6V - 12V DC motors same form factor as N20 "
+"motors. Adjust code for different speeds."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:19 d8d9a15fa71e4e3a982ec2ecb288e7bd
+msgid "**Q: Where do I get the 3D printed parts?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:21 36e4e7624a544045b69591f9159f3dcd
+msgid ""
+"A: Options: Buy online, or 3D print from your 3D printer. The 3D printed "
+"parts not required for the assembly."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:23 0c8ff9837c2247068b97e37c18b31550
+msgid "**Q: Can I add more sensors?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:25 313ee943544e40318b74867702ea489f
+msgid ""
+"A: Yes! If you not using the HC-0x bluetooth module you can add more "
+"sensors."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:28 dc48ad51ff024d2c9f91f0ef01f8fb02
+msgid "Component Questions"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:30 0d26159441ba4e2481dd4de04c9dab5c
+msgid "**Q: Arduino Nano or Uno?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:32 0c32f626a9644deb8a68c0c95bad1fcd
+msgid "A: The PCB is designed for Arduino Nano compatible boards only."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:34 ea61ee6c9c1e46bfae0dac0b788b096b
+msgid "**Q: What batteries should I use?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:36 97167210451f4dd88f6fbb38fe0dd50e
+msgid ""
+"A: 6F22 9v li-ion battery. You can use other 6V - 12V battery with "
+"replace the battery holder."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:38 c253b89aec1a452a914494a2dede9656
+msgid "**Q: Can I use a power bank?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:40 28cafdfa4b154b4681a8569ed2df83e7
+msgid ""
+"A: For charging the battery you can use a power bank. Motors need "
+"separate battery."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:42 de4adf427be7446f9db63f0cc7f2c9e3
+msgid "**Q: My motor driver gets hot, is this normal?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:44 0ac12dc0a0424738a8ae4aa5afb3f7db
+msgid "A: Slight warmth is OK. If very hot, check connections and reduce load."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:47 39a0a3f282b54de594c34955e27e4094
+msgid "Programming Questions"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:49 b7895138666c43ec89e3f4d39e29eed0
+msgid "**Q: Which IDE should I use?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:51 7263cfea54ec434780d935a8d0544ee7
+msgid "A: Arduino IDE 2.0 (recommended) or Arduino IDE 1.8.x."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:53 40de09d3cf64402b9d89431a9ecb9077
+msgid "**Q: Where do I find example code?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:55 315b7319bac94d54947b3094baa66a56
+msgid "A: Arduino IDE > File > Examples > ByByte, or our GitHub repository."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:57 dca64fe973f1499e9fe4e8d79f66d0eb
+msgid "**Q: My code won't upload, what's wrong?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:59 286843ed9bcb4e5f93e98dbfd48749ff
+msgid ""
+"A: Check: Correct board selected, correct port, cable connected, drivers "
+"installed. Check the jumper settings on the PCB by ESP32-CAM module."
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:61 91bb13f2227e469680145b10f214a847
+msgid "**Q: How do I debug my code?**"
+msgstr ""
+
+#: ../../platforms/nano/faq.rst:63 984f478a04e344488f8d511602520a4b
+msgid ""
+"A: Use Serial.print() to output values, check connections, test "
+"components individually."
+msgstr ""
+

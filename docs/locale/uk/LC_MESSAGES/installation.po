@@ -3,91 +3,79 @@
 # This file is distributed under the same license as the ByByte package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
+#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: ByByte 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 15:34+0300\n"
-"PO-Revision-Date: 2025-10-06 16:00+0300\n"
-"Last-Translator: ByByte Team\n"
-"Language: uk\n"
-"Language-Team: Ukrainian\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
 
-#: ../../installation.rst:2 e1da6bf6bafa486ca1e3b5a5049bd3a2
+#: ../../installation.rst:2 86ea5f7f56db4f5190dc22918ee9250e
 msgid "Installation"
-msgstr "Встановлення"
+msgstr ""
 
-#: ../../installation.rst:4 854db2c425e04b639280bfa03ced811f
+#: ../../installation.rst:4 998789ae9f534f1999533a97add274d7
 msgid "This guide will help you install and set up ByByte."
-msgstr "Цей посібник допоможе вам встановити та налаштувати ByByte."
+msgstr ""
 
-#: ../../installation.rst:7 d2f24aa441c84ae58932df8f09ad261a
+#: ../../installation.rst:7 5f35f5cffc4f4f2fabc4c85216e602a4
 msgid "Requirements"
-msgstr "Вимоги"
+msgstr ""
 
-#: ../../installation.rst:9 f6e2749fe64e43d7ae9a6afba2a185cb
+#: ../../installation.rst:9 e264c7ca11fc4fbab9b9915255e4dc7d
 msgid "Arduino IDE or compatible software"
-msgstr "Arduino IDE або сумісне програмне забезпечення"
+msgstr ""
 
-#: ../../installation.rst:10 8a80abd3b9ff4f48b8c241d1f8836306
+#: ../../installation.rst:10 f1ba2b9966af4e6b927b120fdc3557b5
 msgid "Required hardware components"
-msgstr "Необхідні апаратні компоненти"
+msgstr ""
 
-#: ../../installation.rst:11 563981ebd4be45089d6a88c943d64767
+#: ../../installation.rst:11 0a4b347e4f5b4f02b5256afe2d908ea0
 msgid "Python 3.x (for tools)"
-msgstr "Python 3.x (для інструментів)"
+msgstr ""
 
-#: ../../installation.rst:14 beef718a235942f8ab706e504251790e
+#: ../../installation.rst:14 cac2a4920c0e4d058095025fb664cc1c
 msgid "Installation Steps"
-msgstr "Кроки встановлення"
+msgstr ""
 
-#: ../../installation.rst:16 7a2fc8fc0c42415e8663e9bad0737e4e
+#: ../../installation.rst:16 5a3300ae9f7c41df84c762f13fc03de0
 msgid "Clone the repository:"
-msgstr "Клонуйте репозиторій:"
+msgstr ""
 
-#: ../../installation.rst:23 7810b499e7e6490bab343da59693d5d0
+#: ../../installation.rst:23 27353f6c8c174bcc80f7c25d13729209
 msgid "Install dependencies:"
-msgstr "Встановіть залежності:"
+msgstr ""
 
-#: ../../installation.rst:30 16a4bc18cb7c4333979515724891bc36
+#: ../../installation.rst:30 aa1bc12b4cb546bcbaf14c135c526770
 msgid "Configure the project:"
-msgstr "Налаштуйте проект:"
+msgstr ""
 
-#: ../../installation.rst:39 d424a98a0d33496989b2035dab8e5a67
+#: ../../installation.rst:39 a6b00606e9bc4b96be3f430dba828542
 msgid "Hardware Setup"
-msgstr "Налаштування обладнання"
+msgstr ""
 
-#: ../../installation.rst:41 e6c960514b0f4ac6addc422af9fc9aa8
+#: ../../installation.rst:41 a4ad9b4b8d6b49449df2c001a4167a9c
 msgid "Connect your Arduino board according to the wiring diagram."
-msgstr "Підключіть вашу плату Arduino згідно зі схемою підключення."
+msgstr ""
 
-#: ../../installation.rst:44 cc87d8316f2d4c16b1ceda8e58bbffb7
+#: ../../installation.rst:44 046cd80025f443bdaeda3b0638c22d26
 msgid "Make sure to disconnect power before making any hardware connections."
-msgstr "Переконайтеся, що живлення відключено перед виконанням будь-яких апаратних підключень."
+msgstr ""
 
-#: ../../installation.rst:47 75fdf0be384b43d8a55387a66136fd47
+#: ../../installation.rst:47 0155be7574154febb82e6a68432c8c9f
 msgid "Verification"
-msgstr "Перевірка"
+msgstr ""
 
-#: ../../installation.rst:49 f4af47af760b499999af6d9a24bcfb6f
+#: ../../installation.rst:49 69fc3de8118f442fb0063a258a3130db
 msgid "To verify your installation:"
-msgstr "Щоб перевірити ваше встановлення:"
+msgstr ""
 
-#: ../../installation.rst:56 233f4599a7ef434bbef3f1dda52e258e
+#: ../../installation.rst:56 0ba1fce09fa348109e011857b0e01237
 msgid "If everything is configured correctly, you should see a success message."
-msgstr "Якщо все налаштовано правильно, ви побачите повідомлення про успіх."
+msgstr ""
 
-#: ../../installation.rst:59 846964e7d065499c812d6db502d54053
+#: ../../installation.rst:59 0fda67535ec7487eadb9eccf9f145be8
 msgid "Next Steps"
-msgstr "Наступні кроки"
+msgstr ""
 
-#: ../../installation.rst:61 2b83c9a12aa945219d9bab8aba3d8738
+#: ../../installation.rst:61 f11d5f6165df4e378576e6762b067e80
 msgid "Continue to the :doc:`quickstart` guide to begin using ByByte."
-msgstr "Перейдіть до посібника :doc:`quickstart`, щоб почати використовувати ByByte."
+msgstr ""
 

@@ -1,0 +1,353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/nano/build.rst:2 f672cc17b5fc4aee9139ceb37c2927bc
+msgid "How to Build"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:5 0fb569ca8c324a869308841958107e31
+msgid ""
+"Safety first! Always disconnect power before making or changing "
+"connections."
+msgstr ""
+
+#: ../../platforms/nano/build.rst:8 eeabe37106264435b911717db2f4178d
+msgid "Configurations"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:10 23f57373a90b482c9693b4ad53635b3d
+msgid "Basic (recommended for starters):"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:12 aca7cc8a7d364345a0e6c1ec756175ad
+msgid "Arduino Nano (ATmega328P)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:13 ../../platforms/nano/build.rst:35
+#: 1954a1e01d4c4b89967a91730ee42473 e75ee3af78f24753a0148a4528c4b2ec
+msgid "DRV8833 motor driver"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:14 fc3f006ce2dc496bb6ca4d017aef3c44
+msgid "2 × N20 DC gear motors with 45 mm wheels"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:15 3d797fa31b5148ab9f6819306f2f9643
+msgid "HC-SR04 ultrasonic sensor"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:16 ../../platforms/nano/build.rst:38
+#: 0f0c6c7f350e41b98f591cc28e0057ab 804718ee4abd45df8fd69dd79698b506
+msgid "5 × TCRT5000 line sensors"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:17 f6d9c1044c3f408bbea6326334257d6a
+msgid "6F22 (\"Krona\") battery holder and 6F22 Li‑ion battery"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:18 9384c0073cda4308930fef3fad41666f
+msgid "Prototyping board (PCB or breadboard)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:19 9b7b4f81ac4c4f0d98ea9dfcfdbc4d0f
+msgid "MINI‑360 DC buck converter (5V/3.3V)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:21 5aff8e3af37b42e3a5aba99b8e5a3d87
+msgid "Extended (connectivity and lights):"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:23 84f6727a5d124b38b07eaffc941b709b
+msgid "Everything from the basic kit"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:24 fe6ba6a3ceef4988938d55079e5c4aef
+msgid "ESP32‑CAM (Wi‑Fi/camera)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:25 3dbc2a6d902a40188af6c2f7d3c03ecc
+msgid "Bluetooth module HC‑05/HC‑06/HC‑02"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:26 2b8d5fc0880143b0a241b39326895198
+msgid "2 × WS2812B LEDs (headlights)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:27 174544a4b2864796a68149e8148d4915
+msgid "IR receiver VS1838 (remote control)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:30 f4c6e2607461449b8c92b78ecc9279c1
+msgid "BOM and Parts List"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:32 58022be71d1d4362b6acc78af9fd9300
+msgid "Arduino Nano board (ATmega328P; old bootloader if needed)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:33 2c18edea2bf3415ea726b0602c3adb2f
+msgid "ESP32‑CAM module (optional)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:34 b2070ae1a4f94a47a1dc87be31a566f3
+msgid "Bluetooth module HC‑05/HC‑06/HC‑02 (optional)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:36 a9d7bacf03f64637ab30e9396d123eba
+msgid "2 × N20 DC motors (6V, 400–750 RPM) with wheels"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:37 ab7a80fe30364b43bbe661f69d78a025
+msgid "HC‑SR04 ultrasonic sensor"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:39 4b383c1d227b4080aed78c9dac4564b4
+msgid "6F22 battery holder + 6F22 Li‑ion battery"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:40 6a8a340c2a3c426b8169dd266fd73837
+msgid "PCB or breadboard"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:41 5f3a5c377341417d89e7ee21e879f25d
+msgid "MINI‑360 power converter (5V and 3.3V)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:42 dcdb9ed1839c41c68a9207f14446643c
+msgid "2 × WS2812B 5 mm LEDs (optional)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:43 55ce8f143c8d4e1cb5e78193f6139a6e
+msgid "IR receiver VS1838"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:44 73b83a8a9b1e4fb98bd981e8213ce952
+msgid "IR emitter/photodiode (SFH4545, TEFT4300) — side sensors (optional)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:45 c0b088d20b4d42e2b4062682cf4f4265
+msgid "LDR photoresistor (light sensor)"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:46 36e2eebfc7f94521840da3a844807910
+msgid "Passive piezo buzzer"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:47 d9e62062e85d43d0b5a4fa99e4e153d4
+msgid "Motor mounts, screws, nuts, ball caster"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:48 46d0cc7f15114965bd952be27ed0c0bd
+msgid "Resistors, capacitors, diodes — small parts"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:49 cb12d2b20d4646f08d91e027661a0bf9
+msgid "Wires and jumpers"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:52 bf95a1d87e7346578c0964848e658296
+msgid "Schematics and Modules"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:54 7326006c12d84028bb846f761462f953
+msgid ""
+"This section helps you connect modules correctly. Detailed printable "
+"schematics will be added as images."
+msgstr ""
+
+#: ../../platforms/nano/build.rst:56 ded437541eb44539ac92a993ee5137df
+msgid ""
+"DRV8833 motor driver: VCC/GND power, outputs to motors M1/M2, control "
+"IN1–IN4 from Arduino"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:57 bcaeb622a58d4865a652c648283545c1
+msgid "TCRT5000 line sensors: 5V/GND power, digital outputs to Arduino pins"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:58 45a86e92c75b425fbca21fdce759a7a7
+msgid "HC‑SR04 ultrasonic: Trig/Echo to digital pins, 5V/GND power"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:59 454fb7dac78a46829dc157d1bb30a5a0
+msgid ""
+"Side IR sensors: emitter/receiver to analog pins, resistor dividers if "
+"needed"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:60 271b68aa11814946ab20ddb80c1290c5
+msgid "IR receiver VS1838: output to a digital pin with interrupt support"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:61 c69d6fee9776418fb96580416be02b58
+msgid "Power: 6F22 battery → MINI‑360 (5V, 3.3V) → power rails"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:64 9f6dca7647db4a65b460b43d0fd9dbd1
+msgid ""
+"Ready-to-use wiring diagrams (PNG/SVG) will be added to "
+"``_static/images`` and linked here."
+msgstr ""
+
+#: ../../platforms/nano/build.rst:67 1dd373c05fb94047a7cb5a76217ec919
+msgid "Device Assembly"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:70 5a477001c32446f5b1ac3b6e2f975858
+msgid "Prerequisites"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:72 32b17d88f5b4476693431ecf2a0bce4e
+msgid "Tools: soldering iron (minimal), cutters, screwdriver, multimeter"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:73 6b7d1a34b4474c55bc7feae8b195cf2e
+msgid "Skills: basic electronics, minimal soldering, attention to detail"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:76 c5898eb4f6b4488186c2626384154ad1
+msgid "Step-by-Step"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:78 9f3a05f53b0346818b95cb479034e33a
+msgid "Step 1: Preparation"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:80 b3a304cddf554cd6a9f53dedddcbddeb
+msgid "Unpack all components"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:81 52f8e41e16e34c18bf0435fa4042d48a
+msgid "Cross-check with the BOM"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:82 432529c2573a470485e97160753765b4
+msgid "Read all instructions first"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:84 208d54ccf5be4260a4dab08ecd8add56
+msgid "Step 2: Chassis"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:86 ea9d879c2f7d4140a3c9a2f72505fd1b
+msgid "Prepare or assemble the chassis"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:87 72add6d203cf434e84be66fa5ef0d482
+msgid "Mount the motors"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:88 96a3526370044df3978d6f823646be7d
+msgid "Attach the wheels"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:89 806b52f65ef44aea92594ffba979fecd
+msgid "Install the battery holder and breadboard"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:91 50e5f73db2694072bb2f3e3d1ce55dad
+msgid "Step 3: Motor Driver"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:93 6f04f0e491674205aab0e6290178d3c5
+msgid "Place the DRV8833 on the breadboard"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:94 597d818d47f24a87b7e2f42ab66ae099
+msgid "Connect VCC and GND"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:95 d37b3adc468c4434a109bb24e2833047
+msgid "Connect outputs to the motors"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:96 9070552a6c2543dd954c98bea28fff00
+msgid "Connect control pins to the Arduino"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:98 d57d2bac865e44afbcc441a443f02399
+msgid "Step 4: Sensors"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:100 6467da799f6c49889c643d40cf263105
+msgid "Mount the ultrasonic sensor in front"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:101 3d59f01c6a894d6baed8d204950097f3
+msgid "Install the line sensors underneath"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:102 db34db52de1443a1a2a2dc274242167d
+msgid "Wire the sensors"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:104 51a637c0dce44904befe7e04d703b739
+msgid "Step 5: Arduino"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:106 7d093975bf1442bf804ac7171d99600b
+msgid "Place the Arduino on the board"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:107 f7a1d9f2b7cd48648ca963950dd255a0
+msgid "Wire to the motor driver"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:108 90654777ea5b4e3db911b1f43cc5dcab
+msgid "Wire the sensor inputs"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:109 f4e0178a37f94cd6b6c3d28961e41102
+msgid "Distribute power rails"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:111 cfbf205aba7a4c2185323f7cfc4bb376
+msgid "Step 6: Power"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:113 449261b61d3c44b4bf649f29dacab510
+msgid "Insert the battery"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:114 04420657c835491297b54cb596aa59e1
+msgid "Connect the holder"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:115 99a81e6bebf14547b2aa822145408d44
+msgid "Optionally add a power switch"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:116 3c741001a08a459badde657b1c8c5ea9
+msgid "Double-check polarity"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:118 61633c725ccf457ebbdf57013cc2335d
+msgid "Step 7: Testing"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:120 3f509cd34c65483ab90eef6bd9fda553
+msgid "Visual inspection"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:121 f58494deeeb6417a93be0fbad14dd284
+msgid "Verify connections"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:122 4035f332aeb346a3872cc8516bc7a136
+msgid "Upload a test sketch"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:123 90c23421e63c4cdab4712189237696b2
+msgid "Test each module"
+msgstr ""
+
+#: ../../platforms/nano/build.rst:124 8cf034f60ee24717b486859e3af7506d
+msgid "Calibrate sensors"
+msgstr ""
+

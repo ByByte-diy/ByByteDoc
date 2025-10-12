@@ -1,0 +1,309 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/mega/faq.rst:2 5a964fec66cd4f00b4788c91eede1421
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:5 dad5f439375b418ba0439f2fefc0d121
+msgid "Assembly Questions"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:7 9ce7f7a0995a49949a332eb8e03fc913
+msgid "**Q: Do I need to solder anything?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:9 8ac243ad3aad485dac9e463545e1ef4b
+msgid ""
+"A: The platform comes pre-assembled with all components soldered. No "
+"soldering required for basic operation."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:11 ee37450878ed46be9d0394f21d0927fd
+msgid "**Q: How long does assembly take?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:13 c3b4b886787f4ceea1f96f67522cb00a
+msgid ""
+"A: Assemble in 6-8 hours. It's not a difficult task, but you need to be "
+"careful with the components."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:15 785761d094014fc3b8cd40481d34637d
+msgid "**Q: Can I use different motors?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:17 d4391c84e624455e81100a710fd5fc0c
+msgid ""
+"A: The platform uses G16 motors (12V, 400-750 RPM). You can replace with "
+"similar 12V DC motors, but you'll need to adjust mounting and code."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:19 85ab4587e72d4754b8c2baa937b05a75
+msgid "**Q: Can I add more sensors?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:21 be48dfeab7b14c72963c6025e442cbe6
+msgid ""
+"A: Yes! You have 17 free digital pins and 6 free analog pins for "
+"additional sensors. Use I2C for multiple devices."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:23 7c587da30191486886d27737277d8ee8
+msgid "**Q: Is the platform modular?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:25 76cabfe3c1674500bab9f2b9f8c42437
+msgid ""
+"A: Yes, the design allows for easy sensor addition and customization "
+"while maintaining core functionality."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:28 135aecdb5efb4429ba03523a1814b724
+msgid "Component Questions"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:30 5c99d287a8cc480f9d38581e98e3cea7
+msgid "**Q: Arduino Mega or other boards?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:32 479ed8be9c884615a575c1a52345e0d1
+msgid ""
+"A: The platform is designed specifically for Arduino Mega 2560 "
+"(ATmega2560). May use chip ATmega1280 with arduino bootloader. (It`s not "
+"tested`)"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:34 310d6df30c2e41058b210591ffc475a7
+msgid "**Q: What battery should I use?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:36 4d67fe98804a45f5a2da58711edad521
+msgid ""
+"A: 1S Li-ion 18650 battery (3.7V-4.2V, 2200+ mAh recommended). The "
+"platform includes battery protection and charging circuit."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:38 8131a4491af649868d657723162af022
+msgid "**Q: Can I use a different battery?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:40 200050d926e44d9691d7986decf43f85
+msgid ""
+"A: The platform is designed for 18650 Li-ion batteries. Using other 3.7v "
+"battery types may require modifications battery holder."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:42 c4bbc1e5ff4647aeaebd29a491797b51
+msgid "**Q: Why does the charging IC get hot?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:44 b8ffe953f81b4e4384f1d5d3d8ba1df2
+msgid ""
+"A: The TP4056 charging IC can get warm during charging (especially at 1A "
+"current). This is normal - ensure proper ventilation and don't touch the "
+"PCB during charging."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:46 8a2906ec08174264ad845b73d0c4fdb5
+msgid "**Q: Can I charge while using the robot?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:48 fee6b0e267a7422c92fd2e9634ff84b4
+msgid ""
+"A: No, charging is only possible when the device is powered off. This "
+"protects the battery and charging circuit."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:50 94e398bc58264be1a873659122a2817c
+msgid "**Q: What's the maximum load capacity?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:52 c43599b5d25841c182d9f640a714171a
+msgid ""
+"A: Tested with more than 2000g load using 750 RPM motors. The platform is"
+" designed for heavy-duty applications."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:55 d9965cff01084186a83bbf897a8da4ab
+msgid "Programming Questions"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:57 e9afb6ba88ac4484a1a4216eb423099c
+msgid "**Q: Which IDE should I use?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:59 38ad5ffceff74464a3b5b2691ceb68a8
+msgid ""
+"A: Arduino IDE 2.0 (recommended) or Arduino IDE 1.8.x. Also compatible "
+"with PlatformIO. You can use VS Code with Arduino or PlatformIO "
+"extensions."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:61 75528336e68c4003ba4e4da969f64132
+msgid "**Q: How do I program the robot?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:63 88b0de052f2e4e938a8f7540c46e22f8
+msgid ""
+"A: Connect via USB-C port, select Arduino Mega 2560 board and port, and "
+"upload your code. The platform includes USB-UART module for programming."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:65 13d93ac735a0414885f741eab3583261
+msgid "**Q: Where do I find example code?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:67 de4f4d1b69094f27bbf699ac30cdd8ec
+msgid ""
+"A: You can use Arduino IDE with our library and examples. Also you can "
+"use PlatformIO with our library and examples."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:69 8a5da00b44bb4b478ed15f5a8d4dadc8
+msgid "**Q: How do I use the sensors?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:71 800db6061b3843bd8bf8fc1954f8cead
+msgid ""
+"A: Most sensors are always on (ultrasonic, IMU, encoders). Some are "
+"program switchable (line sensors, IR side sensors, Bluetooth). Check the "
+"specification for details."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:73 e076e01b559640e79efbd0de95b36546
+msgid "**Q: Can I use Python?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:75 7c99803b4a2d47a2bff3054a23cfca2f
+msgid ""
+"A: Yes, via serial communication with a computer or using MicroPython on "
+"an ESP32-CAM module (optional). You can run the code on you PC and "
+"communicate with the robot via bluetooth serial."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:77 a0eab3ee0b25408293123c2b9e2a12fa
+msgid "**Q: How do I implement PID control?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:79 ea2a62ffce66455da20275b6e26b532a
+msgid ""
+"A: Use the PID library. The platform includes optical encoders for "
+"feedback control. Example code available in our repository."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:81 e05d41b5055a40edb333420265cde71c
+msgid "**Q: My code won't upload, what's wrong?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:83 eb94a18f95a5472caf38139a6d0d5f1a
+msgid ""
+"A: Check: Correct board selected (Arduino Mega 2560), correct port, USB-C"
+" cable connected, device powered on. You must be use an USB data cable "
+"for programming."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:86 6fd888a777f04e6fa3deb39b9d45806c
+msgid "Performance Questions"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:88 5aca05eb82684c83947ec156b8e4ee7b
+msgid "**Q: How long does the battery last?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:90 e6921036b104494d9d1a01554df7d76e
+msgid ""
+"A: 1-3 hours typical use, depending on motor usage and sensor activity. "
+"The platform includes battery voltage monitoring."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:92 4b7ff96aca7d471fb9ddc46054230f24
+msgid "**Q: What's the maximum speed?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:94 1f5d66adfbc6476aa72e78205b644f82
+msgid ""
+"A: Depends on motors and load. With G16 motors (750 RPM): up to 1.77 m/s "
+"(6km/h) on smooth surfaces."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:96 2d9b32f76fe244f5bcd6cc5e2621b3fb
+msgid "**Q: How accurate is line following?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:98 00b052a70c1b4540b013fb0cbd8c93f6
+msgid "A: With 6 analog sensors: ±10-20mm accuracy."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:100 0a750bfb321b400aadffa29f47c81bf9
+msgid "**Q: Can it handle slopes?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:102 d6a2215cfb154cbc82140eb1f32be44a
+msgid ""
+"A: Yes, the platform can handle moderate slopes. Performance depends on "
+"load and motor power."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:104 f3b5bc44f1d64d209e82d68f83134304
+msgid "**Q: What's the range of ultrasonic sensors?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:106 ca5f7c70df5e4cf389e0313f9312d676
+msgid ""
+"A: HC-SR04 sensors have 2-70cm (effective) range with ±3mm accuracy. "
+"Always on for continuous obstacle detection."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:110 8999ab226ce74b06bf5908f1301ff43d
+msgid "Support & Resources"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:112 519e6d472b9e435b896eeefd9bfafde5
+msgid "**Q: Where can I get help?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:114 6d89406a12a944b48990a6507d01d87a
+msgid ""
+"A: Check our GitHub discussions, community channels and social, or "
+"contact support. Advanced documentation available for competition "
+"programming."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:116 9d61a57ea06c453ab3306d1ff578e9d8
+msgid "**Q: Are there video tutorials?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:118 af283a5bc0fc41a2a210f31f54eda35d
+msgid ""
+"A: Yes, comprehensive video tutorials available covering assembly, "
+"programming, and advanced features."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:120 e5c9cc7bb21e4088a10709d3d3272657
+msgid "**Q: Can I get spare parts?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:122 d229b67d6a0347e1b3988befcc4f5a9c
+msgid ""
+"A: Yes, all components are available as spare parts. Contact us for "
+"specific requirements."
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:124 ac0239d73c294ef8bcdcbe2e216887af
+msgid "**Q: Is there a warranty?**"
+msgstr ""
+
+#: ../../platforms/mega/faq.rst:126 3d5f4c017ba14edabcafaa2e60e2c2a0
+msgid ""
+"A: The project is provided as is, and the authors are not responsible for"
+" equipment damage or other issues related to improper use, assembly, or "
+"low-quality components."
+msgstr ""
+

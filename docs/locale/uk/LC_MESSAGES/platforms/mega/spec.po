@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/mega/spec.rst:2 14d26a5a77914ae6907832a58a2bd923
+msgid "Technical Specifications"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:5 399bac90a3fe44e7ac75b41b7e1bc443
+msgid "Platform"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:7 f4db66a3eb374029b403761270abf31b
+msgid "**Microcontroller:** ATmega2560"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:8 fb8a9753c3cf401c929d228d7677ac0e
+msgid "**Output Voltage:** 3.3V, 5V, 12V (switchable)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:9 fa7bce5b93914819a0d6f8cbf688c581
+msgid "**Input Voltage:** 3.7V - 4.2V (1S Li-ion battery 18650)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:10 93ff6cff6c9d4042855f45a7ae7db73a
+msgid "**Digital I/O Pins:** 17 (free)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:11 b647ae080319455ea804372657304e89
+msgid "**Analog Input Pins:** 6 (free)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:12 17f398676d6b40e6b1eb20c706931d33
+msgid "**Flash Memory:** 256 KB"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:13 eb810b7053e5482c92cb481c520d149a
+msgid "**SRAM:** 8 KB"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:14 3219c32a571e4405a4c2b4fdab3282f5
+msgid "**EEPROM:** 4 KB"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:15 e19577106c13438c928fe8ec224dd945
+msgid "**Clock Speed:** 16 MHz"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:16 b82ca29e21584615b27b8ec674830809
+msgid "**PWM Pins:** 6"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:19 a3f8e2170a92475bb1ec768a1916035a
+msgid "Motors & Movement"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:21 fa2e41759d9c4719afcef542b1fd0bd3
+msgid "**Motor Type:** DC geared motors G16"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:22 42317f24a2094e74846d2c25d5097865
+msgid "**Voltage:** 12V"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:23 7cd52661a0274058aacd0b4228826d0e
+msgid "**RPM:** 400-750 (typical)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:24 85bd0366f5e444c09353dd6f968cf00e
+msgid "**Motor Driver:** Dual H-Bridge TB6612FNG"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:25 1eecfcec0e384edb946eb6c1d6a2f031
+msgid "**Speed Control:** PWM with feedback"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:26 c4ee7c59bf114cc7bd211ed3c82b5243
+msgid "**Direction Control:** Digital pins"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:27 3b98f0116bd647b49a03b257a67f0955
+msgid "**Current Protection:** Yes"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:28 ad646002d2d34b5d8e7ba1050153a795
+msgid "**Encoder Resolution:** 12 pulses/rotation (typical)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:31 5377a0d330ff45929d48f08d136c2e3a
+msgid "Included Sensors & Devices"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:33 4fce6e019a754b67aac5486b0fe26050
+msgid "Ultrasonic distance sensors (HC-SR04, *always on*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:34 bbfbf8bde717448fae20d4c2f56b3281
+msgid "Line following array (6 analog sensors, *program switchable*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:35 8e550b7e180d4545b80be36479550913
+msgid "IMU/Gyroscope (MPU6050, *always on*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:36 29625278cc314444b6b1417d22816578
+msgid "Optical encoders (2x, *always on*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:37 b748c160934b4f7395450c544053a27c
+msgid "IR side sensors (2x, *program switchable*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:38 f6563c99c58b44aa91d2c011784c7c0b
+msgid "IR sensor (VS1838, *always on*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:39 751a086762c04c2bad37b2930c065f74
+msgid "Light sensor (LDR, *always on*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:40 a60666ddf2a44553abfea92c128112a3
+msgid "Temperature sensor (LM35DZ, *always on*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:41 501e33ae9ac041228282ce11834c42cf
+msgid "Battery voltage"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:42 1df5577e7756432fa42965245a6044f3
+msgid "Knock sensor SW420 (*always on*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:43 47b35e5a6b4f4e10b1ddfd3a1b607508
+msgid "Push buttons (3x)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:44 84c0337eedb34947ad91bc0cd5c36e16
+msgid "Potentiometers (2x)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:45 68bb08ae56c042eeaca2ce8bf3cc048e
+msgid "RGB LEDs (4xWS2812B, *always on*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:46 26d3d46b8fd340e2a543d1ecc9901a89
+msgid "LEDs (3x) + 2x White LEDs (headlights)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:47 6ad5f5d8034643fd86ea4a749f658fe3
+msgid "LCD display (I2C 1602, *on by default*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:48 7385fedcf1ea4681abfef96a909110b5
+msgid "Buzzer (Passive piezo)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:49 3c1e4ea6303b42b283bcf8d4ba2dd18c
+msgid "Bluetooth module (HC-02, *program switchable*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:50 9054b537b1b84a68a0eb09bde34be4c0
+msgid "USB-UART module (CP2102, *powered by USB-C port*)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:53 7ad024fbc22d473b962ce84db1c23c53
+msgid "Communication"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:55 2bfb872e92064f24abb8b0556c7682da
+msgid "**Bluetooth:** HC-02 (HC-05, HC-06 compatible)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:56 9f51328cb96d43228f6044aae5de1cac
+msgid "**WiFi:** ESP32-CAM (optional)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:57 6293dbe0af5a4291935393d030dd025b
+msgid "**Serial:** Hardware UARTs (1 port + 1 port USB-UART)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:58 200c654b956b4298813e8e46361f6a38
+msgid "**I2C:** Multiple Devices"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:59 f22dfdab13e44df9b23ba15946a0b8ca
+msgid "**IR:** VS1838 (IR remote control)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:62 1d0af0c5b2ea41cba15eab0e87e2ff30
+msgid "Indicators"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:64 9a53623ab7d9498d87f03f4c9fc5d88b
+msgid "**Power LED:** 5V voltage provided"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:65 9f9dbb83b2384207a11bf8bb62f8d654
+msgid "**Power LED:** 3.3V voltage provided"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:66 9309a2cc17cf49b1ad1518d5e8c7f97f
+msgid "**Power LED:** 12V voltage enabled and provided"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:67 e5dec38117474b898f552b8f67e36122
+msgid "**Charge LED:** charging in process"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:68 36f8f8a24473494485e858c6978fb41c
+msgid "**Charge LED:** Charging complete"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:69 9e612e5b4c22464596538f956747a3b2
+msgid "**Charge LED:** Charging level indicator (4 levels)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:70 16aefe979f50475e8e3e43a9d1f71e83
+msgid "**USB-UART LED:** USB-UART module data transfer activity"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:71 b15e19f72daf41b48f47b8322508ba1a
+msgid "**Bluetooth LED:** Bluetooth module status"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:72 b34e3f3d53b84d7db9eecb9fb8cf8be6
+msgid "**IR LED:** IR side sensors activity status"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:73 c3b4f98557cf44349994d81f6a1c2e67
+msgid "**Line following LED:** Line following activity status"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:77 8634a89579ed460bb608324283e0abd7
+msgid "Power Supply"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:79 c01dbd39422c4e0a9405ac2ac2706500
+msgid "**Battery type:** 1S Li-ion battery 18650"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:80 cbcfa914dddb469796b69901f13286f3
+msgid "**Voltage:** 3.7V - 4.2V"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:81 674a61fb60cf40a29523a8896b294fbf
+msgid "**Capacity:** 2200+ mAh (recommended)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:82 8e7da9d672e242bba77efa48a28bca6a
+msgid "**Charging current:** 1A"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:83 ec6c9c53a9e44ac29a7e9740a7d52320
+msgid "**Current discharge rate (CDR):** 10A min"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:84 9dca5694a47a4e11a72b0160d5f6484b
+msgid "**Protection:** Battery protection system included (overcurrent 12A)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:85 36328b6fc6cc405ab632f48e0ff1dd8c
+msgid "**Runtime:** 1-3 hours"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:86 c07794160e594931999b20db0f9ce074
+msgid "**Charging time:** 2-4 hours"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:87 ff5d0e52835f45ca9f7dc51c6ca0cb5d
+msgid ""
+"**Charging:** Via USB-C port (TP4056 1A max) when device is powered off "
+"only"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:90 1573c4cd22c84250acfde3aaee0f190c
+msgid ""
+"During charging, the charging IC (e.g., TP4056) may become hot. This is "
+"normal at higher currents, but you must handle the device carefully and "
+"ensure proper ventilation. Do not touch the PCB components during "
+"charging and avoid charging near flammable materials."
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:93 bfef1696cdf94bdb86e37a8380bb3074
+msgid "Power supply provided"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:95 bef5c419306742f9a9f563b6a75c847f
+msgid "**Output Voltage:** 5V (3A max)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:96 cf86a750d0ee4f60817f18809e5eb387
+msgid "**Output Voltage:** 3.3V (3A max)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:97 6a33a86a5f534277809e8815ae0d2b66
+msgid "**Output Voltage:** 12V (2A max) (program switchable)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:98 bb332ff20a2545e2bd0f26ba0c677011
+msgid "**Output power:** 45W max (5V + 3.3V + 12V)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:101 af548785cbd143639b6a437f21527f84
+msgid "Dimensions & Weight"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:103 6b2869edc44e4fc2996bc8863986f457
+msgid "**Length:** ~142 mm"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:104 dc962fd73c7e4de1a8d95d60b10a0af9
+msgid "**Width:** ~130 mm"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:105 afc053ed2a6a4ef3aed97bb0f5748406
+msgid "**Height:** ~60 mm"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:106 aea9f283371d49fcadbc874b767915b4
+msgid "**Weight:** ~370g (with battery)"
+msgstr ""
+
+#: ../../platforms/mega/spec.rst:107 7ba8ddc681c745068e4324fa05f34e66
+msgid "**Load capacity:** more than 2000g (tested with 750rpm motors)"
+msgstr ""
+

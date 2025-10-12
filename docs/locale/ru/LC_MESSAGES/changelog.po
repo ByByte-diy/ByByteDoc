@@ -5,86 +5,73 @@
 #
 #, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: ByByte 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-06 15:34+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ru\n"
-"Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: ru\\nLanguage-Team: ru <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
 
-#: ../../changelog.rst:2 9550086fbfca4bd1aca2814f08d7a053
+#: ../../changelog.rst:2 9f459916ce4f4194b563d553e0961fe7
 msgid "Changelog"
 msgstr ""
 
-#: ../../changelog.rst:4 750165b49f8c4273944b3a2e65a6f509
+#: ../../changelog.rst:4 a61381bfbf224aeeb9be54ef1ae94432
 msgid "All notable changes to this project will be documented in this file."
 msgstr ""
 
-#: ../../changelog.rst:7 abe4ee6ed7d24d9dad3df3ca11330f3e
+#: ../../changelog.rst:7 dd5285e377d143e1813fc4414eacc231
 msgid "Version 1.0.0 (2025-01-XX)"
 msgstr ""
 
-#: ../../changelog.rst:9 efa754ab260f4b149573352cf7e0977d
+#: ../../changelog.rst:9 dabfb9d86fff424eb54ab277f381a53e
 msgid "Initial release."
 msgstr ""
 
-#: ../../changelog.rst:12 2cd5a07df79b418ab8d09e8df91d9c23
+#: ../../changelog.rst:12 9d501a059b5f41efa132e024f678090f
 msgid "Added"
 msgstr ""
 
-#: ../../changelog.rst:14 4a00d107527f4d5592964446877c1789
+#: ../../changelog.rst:14 a75cecbfcb6a4631a2d4e1a4af97261f
 msgid "Basic device communication"
 msgstr ""
 
-#: ../../changelog.rst:15 0b84f6cf6e974482ae9879bc635e2c1c
+#: ../../changelog.rst:15 b677a0e2b448469c84be362a58d93135
 msgid "Serial port support"
 msgstr ""
 
-#: ../../changelog.rst:16 9c3dc0ec02464985a5109b37dde618c8
+#: ../../changelog.rst:16 0ee71105ab7a48969bb52dd9465b1bef
 msgid "Command sending and receiving"
 msgstr ""
 
-#: ../../changelog.rst:17 cff572a562934cd0b295e80c99ded6c6
+#: ../../changelog.rst:17 ca7b2091d6234ef3b6d0f535e9463c6a
 msgid "Configuration management"
 msgstr ""
 
-#: ../../changelog.rst:18 94c7850d599f4733aa4ecdd4300520ee
+#: ../../changelog.rst:18 c8f8e348fc604e2b932b2522f736c53c
 msgid "Comprehensive documentation"
 msgstr ""
 
-#: ../../changelog.rst:19 525e0593ee384323b2a24a5d8ba13297
+#: ../../changelog.rst:19 32fafe21332c4882b302039d0bfcbe7f
 msgid "Example scripts"
 msgstr ""
 
-#: ../../changelog.rst:22 253da0134eda48998d5d4ab5eb469132
+#: ../../changelog.rst:22 0e116bac43e54d7fb026ec21f266c3a7
 msgid "Fixed"
 msgstr ""
 
-#: ../../changelog.rst:24 03b5219d5d564d3790e2cc3f1b19196c
+#: ../../changelog.rst:24 d805ae26a5b4484d9a465e113c5c8669
 msgid "Initial bug fixes"
 msgstr ""
 
-#: ../../changelog.rst:27 e895c27871fa4d79aef8a1354883114e
+#: ../../changelog.rst:27 bc4a0d536381467f9e96e3b72556ff14
 msgid "Changed"
 msgstr ""
 
-#: ../../changelog.rst:29 197bc9f689584c2cad4ffd0fde90a363
+#: ../../changelog.rst:29 66faf7b0192e4b6fb8177c57b985c8ba
 msgid "Initial implementation"
 msgstr ""
 
-#: ../../changelog.rst:32 29fd0ef44ca74a53801839a0785ca5eb
+#: ../../changelog.rst:32 b792312b29ab4b3c8e2226e59ba61ed5
 msgid "Version 0.1.0 (Development)"
 msgstr ""
 
-#: ../../changelog.rst:34 2bcf8565e3044625ba05bc73cc256b15
+#: ../../changelog.rst:34 cd4b3368e93a48f881b678393c8b6f75
 msgid "Initial development version"
 msgstr ""
 

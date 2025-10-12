@@ -12,8 +12,8 @@ Complete guide to translating ByByte documentation.
 | Language | Code | Status | Maintainer |
 |----------|------|--------|------------|
 | 🇬🇧 English | `en` | ✅ 100% | ByByte Team |
-| 🇺🇦 Ukrainian | `uk` | 🔄 17% | - |
-| 🇷🇺 Russian | `ru` | 🔄 8% | - |
+| 🇺🇦 Ukrainian | `uk` | 🔄 1% | - |
+| 🇷🇺 Russian | `ru` | 🔄 1% | - |
 
 ---
 

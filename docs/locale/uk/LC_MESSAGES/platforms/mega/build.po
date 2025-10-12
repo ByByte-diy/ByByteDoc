@@ -1,0 +1,246 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/mega/build.rst:2 91549019133f4af881c389bfbaed03ee
+msgid "How to Build"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:5 a28a0d8fa9f34c18a93a1c5d850d91b2
+msgid "Safety first! Disconnect power before working. Double-check polarity."
+msgstr ""
+
+#: ../../platforms/mega/build.rst:8 b1f08ed6169743c2ba65d457275bce8f
+msgid "Configurations"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:10 bd8db5c4a5744a48a1fd7fefcc350f22
+msgid "Basic kit:"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:12 111759e706284089aeb2a2553a91a911
+msgid "Arduino Mega 2560"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:13 dcfab9aac05243f9bb280fce392e8368
+msgid "Motor driver/shield"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:14 47707d6c1c5a4055a98a023bffe3b54b
+msgid "4 × DC motors (with optional encoders)"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:15 17ddf2603ef045d09c77942157dfa1fb
+msgid "Ultrasonic sensors (2–4)"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:16 ca9594b7395b410690f79060d69f34fb
+msgid "Line sensor array (5–8)"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:17 e91e46094c9240edbe790469eff1e2a4
+msgid "Battery holder / BMS"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:18 1e8d2a5b4afd416eabedf9c7b9e9c640
+msgid "Chassis and fasteners"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:20 e42ac6a239b742a7bb6045508826b148
+msgid "Extended kit:"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:22 c77f76b4ded14426bada955cac780d36
+msgid "Everything from basic kit"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:23 9ff35641bbd0493a9ee22c08c11f8ffe
+msgid "IMU/Gyro module"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:24 ../../platforms/mega/build.rst:38
+#: 0a74afe088d647468bc043f7e8d1d1e8 1d44489281c144d2b3bb5c7868cad2fd
+msgid "Bluetooth/Wi‑Fi module"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:25 53c43281032c43cbbcf6614ca956ab57
+msgid "OLED display"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:26 907da100b73b46b6953cb9da55f95beb
+msgid "Extra LEDs and indicators"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:29 7e073a04acaa4eb0989d33a08d24e534
+msgid "BOM and Parts List"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:31 00209846e57746d5b324460abbf76506
+msgid "Arduino Mega 2560 board"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:32 9a245d200189408f941357c5cd283b0d
+msgid "Motor drivers (dual H‑Bridge) or shield"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:33 8b29ba353ec1499591dc824165627387
+msgid "4 × DC motors + encoders"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:34 09933b45d58341f08bcb467745fffeb3
+msgid "HC‑SR04 sensors (×2–4)"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:35 8485637f1a7e4c00882d6766153ba0f4
+msgid "Line sensor array"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:36 918a244e5eca45f0af569c23f741a691
+msgid "IMU (MPU6050)"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:37 7ed69be6ce624a08bb6cb5bcea957bd9
+msgid "OLED (SSD1306)"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:39 4fef13a41e074c9bbe36d2e8e69ac39e
+msgid "BMS + battery (3S LiPo or 6×AA)"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:40 c8d5b5e2a52c479ba5ffbac92cbe95a9
+msgid "Wires, connectors, screws, nuts, spacers"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:43 1e006c47ef0b4f4b805a9235f77675a8
+msgid "Schematics and Modules"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:45 9c3a44a0535240fea27e1e1002f5a7d3
+msgid "Power distribution with BMS"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:46 6b292ac41ac047778ced0e5aee22106c
+msgid "Motor driver connections"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:47 52d03b6b0b474d949ba515953b6aad87
+msgid "Sensor buses (I2C/SPI/UART)"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:48 961aeef38e6841448ac1e25f4ac33980
+msgid "Encoder wiring"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:49 a76019e12e6e41e28ac8cec562354ab5
+msgid "Optional modules (display, camera)"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:52 ac510a25b2b5496ab7b92e261b4b1ead
+msgid "Device Assembly"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:54 83421a3155264fa4b0bab98ffa9c7074
+msgid "Phase 1: Planning"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:56 e2f60a074d0948fba3ac9c4e97a26016
+msgid "Review documentation and schematics"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:57 b5c650a63a344273a606c54ce031f1c3
+msgid "Inventory components"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:58 528197a73f0f4ffd8d9922b916769c64
+msgid "Prepare workspace and tools"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:60 63f8b683938f4af4970186938b047019
+msgid "Phase 2: PCB/Shield"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:62 d88245c2938d4b5b9d7b03ed66914b11
+msgid "Inspect PCB/shield"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:63 6bd3d91b1c20454d90909ef2ad043865
+msgid "Solder components if using DIY PCB"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:64 2f77b93969304a23965036a8fffdbc15
+msgid "Mount Arduino Mega and drivers"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:66 9d57a5eb6bdb47dbb440066ab4ad3d02
+msgid "Phase 3: Chassis"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:68 22c76deb8c81438eb4aff56a98a83e51
+msgid "Assemble frame and mounts"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:69 14190b70906d4e46a8aa34c6de5e0bf7
+msgid "Install motors and wheels"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:70 59198de6918648f2af9b2d4a5c03e4d2
+msgid "Mount PCB/shield and battery holder"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:72 152fc8af01384c85a712d5eb35d4f9da
+msgid "Phase 4: Sensors & Modules"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:74 51654ee6442f407d8557ffef1087cdc3
+msgid "Mount ultrasonics, line array, IMU"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:75 5a8fbf973d22419ba7af4ef6144a7c8b
+msgid "Add communication modules and OLED"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:76 b470695e352947e49e7789d2ae65bc1c
+msgid "Route cables and secure"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:78 294479a1460f4faab5c1f0ed73b332a4
+msgid "Phase 5: Wiring"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:80 928f57f60ce04460a28a8d6faf67914d
+msgid "Distribute power rails"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:81 02788b211b8b4084b8982fd873faafba
+msgid "Wire drivers, sensors, encoders"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:82 65348346e9ed4e3fba2449b84f8de112
+msgid "Cable management and labeling"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:84 a86789b03f9443028e71b2908829433e
+msgid "Phase 6: Testing"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:86 9a26a8f4da16497cb117b961619a4eea
+msgid "Continuity and polarity checks"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:87 ad0f3fe0fd7b455683f95baacfa94091
+msgid "Power‑on without load"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:88 1980cfc43cbc4540b1d4598ce49c3480
+msgid "Module‑by‑module tests"
+msgstr ""
+
+#: ../../platforms/mega/build.rst:89 9043e909e2764964acc8655618e9a3f2
+msgid "Calibration"
+msgstr ""
+

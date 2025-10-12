@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: ru\\nLanguage-Team: ru <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms/nano/programming.rst:2 ff7234825c6540d5b5981fcb17b8c799
+msgid "Programming"
+msgstr ""
+
+#: ../../platforms/nano/programming.rst:5 ebf09de5b12945a1bb2028a92378bac4
+msgid "Getting Started"
+msgstr ""
+
+#: ../../platforms/nano/programming.rst:7 0481bfd6a3f341da8c0fd597ab1f16ba
+msgid "**1. Install Arduino IDE**"
+msgstr ""
+
+#: ../../platforms/nano/programming.rst:9 05a3aab97e9a4002bdf7051e637f16b2
+msgid "Download from: https://www.arduino.cc/en/software"
+msgstr ""
+
+#: ../../platforms/nano/programming.rst:11 8566fb450ed64cf79bed891a11743269
+msgid "**2. Install Required Libraries**"
+msgstr ""
+
+#: ../../platforms/nano/programming.rst:21 5da24aec5207427f97110bed1909717d
+msgid "**3. Select Board**"
+msgstr ""
+
+#: ../../platforms/nano/programming.rst:30 68506c0f1736466e9e1e9308716a1dfd
+msgid "Basic Examples"
+msgstr ""
+
+#: ../../platforms/nano/programming.rst:32 fc889f7df235493f9b033173b91cf074
+msgid "**Example 1: Motor Test**"
+msgstr ""
+
+#: ../../platforms/nano/programming.rst:65 c855687dae6a4da3af321b4aabc804fb
+msgid "**Example 2: Obstacle Avoidance**"
+msgstr ""
+
+#: ../../platforms/nano/programming.rst:96 57f4794df7674fb0b31fd1a7d66801fe
+msgid "**Example 3: Line Following**"
+msgstr ""
+

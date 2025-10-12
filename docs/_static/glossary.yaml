@@ -1,0 +1,155 @@
+# Translation glossary for ByByte documentation
+# Fill the 'uk' and 'ru' fields for each term. If a term must remain in English, set preserve: true.
+
+meta:
+  project: ByByte
+  version: 1.0
+  languages: [en, uk, ru]
+  owner: maintainer@bybyte.example
+
+style:
+  uk:
+    register: formal  # formal|neutral|informal
+    address: "ви"    # vi/ty
+    notes: |
+      - Зберігати код, імена пинів, файли і команди без перекладу.
+      - Одиниці СИ, десяткова крапка '.'
+  ru:
+    register: formal
+    address: "вы"
+    notes: |
+      - Сохранять код, имена пинов, файлы и команды без перевода.
+      - Единицы СИ, десятичная точка '.'
+
+preserve:
+  - HC-SR04
+  - DRV8833
+  - TB6612FNG
+  - WS2812B
+  - Arduino Nano
+  - Arduino Mega 2560
+  - ATmega328P
+  - ATmega2560
+  - I2C
+  - SPI
+  - TWI
+  - UART
+  - PWM
+  - Li-ion
+  - '18650'
+  - TP4056
+  - VS1838
+  - 6F22
+  - G16
+  - N20
+  - SFH4545
+  - TEFT4300
+  - LDR
+  - TCRT5000
+  - RGB
+  - LED
+  - HC-02
+  - HC-05
+  - HC-06
+  - ESP32-CAM
+  - MINI-360
+  - MPU6050
+  - LCD1602
+  - LM35DZ
+  - SW420
+  - IR
+  - PORT
+  - PIN
+  - GND
+  - VCC
+  - 3.3V
+  - 5V
+  - 12V
+  - USB-C
+  - USB
+  - INT
+  - EEPROM
+  - SRAM
+  - FLASH
+  - 1S
+  - CDR
+
+
+terms:
+  robot:
+    uk: робот
+    ru: робот
+  board:
+    uk: плата
+    ru: плата
+  module:
+    uk: модуль
+    ru: модуль
+  sensor:
+    uk: датчик
+    ru: датчик
+  motor driver:
+    uk: драйвер двигунів
+    ru: драйвер двигателей
+  line following sensor:
+    uk: датчик лінії
+    ru: датчик линии
+  power supply:
+    uk: джерело живлення
+    ru: блок питания
+  battery holder:
+    uk: тримач батареї
+    ru: держатель батареи
+  breadboard:
+    uk: макетна плата
+    ru: макетная плата
+  chassis:
+    uk: шасі
+    ru: шасси
+  encoder:
+    uk: енкодер
+    ru: энкодер
+  firmware:
+    uk: прошивка
+    ru: прошивка
+  wiring diagram:
+    uk: схема підключення
+    ru: схема подключения
+  quick start:
+    uk: швидкий старт
+    ru: быстрый старт
+  troubleshooting:
+    uk: усунення несправностей
+    ru: устранение неполадок
+  overview:
+    uk: огляд
+    ru: обзор
+  specification:
+    uk: специфікація
+    ru: спецификация
+  programming:
+    uk: програмування
+    ru: программирование
+  frequently asked questions:
+    uk: поширені запитання
+    ru: частые вопросы
+  clock speed:
+    uk: частота
+    ru: частота
+  flash memory:
+    uk: флеш-пам'ять
+    ru: флеш-память
+  sram:
+    uk: оперативна пам'ять
+    ru: оперативная память
+  eeprom:
+    uk: постійна пам'ять
+    ru: постоянная память
+  pwm:
+    uk: широтно-імпульсна модуляція
+    ru: широтно-импульсная модуляция
+  ByByte:
+    uk: БАБАЙ
+    ru: БАБАЙ
+
+

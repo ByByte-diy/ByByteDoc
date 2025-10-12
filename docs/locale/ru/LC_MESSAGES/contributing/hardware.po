@@ -1,0 +1,1015 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: ru\\nLanguage-Team: ru <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../contributing/hardware.rst:2 feeb4cd90bf846deb409e913e26fddf6
+msgid "Hardware Development"
+msgstr ""
+
+#: ../../contributing/hardware.rst:4 5228114ebff64ea7a217de5e4bc51572
+msgid "Contributing to БАБАЙ hardware platforms (nano and Mega)."
+msgstr ""
+
+#: ../../contributing/hardware.rst:7 c5bc98cff8fb431fb7bb01415fe68ddf
+msgid "**All hardware contributions MUST be discussed with moderators first!**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:10 566032838fbb4d969d6de66d6f8467ee
+msgid "Overview"
+msgstr ""
+
+#: ../../contributing/hardware.rst:12 f4a8a727feb04c2b822fc9d2260b87e8
+msgid "ByByte.DIY hardware platforms are designed for education:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:14 2a06cbf3187c4195bd272e7af3a93edb
+msgid "**ByByte nano** - Simple platform for beginners"
+msgstr ""
+
+#: ../../contributing/hardware.rst:15 c50ba2a277cf46e58f1baa9245c53073
+msgid "**ByByte Mega** - Advanced platform with full peripherals"
+msgstr ""
+
+#: ../../contributing/hardware.rst:17 ae0b92fb8cda4806b2a8226bd7c643c4
+msgid "**All hardware must be:**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:19 9edb7171db8645e58851d22536f7ffdc
+msgid "✅ **Affordable** - Use common, inexpensive components"
+msgstr ""
+
+#: ../../contributing/hardware.rst:20 172a4d94a1414e62aee5717bc6ac3421
+msgid "✅ **Accessible** - Easy to source components"
+msgstr ""
+
+#: ../../contributing/hardware.rst:21 9a3837024cb94ca8b902fef78e2533fb
+msgid "✅ **Safe** - Follow safety standards for children"
+msgstr ""
+
+#: ../../contributing/hardware.rst:22 87bdfaac1bee4d11b8c5e7cf55466b3c
+msgid "✅ **Educational** - Support learning objectives"
+msgstr ""
+
+#: ../../contributing/hardware.rst:23 7ec2994c07af44fc9d9f21c1d960a7af
+msgid "✅ **DIY-friendly** - Assemble without professional tools"
+msgstr ""
+
+#: ../../contributing/hardware.rst:26 5a8cce72cce34c1187fb931df9766a8d
+msgid "Requirements"
+msgstr ""
+
+#: ../../contributing/hardware.rst:29 2868045fedc44ef4b1e2034016f59a35
+msgid "Component Selection"
+msgstr ""
+
+#: ../../contributing/hardware.rst:31 a6a87528c0b342d59b9415643e03e4f9
+msgid "Use widely available components"
+msgstr ""
+
+#: ../../contributing/hardware.rst:32 36a1ca9fdc7d4f59800aa898e04cd27c
+msgid "Prefer standard Arduino-compatible parts"
+msgstr ""
+
+#: ../../contributing/hardware.rst:33 ce5f9c7fa4d94ce7a6c8b72dfb98a731
+msgid "No rare or expensive components"
+msgstr ""
+
+#: ../../contributing/hardware.rst:34 42db46d31fa64595a6606ddf3efe4c7d
+msgid "Must be available in Ukraine/Europe"
+msgstr ""
+
+#: ../../contributing/hardware.rst:35 c8159efe3d1244939dd9b48d31217b41
+msgid "Provide alternative component options"
+msgstr ""
+
+#: ../../contributing/hardware.rst:38 b8ed48a61de54eaa85477b0da5c0f787
+msgid "Safety Standards"
+msgstr ""
+
+#: ../../contributing/hardware.rst:40 4009a5a15b464f2bb56e815ff822868a
+msgid "Low voltage (5V/12V maximum)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:41 fa74c6449e3448dbbd8e81c0f805b8bb
+msgid "Proper insulation"
+msgstr ""
+
+#: ../../contributing/hardware.rst:42 8f793bd652424bc5adf730f4cddd5b06
+msgid "No sharp edges"
+msgstr ""
+
+#: ../../contributing/hardware.rst:43 ce6bdf86c0414b98802a82c1c21a8131
+msgid "Overload protection"
+msgstr ""
+
+#: ../../contributing/hardware.rst:44 ../../contributing/hardware.rst:98
+#: 54caccba60244455b25aed79d5bb75fc 63687b63bc9c4171a70b7ffe18b73d46
+msgid "Clear safety warnings"
+msgstr ""
+
+#: ../../contributing/hardware.rst:47 4b9760f534e54124a9154b41b6996334
+msgid "Documentation Required"
+msgstr ""
+
+#: ../../contributing/hardware.rst:49 d900a7fb81e04e67ab0d14c39d978b3c
+msgid "For each hardware contribution:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:51 2a4496eb4a6e43d6a05769020caee4ee
+msgid "**Circuit Diagrams** (Fritzing, EasyEDA or similar)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:52 0685c16a1be645fab1ae5a01b09995cf
+msgid "**Component List** (BOM with prices (optional))"
+msgstr ""
+
+#: ../../contributing/hardware.rst:53 23308c03052c491a992891a1f59afba3
+msgid ""
+"**Assembly Instructions** (step-by-step with photos or videos "
+"(Recommended))"
+msgstr ""
+
+#: ../../contributing/hardware.rst:54 8e9c0034d29b47399471040bcb169b48
+msgid "**Testing Procedures**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:55 8373171c8d494c6993f27562e8b5ce4f
+msgid "**Safety Warnings**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:56 420cecbdc0624a2b8668c5e8b1b9894b
+msgid "**Troubleshooting Guide**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:59 41096da87566477e88287e8d3f8ad641
+msgid "Design Guidelines"
+msgstr ""
+
+#: ../../contributing/hardware.rst:62 ef1c1965608f4762ba608a4a76cf7704
+msgid "ByByte nano Guidelines"
+msgstr ""
+
+#: ../../contributing/hardware.rst:64 bf08b90dd138445d96f813f1041b72f7
+msgid "Arduino Nano form factor compatible"
+msgstr ""
+
+#: ../../contributing/hardware.rst:65 46af6e256a5f4ad4ad3a1f2ca6bde4de
+msgid "The number of sensors/modules is determined by the available ports"
+msgstr ""
+
+#: ../../contributing/hardware.rst:66 ff8e11279db24d9d9d3cbcd935f5157e
+msgid "Simple breadboard assembly"
+msgstr ""
+
+#: ../../contributing/hardware.rst:67 9bef0862fca34c5a8545719a911b03df
+msgid "Under $30 total cost (Recommended)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:68 77238d9a135743fabd54df2a65a8da08
+msgid "30-120 minutes assembly time (for beginners)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:71 16c9fc2bd2264a94aa55405670fd2324
+msgid "ByByte Mega Guidelines"
+msgstr ""
+
+#: ../../contributing/hardware.rst:73 be82868e93364f888d531dd32230810d
+msgid "Arduino Mega compatible"
+msgstr ""
+
+#: ../../contributing/hardware.rst:74 6c0a96a6ac0146ee9b66ddaf8efde69b
+msgid "Support for 10+ sensors/modules (depends on the available ports)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:75 039eee9986664f7199b344fc0c445d6c
+msgid "PCB design"
+msgstr ""
+
+#: ../../contributing/hardware.rst:76 4398fee0f3e84ac8848893b3245e7e2c
+msgid "Under $100 total cost (Recommended)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:77 ebafe7602c3e49a2a82a89d1f781233f
+msgid "2-4 hours assembly time (Recommended)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:78 2230e4791824477cb4564bba2759ef69
+msgid "Modular expansion capability"
+msgstr ""
+
+#: ../../contributing/hardware.rst:81 aba1560a4de94955866ed4ecaa6de763
+msgid "Additional Devices and Peripherals"
+msgstr ""
+
+#: ../../contributing/hardware.rst:83 f29c3f940b394c41a366e537a066ee98
+msgid "Contributing additional devices and peripherals for ByByte.DIY platforms."
+msgstr ""
+
+#: ../../contributing/hardware.rst:86 e79a71aad9e5408ebc20ddd0ca6c42ad
+msgid "Project Alignment"
+msgstr ""
+
+#: ../../contributing/hardware.rst:88 828f02cbd2f04ae28f67869bafb3faef
+msgid "All devices must align with ByByte.DIY educational mission:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:90 3e579f4a453447229a9581910e6c1ea3
+msgid "**For Simple/Budget Devices:**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:92 39e52f7f710844e388c11941a5d23259
+msgid "Focus on simplicity and low cost"
+msgstr ""
+
+#: ../../contributing/hardware.rst:93 e4b814070f2d4b8290c5f583801f77a6
+msgid "Easy assembly without special skills"
+msgstr ""
+
+#: ../../contributing/hardware.rst:94 dd3789d0c8814c41aa1086832d5b8742
+msgid "Common, affordable components"
+msgstr ""
+
+#: ../../contributing/hardware.rst:95 5eb6f03e29f84b1da738f18e1edd840a
+msgid "**BUT: Never compromise on safety!**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:96 e50c82cd8bd946b3a23577c70145e6e3
+msgid "Proper protection circuits required"
+msgstr ""
+
+#: ../../contributing/hardware.rst:97 eddf556253d1466a94f3514ac985eaa5
+msgid "Safe voltage levels (5V/12V max)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:99 45891f3f7b8548e2acd5126246f248d8
+msgid "Child-safe design"
+msgstr ""
+
+#: ../../contributing/hardware.rst:101 874978fb98ee4e41be6f06ebc1b9f939
+msgid "**For Advanced/Professional Devices:**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:103 3e9b1a287ede4cc28c88af847b2b9f8f
+msgid "Higher functionality, but still DIY-friendly"
+msgstr ""
+
+#: ../../contributing/hardware.rst:104 1ef1e7d613bd447f8390d26253b1af78
+msgid "No rare or exotic components"
+msgstr ""
+
+#: ../../contributing/hardware.rst:105 09da46b8e6124b52bdd5d70b1966490c
+msgid "No specialized professional equipment needed"
+msgstr ""
+
+#: ../../contributing/hardware.rst:106 4f3ae61daecb4930bab184611c759f27
+msgid "**Core principle: Anyone can build it at home**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:107 981f5cc21eb34718a4828da6c32a00ec
+msgid "Standard tools only (soldering iron, heat gun, screwdriver, etc.)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:108 d72f0d8067b74cd5a5b5d7be27d01c9e
+msgid "Common components available online"
+msgstr ""
+
+#: ../../contributing/hardware.rst:109 1f96cf88657e4b489edece16d011ea9c
+msgid "Clear, detailed instructions"
+msgstr ""
+
+#: ../../contributing/hardware.rst:112 32e5d17830f448f7b797541fb058871c
+msgid "Content Restrictions"
+msgstr ""
+
+#: ../../contributing/hardware.rst:114 8554e5feba374bed9824a7c2085bdb1b
+msgid "Devices MUST NOT contain or promote:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:116 54b621a4e2d5434f8958cb56538db0c6
+msgid "❌ **Prohibited Content:**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:118 c21eaf3c3b1345cfa440259c1c520725
+msgid "Religious themes or symbols"
+msgstr ""
+
+#: ../../contributing/hardware.rst:119 1f98e63eaa7149c2aff94e57a4062499
+msgid "Military/warfare themes"
+msgstr ""
+
+#: ../../contributing/hardware.rst:120 9b8593d399794ec6a6f84c0e3551ad68
+msgid "Weapons or weapon-like designs"
+msgstr ""
+
+#: ../../contributing/hardware.rst:121 fb9553f81c664a11ac593dfdcaceb3cc
+msgid "Adult content or themes"
+msgstr ""
+
+#: ../../contributing/hardware.rst:122 41f2e370a8e24d4790bcfdc1db5dccf4
+msgid "Violence or aggressive content"
+msgstr ""
+
+#: ../../contributing/hardware.rst:123 c2dc9f1a748846ab85a6d91ca974daf9
+msgid "Discrimination of any kind"
+msgstr ""
+
+#: ../../contributing/hardware.rst:124 e6cc9ecf406b4a6993ec097f290f3785
+msgid "Political propaganda"
+msgstr ""
+
+#: ../../contributing/hardware.rst:126 0614799a579348a2a6c1e5e4e39fa2b3
+msgid "❌ **Licensing Issues:**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:128 63ead1999661427ca1153918d60e5fef
+msgid "Copyrighted/trademarked designs (without permission)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:129 1f977f6098c849618ef5a12ed416093e
+msgid "Patented technologies (without license)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:130 a234659262a1448bad4cf2124376819e
+msgid "Other developers' devices (without consent)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:131 2e29bd3ccdf745c0860d43569c6d221f
+msgid "Branded characters or logos (without authorization)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:133 2fcbc4c0928744a49ffbf5fd36ccc026
+msgid "✅ **Acceptable Content:**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:135 1137b4944ec047b08d23fca419f18cc3
+msgid "Educational and learning-focused"
+msgstr ""
+
+#: ../../contributing/hardware.rst:136 5baac0b7232d4eec82489c042a7827d4
+msgid "Age-appropriate (8-16 years)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:137 8170cef431d246fd96c304540cee9894
+msgid "Neutral, inclusive themes"
+msgstr ""
+
+#: ../../contributing/hardware.rst:138 fbd58fc669b84f5e8976417190d3f270
+msgid "Original designs"
+msgstr ""
+
+#: ../../contributing/hardware.rst:139 45b989833368437c8ddef735ced7535e
+msgid "Open-source inspirations (with attribution)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:142 4c791be1b69241ba80ab1b36079f9c8e
+msgid "Required Components for Each Device"
+msgstr ""
+
+#: ../../contributing/hardware.rst:144 f32e0d8c779647e7ae9b0052b63ec253
+msgid "Every submitted device MUST include:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:146 f9a2353767c64cf5836de5d2c0cfd7b7
+msgid "**Complete Instructions**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:148 12cf8df31cf24ac09e856d3b79ca35c2
+msgid "Step-by-step assembly guide"
+msgstr ""
+
+#: ../../contributing/hardware.rst:149 dba112b9fea543e4a455d38efd84ea2d
+msgid "Component list with sources"
+msgstr ""
+
+#: ../../contributing/hardware.rst:150 151cff5948b142619cd8c28339279762
+msgid "Testing procedures"
+msgstr ""
+
+#: ../../contributing/hardware.rst:151 f8c5c0f6918448bd8266d8817d87208e
+msgid "Troubleshooting section"
+msgstr ""
+
+#: ../../contributing/hardware.rst:153 e36f3317237041d89b606f7846d3350c
+msgid "**Software Library**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:155 3b9d86376ce147249c7b27115d45eba2
+msgid "Arduino IDE compatible"
+msgstr ""
+
+#: ../../contributing/hardware.rst:156 38360cdc724b42f3b9c38e190c37e007
+msgid "PlatformIO compatible (optional but recommended)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:157 98cb182ae21346229737014d5e8fd783
+msgid "Well-documented API"
+msgstr ""
+
+#: ../../contributing/hardware.rst:158 d4b6830ec6484ce58f7d18b88e60df91
+msgid "Example sketches"
+msgstr ""
+
+#: ../../contributing/hardware.rst:160 a557b7e56ace4241aa02e6ddca57250c
+msgid "**Educational Content**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:162 001ed72256bb4996acd9247f5e7db353
+msgid "At least 2-3 lessons using the device"
+msgstr ""
+
+#: ../../contributing/hardware.rst:163 b37f894fe8004843bd17e46246fa2fdd
+msgid "Different difficulty levels"
+msgstr ""
+
+#: ../../contributing/hardware.rst:164 f4d33c6ad91a45019057063f0ca5f795
+msgid "Learning objectives clearly defined"
+msgstr ""
+
+#: ../../contributing/hardware.rst:165 ab26d70feca6420e862089c14ff03b3b
+msgid "Suitable for classroom use"
+msgstr ""
+
+#: ../../contributing/hardware.rst:168 f971434aaba94366baa2b64f9f8462d6
+msgid "Documentation Package"
+msgstr ""
+
+#: ../../contributing/hardware.rst:170 2c0c4ee81e8142b3abccb5efd97eec87
+msgid "All submissions must include complete documentation:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:172 2b7863daf9de48829254bc8fc948b7e0
+msgid "📐 **Design Files**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:174 604a0bd3a3a641878469668d64c38cd6
+msgid "Circuit schematics in free EDA software:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:176 88824c9b3d794a70afede57896e59c55
+msgid "KiCad (recommended)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:177 ../../contributing/hardware.rst:184
+#: 609d7a5c927245609a85ccc1f5a8dbe8 b0b330f7ce6045b68d750f9c9f2b76b4
+msgid "EasyEDA"
+msgstr ""
+
+#: ../../contributing/hardware.rst:178 122ec799de204f1d8f3a27569fe556a0
+msgid "Fritzing"
+msgstr ""
+
+#: ../../contributing/hardware.rst:179 3bf4a3382f2d4e4387d06b9c90f2e29b
+msgid "Other free alternatives"
+msgstr ""
+
+#: ../../contributing/hardware.rst:181 d9536c26e0a0454aa33428b99ab89b2a
+msgid "PCB design files (if applicable):"
+msgstr ""
+
+#: ../../contributing/hardware.rst:183 bbef2d6ed8084e6e91a4e5a4253a1867
+msgid "KiCad"
+msgstr ""
+
+#: ../../contributing/hardware.rst:185 33db5860da1c4ca895442482cd521f71
+msgid "Format: editable project files + Gerber files"
+msgstr ""
+
+#: ../../contributing/hardware.rst:187 f80510b7bbd746bca00fa3c12930a49c
+msgid "3D models (if using 3D printed parts):"
+msgstr ""
+
+#: ../../contributing/hardware.rst:189 b8029ee938ac417a92619f6591917f34
+msgid "Source files in original software (FreeCAD, Fusion 360, Blender, etc.)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:190 305f5bcd3f5b441fbfdb31cc4e378a85
+msgid "Export to STL format"
+msgstr ""
+
+#: ../../contributing/hardware.rst:191 898220f5b9184d27951e866c153f54cf
+msgid "Export to OBJ format"
+msgstr ""
+
+#: ../../contributing/hardware.rst:192 25df7860fe5e4a03adf6081e79a91544
+msgid "Print settings and recommendations"
+msgstr ""
+
+#: ../../contributing/hardware.rst:193 6352dd02eb3b4dd1ba964f57b35d700e
+msgid "Links to model repositories"
+msgstr ""
+
+#: ../../contributing/hardware.rst:195 ba3cc09ae4ff4b76ab9383990203219b
+msgid "💻 **Software Package**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:197 313311279d6f43b9b47143e6b685a756
+msgid "Arduino libraries:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:199 0092b43ae9ec471f8236b47d9cb23521
+msgid "Compatible with Arduino IDE"
+msgstr ""
+
+#: ../../contributing/hardware.rst:200 0713617034ef49d1887744d92bdea69e
+msgid "Compatible with PlatformIO (optional)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:201 76c9aedc1b0249dd9bf0fc2ab2b2ce84
+msgid "Header and implementation files"
+msgstr ""
+
+#: ../../contributing/hardware.rst:202 63f8d78fbe7742e691077cd72fcf41a3
+msgid "keywords.txt for syntax highlighting"
+msgstr ""
+
+#: ../../contributing/hardware.rst:203 b7efdfce4a6942d5af3b7c4d12dbfacb
+msgid "library.properties file"
+msgstr ""
+
+#: ../../contributing/hardware.rst:205 bc91fe50da814ed9b741efe8ec94b3e1
+msgid "Example code:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:207 b344d57709104bb6b707a53eefb5d8e9
+msgid "Minimum 3 examples in Arduino examples format"
+msgstr ""
+
+#: ../../contributing/hardware.rst:208 bd4f89bee898432496ae10f2dc8b0367
+msgid "Basic, intermediate, advanced levels"
+msgstr ""
+
+#: ../../contributing/hardware.rst:209 ef6bebccaa79433ca2032e57e1407a37
+msgid "Well-commented code"
+msgstr ""
+
+#: ../../contributing/hardware.rst:210 5ae3692c686640bda33db9d59abc582f
+msgid "Expected output documented"
+msgstr ""
+
+#: ../../contributing/hardware.rst:212 cd1d31a956b8414bb8e502019ae242b8
+msgid "Installation guide:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:214 24bbe27478784b1e9f5ac7339d7a5f4a
+msgid "Library installation instructions"
+msgstr ""
+
+#: ../../contributing/hardware.rst:215 8d62aeb5e2734a42b8bba93ff148cd9f
+msgid "Required dependencies"
+msgstr ""
+
+#: ../../contributing/hardware.rst:216 aa7bdb8572ed4bf1afce1f5fdffffe41
+msgid "Configuration steps"
+msgstr ""
+
+#: ../../contributing/hardware.rst:218 b7e7f70ec7c6442f84fe10e9b8cc22f0
+msgid "📖 **Documentation**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:220 16502e8efa70485e99c0e1d6d9f0caf3
+msgid "Device technical documentation:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:222 bfe5124cceed480ea87a698beae70cd1
+msgid "Technical specifications"
+msgstr ""
+
+#: ../../contributing/hardware.rst:223 7c04f4095dfa4091a4daf33c08139362
+msgid "Pinout diagrams"
+msgstr ""
+
+#: ../../contributing/hardware.rst:224 8839a592ecb34c0f90b11bec58d6a021
+msgid "Connection instructions"
+msgstr ""
+
+#: ../../contributing/hardware.rst:225 af84ecdfa0bf4c40821722a3002c61f2
+msgid "Safety warnings"
+msgstr ""
+
+#: ../../contributing/hardware.rst:226 c89e4da79e884c129f9260da966e005e
+msgid "Troubleshooting guide"
+msgstr ""
+
+#: ../../contributing/hardware.rst:227 0ce394c2111a4ad9ba57912c26445d5a
+msgid "**Submit as Pull Request to ByByteDoc repository**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:229 f91085e8517b4dbca92ca17f9185405f
+msgid "Educational content:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:231 859a5364538b473bab5f5ad1d5c95503
+msgid "Minimum 2-3 lesson plans"
+msgstr ""
+
+#: ../../contributing/hardware.rst:232 284bc0eccd494a6da568f2851bd0fe97
+msgid "Clear learning objectives"
+msgstr ""
+
+#: ../../contributing/hardware.rst:233 224c58bc310a4b6f8072a06d037ff1b7
+msgid "Required materials list"
+msgstr ""
+
+#: ../../contributing/hardware.rst:234 ad8cb33b150d4eb8bf9117485ba9d77d
+msgid "Step-by-step instructions"
+msgstr ""
+
+#: ../../contributing/hardware.rst:235 68b005c65b85412d9ff58ea8bde9cc0d
+msgid "Assessment criteria"
+msgstr ""
+
+#: ../../contributing/hardware.rst:236 3bd044824e9849d8aca6c83b6da245de
+msgid "**Submit as Pull Request to lessons repository**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:238 7f5cb748e02d4f408e2b76ff1e69a1b6
+msgid "📸 **Media Package**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:240 3ec4ed4979854f87ae6962048306b261
+msgid "High-quality photos:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:242 a909aa3451764554b01d525be025825b
+msgid "Minimum resolution: 1920x1080"
+msgstr ""
+
+#: ../../contributing/hardware.rst:243 36b177474ab54ef6a1779e6a8b5fb193
+msgid "Multiple angles and views"
+msgstr ""
+
+#: ../../contributing/hardware.rst:244 2bf36a984e294f82a6648d14dc446af3
+msgid "Assembly step photos"
+msgstr ""
+
+#: ../../contributing/hardware.rst:245 2d6aae557463491da500d89d4abb5ef5
+msgid "Final assembled device"
+msgstr ""
+
+#: ../../contributing/hardware.rst:246 08fb800a83554604bbd26785ae74bd76
+msgid "Device in use"
+msgstr ""
+
+#: ../../contributing/hardware.rst:247 4978f2ccc73848b08c5acbc63c7e2b58
+msgid "Close-ups of important details"
+msgstr ""
+
+#: ../../contributing/hardware.rst:249 6ad610578a9c43098d4f837bf705d12f
+msgid "Demonstration video:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:251 4b3d4e7b23b04286ac0bc02d1bc3b5e2
+msgid "Working device demo"
+msgstr ""
+
+#: ../../contributing/hardware.rst:252 639794199d824edf8bc150eea20b0d09
+msgid "Length: 1-3 minutes"
+msgstr ""
+
+#: ../../contributing/hardware.rst:253 c70e4afc356e431e9bddf69d2dfad185
+msgid "Clear audio and video quality"
+msgstr ""
+
+#: ../../contributing/hardware.rst:254 b3066edfb5dd4625866dd9fc456a9d16
+msgid "Show key features"
+msgstr ""
+
+#: ../../contributing/hardware.rst:255 c9b2f2bb2e374b9a9acc2fc2f6d3772b
+msgid "Optional: assembly timelapse"
+msgstr ""
+
+#: ../../contributing/hardware.rst:257 5951f9249d48446ba71294a98a4d8505
+msgid "Diagrams and illustrations:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:259 c7e1f3a23b19466c9afa63cec0689e53
+msgid "Wiring diagrams"
+msgstr ""
+
+#: ../../contributing/hardware.rst:260 900b18b0836f4ec6b624f4416979a670
+msgid "Connection schemes"
+msgstr ""
+
+#: ../../contributing/hardware.rst:261 1034ec2249f7487f97f68bf70b553884
+msgid "Pinout illustrations"
+msgstr ""
+
+#: ../../contributing/hardware.rst:262 15a05feecc534cf6873393bb501bfb9f
+msgid "Assembly diagrams"
+msgstr ""
+
+#: ../../contributing/hardware.rst:264 3c52f8f5d69c4efdb266ae70e1e52d35
+msgid "🔧 **Bill of Materials (BOM)**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:266 b27dc0f4deef468aafba55ea99ca1efb
+msgid "Complete parts list with:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:268 b360f35ec8444e59b6fc64c0776ffe6e
+msgid "Component names and descriptions"
+msgstr ""
+
+#: ../../contributing/hardware.rst:269 ae58d047326b41549740119f74f25ed9
+msgid "Part numbers and specifications"
+msgstr ""
+
+#: ../../contributing/hardware.rst:270 bbaa28f05e2841ebaba12d3a9d177bbd
+msgid "Supplier links (provide 2-3 sources)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:271 2aa95e41689f4809ad5591c9c5ffb085
+msgid "Approximate prices (USD/EUR)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:272 cf90cd9a2e4a45d69a9d57905134a3ee
+msgid "Alternative components (if available)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:273 a34fd22927454b61a800f9716f3d1aac
+msgid "Quantities needed"
+msgstr ""
+
+#: ../../contributing/hardware.rst:274 b6a397e47a8d4886a760ff7b9073758d
+msgid "Total estimated cost"
+msgstr ""
+
+#: ../../contributing/hardware.rst:275 03aeafe4ce354f1b8c2cfb0652238f5f
+msgid "Tool requirements"
+msgstr ""
+
+#: ../../contributing/hardware.rst:278 cb91f36402404fc393b41294301d4d86
+msgid "Submission Process"
+msgstr ""
+
+#: ../../contributing/hardware.rst:280 747332c9ad9c414f9a0ca4dceaa1ffce
+msgid "**Proposal**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:282 e261f74b9fa9412bb44a1b67b22e4117
+msgid "Create GitHub Issue with:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:284 f6829b4864274512ae70e6e5df7da3b3
+msgid "Design concept"
+msgstr ""
+
+#: ../../contributing/hardware.rst:285 f758f00d3e7447b5ba806c34054a20d9
+msgid "Component list"
+msgstr ""
+
+#: ../../contributing/hardware.rst:286 3d0cf2a576b843b9a44ce478292bc22a
+msgid "Educational purpose"
+msgstr ""
+
+#: ../../contributing/hardware.rst:287 3389aa21ac9e4165bca05f3f2b0e49b8
+msgid "Expected cost"
+msgstr ""
+
+#: ../../contributing/hardware.rst:288 be02fe50348e4296a8b4d56128914653
+msgid "Photos/diagrams if available"
+msgstr ""
+
+#: ../../contributing/hardware.rst:290 ca6f16c730e344fda51f265e82136c02
+msgid "**Discussion**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:292 ff23f687a66e45b5b4175a4237ad5e2a
+msgid "Maintainers will:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:294 eae0d3c8bc824fe7a41685f438f25879
+msgid "Review feasibility"
+msgstr ""
+
+#: ../../contributing/hardware.rst:295 832d06acd308412e9f7bd4694a9812a6
+msgid "Check educational value"
+msgstr ""
+
+#: ../../contributing/hardware.rst:296 660eb108f2c74be49fa24f616d1cac62
+msgid "Verify component availability"
+msgstr ""
+
+#: ../../contributing/hardware.rst:297 c5dc5917d98b498f9ca5af62b9aca18a
+msgid "Provide feedback"
+msgstr ""
+
+#: ../../contributing/hardware.rst:299 493c5b1d39e24d94bf4c17aff9a2b64c
+msgid "**Prototype**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:301 2b0894ee68184f4ca8e2f96d7bf10be8
+msgid "After approval:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:303 559ae1f2d8a54af79daa4001259e7c83
+msgid "Build prototype"
+msgstr ""
+
+#: ../../contributing/hardware.rst:304 ca5452d548a8409eb661f606dcaeff17
+msgid "Test thoroughly"
+msgstr ""
+
+#: ../../contributing/hardware.rst:305 c3a805dd92594e06bccdc7aacb6f354d
+msgid "Document everything"
+msgstr ""
+
+#: ../../contributing/hardware.rst:306 34c2acb4283f460194b2b36dffb75394
+msgid "Take photos/videos"
+msgstr ""
+
+#: ../../contributing/hardware.rst:308 6ed0fc0553f74f7dafd18b129ce82d1f
+msgid "**Review**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:310 3818529690c047bea4cafcb3d75b802d
+msgid "Submit for review:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:312 bb5209e836c24f9a813854c2a30189cf
+msgid "Technical verification"
+msgstr ""
+
+#: ../../contributing/hardware.rst:313 3bf619bdfb09431f8750262f0f534c44
+msgid "Safety check"
+msgstr ""
+
+#: ../../contributing/hardware.rst:314 10a3403d9f8b4bfb8124b71588c23cd2
+msgid "Educational assessment"
+msgstr ""
+
+#: ../../contributing/hardware.rst:315 e5d49f7fbef548db84c9eb2e82c00f2d
+msgid "Cost analysis"
+msgstr ""
+
+#: ../../contributing/hardware.rst:317 c6a8f4fe7c0e4050b00e4377b8f14fb0
+msgid "**Publication**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:319 b51c544bc74c4e3caf410c1640cca91c
+msgid "Once approved:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:321 68367bb1bca04774ac65f720ef573b91
+msgid "Add to main repository"
+msgstr ""
+
+#: ../../contributing/hardware.rst:322 3caa684979804f9ab929b147a8fc6468
+msgid "Create assembly guide"
+msgstr ""
+
+#: ../../contributing/hardware.rst:323 e248b795c3d2406d81f7e1e4aa553af7
+msgid "Update documentation"
+msgstr ""
+
+#: ../../contributing/hardware.rst:326 89da4fcdf0b940ad8d3993497b650ec8
+msgid "Testing Requirements"
+msgstr ""
+
+#: ../../contributing/hardware.rst:328 a684df72ff9a448c8d1d62a10602f3e5
+msgid "All hardware must be tested:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:331 2e0797baf34840eda2681382df182b32
+msgid "Functionality Tests"
+msgstr ""
+
+#: ../../contributing/hardware.rst:333 9225eccfb2df4cf2a1886bd528ea027b
+msgid "All components work"
+msgstr ""
+
+#: ../../contributing/hardware.rst:334 86358103dfa241cdbf506b311d23f40f
+msgid "Sensors provide accurate readings"
+msgstr ""
+
+#: ../../contributing/hardware.rst:335 696a228e65ca407b8972a5e2e26d8654
+msgid "Motors/servos operate correctly"
+msgstr ""
+
+#: ../../contributing/hardware.rst:336 995b0cd74a4d4963b6f230e1d7d4dd42
+msgid "Power supply adequate"
+msgstr ""
+
+#: ../../contributing/hardware.rst:337 6f17b724709946a9aec68101c4ba6442
+msgid "No interference between components"
+msgstr ""
+
+#: ../../contributing/hardware.rst:340 77a29fb02de740a0a7dfb4aa0b6db6a3
+msgid "Durability Tests"
+msgstr ""
+
+#: ../../contributing/hardware.rst:342 857eee42b62e4ba8a199f9b2c8e267b3
+msgid "Withstand basic drops"
+msgstr ""
+
+#: ../../contributing/hardware.rst:343 e3a0d3899d3245cd971b8cec3acb55d9
+msgid "Connections stay secure"
+msgstr ""
+
+#: ../../contributing/hardware.rst:344 55ffc9a0fe804ab2becbd83caba17e62
+msgid "Components don't overheat"
+msgstr ""
+
+#: ../../contributing/hardware.rst:345 39510e906f8a4c468f2956ee98564ea6
+msgid "Long-term operation (4+ hours)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:348 ec43f5adb6414995aec6fd34468ace74
+msgid "User Tests"
+msgstr ""
+
+#: ../../contributing/hardware.rst:350 9a0b19c3ce9a43d48592ebbdc9e8a173
+msgid "Test with target age group"
+msgstr ""
+
+#: ../../contributing/hardware.rst:351 35c1390d823b4191bcaf8945ba39b3b0
+msgid "Verify assembly instructions"
+msgstr ""
+
+#: ../../contributing/hardware.rst:352 6ce19cfa43d34a99a5d2cdd438412d16
+msgid "Check difficulty level"
+msgstr ""
+
+#: ../../contributing/hardware.rst:353 09dc93a34ab24e7d81b41f625c6f55cc
+msgid "Gather feedback"
+msgstr ""
+
+#: ../../contributing/hardware.rst:356 d5d32d74aee04f319fd87ad188b87ec7
+msgid "Examples"
+msgstr ""
+
+#: ../../contributing/hardware.rst:358 3e10f2e923e74ca98aede341cc5f1536
+msgid "Good Hardware Contribution:"
+msgstr ""
+
+#: ../../contributing/hardware.rst:383 424457f5dc1d4012aefbfd8da86d9f74
+msgid "Resources"
+msgstr ""
+
+#: ../../contributing/hardware.rst:385 80b11b293cdc4e25a12a951a54c910b8
+msgid "**Component Suppliers** - (to be added)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:386 b2d0ff39da48480d801c041fb7d424cc
+msgid "**Design Tools** - Fritzing, KiCad, EasyEDA"
+msgstr ""
+
+#: ../../contributing/hardware.rst:387 2cfaa91779a44ae08e368715bc94e05d
+msgid "**Testing Standards** - (to be defined)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:388 61cdf56420b74e5fb3d79ffe75f6c790
+msgid "**Safety Guidelines** - (to be added)"
+msgstr ""
+
+#: ../../contributing/hardware.rst:391 9e7c9fcde3974d5094af0bdfeb72bb8f
+msgid "Questions?"
+msgstr ""
+
+#: ../../contributing/hardware.rst:393 fbc3b243bbfa4eb09bb5b9d81442b3cd
+msgid "Open GitHub Issue with tag ``hardware``"
+msgstr ""
+
+#: ../../contributing/hardware.rst:394 0a0fd8d9eb5c44959d2207a365525b34
+msgid "Contact ``@vergilium``"
+msgstr ""
+
+#: ../../contributing/hardware.rst:395 dea9ede1c9634e0a9a001b73037f4d1b
+msgid "Join hardware discussion forum"
+msgstr ""
+
+#: ../../contributing/hardware.rst:397 ../../contributing/hardware.rst:408
+#: 1eee3dceb6944c4f8ddb805efcfd9489 1f1106e166304719b9c089e9f2f986bc
+msgid "---"
+msgstr ""
+
+#: ../../contributing/hardware.rst:400 c777187462d84a22bb23c1cb3e704453
+msgid "**Remember: Your contributions are very valuable to us!**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:402 6ed130e1f2a04672bb1a378ea9f911fb
+msgid ""
+"Please pay special attention to **safety**, as **children will be working"
+" with your devices!**"
+msgstr ""
+
+#: ../../contributing/hardware.rst:404 74071ded5032451ba29cfbbba6201030
+msgid ""
+"Every device you create helps students learn and grow. Your careful "
+"attention to safety, quality, and educational value makes a real "
+"difference in children's lives."
+msgstr ""
+
+#: ../../contributing/hardware.rst:406 0124409b0ac64f459924652a8be574d7
+msgid "Thank you for being part of ByByte.DIY community! 🎓🔧"
+msgstr ""
+
+#: ../../contributing/hardware.rst:410 12cd3c1c4f2b472ab1ee9f65bdb39fb4
+msgid ":doc:`Back to Contributing Overview <index>`"
+msgstr ""
+

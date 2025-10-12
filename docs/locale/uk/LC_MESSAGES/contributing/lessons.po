@@ -1,0 +1,602 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../contributing/lessons.rst:2 60b659b71715447082d94d0b255b76ae
+msgid "Educational Content"
+msgstr ""
+
+#: ../../contributing/lessons.rst:4 6cc611b4d54343cbbd530090432a6fca
+msgid "Contributing lessons and educational materials to ByByte.DIY."
+msgstr ""
+
+#: ../../contributing/lessons.rst:7 c76d985b222e4cd3af15ffc6c7eeec5d
+msgid "**ALL lessons MUST be reviewed and approved by educational moderators!**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:10 00c345b1f59649bd9a154f92f918e926
+msgid "Overview"
+msgstr ""
+
+#: ../../contributing/lessons.rst:12 9d99bd6d0c1f4cf78cdb40dcaa19c75a
+msgid "ByByte.DIY lessons are designed by:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:14 46e4ff4ef54c469e8210bc60ac2d2b95
+msgid "Robotics teachers"
+msgstr ""
+
+#: ../../contributing/lessons.rst:15 d120e604696f4f6791a7c615bc957f15
+msgid "IT professionals"
+msgstr ""
+
+#: ../../contributing/lessons.rst:16 915169bad38841c3bdd52a4acf6d4d15
+msgid "Educational experts"
+msgstr ""
+
+#: ../../contributing/lessons.rst:18 062bb90e5df9490b9a9de0296460e97c
+msgid "All lessons follow **STEM approach**: Practice First, Theory Second"
+msgstr ""
+
+#: ../../contributing/lessons.rst:21 d4fa484d2dbd414dafe379f4d6f65cca
+msgid "Lesson Structure"
+msgstr ""
+
+#: ../../contributing/lessons.rst:23 7812616e7c7747e49e971d0729e038d0
+msgid "Each lesson must include:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:26 0aab850144ca4e56b46c924d1543ce93
+msgid "Required Sections"
+msgstr ""
+
+#: ../../contributing/lessons.rst:28 78863bbdded5488ea75d49d27c83f539
+msgid "**Learning Objectives**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:30 17b96a8e1af74036a824c28b0d6817ec
+msgid "What students will learn"
+msgstr ""
+
+#: ../../contributing/lessons.rst:31 cfe558a43771470689350142a093c0a8
+msgid "Skills they will develop"
+msgstr ""
+
+#: ../../contributing/lessons.rst:32 df2e86f11dbe464b941e56d2146c787e
+msgid "Knowledge they will gain"
+msgstr ""
+
+#: ../../contributing/lessons.rst:34 ef253b8e60c04b18bb8def421cd6db2a
+msgid "**Prerequisites**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:36 102de8e6eedd4118b896f055ede15360
+msgid "Required knowledge"
+msgstr ""
+
+#: ../../contributing/lessons.rst:37 dac593cc043c4086ae6f4f25ddfc8de8
+msgid "Previous lessons needed"
+msgstr ""
+
+#: ../../contributing/lessons.rst:38 7e4de7a7c210428a9b4346b6d5a83162
+msgid "Hardware requirements"
+msgstr ""
+
+#: ../../contributing/lessons.rst:40 a5ab5cad21c547a68cd168ac278ec833
+msgid "**Materials Needed**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:42 de17a47842af4a038d7ca50a8914f030
+msgid "Hardware components"
+msgstr ""
+
+#: ../../contributing/lessons.rst:43 4c6fb5e8c53744928c11a9ab2dc2ac45
+msgid "Software tools"
+msgstr ""
+
+#: ../../contributing/lessons.rst:44 bdedb6a8908f4d83a11df5b89fb03edc
+msgid "Time required"
+msgstr ""
+
+#: ../../contributing/lessons.rst:46 2f3decddf8ef488ba6faff5b0857f5e2
+msgid "**Step-by-Step Instructions**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:48 f3d25d815e1f43288262aff132724fd2
+msgid "Clear, numbered steps"
+msgstr ""
+
+#: ../../contributing/lessons.rst:49 6247066293824c62a47b0a61c53a6db9
+msgid "Photos/diagrams for each step"
+msgstr ""
+
+#: ../../contributing/lessons.rst:50 3c918834e27a44e897be52e29efd82fa
+msgid "Expected results"
+msgstr ""
+
+#: ../../contributing/lessons.rst:52 958cb09f88ee46daba68714f761c93e1
+msgid "**Code Examples**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:54 20120400e6df45d09678a60d64550227
+msgid "Well-commented code"
+msgstr ""
+
+#: ../../contributing/lessons.rst:55 ed6fb2fe557e49258d1227e080dae79a
+msgid "Explanations of key concepts"
+msgstr ""
+
+#: ../../contributing/lessons.rst:56 e33d6a00802c4deb9354661202a15cef
+msgid "Variations/extensions"
+msgstr ""
+
+#: ../../contributing/lessons.rst:58 541a7182047c48f9a6115ef56449c558
+msgid "**Theory Section**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:60 c994f0598eb14b13ac6b723ac32921e7
+msgid "Explain concepts used"
+msgstr ""
+
+#: ../../contributing/lessons.rst:61 650bf9399cb04977bae84eea78c1e2ae
+msgid "Why things work this way"
+msgstr ""
+
+#: ../../contributing/lessons.rst:62 ../../contributing/lessons.rst:94
+#: d694d5e3e1d642858c53892d52c2ac4b e96fdd44f3034ac294ed5d104ead00d5
+msgid "Real-world applications"
+msgstr ""
+
+#: ../../contributing/lessons.rst:64 5c23007999eb46b7aa8ac1af8bfef040
+msgid "**Challenges**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:66 99ceb3bf634440acb8f47e48461cd976
+msgid "Practice exercises"
+msgstr ""
+
+#: ../../contributing/lessons.rst:67 785c41904b524300a9ed60203106b5b7
+msgid "Troubleshooting tasks"
+msgstr ""
+
+#: ../../contributing/lessons.rst:68 13585d08c5724963ae13c9a9e8c3f821
+msgid "Extensions for advanced students"
+msgstr ""
+
+#: ../../contributing/lessons.rst:70 0ea8e18a02984892a40b8c1b93f18576
+msgid "**Assessment**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:72 c431df9cdba54f4bb131e01070a9d5e8
+msgid "How to verify learning"
+msgstr ""
+
+#: ../../contributing/lessons.rst:73 883914a5c1c042eda88775461b0e16b9
+msgid "Expected outcomes"
+msgstr ""
+
+#: ../../contributing/lessons.rst:74 3982820e8a894aa38b86ac70021b01d2
+msgid "Common mistakes"
+msgstr ""
+
+#: ../../contributing/lessons.rst:77 aabccb4e3e104fb18a89a6bdb9e8ef85
+msgid "Requirements"
+msgstr ""
+
+#: ../../contributing/lessons.rst:80 8a0ca64dbfb643489d0beba12bb34667
+msgid "Educational Quality"
+msgstr ""
+
+#: ../../contributing/lessons.rst:85 f87aa3ad3db14faaae78f7c865cc442e
+msgid "✅ **Clear Learning Objectives**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:83 5944e7c3d5d44c8b8db1b28d0fc50219
+msgid "Specific and measurable"
+msgstr ""
+
+#: ../../contributing/lessons.rst:84 a8132002b40845eebbdea012321f7ac6
+msgid "Age-appropriate"
+msgstr ""
+
+#: ../../contributing/lessons.rst:85 83b7788b72004956ad11fba576b3ce17
+msgid "Aligned with STEM goals"
+msgstr ""
+
+#: ../../contributing/lessons.rst:90 bcac59ef86804aa091aa957e4e311fb0
+msgid "✅ **Structured Approach**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:88 c31de129e187427f9a89f67c13908d3f
+msgid "Logical progression"
+msgstr ""
+
+#: ../../contributing/lessons.rst:89 1d6dddb5851b4e368c735f6f10485ec6
+msgid "Build on previous knowledge"
+msgstr ""
+
+#: ../../contributing/lessons.rst:90 8cae5892784d4ad881e358921afce650
+msgid "Practice before theory"
+msgstr ""
+
+#: ../../contributing/lessons.rst:95 97b1ebd6bbdc49cb83e35ea4b246b4fd
+msgid "✅ **Engaging Content**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:93 fa9dc73a9db3475b81caa105f2dd1a28
+msgid "Interesting examples"
+msgstr ""
+
+#: ../../contributing/lessons.rst:95 17ad2aaca5e4476a99918b331d50af2d
+msgid "Hands-on activities"
+msgstr ""
+
+#: ../../contributing/lessons.rst:100 0ef489e94d124cf3abf13d8ddde25f6f
+msgid "✅ **Accessibility**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:98 a4f9286a49f24a36b8fd87f4b53440ff
+msgid "Clear language"
+msgstr ""
+
+#: ../../contributing/lessons.rst:99 e72190f4dad749fe8d2e274df1d853ab
+msgid "Visual aids"
+msgstr ""
+
+#: ../../contributing/lessons.rst:100 f85c30b974384cf8b42b7f3af9d09e89
+msgid "Support different learning styles"
+msgstr ""
+
+#: ../../contributing/lessons.rst:103 dcb3452340db45fbafcd7c2dcee4013f
+msgid "Age Groups"
+msgstr ""
+
+#: ../../contributing/lessons.rst:105 e7f3e098d0bb4656b17db8ebeb1ae639
+msgid "Lessons should target:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:107 4334d680a258426eaed187e58202c778
+msgid ""
+"**Beginner (7-10 years)** - Basic concepts, simple projects, use block "
+"programming"
+msgstr ""
+
+#: ../../contributing/lessons.rst:108 b1f257c4407e419db38bc325b4c3ebb0
+msgid ""
+"**Intermediate (10-14 years)** - More complex, introduce programming, "
+"prefer text programming"
+msgstr ""
+
+#: ../../contributing/lessons.rst:109 4cf149fa94374eab9d0317f1f0b60a62
+msgid "**Advanced (15+ years)** - Advanced concepts, custom projects"
+msgstr ""
+
+#: ../../contributing/lessons.rst:112 c31bb81182504eb29314663268f3df7a
+msgid "Content Guidelines"
+msgstr ""
+
+#: ../../contributing/lessons.rst:115 fc49a22a48a849f7afdeb018c769db52
+msgid "Language"
+msgstr ""
+
+#: ../../contributing/lessons.rst:117 cb7569d68d1641ed9e6d0fca35e72948
+msgid "Use clear, simple language"
+msgstr ""
+
+#: ../../contributing/lessons.rst:118 57d6b4b368474f6aa0023c2ae73b11e7
+msgid "Define technical terms"
+msgstr ""
+
+#: ../../contributing/lessons.rst:119 9a450bda91554a62ba1a8881b719a400
+msgid "Avoid jargon"
+msgstr ""
+
+#: ../../contributing/lessons.rst:120 7cf949990b5e424f81b1d447716c44bd
+msgid "Provide examples"
+msgstr ""
+
+#: ../../contributing/lessons.rst:123 ff9ec8bf4c2b403690659ab8fbbd3180
+msgid "Safety"
+msgstr ""
+
+#: ../../contributing/lessons.rst:125 fcb3f63698ac4209a85175f823738abe
+msgid "Always include:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:127 7f231c1e0fd34d7c8510c8b49e95abd0
+msgid "Safety warnings"
+msgstr ""
+
+#: ../../contributing/lessons.rst:128 81a71e9ddd89454b84b81c3f36685136
+msgid "Proper handling instructions"
+msgstr ""
+
+#: ../../contributing/lessons.rst:129 214c5875a4c74f50ac8cf4b527fa69d2
+msgid "Adult supervision notes (if needed)"
+msgstr ""
+
+#: ../../contributing/lessons.rst:130 a19694a203bf46ed8d093b92736ae220
+msgid "Emergency procedures"
+msgstr ""
+
+#: ../../contributing/lessons.rst:133 3dae44382237407e8ccf468a12acdad4
+msgid "Code Quality"
+msgstr ""
+
+#: ../../contributing/lessons.rst:135 0df37c883e8445d28aad5a18d84fb229
+msgid "Well-commented"
+msgstr ""
+
+#: ../../contributing/lessons.rst:136 cb36b4af54c9450eb72f6b27d95ed9b7
+msgid "Follow Arduino style guide"
+msgstr ""
+
+#: ../../contributing/lessons.rst:137 33dbe4685ebd44fdbb511019dd462f5e
+msgid "Use meaningful variable names"
+msgstr ""
+
+#: ../../contributing/lessons.rst:138 09731dd331ab4231abb1d96a3aa5cd60
+msgid "Include error handling"
+msgstr ""
+
+#: ../../contributing/lessons.rst:139 c2538e65b771412fb251ea8978e3e4dd
+msgid "Provide full working examples"
+msgstr ""
+
+#: ../../contributing/lessons.rst:142 51548cf1443b4106bffe25953d1f7ddd
+msgid "Images and Diagrams"
+msgstr ""
+
+#: ../../contributing/lessons.rst:144 b53b7096a4304a1db6e2744159f82cb3
+msgid "High-quality photos"
+msgstr ""
+
+#: ../../contributing/lessons.rst:145 06409777c4404d928c5866c3f1e67ab0
+msgid "Clear circuit diagrams"
+msgstr ""
+
+#: ../../contributing/lessons.rst:146 f5d044593d3148baa03ac6f248799502
+msgid "Step-by-step visuals"
+msgstr ""
+
+#: ../../contributing/lessons.rst:147 9b0785b752a34420873496b56f5d3463
+msgid "Before/after comparisons"
+msgstr ""
+
+#: ../../contributing/lessons.rst:150 e232976c35b24ce988d5beb6f20b84b8
+msgid "Submission Process"
+msgstr ""
+
+#: ../../contributing/lessons.rst:152 3bdba6665e184ba493c51148570d41ac
+msgid "**Lesson Proposal**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:154 97b4e85cad6b470eb69d0584810ff5c5
+msgid "Create GitHub Issue:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:178 2b5f2d10ae4d47ceb62ffd05b1fcdf93
+msgid "**Review by Moderators**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:180 c6b09ac9e0d7467c9eb57e7d32140e28
+msgid "Moderators check:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:182 c54fb7de7b6147ee95804bc0e450b754
+msgid "Educational value"
+msgstr ""
+
+#: ../../contributing/lessons.rst:183 7c6a699561a542768fbbbc32ed8277d9
+msgid "Age appropriateness"
+msgstr ""
+
+#: ../../contributing/lessons.rst:184 ec71e9e216f94152b011b449d57445a2
+msgid "Feasibility"
+msgstr ""
+
+#: ../../contributing/lessons.rst:185 a627c30b66f14034859160f9e11b7da5
+msgid "Alignment with curriculum"
+msgstr ""
+
+#: ../../contributing/lessons.rst:187 d8d0288f096a4cc2a4350dd33e3a377c
+msgid "**Develop Full Lesson**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:189 36dd70fc24fc47eaa70767aa523751dd
+msgid "After approval:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:191 566ea07d5f1e4960b9567416893743ef
+msgid "Write complete lesson"
+msgstr ""
+
+#: ../../contributing/lessons.rst:192 161b545aeeb04ee4bde276bee800cda1
+msgid "Create all materials"
+msgstr ""
+
+#: ../../contributing/lessons.rst:193 93c0a7c6fd2c4c018e2f046113d2a3ae
+msgid "Test with target age group"
+msgstr ""
+
+#: ../../contributing/lessons.rst:194 b8deae07a083447bab99213caf4b0cf1
+msgid "Take photos/videos"
+msgstr ""
+
+#: ../../contributing/lessons.rst:196 2474583066e5493cb7dc7f4b5ce3f4a4
+msgid "**Educational Review**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:198 6601e75ab98348f9a7bdb2c114911ff2
+msgid "Submit for review:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:200 f2707f75f4fc462d92d27486875d5362
+msgid "Educational experts review"
+msgstr ""
+
+#: ../../contributing/lessons.rst:201 5be00493ced74c23a2286a93b3e6c1da
+msgid "Test with students"
+msgstr ""
+
+#: ../../contributing/lessons.rst:202 a604e7b997d8486abe754ccfee8c8081
+msgid "Gather feedback"
+msgstr ""
+
+#: ../../contributing/lessons.rst:203 dae05e5d11764434a011c3f619e0c91c
+msgid "Revise as needed"
+msgstr ""
+
+#: ../../contributing/lessons.rst:205 6780a16f4ad74833925ad4f2d7b1b6f4
+msgid "**Final Approval**"
+msgstr ""
+
+#: ../../contributing/lessons.rst:207 1780e068635e43ac98b32af06d5fc0c6
+msgid "Once approved:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:209 f5aeee1a4c25461184b92d568c692900
+msgid "Add to curriculum"
+msgstr ""
+
+#: ../../contributing/lessons.rst:210 2d6aafc3428a440c888ede01e6e5a769
+msgid "Publish in documentation"
+msgstr ""
+
+#: ../../contributing/lessons.rst:211 e19e53645a1f4b53b733697e6a6d201b
+msgid "Announce to community"
+msgstr ""
+
+#: ../../contributing/lessons.rst:214 2bcb14acde1f4fda8ced4174d62ec9f5
+msgid "Lesson Template"
+msgstr ""
+
+#: ../../contributing/lessons.rst:216 b3cf4915ce334995bc1f0864acf71bd8
+msgid "Use this template:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:309 1a14950733dc4a4ea7d74d872353994a
+msgid "Quality Checklist"
+msgstr ""
+
+#: ../../contributing/lessons.rst:311 c66cb07d8451468ca7fb9662668025b6
+msgid "Before submitting:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:313 8fcdf312a7e44015951e6235845c34ba
+msgid "[ ] Clear learning objectives defined"
+msgstr ""
+
+#: ../../contributing/lessons.rst:314 fa7a112026814e9f93b63e79611d8c1e
+msgid "[ ] Age-appropriate content"
+msgstr ""
+
+#: ../../contributing/lessons.rst:315 720f57484bd24c58bc4f0f3f6f77e741
+msgid "[ ] All steps have instructions"
+msgstr ""
+
+#: ../../contributing/lessons.rst:316 3d9778d340794c809ccbe083f6d5074f
+msgid "[ ] Photos/diagrams included"
+msgstr ""
+
+#: ../../contributing/lessons.rst:317 ac31265b86e34ab1970043bf59fcb2e0
+msgid "[ ] Code tested and works"
+msgstr ""
+
+#: ../../contributing/lessons.rst:318 543a16f088e943b28be933a5af270af4
+msgid "[ ] Safety warnings included"
+msgstr ""
+
+#: ../../contributing/lessons.rst:319 eddb7c377cdf4644bed9e1dab9cb2420
+msgid "[ ] Theory section complete"
+msgstr ""
+
+#: ../../contributing/lessons.rst:320 cbc792948e9e4cc28e856473f72a334f
+msgid "[ ] Challenges provided"
+msgstr ""
+
+#: ../../contributing/lessons.rst:321 ed985804561248268772faa46daae191
+msgid "[ ] Tested with target age group"
+msgstr ""
+
+#: ../../contributing/lessons.rst:322 4c19a02ef21c48169e0e5aa46cadb2bf
+msgid "[ ] Follows STEM approach"
+msgstr ""
+
+#: ../../contributing/lessons.rst:323 6b62bf7268c34a7689cb80ee6fc1482c
+msgid "[ ] Grammar and spelling checked"
+msgstr ""
+
+#: ../../contributing/lessons.rst:326 5cd8ea299ff543ca85f56dd1a65eaa4f
+msgid "Examples"
+msgstr ""
+
+#: ../../contributing/lessons.rst:328 7caace3d2f994bf8bf56e537fa4e2b07
+msgid "Good Lesson Examples:"
+msgstr ""
+
+#: ../../contributing/lessons.rst:330 f2b1df874c924da5bacc668e1a8970da
+msgid "\"Introduction to LEDs and Digital Output\""
+msgstr ""
+
+#: ../../contributing/lessons.rst:331 ea250893b0254146b95f06b405493c34
+msgid "\"Building Your First Line-Following Robot\""
+msgstr ""
+
+#: ../../contributing/lessons.rst:332 eaa17e09f2054e79876ae523bc0123ef
+msgid "\"Understanding Ultrasonic Sensors\""
+msgstr ""
+
+#: ../../contributing/lessons.rst:333 2b2f4f6a41ed4965898525408e8fa78a
+msgid "\"Programming Basic Movement Patterns\""
+msgstr ""
+
+#: ../../contributing/lessons.rst:336 51830ecdf376449e99a45b9746188f7d
+msgid "Resources"
+msgstr ""
+
+#: ../../contributing/lessons.rst:338 0587f4ee2fcb4efbbf82b77ee8bd9a94
+msgid "**Lesson Template** - (download link)"
+msgstr ""
+
+#: ../../contributing/lessons.rst:339 2a77dd284e5144ef8cf642615dd38319
+msgid "**Image Guidelines** - (to be added)"
+msgstr ""
+
+#: ../../contributing/lessons.rst:340 37b58730aafb438aa2282b65792bf11e
+msgid "**Code Style Guide** - (to be added)"
+msgstr ""
+
+#: ../../contributing/lessons.rst:341 ee1e2c415ca349d9b816353f70e86319
+msgid "**Assessment Tools** - (to be added)"
+msgstr ""
+
+#: ../../contributing/lessons.rst:344 2eeb991f73014306bb4c568acbed0a4d
+msgid "Questions?"
+msgstr ""
+
+#: ../../contributing/lessons.rst:346 d3e477479ac64009bf151618106af803
+msgid "Open GitHub Issue with tag ``lessons``"
+msgstr ""
+
+#: ../../contributing/lessons.rst:347 bfa9655c2db24a32ad660cbc6fe1f9a7
+msgid "Contact educational moderators"
+msgstr ""
+
+#: ../../contributing/lessons.rst:348 b7e65503573e47bc9aa9e643898ec273
+msgid "Join curriculum discussion"
+msgstr ""
+
+#: ../../contributing/lessons.rst:350 998a1703de234800806a5cbb636ea3ed
+msgid "---"
+msgstr ""
+
+#: ../../contributing/lessons.rst:352 04ecff8b6e144c66bc86bc4b0499da5f
+msgid ":doc:`Back to Contributing Overview <index>`"
+msgstr ""
+

@@ -1,0 +1,661 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../contributing/software.rst:2 b18c583177994fbc8dce4fc1b4c7d7b6
+msgid "Software & Libraries"
+msgstr ""
+
+#: ../../contributing/software.rst:4 fbc33709218645e193f69023e9a6cf0b
+msgid "Contributing code, libraries, and tools to ByByte.DIY project."
+msgstr ""
+
+#: ../../contributing/software.rst:7 497222b7d0b04f5c90b850b7ac31ec65
+msgid "**All software must be thoroughly tested before submission!**"
+msgstr ""
+
+#: ../../contributing/software.rst:10 5384d4b5bcf44fc5ae85908f74c90990
+msgid "Overview"
+msgstr ""
+
+#: ../../contributing/software.rst:12 84e5d200d8254bb7a4b12d9652bf8820
+msgid "ByByte.DIY software components:"
+msgstr ""
+
+#: ../../contributing/software.rst:14 cc28a3be82284ee981eba0ce705c81ca
+msgid "**Arduino Libraries** - Sensor/motor control libraries"
+msgstr ""
+
+#: ../../contributing/software.rst:15 2cdee60ffedc44f0af7f111c5b0c9b5e
+msgid "**Educational Tools** - Programming aids for students"
+msgstr ""
+
+#: ../../contributing/software.rst:16 4f2d46235ec1444ea868ec96b19d8bb6
+msgid "**Development Tools** - Tools for contributors"
+msgstr ""
+
+#: ../../contributing/software.rst:17 4fdfd45328ec4ab4b5e46269f40d97b7
+msgid "**Example Projects** - Reference implementations"
+msgstr ""
+
+#: ../../contributing/software.rst:18 279f778191ec4f3392e62df4e8ab05b0
+msgid "**Testing Utilities** - Validation and testing tools"
+msgstr ""
+
+#: ../../contributing/software.rst:20 95ee5a0f683943949b2209fa82a3d5a4
+msgid "All code must be:"
+msgstr ""
+
+#: ../../contributing/software.rst:22 3c44de79c4644713bdb365e8b16a5c7c
+msgid "✅ **Well-documented** - Comments and guides"
+msgstr ""
+
+#: ../../contributing/software.rst:23 0b68c387870c447396c89f7cd73b484c
+msgid "✅ **Tested** - Unit tests and examples"
+msgstr ""
+
+#: ../../contributing/software.rst:24 603eca92753d423fbce578bd381d33b7
+msgid "✅ **Educational** - Support learning"
+msgstr ""
+
+#: ../../contributing/software.rst:25 c4541ed4e708433394eb35787fe2614a
+msgid "✅ **Compatible** - Work with both platforms"
+msgstr ""
+
+#: ../../contributing/software.rst:26 8b157440c7d24c54ac3d1bf47c754d9a
+msgid "✅ **Open Source** - Proper licensing"
+msgstr ""
+
+#: ../../contributing/software.rst:29 b12a6be263da462e89844787760b3efd
+msgid "Coding Standards"
+msgstr ""
+
+#: ../../contributing/software.rst:32 95363f574b7b4adfafe7956b988845d0
+msgid "Arduino Code"
+msgstr ""
+
+#: ../../contributing/software.rst:34 10f069d5f8694518b2f731420af3c7fe
+msgid "Follow Arduino style guide:"
+msgstr ""
+
+#: ../../contributing/software.rst:54 26748d64fb69467f9d29db588bbbc022
+msgid "**Naming Conventions:**"
+msgstr ""
+
+#: ../../contributing/software.rst:56 db788aaabd66454fa18c458fc0770b68
+msgid "Variables: ``camelCase``"
+msgstr ""
+
+#: ../../contributing/software.rst:57 467084723c9a48d3ac449edae2f18e3a
+msgid "Constants: ``UPPER_SNAKE_CASE``"
+msgstr ""
+
+#: ../../contributing/software.rst:58 fbb403109efc49f098d6734139fcccf5
+msgid "Functions: ``camelCase``"
+msgstr ""
+
+#: ../../contributing/software.rst:59 3b4307c61cc846b79b4d94ae855ce5cd
+msgid "Classes: ``PascalCase``"
+msgstr ""
+
+#: ../../contributing/software.rst:62 db8032f86eef4f4680064df7fbcc1d4a
+msgid "Python Code"
+msgstr ""
+
+#: ../../contributing/software.rst:64 56dbfed3241948009b6c0f987579711b
+msgid "Follow PEP 8:"
+msgstr ""
+
+#: ../../contributing/software.rst:84 16a83d0851e6472a96451ee4acfd0909
+msgid "Other Languages"
+msgstr ""
+
+#: ../../contributing/software.rst:86 3990ddf8c1b34ba5bcdc374c0526b2c7
+msgid "Follow language-specific best practices"
+msgstr ""
+
+#: ../../contributing/software.rst:87 4267046ca37f4450b297ae2587d48fe7
+msgid "Use linters and formatters"
+msgstr ""
+
+#: ../../contributing/software.rst:88 7a593eb15f0f4567ba55f3e6924de42c
+msgid "Maintain consistency with existing code"
+msgstr ""
+
+#: ../../contributing/software.rst:91 431770b1dc7342639d6088d54525c19d
+msgid "Library Development"
+msgstr ""
+
+#: ../../contributing/software.rst:94 8941944fef7c47baa70c93ea1db38616
+msgid "Arduino Library Structure"
+msgstr ""
+
+#: ../../contributing/software.rst:114 35bd94473844445fb2d2413c75a9b7ea
+msgid "Required Files"
+msgstr ""
+
+#: ../../contributing/software.rst:116 22f228a084644c5c8f2ce4cf6b286bae
+msgid "**library.properties:**"
+msgstr ""
+
+#: ../../contributing/software.rst:131 39c0e030b651416399f6c362d04d5793
+msgid "**keywords.txt:**"
+msgstr ""
+
+#: ../../contributing/software.rst:140 a22f87fc251e4391b71eef5d169d9df0
+msgid "Documentation Requirements"
+msgstr ""
+
+#: ../../contributing/software.rst:143 138a3be10e8b4584baf5bbecb8b2ce3c
+msgid "Every Library Must Include"
+msgstr ""
+
+#: ../../contributing/software.rst:145 5c02dde7c39340afbb4925416316995d
+msgid "**README.md**"
+msgstr ""
+
+#: ../../contributing/software.rst:147 6621330e4f494544b5c762d8b25ee651
+msgid "What the library does"
+msgstr ""
+
+#: ../../contributing/software.rst:148 bc8c5071ce5844a3962c6a142b0b5949
+msgid "Installation instructions"
+msgstr ""
+
+#: ../../contributing/software.rst:149 a03774cb13a446d5bccec8250a1ca074
+msgid "Basic usage example"
+msgstr ""
+
+#: ../../contributing/software.rst:150 c3169a7eaa2e436e90ce3aa8e13c0ebd
+msgid "API reference"
+msgstr ""
+
+#: ../../contributing/software.rst:151 2d979639b8d94384a824e482a2e79622
+msgid "License information"
+msgstr ""
+
+#: ../../contributing/software.rst:153 31b2b48c4ad04e2b835f1db14096e631
+msgid "**Examples**"
+msgstr ""
+
+#: ../../contributing/software.rst:155 f21eb7674d5f40509b71d59f67f13576
+msgid "At least 2-3 working examples"
+msgstr ""
+
+#: ../../contributing/software.rst:156 7ae7da6b79b54e5e870d45e10f837013
+msgid "Comments explaining each step"
+msgstr ""
+
+#: ../../contributing/software.rst:157 f596e7ee612c45e79874e0c14977bd42
+msgid "Expected output"
+msgstr ""
+
+#: ../../contributing/software.rst:158 f30cbead890145f4b36c7bfbddeea100
+msgid "Hardware setup instructions"
+msgstr ""
+
+#: ../../contributing/software.rst:160 61b054cdba04477681ccf9ac95f9dd6d
+msgid "**API Documentation**"
+msgstr ""
+
+#: ../../contributing/software.rst:162 cfa6a52f253c4ce89cb1e332d65ded99
+msgid "All public functions documented"
+msgstr ""
+
+#: ../../contributing/software.rst:163 206a39780409470d9c2facdb98aea90b
+msgid "Parameter descriptions"
+msgstr ""
+
+#: ../../contributing/software.rst:164 7a62b12a80eb424eacbf35c1ec6610d6
+msgid "Return value descriptions"
+msgstr ""
+
+#: ../../contributing/software.rst:165 720d78c0b1ed4932a609fbde2aa0748c
+msgid "Usage examples"
+msgstr ""
+
+#: ../../contributing/software.rst:167 1cde5ebf20884370bb1971346ee6da31
+msgid "Example Documentation:"
+msgstr ""
+
+#: ../../contributing/software.rst:187 0bd045ea9ca24b52a7405280090f34a8
+msgid "Testing Requirements"
+msgstr ""
+
+#: ../../contributing/software.rst:190 1c048ec4766743daa711c1f4543729aa
+msgid "All Code Must Be Tested"
+msgstr ""
+
+#: ../../contributing/software.rst:192 cc066939314f4f229eb4ba664f5eb797
+msgid "**Unit Tests**"
+msgstr ""
+
+#: ../../contributing/software.rst:194 d2cfda04edb64c27876dc1db0d1f4d37
+msgid "Test individual functions"
+msgstr ""
+
+#: ../../contributing/software.rst:195 c30fae9690c849b8adf65cacde5ab1b6
+msgid "Check edge cases"
+msgstr ""
+
+#: ../../contributing/software.rst:196 a36c95b2c3a341f9bce16bde3ed27a46
+msgid "Verify error handling"
+msgstr ""
+
+#: ../../contributing/software.rst:198 8a63cdf1cae947d9a1ff91fc2e3bfd03
+msgid "**Integration Tests**"
+msgstr ""
+
+#: ../../contributing/software.rst:200 6b1017a0a0b446dd9f47067388641dfc
+msgid "Test with actual hardware"
+msgstr ""
+
+#: ../../contributing/software.rst:201 fd5bea13f3ad4722b2c7fe96948b3a90
+msgid "Test component interactions"
+msgstr ""
+
+#: ../../contributing/software.rst:202 0350ffef43bf4cb58a652913b6a981c9
+msgid "Verify timing accuracy"
+msgstr ""
+
+#: ../../contributing/software.rst:204 d4b33bc0f34e44ed97cd9aeb0c72047b
+msgid "**Example Tests**"
+msgstr ""
+
+#: ../../contributing/software.rst:206 8066d86b733148578c5ac45e9ec6fc53
+msgid "All examples compile"
+msgstr ""
+
+#: ../../contributing/software.rst:207 31db114f376743d9970259087af77ac1
+msgid "Examples run correctly"
+msgstr ""
+
+#: ../../contributing/software.rst:208 40502181f41343e7914a507d32bf8492
+msgid "Output matches documentation"
+msgstr ""
+
+#: ../../contributing/software.rst:211 1fe92794e10b4dac903e75d15b6b291d
+msgid "Testing Tools"
+msgstr ""
+
+#: ../../contributing/software.rst:213 0208abfde9b94b9ebb01751950047fa1
+msgid "**ArduinoUnit** - Unit testing for Arduino"
+msgstr ""
+
+#: ../../contributing/software.rst:214 83f882348be04a67b84e36517abccfc8
+msgid "**PlatformIO** - Build and test automation"
+msgstr ""
+
+#: ../../contributing/software.rst:215 6bcfdef33e054f24bcb48e7f89a6457d
+msgid "**Hardware-in-the-loop** - Test with actual robots"
+msgstr ""
+
+#: ../../contributing/software.rst:218 9bc9bfd77b7f4b6a821d779c07735853
+msgid "Submission Process"
+msgstr ""
+
+#: ../../contributing/software.rst:220 a2f0334d379a4955b42051d4eb18b4da
+msgid "**Proposal**"
+msgstr ""
+
+#: ../../contributing/software.rst:222 7303c6739f6645ba98a04a633da0ba20
+msgid "Open GitHub Issue:"
+msgstr ""
+
+#: ../../contributing/software.rst:242 5f927dacbbab4aa68ae80848d6d1cb55
+msgid "**Development**"
+msgstr ""
+
+#: ../../contributing/software.rst:244 7154676401cd47448490a88006ffc092
+msgid "After approval:"
+msgstr ""
+
+#: ../../contributing/software.rst:246 301504f27b514b9fb84e70d6a2e874a0
+msgid "Write clean, documented code"
+msgstr ""
+
+#: ../../contributing/software.rst:247 374a2beb212e44e583d7e634b70d349d
+msgid "Create examples"
+msgstr ""
+
+#: ../../contributing/software.rst:248 2a6ea0abb33f4037a1aa6a05eb0538d4
+msgid "Test thoroughly"
+msgstr ""
+
+#: ../../contributing/software.rst:249 ecc154df26e24008bb7d8a79d8b0ced3
+msgid "Write documentation"
+msgstr ""
+
+#: ../../contributing/software.rst:251 4763119362c34c3ab78e22131f9c6ac7
+msgid "**Code Review**"
+msgstr ""
+
+#: ../../contributing/software.rst:253 98f97e865e304fde96a98be33660d9ae
+msgid "Submit Pull Request:"
+msgstr ""
+
+#: ../../contributing/software.rst:255 95c94650519c465a985a989bc1491fdf
+msgid "Code follows standards"
+msgstr ""
+
+#: ../../contributing/software.rst:256 88bc2ff7bffc4e44a82e213a5ff98c9c
+msgid "Tests pass"
+msgstr ""
+
+#: ../../contributing/software.rst:257 ab606244ece74a7d879e3bca53a94605
+msgid "Documentation complete"
+msgstr ""
+
+#: ../../contributing/software.rst:258 a52cc9d4ee3c4d2eb591f125f4039ca2
+msgid "Examples work"
+msgstr ""
+
+#: ../../contributing/software.rst:260 b777d82a9b264109996a7f1b661fd9aa
+msgid "**Testing**"
+msgstr ""
+
+#: ../../contributing/software.rst:262 6e4304d8b4564eac9973a6f13bc28d07
+msgid "Maintainers will:"
+msgstr ""
+
+#: ../../contributing/software.rst:264 dd3569c8a971414c8ea6d81658249bc7
+msgid "Review code quality"
+msgstr ""
+
+#: ../../contributing/software.rst:265 7d6fffd1141947f88ca46495dc8f987b
+msgid "Test with hardware"
+msgstr ""
+
+#: ../../contributing/software.rst:266 77fcd311deaf47e899f3b98aa71dace5
+msgid "Verify educational value"
+msgstr ""
+
+#: ../../contributing/software.rst:267 5ffb0281608b48cb9f1197a8c836eb5f
+msgid "Check compatibility"
+msgstr ""
+
+#: ../../contributing/software.rst:269 2509c68c3c964b6ea3e051a3273a16d0
+msgid "**Merge**"
+msgstr ""
+
+#: ../../contributing/software.rst:271 e7dab4722234424aa6680eeca146b81b
+msgid "Once approved:"
+msgstr ""
+
+#: ../../contributing/software.rst:273 d60dd48c0bb14fcbafb1b354ee123019
+msgid "Merge to main branch"
+msgstr ""
+
+#: ../../contributing/software.rst:274 f381f84a34024070b36727a11e69d286
+msgid "Add to library index"
+msgstr ""
+
+#: ../../contributing/software.rst:275 b7e46e1061c64a38b96446e263070de2
+msgid "Announce to community"
+msgstr ""
+
+#: ../../contributing/software.rst:278 a6a37bfea2fd460f87ad0e8a263698f6
+msgid "Quality Checklist"
+msgstr ""
+
+#: ../../contributing/software.rst:280 5656d4b2ce304ddb8888eaf1afe8b185
+msgid "Before submitting:"
+msgstr ""
+
+#: ../../contributing/software.rst:282 08847ffc330147ceb02f70c22649897d
+msgid "[ ] Code follows style guide"
+msgstr ""
+
+#: ../../contributing/software.rst:283 1e168991879c4fd39f589606cb82eeda
+msgid "[ ] All functions documented"
+msgstr ""
+
+#: ../../contributing/software.rst:284 0e9992e386e944559ff1c9b9f40be486
+msgid "[ ] Examples included and tested"
+msgstr ""
+
+#: ../../contributing/software.rst:285 8ca9258f19b740f3b491b14c613a78d0
+msgid "[ ] README.md complete"
+msgstr ""
+
+#: ../../contributing/software.rst:286 2915a93634bf488e94fa8760dfb01c97
+msgid "[ ] library.properties correct"
+msgstr ""
+
+#: ../../contributing/software.rst:287 80021f85e79e438f9ac0e6aa8121ffd2
+msgid "[ ] keywords.txt included"
+msgstr ""
+
+#: ../../contributing/software.rst:288 e60db6f7ec3d42fcb06d65aa82297623
+msgid "[ ] Compatible with both platforms"
+msgstr ""
+
+#: ../../contributing/software.rst:289 a660d4c1523b48d592411648b9e1f0c0
+msgid "[ ] No warnings when compiling"
+msgstr ""
+
+#: ../../contributing/software.rst:290 a9fe40f4839040909f49aa22f7188ff0
+msgid "[ ] Tested with actual hardware"
+msgstr ""
+
+#: ../../contributing/software.rst:291 5d4c4290f9d741a8a644c858647a54a3
+msgid "[ ] Educational value clear"
+msgstr ""
+
+#: ../../contributing/software.rst:292 d68b175beb104f19842890664d6c03d3
+msgid "[ ] License included"
+msgstr ""
+
+#: ../../contributing/software.rst:295 03e223b3ef74449cb566295b145087f3
+msgid "Common Pitfalls"
+msgstr ""
+
+#: ../../contributing/software.rst:298 c28db7fca25e442c927949cd6df57a88
+msgid "Avoid These"
+msgstr ""
+
+#: ../../contributing/software.rst:301 900a74a31c994ca69ccdfaa48f583392
+msgid "❌ **No Documentation**"
+msgstr ""
+
+#: ../../contributing/software.rst:301 90920b16f6974c6c8b868aae30e933c5
+msgid "Always document your code"
+msgstr ""
+
+#: ../../contributing/software.rst:304 9ba8026c916e4891ac43411d716c7658
+msgid "❌ **Hardcoded Values**"
+msgstr ""
+
+#: ../../contributing/software.rst:304 2cab76d36e174034a8e3125abbbf0fdc
+msgid "Use constants and parameters"
+msgstr ""
+
+#: ../../contributing/software.rst:307 a3ab35f306d34285ac5abd46c06e07fd
+msgid "❌ **No Error Handling**"
+msgstr ""
+
+#: ../../contributing/software.rst:307 6c72d5649b554001bfcb8b8cbcc36cbc
+msgid "Check for invalid inputs"
+msgstr ""
+
+#: ../../contributing/software.rst:310 06cc2d1986fd4316a6011b8c8ee70fd9
+msgid "❌ **Platform-Specific Code**"
+msgstr ""
+
+#: ../../contributing/software.rst:310 5500bf3ed9b944ac82317357d78f9907
+msgid "Ensure compatibility"
+msgstr ""
+
+#: ../../contributing/software.rst:313 b398f18029a94b2091246665230af8f4
+msgid "❌ **Blocking Operations**"
+msgstr ""
+
+#: ../../contributing/software.rst:313 39bce771937e47aab6c9b9bbff0385f6
+msgid "Use non-blocking approaches"
+msgstr ""
+
+#: ../../contributing/software.rst:316 8b24c422a86d4319899023e30ec3b991
+msgid "❌ **Memory Leaks**"
+msgstr ""
+
+#: ../../contributing/software.rst:316 5a21bf7b2ab542569b388945662ed91c
+msgid "Properly manage resources"
+msgstr ""
+
+#: ../../contributing/software.rst:319 9cccf84a79c6401fb37e079712fc5db5
+msgid "❌ **Uncommented Code**"
+msgstr ""
+
+#: ../../contributing/software.rst:319 cc2adcb74cd344b2b20dff5b5f16a007
+msgid "Explain complex logic"
+msgstr ""
+
+#: ../../contributing/software.rst:322 7c034d50ed1d4cbaaee910d7aef6467e
+msgid "Example Projects"
+msgstr ""
+
+#: ../../contributing/software.rst:325 0a920485d4014effa763cffad2decd76
+msgid "Types of Contributions"
+msgstr ""
+
+#: ../../contributing/software.rst:327 ede6941a47934aaea9eef280818aa7fd
+msgid "**Sensor Libraries:**"
+msgstr ""
+
+#: ../../contributing/software.rst:329 2e0df31242874c5eb55534671e700de2
+msgid "Ultrasonic distance sensors"
+msgstr ""
+
+#: ../../contributing/software.rst:330 dc5bac2559ae495498dc6ce96f548d5a
+msgid "Line following sensors"
+msgstr ""
+
+#: ../../contributing/software.rst:331 23ecc9a47b204ee9a44cf03db5e33576
+msgid "IMU/gyroscope integration"
+msgstr ""
+
+#: ../../contributing/software.rst:332 46da6d052b3b4616bf3bc0d4dfb5eec4
+msgid "Environmental sensors"
+msgstr ""
+
+#: ../../contributing/software.rst:334 d67d7dba6f454ef6bc63c5a5f0bf91dc
+msgid "**Motor Control:**"
+msgstr ""
+
+#: ../../contributing/software.rst:336 0ceaee96eb1b40d8bfbe1641836a120d
+msgid "DC motor drivers"
+msgstr ""
+
+#: ../../contributing/software.rst:337 a933108a35324f4ebacab8228b5735ca
+msgid "Servo control"
+msgstr ""
+
+#: ../../contributing/software.rst:338 2b10b674e1094898a411f4abd123654c
+msgid "Stepper motor control"
+msgstr ""
+
+#: ../../contributing/software.rst:339 f41d45cacb414b95a3270d75ab0ea48f
+msgid "Speed regulation"
+msgstr ""
+
+#: ../../contributing/software.rst:341 c5ecb3eba1d948259cd1b1c079e1cf89
+msgid "**Navigation:**"
+msgstr ""
+
+#: ../../contributing/software.rst:343 2d3b4bcdc6dd478a90cc71163dc0d250
+msgid "Obstacle avoidance"
+msgstr ""
+
+#: ../../contributing/software.rst:344 fe59477e2ff445509cbc1518ab770ff7
+msgid "Line following"
+msgstr ""
+
+#: ../../contributing/software.rst:345 7f1ba4ad41af40f18159bb58f0772e0e
+msgid "Path planning"
+msgstr ""
+
+#: ../../contributing/software.rst:346 1e04b691d32b4bcead5bc9a035610c28
+msgid "Localization"
+msgstr ""
+
+#: ../../contributing/software.rst:348 54d92777666c4bbf92916139f26d1be5
+msgid "**Educational Tools:**"
+msgstr ""
+
+#: ../../contributing/software.rst:350 c6cb9dae7fb84fa3888ee7f93f6b59fc
+msgid "Debugging utilities"
+msgstr ""
+
+#: ../../contributing/software.rst:351 6e41c244544849a7a2af9c570d0a7be0
+msgid "Calibration tools"
+msgstr ""
+
+#: ../../contributing/software.rst:352 251d2f6f5f7a4a2f8d7e84b483eeb8bf
+msgid "Serial monitors"
+msgstr ""
+
+#: ../../contributing/software.rst:353 8f0259a5c46a49859d2e00eaa46d3e04
+msgid "Configuration wizards"
+msgstr ""
+
+#: ../../contributing/software.rst:356 919d6231a93341c6a1bc6c861e35bf22
+msgid "Code Templates"
+msgstr ""
+
+#: ../../contributing/software.rst:358 35c3e04f4ac54df29e1a922bf1102db6
+msgid "**Basic Arduino Library Template:**"
+msgstr ""
+
+#: ../../contributing/software.rst:380 5164558c3d3341dbada957b0ba9b4272
+msgid "**Implementation Template:**"
+msgstr ""
+
+#: ../../contributing/software.rst:400 34305025f6db48418187dc4446098f28
+msgid "Resources"
+msgstr ""
+
+#: ../../contributing/software.rst:402 6c486ff0a2624f34b21fae09dfdae38e
+msgid "**Arduino Style Guide** - https://www.arduino.cc/en/Reference/StyleGuide"
+msgstr ""
+
+#: ../../contributing/software.rst:403 26e0c8b04e414fe48f948af854ea524a
+msgid "**PEP 8** - https://pep8.org/"
+msgstr ""
+
+#: ../../contributing/software.rst:404 66b1591dd5554d1ba788475a09514798
+msgid "**Git Workflow** - (see main contributing guide)"
+msgstr ""
+
+#: ../../contributing/software.rst:405 711330c219cc48d88b7a13eb80b9189e
+msgid "**Testing Guide** - (to be added)"
+msgstr ""
+
+#: ../../contributing/software.rst:408 7c374fb2f0864ba1b534e2fc1c00ed17
+msgid "Questions?"
+msgstr ""
+
+#: ../../contributing/software.rst:410 ff5af51213e24616bbe18e2bedf2e49b
+msgid "Open GitHub Issue with tag ``software``"
+msgstr ""
+
+#: ../../contributing/software.rst:411 e26badd157d841cfbc56470646af7ea3
+msgid "Contact ``@vergilium``"
+msgstr ""
+
+#: ../../contributing/software.rst:412 c7eba7c7238840ad8ec6cd92b0b461f0
+msgid "Join software development discussion"
+msgstr ""
+
+#: ../../contributing/software.rst:414 a44aefe95f944823b3b8bcb01d0412fa
+msgid "---"
+msgstr ""
+
+#: ../../contributing/software.rst:416 d771a7ed93cd4d14af71fb3f0f426763
+msgid ":doc:`Back to Contributing Overview <index>`"
+msgstr ""
+

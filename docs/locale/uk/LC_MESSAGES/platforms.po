@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: ByByte 1.0\\nReport-Msgid-Bugs-To: \\nPOT-Creation-Date: 2025-10-12 18:40+0300\\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\\nLanguage: uk\\nLanguage-Team: uk <LL@li.org>\\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit\\nGenerated-By: Babel 2.14.0\\n"
+
+#: ../../platforms.rst:2 beb7942a992e4bf4981559dbaa3a0d99
+msgid "Platforms"
+msgstr ""
+
+#: ../../platforms.rst:4 5c36546964664e059823ae9fcbc7b3af
+msgid ""
+"ByByte.DIY offers two robotic platforms designed for different skill "
+"levels and educational needs."
+msgstr ""
+
+#: ../../platforms.rst:13 486eb6d519f947a38cfd7cf1eda2bb7b
+msgid "Platform Comparison"
+msgstr ""
+
+#: ../../platforms.rst:19 8108ec010a8d4940b7610ebee1e64500
+msgid "Feature"
+msgstr ""
+
+#: ../../platforms.rst:20 1f045fb9a2b94ee39e9f32727779aa91
+msgid "ByByte nano"
+msgstr ""
+
+#: ../../platforms.rst:21 a43bc797947d4a26b999d9110b7e0897
+msgid "ByByte Mega"
+msgstr ""
+
+#: ../../platforms.rst:22 65d91160a6b64e32a1589cf7198d86bb
+msgid "Target Audience"
+msgstr ""
+
+#: ../../platforms.rst:23 49c2a81349434595b06fb37a5008c638
+msgid "Beginners, home learning"
+msgstr ""
+
+#: ../../platforms.rst:24 3857a1e4acd74f16ae98f02cd1c3ad6e
+msgid "Schools, robotics clubs"
+msgstr ""
+
+#: ../../platforms.rst:25 c4804bab11c54707aa77ddfc1dcae63c
+msgid "Complexity"
+msgstr ""
+
+#: ../../platforms.rst:26 5c896b6d9e964884b3777445b7d2be65
+msgid "Simple, easy to build"
+msgstr ""
+
+#: ../../platforms.rst:27 f3344913adec47d2b320b1395265b5d3
+msgid "Advanced, more features"
+msgstr ""
+
+#: ../../platforms.rst:28 4985e7e9563a4c3b8e1107ba71e05d22
+msgid "Assembly Time"
+msgstr ""
+
+#: ../../platforms.rst:29 3b19b012858b4f97ade0d720ffc4379d
+msgid "30-120 minutes"
+msgstr ""
+
+#: ../../platforms.rst:30 85b2a3c87d3d4a8ea8e59bd3ce0f7c4c
+msgid "2-4 hours"
+msgstr ""
+
+#: ../../platforms.rst:31 14c6324992b0410a8bad121a5f46df1f
+msgid "Cost"
+msgstr ""
+
+#: ../../platforms.rst:32 b6829e6caec74c5e90fe8c08e52998f0
+msgid "Under $30"
+msgstr ""
+
+#: ../../platforms.rst:33 18be50e89ca543cfb80f542729174652
+msgid "Under $100"
+msgstr ""
+
+#: ../../platforms.rst:34 2276f2b429cc4a2f8f93597fcd6dd5b9
+msgid "Components"
+msgstr ""
+
+#: ../../platforms.rst:35 062beafa83694fd4997befd9fb11dfc5
+msgid "Basic sensors (5-7)"
+msgstr ""
+
+#: ../../platforms.rst:36 ebde95337bd44b7f90a745aa90dd3fcd
+msgid "Full sensor set (10+)"
+msgstr ""
+
+#: ../../platforms.rst:37 d3a8a6b89c4c4f94bc8b74520058b9de
+msgid "Arduino"
+msgstr ""
+
+#: ../../platforms.rst:38 e2423c4944b846e891c55ceadfe906d3
+msgid "Nano/Uno compatible"
+msgstr ""
+
+#: ../../platforms.rst:39 2d86f13de3534645895c9ba02a5b40ae
+msgid "Mega compatible"
+msgstr ""
+
+#: ../../platforms.rst:40 83b20676aad948159b1958414a427d64
+msgid "Assembly"
+msgstr ""
+
+#: ../../platforms.rst:41 e6bf6710e15144b5836b3e6cb075af40
+msgid "Breadboard"
+msgstr ""
+
+#: ../../platforms.rst:42 1b6f3903e2da47eb98554d335d5420d6
+msgid "PCB (optional)"
+msgstr ""
+
+#: ../../platforms.rst:43 4b40b178845a4fb49417ea0351df3e44
+msgid "Tools Required"
+msgstr ""
+
+#: ../../platforms.rst:44 075fb0dd59ef4dea8d671d9e112e5d9e
+msgid "None or minimal"
+msgstr ""
+
+#: ../../platforms.rst:45 5e68c3d0193c4d2d8e370ac51430d007
+msgid "Soldering iron"
+msgstr ""
+
+#: ../../platforms.rst:46 fd05c7cd08c746aa8c7e5f0d8f33b967
+msgid "Best For"
+msgstr ""
+
+#: ../../platforms.rst:47 9b4ae202550a4ab39ef4c70e6159eba9
+msgid "Individual learning"
+msgstr ""
+
+#: ../../platforms.rst:48 b17cfdac390547319e6d6185c7d964c6
+msgid "Classroom use"
+msgstr ""
+
+#: ../../platforms.rst:51 60af661148e74890ae2429d3c23f9ee1
+msgid "Choosing Your Platform"
+msgstr ""
+
+#: ../../platforms.rst:53 b90584367db34278b9446a09077579c8
+msgid "**Start with ByByte nano if:**"
+msgstr ""
+
+#: ../../platforms.rst:55 852b35163e1245bcac302260fb43ec6a
+msgid "You're new to robotics"
+msgstr ""
+
+#: ../../platforms.rst:56 60d39c03b0c64f38990aceb7c6192e4b
+msgid "Learning at home"
+msgstr ""
+
+#: ../../platforms.rst:57 9441db964e36471bbb4b21a8246ca4d3
+msgid "Limited budget"
+msgstr ""
+
+#: ../../platforms.rst:58 079d2085f2274b869165334f95787917
+msgid "Want quick results"
+msgstr ""
+
+#: ../../platforms.rst:59 8a412b1e7f83435d93d097dfc8166678
+msgid "No special tools available"
+msgstr ""
+
+#: ../../platforms.rst:61 735c162b58ee4344b23c89725b1fa241
+msgid "**Choose ByByte Mega if:**"
+msgstr ""
+
+#: ../../platforms.rst:63 b886d769c40b41ebb43a23954faa8f12
+msgid "Have some experience"
+msgstr ""
+
+#: ../../platforms.rst:64 8c4e636a577340968bfe2cdfd2a46e89
+msgid "Teaching a class"
+msgstr ""
+
+#: ../../platforms.rst:65 85c92b50b0d54388a2a31b6aa7b5d0e3
+msgid "Want more capabilities"
+msgstr ""
+
+#: ../../platforms.rst:66 6b268ed0e78149c0823e71d18a73b5f0
+msgid "Building complex projects"
+msgstr ""
+
+#: ../../platforms.rst:67 3037f442c6974d2aa23e865e16287c0b
+msgid "Have access to tools"
+msgstr ""
+
+#: ../../platforms.rst:70 cc99006630aa4b409ec2ff6588e18bc5
+msgid ""
+"**Not sure?** Start with ByByte nano. You can always upgrade to Mega "
+"later!"
+msgstr ""
+
+#: ../../platforms.rst:73 c5cb58a157f048e2893c067dca0360f1
+msgid "Next Steps"
+msgstr ""
+
+#: ../../platforms.rst:75 c2c50dde48eb447c893550a182bca1e1
+msgid "Choose your platform and begin:"
+msgstr ""
+
+#: ../../platforms.rst:77 c4449b553d4e4141b6d1b05ba872fa27
+msgid ":doc:`ByByte nano <platforms/nano>` - Simple platform for beginners"
+msgstr ""
+
+#: ../../platforms.rst:78 3ecea59120124c24a4fceb7c4809cef3
+msgid ":doc:`ByByte Mega <platforms/mega>` - Advanced platform with full features"
+msgstr ""
+
+#: ../../platforms.rst:80 e8c15a0e4a3d4a9b858654c075cc57a2
+msgid "---"
+msgstr ""
+
+#: ../../platforms.rst:82 e36efb3900e0480b9357cfed239f9a8f
+msgid ":doc:`Back to Home <../index>`"
+msgstr ""
+

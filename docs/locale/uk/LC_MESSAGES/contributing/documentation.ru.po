@@ -1,0 +1,800 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-12 18:40+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../contributing/documentation.ru.rst:2 499ca1107468494e858daf9250599597
+msgid "Разработка документации"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:4 35ccb263e5c64617a5cf39cf8409adb0
+msgid "Вклад в документацию проекта ByByte.DIY."
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:7 587c3fcea2cf419a8a0c723ddf42af73
+msgid "**Хорошая документация необходима для образовательных проектов!**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:10 2ef0e103c8824b7381f9fe7bff71e29f
+msgid "Обзор"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:12 e44a45ca79ca444c8c6fa450187cd59f
+msgid "Документация ByByte.DIY включает:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:14 2442a2d959af4225944f41dbbf6826d5
+msgid "**Руководства пользователя** - Для студентов и преподавателей"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:15 a5a161dc856a4054948ce5a396b92fed
+msgid "**Документация разработчика** - Для участников"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:16 559e046d0010478890472c862e13edcd
+msgid "**Справочник API** - Для пользователей библиотеки"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:17 e8e71e2bca5840c58226a5e5a629e60d
+msgid "**Учебники** - Пошаговое обучение"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:18 76d7ef407b814f19a8a4c2ab741b34c7
+msgid "**Переводы** - Поддержка нескольких языков"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:20 1d197bff185f4706bebbe2a99ff16a0d
+msgid "Вся документация должна быть:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:22 8c261c102ac44dbe966a793a1e90bb4a
+msgid "✅ **Ясной** - Легко понять"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:23 a52190b3662043b8beb2bdf82167cf32
+msgid "✅ **Полной** - Охватывать все аспекты"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:24 3ef750f53f1243c6b6b06950d9cc58e3
+msgid "✅ **Точной** - Технически правильной"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:25 a88efd25274b4e6ab99997c4eb4933f9
+msgid "✅ **Доступной** - Хорошо структурированной"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:26 c58e7e4b61d34850a6a486cb513d5118
+msgid "✅ **Переведенной** - Доступной на английском, украинском, русском"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:29 ac6b6faf97514c88b0a66c14e68fdbcc
+msgid "Стек документации"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:31 8d71382324264f939a298e7e9a9a525a
+msgid "Мы используем:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:33 3fa3dc9db7fe473dbc40f60b197f85c7
+msgid "**Sphinx** - Генератор документации"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:34 a99eb59e08ff4ee19ad0e87199a8e040
+msgid "**reStructuredText** - Язык разметки"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:35 b52ec6364f33408db1928bbfb36125c8
+msgid "**ReadTheDocs** - Платформа хостинга"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:36 0f283d1e47304d1b8ba156a25968b748
+msgid "**sphinx-intl** - Управление переводами"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:37 372a7c6297794b2a807daa2fee5cb9e2
+msgid "**Git** - Контроль версий"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:40 25d5b4c42c5042629ec35e5085641024
+msgid "Требования"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:43 a3ca46d843804f1e94e900552010bbf5
+msgid "Стиль написания"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:45 754826d7b435471a9c9e5e2f683de94c
+msgid "**Для пользовательской документации:**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:47 0da4f2a3e6814c0881826f0ffc3bb478
+msgid "Используйте простой, ясный язык"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:48 632f740f6e2f48bba1024162d413c804
+msgid "Избегайте технического жаргона"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:49 827ba5ee5c454c8780c9b5c4863ae5c0
+msgid "Предоставляйте примеры"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:50 bf04498369cb4266947e906aa274d07e
+msgid "Используйте активный залог"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:51 b14c0b8693d342d3b5b4134f8dc469c8
+msgid "Делайте предложения короткими"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:53 808a747843ab429dbe0c75abe88e6bbb
+msgid "**Для технической документации:**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:55 d3ab2c2262564ff59d15042de9b71429
+msgid "Будьте точны и аккуратны"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:56 30228b611ac2493faf895581bfe28d10
+msgid "Определяйте термины"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:57 29789c1435ac4a2fb4d14930fb138c6a
+msgid "Включайте примеры кода"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:58 4471cc0cdf2943d18b5dc8fa369ea427
+msgid "Ссылайтесь на связанную документацию"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:59 a7d095b149bd43b691af1f3670046f0c
+msgid "Используйте правильное форматирование"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:62 f824705074ba42fe96641a5e6ebeb4b4
+msgid "Структура"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:64 4a5a6a8493de4f4bb4d52c3d577b25f9
+msgid "Каждый документ должен иметь:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:66 09da9d2de8184fecae3fea7c62de3d4d
+msgid "**Заголовок** - Четкий, описательный"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:67 33a641b60201422ca2cc2264ddee531c
+msgid "**Обзор** - Краткое введение"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:68 2ed86cd9c9074ed9aea7438a23ad4ab3
+msgid "**Предварительные условия** - Что читателю нужно знать"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:69 018cd0ca4c494bfdb05e0cfcd8c54b80
+msgid "**Основное содержание** - Подробная информация"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:70 5f79221614524526bf0cc29c73f44bb4
+msgid "**Примеры** - Практические демонстрации"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:71 d7326794d0564fddaa815f237e7a53de
+msgid "**Устранение неполадок** - Распространенные проблемы"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:72 4950939358364192b9ef8f961a1c4577
+msgid "**Следующие шаги** - Куда двигаться дальше"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:75 332320c9a01f467abe3a6bb8bc4063d5
+msgid "Форматирование"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:77 73bb2c186c5d4d548202f01b16918587
+msgid "Используйте правильный reStructuredText:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:110 c664709193b6477db56b41af48d7d5c3
+msgid "Рекомендации по содержанию"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:113 a6bab3d737034cfd904035e3cd6890eb
+msgid "Изображения"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:115 98d0c286c6474801a949dacc704fae5f
+msgid "Используйте высококачественные скриншоты"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:116 1dcf0a313228409c813a6d5009043422
+msgid "Добавляйте описательные подписи"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:117 fe76f7b01c1344f28cd0d9eb1a8ce945
+msgid "Оптимизируйте размеры файлов"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:118 1404cf7f8dba46f2b3633a12eec943bd
+msgid "Размещайте в ``_static/images/``"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:119 931342e76bda468f91874ac1e9ff29e1
+msgid "Правильно ссылайтесь"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:129 b928270b2b4c4dfa883ab99d80d1c845
+msgid "Блоки кода"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:131 6d3b840167354cfda4fbb7ef392391f6
+msgid "Всегда указывайте язык:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:154 186b166cd1b149dea3eb60b35f5edb0e
+msgid "Ссылки"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:156 7e9ff045375341d18d5ea6ac6e0618c8
+msgid "**Внутренние ссылки:**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:164 eae713a4d6d446e98151e407d5b45bfd
+msgid "**Внешние ссылки:**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:171 ca144ae1fd4940b4b1e573d7c2be5ba7
+msgid "Списки"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:189 68e70b66732d4ec697f5cb06d949a585
+msgid "Таблицы"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:211 08ca391f88ec47879a06d76d8bd95ffe
+msgid "Рабочий процесс перевода"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:213 9c0b570fd6c5445b9f39ae22829d166e
+msgid "Документация ByByte.DIY доступна на 3 языках:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:215 69c2d5941ec542b4b9202391c9b7a085
+msgid "**Английский (en)** - Основной язык"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:216 604295abf4564d80a2f81aa7da1c3863
+msgid "**Украинский (uk)** - Родной язык"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:217 3b473ad401ee457d84f85d4b2baf671b
+msgid "**Русский (ru)** - Дополнительный язык"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:220 74907d9464c0440d98a121d2afb0bccd
+msgid "Процесс перевода"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:222 1c2e836c547e41e69f3ced4b335e0441
+msgid "**Извлеките переводимые строки**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:228 61eb5402da9e4f9db617cec6d8fef371
+msgid "**Обновите каталоги переводов**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:234 b01abe823d6e44b2b5bc83599894d9aa
+msgid "**Переведите .po файлы**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:236 7309585bfa9c45728e992e1aa5f48f64
+msgid "Редактируйте файлы в ``docs/locale/[lang]/LC_MESSAGES/``"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:244 9d077b810aad46548e96cac249b020ac
+msgid "**Соберите переведенную документацию**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:253 41b9d0b2ee1b4b83b1d1cb7b95c62bef
+msgid "Рекомендации по переводу"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:255 ddadfbaca4c84f8c9b80db69a3e9ade0
+msgid "Сохраняйте последовательность технических терминов"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:256 9ed0a32ea6fa4ad5a86b76e972f81376
+msgid "Сохраняйте форматирование (``**жирный**``, блоки кода)"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:257 0fffe62fa4624ffdb1482268a95fd38e
+msgid "Не переводите примеры кода"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:258 9bbb2153d0a141b5bba3f9547c50fb66
+msgid "Переводите комментарии в коде"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:259 ae3c77612fef4d49a8451184027cbe0b
+msgid "Просматривайте переводы перед коммитом"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:262 a5e7419fe9394833bbe9d0e0cce85d76
+msgid "Настройка разработки"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:264 17d95bc8f6f343a6a68fe96e99fb6c5a
+msgid "**Клонируйте репозиторий**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:271 52c2404769fc48778b9eb354a660e674
+msgid "**Установите зависимости**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:277 a4e8be57b0904be49760358e46d5c654
+msgid "**Протестируйте локальную сборку**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:284 1879de4223b94ff98d56485f1cb2b99f
+msgid "**Создайте ветку**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:291 061647ef7bfc46938edaed6140195bf7
+msgid "Внесение изменений"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:294 00a5791fcdf8482abb0b4191014e74fd
+msgid "Рабочий процесс"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:296 90a3b123404444719fb5f989ac2e50e8
+msgid "**Редактируйте файлы .rst**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:298 04f914c88cc949d2a84b2974458f450a
+msgid "Используйте любой текстовый редактор"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:300 eb6452583fc64826b78567187301b46f
+msgid "**Соберите локально**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:306 219e89e338bb42aab370ba421af1ee84
+msgid "**Проверьте на ошибки**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:308 8d17a98c0af142d7b0ad1fcf7a9fc1a3
+msgid "Исправьте любые предупреждения или ошибки"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:310 a9bafd22a039499fad2eb588ebdf64b5
+msgid "**Предварительный просмотр изменений**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:312 fee0448384864b57ba1a1d04f375583b
+msgid "Откройте в браузере для проверки"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:314 d03aab25d6d34efeaa0d56414a4ccc98
+msgid "**Зафиксируйте изменения**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:321 d29d635db55e4b91a797abe757344260
+msgid "**Отправьте и создайте PR**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:328 159973e277734583903d5bba65d9199f
+msgid "Процесс подачи"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:330 c03dcfe2b7c9443c9a6de30b8583d974
+msgid "**Предложение**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:332 4b30335c4db0464dbc8e1c3413528e0c
+msgid "Для серьезных изменений, сначала откройте GitHub Issue:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:334 fc29aedeb6df4e4d9c279032af1ca2ae
+msgid "Опишите, что вы хотите улучшить"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:335 e503d19f4dd8489ea4e1ba19592d3a0b
+msgid "Объясните, почему это необходимо"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:336 274f9a1f4761478aa9cb31aa764b5d64
+msgid "Предоставьте примеры"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:338 56388d8aa21c424b9534da55a98c6fb7
+msgid "**Внесите изменения**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:340 d7a1aa3000124283ae344047a500c022
+msgid "Следуйте рекомендациям по стилю"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:341 0dfbb6aba7124f40a4d140c9802667bc
+msgid "Соберите и протестируйте локально"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:342 48074640503546dd9bbaab18d6125eb3
+msgid "Проверьте на наличие неработающих ссылок"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:344 1e32cc31ca754c228d61af39e735508e
+msgid "**Отправьте PR**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:346 990b247dde41446ca7c37f2a6d842cca
+msgid "Включите в описание PR:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:348 7fc4a6491b724b80bcb8ac7a62b051bf
+msgid "Что было изменено"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:349 f7be6896b2824d76af6632e3fbc6f78d
+msgid "Почему это было изменено"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:350 28494e3ee485464095f50fc0446c118e
+msgid "Скриншоты (если есть визуальные изменения)"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:352 22fd3cdfe6cb4795b23aed76b07ab95a
+msgid "**Рецензирование**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:354 7b3012ebaaca4353ba3267af21705199
+msgid "Сопровождающие:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:356 3541cb1ba96d48888a9d9efb90916569
+msgid "Проверят точность"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:357 0f881c0e96844e5daa483a4f94008545
+msgid "Проверят форматирование"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:358 71921bd5ab87468eb2ff71070d09d742
+msgid "Протестируют сборки"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:359 65f64258c57f4baca43c368dfc5e58c9
+msgid "Предоставят обратную связь"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:361 89ef8bda12214226857f15b29f478aa5
+msgid "**Объединение**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:363 7ba60953fda249faadcf3fa895e3d174
+msgid "После одобрения изменения объединяются"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:366 541574b42dd846ae92bc0476c5c15c98
+msgid "Контрольный список качества"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:368 f6848a2e7697448a826c9608e4c00769
+msgid "Перед отправкой:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:370 6d8072d871f1442eb06eec4c8f37201e
+msgid "[ ] Содержание точное"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:371 a1283038c7eb4d8c98238a986ac002da
+msgid "[ ] Орфография и грамматика проверены"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:372 758d5fc637c342188339927aa5324eba
+msgid "[ ] Примеры кода протестированы"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:373 05aa1be418e74aacb66c4cff2a89dfaa
+msgid "[ ] Изображения оптимизированы"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:374 62274f00e3824c6ea789d55e162a1694
+msgid "[ ] Ссылки работают"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:375 f21255020f1d47378122f0c52f5ff623
+msgid "[ ] Собирается без предупреждений"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:376 a863da1e623a4a9d96c067e6dae49bd2
+msgid "[ ] Соответствует руководству по стилю"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:377 9f47bd26dc524904aa654c768ed702fa
+msgid "[ ] Переводы обновлены (если применимо)"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:378 537cfa82b9084c31a96522595348a0e2
+msgid "[ ] Предварительный просмотр выглядит правильно"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:381 ad33f5737ee9431db25927ba99a88e19
+msgid "Часто выполняемые задачи"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:384 ad291c720d634c199c49761aa763b61b
+msgid "Добавление новой страницы"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:386 b8e86c930d7a4bae888b86b89f9314bf
+msgid "Создайте файл ``.rst`` в ``docs/``"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:387 5338c16d26fd41c0a13ee741947aeb05
+msgid "Добавьте в ``toctree`` в ``index.rst``"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:388
+#: ../../contributing/documentation.ru.rst:415 93eb6fae486a4c888d47ca7f83c512fc
+#: e4dc0790750e4fb0bf95e052136e6153
+msgid "Соберите и проверьте"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:389
+#: ../../contributing/documentation.ru.rst:398 19751acfdc604beeb32f7b20ce2f5ab6
+#: def99e52ddee4276811aed10faefd5ea
+msgid "Зафиксируйте и отправьте"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:392 515671e5623a40018dcbae19476ca71a
+msgid "Обновление существующей страницы"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:394 3554ecd783a243dc9743c1cff76383ac
+msgid "Отредактируйте файл ``.rst``"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:395 b5d39439b2f4477e99a8fa8228ea5a0b
+msgid "Соберите локально"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:396 48e43a24e9cc4eb08e57c62d6bb4cfb4
+msgid "Проверьте изменения"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:397 4af9a00f470045d09372bca14f0c4c43
+msgid "Обновите переводы, если необходимо"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:401 fd4696c30cb24821a5b1cbfdb55f98d2
+msgid "Добавление изображений"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:403 8d0f9bda6ef6452c929be6101f37e46c
+msgid "Поместите изображение в ``docs/_static/images/``"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:404 49c8c8c4d5f042368d4830fa4befe280
+msgid "Оптимизируйте размер (< 500 КБ)"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:405 97bf4f144e204cd895d5f8afc310e016
+msgid "Сошлитесь в файле ``.rst``"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:406 20dc5ccb8aaa48b7ad1882db74b3aa8e
+msgid "Добавьте описательный альтернативный текст"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:407 1ef5b72339e2469bbe67e0bdb22f0efc
+msgid "Проверьте рендеринг"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:410 af2c4806012f4152b75452e93ce8bc67
+msgid "Исправление неработающих ссылок"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:412 cea73558bc3a48d49b71cedb14a6480f
+msgid "Определите неработающую ссылку"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:413 4919d16c16fc41ccbdb89bcae14478a9
+msgid "Обновите или удалите"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:414 d30b3b5fff4946d19e2289da527d6aef
+msgid "Проверьте связанные страницы"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:416 c0b28513362844c2b659f215983ffbaa
+msgid "Зафиксируйте исправление"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:419 25ec3100795e47bebe20d4d3cc63a064
+msgid "Устранение неполадок"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:422 a544be029e2b411a9ae1e323923ebd93
+msgid "Ошибки сборки"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:424 89007693657c4126a834b569306e2871
+msgid "**\"WARNING: document isn't included in any toctree\"**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:426 0ca72172b8c444828c07888852e75709
+msgid "Добавьте документ в ``index.rst`` toctree"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:428 e2c1eb2f9211428f8da530649c9e5988
+msgid "**\"WARNING: undefined label\"**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:430 5c9e262d739d437ebcf589fe66cc348b
+msgid "Проверьте, существуют ли цели ссылок"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:431 8e1e75690da14b67a8c63fb97e1b0247
+msgid "Исправьте опечатки в ссылках"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:433 412238dbd07f45daa6e54a70adb64d8b
+msgid "**\"ERROR: Unknown directive type\"**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:435 40943956f2054c6abbe7baf023eeb0c3
+msgid "Проверьте написание директивы"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:436 e755c2c956f740888630bf839c90b0c1
+msgid "Убедитесь, что расширения загружены в ``conf.py``"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:439 6e1aacce743c4c72b7e2b574debbbec9
+msgid "Проблемы с переводом"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:441 efb7aa302c0447cca1a04acaabf573e7
+msgid "**Отсутствующие переводы:**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:447 02bb0fe4b834448fb0b6e99706030ad7
+msgid "**Ошибки кодировки:**"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:449 91078b76a25d4304a903504c16bddf76
+msgid "Убедитесь, что файлы .po имеют кодировку UTF-8"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:450 0255451afce34d5385060a51c54351bf
+msgid "Проверьте на наличие специальных символов"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:453 a332a855e4d94adea46af60620f3832b
+msgid "Инструменты"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:456 6b6e15aec4324f81b3882d6e8b16116f
+msgid "Рекомендуемые редакторы"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:458 8bc11913d61a4c87824de7908cc282e9
+msgid "**VS Code** - С расширением reStructuredText"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:459 10de0a38fbb64a5fa9178215b0002a07
+msgid "**Sublime Text** - С плагинами RST"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:460 f8011efb3f364583aa1de5d8c810efa7
+msgid "**PyCharm** - Встроенная поддержка RST"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:461 30c524275ae64bc88257d4bf45f43ba7
+msgid "**Vim/Emacs** - С режимами RST"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:464 0ab6c2b990dc4f3d93ab12a52687957a
+msgid "Инструменты перевода"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:466 aa0366dc288c4f378f4043763f95d669
+msgid "**Poedit** - GUI для файлов .po"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:467 10d43e0352eb41799cfdaa0553f34d59
+msgid "**Lokalize** - Инструмент перевода KDE"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:468 07b011f32bfa407eb416f9ba4d10016b
+msgid "**Текстовый редактор** - Ручное редактирование"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:471 19e4318b58ad43d28527812f987f77c6
+msgid "Ресурсы"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:473 bcc571afaf02428f9970d25aa9d3d8d0
+msgid "**Документация Sphinx** - https://www.sphinx-doc.org/"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:474 7bd133cec8284e52a751d68a50b588c8
+msgid ""
+"**Руководство по reStructuredText** - https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/basics.html"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:475 745b180cd79a45cb9954cf08a2655c34
+msgid "**Руководство ReadTheDocs** - https://docs.readthedocs.io/"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:476 3e2689a2288d4f53896732e018413632
+msgid "**Руководство разработчика** - См. ``guides/development/`` в репозитории"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:479 522132f952a74f4ab69731ae0e2618e1
+msgid "Примеры"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:481 419df2da2495428397e826fffb6fe81f
+msgid "Примеры хорошей документации:"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:483 a0cb57d6608e4fb79dd842e303455b4d
+msgid "Четкие инструкции по установке"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:484 c24d49d0ee114ff09b90c2b0d3d2c366
+msgid "Пошаговые учебники с изображениями"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:485 95b6402bda3d4efea5f0598381e533b4
+msgid "Полные справочники API"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:486 07b391c9b94948a98c7bbe73fc4e878c
+msgid "Руководства по устранению неполадок"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:489 c01eeba955a24441a223641765c9f918
+msgid "Вопросы?"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:491 1c99846f05594a0b8517cbcc93f25e21
+msgid "Откройте GitHub Issue с тегом ``documentation``"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:492 d8addb2f0a464641bb3f77f9da74535a
+msgid "Свяжитесь с ``@vergilium``"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:493 8d3db5cf0bb4457a83831f56a8053534
+msgid "Присоединяйтесь к обсуждению документации"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:495 b2d39606cba64aab94727278cb231e43
+msgid "---"
+msgstr ""
+
+#: ../../contributing/documentation.ru.rst:497 df7e650096294f1986b05381d5ce445a
+msgid ":doc:`Назад к Обзору вклада <index>`"
+msgstr ""
+

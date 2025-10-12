@@ -6,6 +6,9 @@ docs/_templates/
 docs/locale/**/LC_MESSAGES/*.mo
 docs/locale/**/*.mo
 
+#templates
+.temp/
+
 # Python
 __pycache__/
 *.py[cod]
