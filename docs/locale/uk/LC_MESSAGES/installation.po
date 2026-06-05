@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 12:58+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../installation.rst:2
+msgid "Installation"
+msgstr ""
+
+#: ../../installation.rst:4
+msgid "This guide will help you install and set up ByByte."
+msgstr ""
+
+#: ../../installation.rst:7
+msgid "Requirements"
+msgstr ""
+
+#: ../../installation.rst:9
+msgid "Arduino IDE or compatible software"
+msgstr ""
+
+#: ../../installation.rst:10
+msgid "Required hardware components"
+msgstr ""
+
+#: ../../installation.rst:11
+msgid "Python 3.x (for tools)"
+msgstr ""
+
+#: ../../installation.rst:14
+msgid "Installation Steps"
+msgstr ""
+
+#: ../../installation.rst:16
+msgid "Clone the repository:"
+msgstr ""
+
+#: ../../installation.rst:23
+msgid "Install dependencies:"
+msgstr ""
+
+#: ../../installation.rst:30
+msgid "Configure the project:"
+msgstr ""
+
+#: ../../installation.rst:39
+msgid "Hardware Setup"
+msgstr ""
+
+#: ../../installation.rst:41
+msgid "Connect your Arduino board according to the wiring diagram."
+msgstr ""
+
+#: ../../installation.rst:44
+msgid "Make sure to disconnect power before making any hardware connections."
+msgstr ""
+
+#: ../../installation.rst:47
+msgid "Verification"
+msgstr ""
+
+#: ../../installation.rst:49
+msgid "To verify your installation:"
+msgstr ""
+
+#: ../../installation.rst:56
+msgid "If everything is configured correctly, you should see a success message."
+msgstr ""
+
+#: ../../installation.rst:59
+msgid "Next Steps"
+msgstr ""
+
+#: ../../installation.rst:61
+msgid "Continue to the :doc:`quickstart` guide to begin using ByByte."
+msgstr ""
+

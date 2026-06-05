@@ -1,0 +1,316 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 12:58+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../contributing.rst:2
+msgid "Contributing"
+msgstr ""
+
+#: ../../contributing.rst:4
+msgid ""
+"We welcome contributions to ByByte! This document provides guidelines for"
+" contributing."
+msgstr ""
+
+#: ../../contributing.rst:7
+msgid "Getting Started"
+msgstr ""
+
+#: ../../contributing.rst:9
+msgid "Fork the repository on GitHub"
+msgstr ""
+
+#: ../../contributing.rst:10
+msgid "Clone your fork locally"
+msgstr ""
+
+#: ../../contributing.rst:11
+msgid "Create a new branch for your feature or bugfix"
+msgstr ""
+
+#: ../../contributing.rst:12
+msgid "Make your changes"
+msgstr ""
+
+#: ../../contributing.rst:13
+msgid "Test your changes"
+msgstr ""
+
+#: ../../contributing.rst:14
+msgid "Submit a pull request"
+msgstr ""
+
+#: ../../contributing.rst:17
+msgid "Development Setup"
+msgstr ""
+
+#: ../../contributing.rst:19
+msgid "Clone the repository:"
+msgstr ""
+
+#: ../../contributing.rst:26
+msgid "Install development dependencies:"
+msgstr ""
+
+#: ../../contributing.rst:33
+msgid "Coding Standards"
+msgstr ""
+
+#: ../../contributing.rst:35
+msgid "Follow PEP 8 style guide for Python code"
+msgstr ""
+
+#: ../../contributing.rst:36
+msgid "Use meaningful variable and function names"
+msgstr ""
+
+#: ../../contributing.rst:37
+msgid "Add docstrings to all functions and classes"
+msgstr ""
+
+#: ../../contributing.rst:38
+msgid "Write unit tests for new features"
+msgstr ""
+
+#: ../../contributing.rst:39
+msgid "Keep commits focused and atomic"
+msgstr ""
+
+#: ../../contributing.rst:42
+msgid "Testing"
+msgstr ""
+
+#: ../../contributing.rst:44
+msgid "Run tests before submitting:"
+msgstr ""
+
+#: ../../contributing.rst:59
+msgid "Documentation"
+msgstr ""
+
+#: ../../contributing.rst:61
+msgid "Update documentation when adding new features:"
+msgstr ""
+
+#: ../../contributing.rst:63
+msgid "Add docstrings to code"
+msgstr ""
+
+#: ../../contributing.rst:64
+msgid "Update relevant .rst files in docs/"
+msgstr ""
+
+#: ../../contributing.rst:65
+msgid "Build documentation locally to verify:"
+msgstr ""
+
+#: ../../contributing.rst:74
+msgid "Submitting Changes"
+msgstr ""
+
+#: ../../contributing.rst:77
+msgid "Pull Request Process"
+msgstr ""
+
+#: ../../contributing.rst:79
+msgid "Update the README.md with details of changes if needed"
+msgstr ""
+
+#: ../../contributing.rst:80
+msgid "Update the CHANGELOG.rst with your changes"
+msgstr ""
+
+#: ../../contributing.rst:81
+msgid "Ensure all tests pass"
+msgstr ""
+
+#: ../../contributing.rst:82
+msgid "Submit pull request with clear description"
+msgstr ""
+
+#: ../../contributing.rst:85
+msgid "Commit Messages"
+msgstr ""
+
+#: ../../contributing.rst:87
+msgid "Write clear commit messages:"
+msgstr ""
+
+#: ../../contributing.rst:89
+msgid "Use present tense (\"Add feature\" not \"Added feature\")"
+msgstr ""
+
+#: ../../contributing.rst:90
+msgid "Use imperative mood (\"Move cursor to...\" not \"Moves cursor to...\")"
+msgstr ""
+
+#: ../../contributing.rst:91
+msgid "Limit first line to 72 characters"
+msgstr ""
+
+#: ../../contributing.rst:92
+msgid "Reference issues and pull requests"
+msgstr ""
+
+#: ../../contributing.rst:94
+msgid "Example:"
+msgstr ""
+
+#: ../../contributing.rst:108
+msgid "Code Review"
+msgstr ""
+
+#: ../../contributing.rst:110
+msgid ""
+"All submissions require review. We use GitHub pull requests for this "
+"purpose."
+msgstr ""
+
+#: ../../contributing.rst:112
+msgid "Reviewers will check:"
+msgstr ""
+
+#: ../../contributing.rst:114
+msgid "Code quality and style"
+msgstr ""
+
+#: ../../contributing.rst:115
+msgid "Test coverage"
+msgstr ""
+
+#: ../../contributing.rst:116
+msgid "Documentation completeness"
+msgstr ""
+
+#: ../../contributing.rst:117
+msgid "Backwards compatibility"
+msgstr ""
+
+#: ../../contributing.rst:120
+msgid "Bug Reports"
+msgstr ""
+
+#: ../../contributing.rst:122
+msgid "When filing a bug report, include:"
+msgstr ""
+
+#: ../../contributing.rst:124
+msgid "Clear description of the issue"
+msgstr ""
+
+#: ../../contributing.rst:125
+msgid "Steps to reproduce"
+msgstr ""
+
+#: ../../contributing.rst:126
+msgid "Expected behavior"
+msgstr ""
+
+#: ../../contributing.rst:127
+msgid "Actual behavior"
+msgstr ""
+
+#: ../../contributing.rst:128
+msgid "System information (OS, Python version, etc.)"
+msgstr ""
+
+#: ../../contributing.rst:129
+msgid "Error messages and stack traces"
+msgstr ""
+
+#: ../../contributing.rst:132
+msgid "Feature Requests"
+msgstr ""
+
+#: ../../contributing.rst:134
+msgid "We welcome feature requests! Please include:"
+msgstr ""
+
+#: ../../contributing.rst:136
+msgid "Clear description of the feature"
+msgstr ""
+
+#: ../../contributing.rst:137
+msgid "Use cases and benefits"
+msgstr ""
+
+#: ../../contributing.rst:138
+msgid "Possible implementation approach"
+msgstr ""
+
+#: ../../contributing.rst:139
+msgid "Willingness to contribute implementation"
+msgstr ""
+
+#: ../../contributing.rst:142
+msgid "Community"
+msgstr ""
+
+#: ../../contributing.rst:144
+msgid "Be respectful and inclusive"
+msgstr ""
+
+#: ../../contributing.rst:145
+msgid "Welcome newcomers"
+msgstr ""
+
+#: ../../contributing.rst:146
+msgid "Help others learn"
+msgstr ""
+
+#: ../../contributing.rst:147
+msgid "Give constructive feedback"
+msgstr ""
+
+#: ../../contributing.rst:150
+msgid "License"
+msgstr ""
+
+#: ../../contributing.rst:152
+msgid ""
+"By contributing, you agree that your contributions will be licensed under"
+" the same license as the project."
+msgstr ""
+
+#: ../../contributing.rst:155
+msgid "Questions?"
+msgstr ""
+
+#: ../../contributing.rst:157
+msgid "If you have questions about contributing, feel free to:"
+msgstr ""
+
+#: ../../contributing.rst:159
+msgid "Open an issue on GitHub"
+msgstr ""
+
+#: ../../contributing.rst:160
+msgid "Contact the maintainers"
+msgstr ""
+
+#: ../../contributing.rst:161
+msgid "Join our community discussions"
+msgstr ""
+
+#: ../../contributing.rst:163
+msgid "Thank you for contributing to ByByte! 🎉"
+msgstr ""
+

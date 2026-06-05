@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 12:58+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../index.rst:6
+msgid "Home"
+msgstr ""
+
+#: ../../index.rst:6
+msgid "Contents:"
+msgstr ""
+
+#: ../../index.rst:13
+msgid "Getting Started:"
+msgstr ""
+
+#: ../../index.rst:20
+msgid "User Guide:"
+msgstr ""
+
+#: ../../index.rst:27
+msgid "Additional Information:"
+msgstr ""
+
+#: ../../index.rst:2
+msgid "ByByte Documentation"
+msgstr ""
+
+#: ../../index.rst:4
+msgid "Welcome to ByByte's documentation! This is an Arduino-based project."
+msgstr ""
+
+#: ../../index.rst:35
+msgid "Overview"
+msgstr ""
+
+#: ../../index.rst:37
+msgid "ByByte is an Arduino-based project designed for..."
+msgstr ""
+
+#: ../../index.rst:40
+msgid "This documentation is automatically built and published on ReadTheDocs."
+msgstr ""
+
+#: ../../index.rst:43
+msgid "Features"
+msgstr ""
+
+#: ../../index.rst:45
+msgid "Feature 1"
+msgstr ""
+
+#: ../../index.rst:46
+msgid "Feature 2"
+msgstr ""
+
+#: ../../index.rst:47
+msgid "Feature 3"
+msgstr ""
+
+#: ../../index.rst:50
+msgid "Quick Links"
+msgstr ""
+
+#: ../../index.rst:52
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../index.rst:53
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../index.rst:54
+msgid ":ref:`search`"
+msgstr ""
+

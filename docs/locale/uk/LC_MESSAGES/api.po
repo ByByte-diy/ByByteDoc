@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 12:58+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../api.rst:2
+msgid "API Reference"
+msgstr ""
+
+#: ../../api.rst:4
+msgid "This page contains the complete API reference for ByByte."
+msgstr ""
+
+#: ../../api.rst:7
+msgid "Core Classes"
+msgstr ""
+
+#: ../../api.rst:10
+msgid "Device"
+msgstr ""
+
+#: ../../api.rst:54
+msgid "Connection Functions"
+msgstr ""
+
+#: ../../api.rst:78
+msgid "Exceptions"
+msgstr ""
+
+#: ../../api.rst:81
+msgid "ConnectionError"
+msgstr ""
+
+#: ../../api.rst:83
+msgid "Raised when connection to device fails."
+msgstr ""
+
+#: ../../api.rst:92
+msgid "TimeoutError"
+msgstr ""
+
+#: ../../api.rst:94
+msgid "Raised when operation exceeds timeout."
+msgstr ""
+
+#: ../../api.rst:103
+msgid "CommandError"
+msgstr ""
+
+#: ../../api.rst:105
+msgid "Raised when command execution fails."
+msgstr ""
+
+#: ../../api.rst:114
+msgid "Utilities"
+msgstr ""
+
+#: ../../api.rst:117
+msgid "Logging"
+msgstr ""
+
+#: ../../api.rst:131
+msgid "Configuration"
+msgstr ""
+
+#: ../../api.rst:159
+msgid "Examples"
+msgstr ""
+
+#: ../../api.rst:162
+msgid "Basic Connection"
+msgstr ""
+
+#: ../../api.rst:179
+msgid "With Context Manager"
+msgstr ""
+
+#: ../../api.rst:188
+msgid "Scanning for Devices"
+msgstr ""
+

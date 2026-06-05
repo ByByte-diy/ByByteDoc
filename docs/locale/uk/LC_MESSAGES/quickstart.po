@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 12:58+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../quickstart.rst:2
+msgid "Quick Start Guide"
+msgstr ""
+
+#: ../../quickstart.rst:4
+msgid ""
+"This quick start guide will help you get up and running with ByByte in "
+"minutes."
+msgstr ""
+
+#: ../../quickstart.rst:7
+msgid "Basic Usage"
+msgstr ""
+
+#: ../../quickstart.rst:9
+msgid "Upload the firmware to your Arduino:"
+msgstr ""
+
+#: ../../quickstart.rst:18
+msgid "First Example"
+msgstr ""
+
+#: ../../quickstart.rst:20
+msgid "Here's a simple example to get you started:"
+msgstr ""
+
+#: ../../quickstart.rst:37
+msgid "Common Commands"
+msgstr ""
+
+#: ../../quickstart.rst:39
+msgid "``status`` - Get device status"
+msgstr ""
+
+#: ../../quickstart.rst:40
+msgid "``reset`` - Reset the device"
+msgstr ""
+
+#: ../../quickstart.rst:41
+msgid "``info`` - Get device information"
+msgstr ""
+
+#: ../../quickstart.rst:44
+msgid "Configuration"
+msgstr ""
+
+#: ../../quickstart.rst:46
+msgid "Basic configuration options:"
+msgstr ""
+
+#: ../../quickstart.rst:60
+msgid "Next Steps"
+msgstr ""
+
+#: ../../quickstart.rst:62
+msgid "Read the full :doc:`usage` guide"
+msgstr ""
+
+#: ../../quickstart.rst:63
+msgid "Check the :doc:`api` reference"
+msgstr ""
+
+#: ../../quickstart.rst:64
+msgid "Explore example projects"
+msgstr ""
+
+#: ../../quickstart.rst:67
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../quickstart.rst:69
+msgid "**Connection Issues**"
+msgstr ""
+
+#: ../../quickstart.rst:71
+msgid "If you can't connect to the device:"
+msgstr ""
+
+#: ../../quickstart.rst:73
+msgid "Check that the device is properly connected"
+msgstr ""
+
+#: ../../quickstart.rst:74
+msgid "Verify the correct port is specified"
+msgstr ""
+
+#: ../../quickstart.rst:75
+msgid "Ensure no other program is using the port"
+msgstr ""
+
+#: ../../quickstart.rst:77
+msgid "**Permission Denied**"
+msgstr ""
+
+#: ../../quickstart.rst:79
+msgid "On Linux, you may need to add your user to the ``dialout`` group:"
+msgstr ""
+
