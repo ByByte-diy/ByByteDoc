@@ -11,6 +11,7 @@ Before starting assembly, verify that all required components are available and 
    Package Options <bybyte-nano-package-options>
    Bill of Materials <bybyte-nano-bill-of-materials>
    Assembly Steps <bybyte-nano-assembly-steps>
+   Troubleshooting <bybyte-nano-troubleshooting>
 
 Overview
 --------

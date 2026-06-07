@@ -1,0 +1,6 @@
+/* Must match theme selector specificity (.wy-side-nav-search > a img.logo). */
+.wy-side-nav-search > a img.logo {
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+}

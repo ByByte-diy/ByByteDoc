@@ -4,14 +4,14 @@ ByByte Nano Package Options
 This page describes the available hardware configurations of the ByByte Nano robot.
 
 Basic Configuration
---------------------
+-------------------
 
 .. .. image:: ../../assets/img/bybyte-nano/basic-configuration.png
 .. :alt: Basic Configuration
 
 The minimal configuration includes the core sensors, drive system, and Bluetooth connectivity required for most educational and robotics projects.
 
-Included hardware:
+**Included hardware:**
 
 * Arduino Nano controller
 * Motor driver
@@ -19,7 +19,7 @@ Included hardware:
 * Wheels
 * Bluetooth communication module
 
-Built-in sensors and indicators:
+**Built-in sensors and indicators:**
 
 * Line sensors
 * Ultrasonic distance sensor (sonar)
@@ -30,15 +30,37 @@ Built-in sensors and indicators:
 
 This configuration provides all essential functionality for line following, obstacle detection, remote control, wireless communication, and basic autonomous robot operation.
 
-Included Components
-^^^^^^^^^^^^^^^^^^^
+Included Components (Main Modules)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* TODO
+* Printed circuit board (PCB)
+* Arduino Nano module (ATmega328p)
+* 5V power supply circuitry
+* Motor driver (DRV8834)
+* DC motors (2x)
+* Wheels and mounting hardware (2x)
+* Buzzer (1x)
+* RGB LEDs (2x)
+* Battery and battery holder (1x)
+* Light sensors (1x)
+* IR receiver (1x)
+* Ultrasonic sonar sensor (1x)
+* Line sensors (1x5)
+* Bluetooth module (1x)
 
 Features
 ^^^^^^^^
 
-* TODO
+* Programmed autonomous movement
+* Line-following mode
+* Obstacle avoidance
+* Bluetooth remote control
+* Automatic headlights activation in low-light conditions
+* Control of WS2812 addressable RGB LEDs
+* Audible signal (buzzer)
+* Headlights and hazard warning lights control
+* Automotive-style turn signal indication during turns
+* Infrared (IR) remote control support
 
 Basic + Side Sensors
 --------------------
@@ -51,12 +73,17 @@ Description of the robot with additional side infrared sensors. This configurati
 Included Components
 ^^^^^^^^^^^^^^^^^^^
 
-* TODO
+* Side infrared distance sensors
+* Operational amplifier (op-amp) with socket
+* Power control transistor
+* Supporting passive components (resistors and capacitors)
 
 Additional Features
 ^^^^^^^^^^^^^^^^^^^
 
-* TODO
+* Maze navigation as the primary functionality.
+* Simple sensor-triggered tasks, such as obstacle detection and reaction.
+* Additional exercises focused on reading and processing analog signals.
 
 Basic + Camera
 --------------
@@ -71,9 +98,21 @@ To use this configuration, a compatible camera module must be purchased separate
 Included Components
 ^^^^^^^^^^^^^^^^^^^
 
-* TODO
+* ESP-CAM module
+* Camera module with 120° field of view
+* Camera mounting bracket
+* Push buttons
+* 3.3 V power supply components
+* Jumper wires for connection to the Arduino module
 
 Additional Features
 ^^^^^^^^^^^^^^^^^^^
 
-* TODO
+* Real-time video streaming from the robot camera
+* Computer vision lessons and examples:
+* Marker detection and recognition
+* Lane and road following
+* Traffic sign detection
+* Object detection and tracking
+* Remote robot control over Wi-Fi with live video streaming
+* Platform for experimenting with AI and computer vision algorithms

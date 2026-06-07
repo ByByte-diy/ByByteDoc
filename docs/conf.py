@@ -83,21 +83,27 @@ html_theme_options = {
 
 # Additional HTML context
 html_context = {
-    'display_github': True,
+    'display_github': False,
     'github_user': 'vergilium',
     'github_repo': 'ByByteDoc',
     'github_version': 'main',
     'conf_py_path': '/docs/',
 }
 
+# Add custom CSS for logo
+html_css_files = [
+    'logo.css',
+    'layout.css',
+]
+
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-# html_logo = '_static/logo.png'
+html_logo = '../shared/github/img/logo.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-# html_favicon = '_static/favicon.ico'
+html_favicon = '_static/icon/favicon.ico'
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
