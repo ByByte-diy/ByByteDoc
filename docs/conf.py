@@ -12,8 +12,8 @@ sys.path.insert(0, str(_DOCS_DIR / '_ext'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'ByByte.DIY'
-copyright = '2026, ByByte.DIY Robotics'
+project = 'ByByte.DIY™'
+copyright = '2026, ByByte.DIY™ Robotics'
 author = 'Maloivan Oleksii'
 release = '0.1.0'
 version = '0.1'

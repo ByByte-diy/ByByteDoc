@@ -61,3 +61,23 @@
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }
+
+/* Numbered troubleshooting steps: bold markers, hanging indent for body text */
+.bd-content ol.arabic {
+  list-style-position: outside;
+  padding-left: 1.75rem;
+  margin-left: 0;
+}
+
+.bd-content ol.arabic > li::marker {
+  font-weight: 700;
+}
+
+.bd-content ol.arabic > li > p + p,
+.bd-content ol.arabic > li > ul {
+  margin-top: 0.5em;
+}
+
+.bd-content ol.arabic > li > ul {
+  padding-left: 1.25rem;
+}
