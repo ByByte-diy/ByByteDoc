@@ -65,29 +65,20 @@ shared_include_default_branch = 'main'
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
 
-# Theme options for RTD theme
+# Theme options for Sphinx Book Theme
 html_theme_options = {
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': True,
-    'style_nav_header_background': '#2980B9',
-    # Toc options
-    'collapse_navigation': False,
-    'sticky_navigation': True,
+    'repository_url': 'https://github.com/ByByte-diy/ByByteDoc',
+    'use_repository_button': True,
+    'home_page_in_toc': True,
+    'show_navbar_depth': 2,
     'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False
 }
 
-# Additional HTML context
-html_context = {
-    'display_github': False,
-    'github_user': 'vergilium',
-    'github_repo': 'ByByteDoc',
-    'github_version': 'main',
-    'conf_py_path': '/docs/',
+html_sidebars = {
+    '**': ['navbar-logo.html', 'icon-links.html', 'search-field.html', 'sbt-sidebar-nav.html'],
 }
 
 # Add custom CSS for logo
@@ -186,7 +177,3 @@ todo_include_todos = True
 
 # Detect if running on ReadTheDocs
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-
-if on_rtd:
-    # Override any settings for RTD builds
-    html_theme = 'sphinx_rtd_theme'
