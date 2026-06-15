@@ -90,6 +90,18 @@ The 5 V power supply is mandatory for all ByByte Nano configurations and must al
 
 The 3.3 V power supply is optional and is only required when assembling a robot configuration that includes the camera module. If the camera is not used, the entire 3.3 V power-supply circuit may be omitted, including the regulator, capacitors, filters, and other associated components. For camera-equipped configurations, solder all components of the 3.3 V power-supply circuit into their designated positions on the PCB and inspect all connections before continuing.
 
+.. raw:: html
+
+   <div class="video-embed">
+    <iframe
+      src="https://www.youtube.com/embed/T0ZU_tptmJQ"
+      title="3.3 V power supply components soldering"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+   </div>
+
 After soldering the regulators, visually inspect the board for solder bridges, cold joints, or incorrectly installed components. Pay particular attention to the regulator orientation and polarity markings. If available, use a multimeter in continuity mode to verify that there is no short circuit between the power rails before proceeding to the next assembly step.
 
 After the inspection, connect the battery and verify all power rails with a multimeter. Check that each regulator provides the expected output voltage and that power is correctly distributed throughout the board. 
@@ -98,7 +110,95 @@ After the inspection, connect the battery and verify all power rails with a mult
 
   Do not continue the assembly process until all supply voltages have been measured and confirmed to be within their expected ranges.
 
-Step 2 - Solder Small Components⚡
+Step 2 - Side IR Sensors ⚡
+---------------------------
+
+Mount and Test Side Obstacle Sensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note::
+
+   This step applies only if you are building the **Basic + Side Sensors** configuration. If your robot does not include side infrared obstacle sensors, skip this step and continue with Step 3.
+
+If you plan to use the side IR sensors, mount them next and verify that the circuit works correctly before continuing the assembly. Prepare the required components and tools in advance.
+
+Mount Components on the Main PCB
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. **Start with resistors** 🔍
+
+   Solder the resistor components onto the main PCB first.
+
+#. **Install the op-amp socket, control transistor, and ceramic capacitors** 🔍
+
+   After the resistors, solder the op-amp socket, the control transistor, and the ceramic capacitors.
+
+#. **Prepare and mount the IR phototransistors** 🔍
+
+   Before soldering, wrap each IR phototransistor in black heat-shrink tubing with a diameter of about 6 mm so that the sensor sits in a short tunnel. **Black heat-shrink tubing is required.**
+
+   Solder the IR phototransistors (**TEFT4300**) onto the main PCB. Carefully check the pin markings on the PCB and compare them with the pinout shown in the component  `datasheet <https://www.vishay.com/docs/81549/teft4300.pdf>`_.
+
+   .. image:: ../_static/img/teft4300-wrap.png
+      :alt: TEFT4300 wrapped in black heat-shrink tubing
+      :align: center
+
+   .. attention::
+
+      If the IR receiver orientation is incorrect, the side-sensor circuit will not work.
+
+#. **Prepare the IR LED boards** 🔍
+
+   When all components on the main PCB are in place, move on to the IR LEDs (**SFH4545**). They are mounted on separate small boards that are separated from the panel with pliers. Trim or file any sharp edges left from the breakaway tabs.
+
+#. **Prepare and solder the IR LEDs** 🔍
+
+   Wrap each IR LED in black heat-shrink tubing so that only the narrow front tip remains visible. Only after this preparation, solder the LED onto the auxiliary board. Pay close attention to the pin orientation. On the `SFH4545 pdf <https://look.ams-osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf>`_, the **longer lead is the cathode (negative)**.
+
+   .. image:: ../_static/img/sfh4545-wrap.png
+      :alt: SFH4545 wrapped in black heat-shrink tubing
+      :align: center
+
+#. **Install the vertical IR sensor assemblies** 🔍
+
+   Mount the completed IR sensor assemblies vertically ongto the main PCB using 90-degree pin headers.
+
+#. **Install the op-amp and prepare for testing** 🔍
+
+   When all parts are soldered in place, install the operational amplifier in its socket. The side-sensor circuit is now ready for a functionality test.
+
+Test the Side-Sensor Circuit
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You will need a multimeter, a battery with PP3/Krona-style leads, and a jumper wire (a short piece of tinned wire).
+
+#. **Connect the power supply** 🔋
+
+   Connect the battery and set the multimeter to DC voltage measurement mode.
+
+#. **Verify op-amp supply voltage** 🔍
+
+   Turn on the power switch and measure the voltage on the op-amp power pins (pins 4 and 8). You should read **5 V**. If the voltage is present, continue to the next check.
+
+#. **Measure the op-amp outputs with the IR LEDs off** 🔍
+
+   Measure the voltage on the op-amp outputs (pins 1 and 7). With the IR LEDs off, the output voltage should be low, up to about **1 V**. If this is correct, continue.
+
+#. **Enable the IR LEDs and verify sensor response** 🔍
+
+   Turn the IR LEDs on by applying a **5 V** control signal to the driver transistor input. Use a jumper wire to connect **5 V** (Arduino 5 V rail) to **D4** on the PCB.
+
+   You can use a phone camera to confirm that the IR LEDs are on, because many cameras can detect infrared light.
+
+   Measure the voltage on the op-amp outputs (pins 1 and 7) again. The voltage should now increase when an obstacle is moved closer to the sensor. The closer the obstacle, the higher the voltage. At maximum proximity, the level should reach about **3.8 V**.
+
+#. **Confirm both channels** ✅
+
+   Verify that both outputs respond correctly (**pin 1 — left sensor**, **pin 7 — right sensor**). If both channels behave as expected, the side sensors are working and you can continue with the robot assembly.
+
+If something does not work, go to the :doc:`Troubleshooting <bybyte-nano-troubleshooting>` section. Before assembly, review the video instructions for this step.
+
+Step 3 - Solder Small Components⚡
 ----------------------------------
 
 Solder Small Components and Basic Sensors
@@ -111,17 +211,9 @@ Next, solder the basic sensors used in all robot configurations:
 * Light sensor
 * IR receiver
 
-If you are building a configuration with side obstacle sensors, also install the components associated with those sensors:
-
-* **Operational amplifier socket** *(strongly recommended, as it reduces the risk of overheating the operational amplifier during soldering and allows easy replacement of the IC if needed)*
-* **Phototransistor** *(carefully verify the pinout before soldering and ensure it is installed in the correct orientation on the PCB)*
-* **Supporting passive components**
-
-Do not solder the IR LEDs for the side sensors yet. First, remove the LED holders from the PCB panel and carefully trim or file any sharp edges left from the breakaway tabs. Then install the IR LEDs and connector into the holders. Once the holders are fully assembled, solder the completed assemblies onto the main PCB.
-
 After completing this step, inspect all solder joints and verify component orientation before proceeding.
 
-Step 3 - Connectors and Motors⚡
+Step 4 - Connectors and Motors⚡
 --------------------------------
 
 Solder Connectors and Install Motors
@@ -139,7 +231,7 @@ The motors are mounted using dedicated plastic brackets designed for N20 motors.
 
   When mounting the motors, the screw head must be located on the underside of the PCB. The nut is inserted from the top into the dedicated slot in the plastic bracket. This prevents the nut from rotating during assembly and makes installation easier.
 
-Step 4 - Install Sensors⚡
+Step 5 - Install Sensors⚡
 --------------------------
 
 Install and Solder the Ultrasonic Sensor and Line Tracker Module
@@ -156,7 +248,7 @@ Once the connector is installed, attach the line tracker sensor module. The PCB 
 
 After the ultrasonic sensor, line tracker module, Arduino controller, and all remaining modules are installed and secured in place, proceed to the next assembly step.
 
-Step 5 - Wheels and Battery Holder⚡
+Step 6 - Wheels and Battery Holder⚡
 ------------------------------------
 
 Install Roller Wheels and Battery Holder
@@ -192,7 +284,7 @@ Secure the battery holder using M2 screws and self-locking nuts.
 
 Congratulations! Your robot is almost ready for operation.
 
-Step 6 - Bluetooth and Battery⚡
+Step 7 - Bluetooth and Battery⚡
 --------------------------------
 
 Install Bluetooth Module and Battery
