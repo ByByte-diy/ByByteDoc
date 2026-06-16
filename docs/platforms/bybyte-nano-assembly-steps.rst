@@ -151,6 +151,10 @@ Mount Components on the Main PCB
 
    When all components on the main PCB are in place, move on to the IR LEDs (**SFH4545**). They are mounted on separate small boards that are separated from the panel with pliers. Trim or file any sharp edges left from the breakaway tabs.
 
+   .. image:: ../_static/img/ir-side-pcb-prepare.png
+      :alt: IR LED board prepare
+      :align: center
+
 #. **Prepare and solder the IR LEDs** 🔍
 
    Wrap each IR LED in black heat-shrink tubing so that only the narrow front tip remains visible. Only after this preparation, solder the LED onto the auxiliary board. Pay close attention to the pin orientation. On the `SFH4545 pdf <https://look.ams-osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf>`_, the **longer lead is the cathode (negative)**.
@@ -163,9 +167,17 @@ Mount Components on the Main PCB
 
    Mount the completed IR sensor assemblies vertically ongto the main PCB using 90-degree pin headers.
 
+   .. image:: ../_static/img/ir-side-sensor-mount.png
+      :alt: IR side sensor mount
+      :align: center
+
 #. **Install the op-amp and prepare for testing** 🔍
 
    When all parts are soldered in place, install the operational amplifier in its socket. The side-sensor circuit is now ready for a functionality test.
+
+   .. image:: ../_static/img/bybyte-nano-ir-side-components.png
+      :alt: ByByte Nano IR side components
+      :align: center
 
 Test the Side-Sensor Circuit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -180,9 +192,17 @@ You will need a multimeter, a battery with PP3/Krona-style leads, and a jumper w
 
    Turn on the power switch and measure the voltage on the op-amp power pins (pins 4 and 8). You should read **5 V**. If the voltage is present, continue to the next check.
 
+   .. image:: ../_static/img/bybyte-nano-ir-side-validate-power-voltage.png
+      :alt: ByByte Nano IR side validate power voltage
+      :align: center
+
 #. **Measure the op-amp outputs with the IR LEDs off** 🔍
 
-   Measure the voltage on the op-amp outputs (pins 1 and 7). With the IR LEDs off, the output voltage should be low, up to about **1 V**. If this is correct, continue.
+   Measure the voltage on the op-amp outputs (pins 1 and 7). With the IR LEDs off, the output voltage should be low, up to about **0.1 V**. If this is correct, continue.
+
+   .. image:: ../_static/img/bybyte-nano-ir-side-check-when-led-off.png
+      :alt: ByByte Nano IR side check when IR LEDs off
+      :align: center
 
 #. **Enable the IR LEDs and verify sensor response** 🔍
 
@@ -190,7 +210,15 @@ You will need a multimeter, a battery with PP3/Krona-style leads, and a jumper w
 
    You can use a phone camera to confirm that the IR LEDs are on, because many cameras can detect infrared light.
 
+   .. image:: ../_static/img/bybyte-nano-ir-side-led-enable.png
+      :alt: ByByte Nano IR side LED enable
+      :align: center
+
    Measure the voltage on the op-amp outputs (pins 1 and 7) again. The voltage should now increase when an obstacle is moved closer to the sensor. The closer the obstacle, the higher the voltage. At maximum proximity, the level should reach about **3.8 V**.
+
+   .. image:: ../_static/img/bybyte-nano-ir-side-test-sensors.png
+      :alt: ByByte Nano IR side test sensors
+      :align: center
 
 #. **Confirm both channels** ✅
 
