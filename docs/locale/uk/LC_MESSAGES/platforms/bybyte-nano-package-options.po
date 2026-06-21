@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-21 18:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../platforms/bybyte-nano-package-options.rst:2
+msgid "ByByte Nano Package Options"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:4
+msgid ""
+"This page describes the available hardware configurations of the ByByte "
+"Nano robot."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:7
+msgid "Basic Configuration"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:12
+msgid ""
+"The minimal configuration includes the core sensors, drive system, and "
+"Bluetooth connectivity required for most educational and robotics "
+"projects."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:14
+msgid "**Included hardware:**"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:16
+msgid "Arduino Nano controller"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:17
+msgid "Motor driver"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:18
+msgid "Two DC motors"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:19
+msgid "Wheels"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:20
+msgid "Bluetooth communication module"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:22
+msgid "**Built-in sensors and indicators:**"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:24
+msgid "Line sensors"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:25
+msgid "Ultrasonic distance sensor (sonar)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:26
+msgid "Light sensor"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:27
+msgid "Infrared remote-control receiver"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:28
+msgid "Buzzer"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:29
+msgid "WS2812 RGB LEDs"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:31
+msgid ""
+"This configuration provides all essential functionality for line "
+"following, obstacle detection, remote control, wireless communication, "
+"and basic autonomous robot operation."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:34
+msgid "Included Components (Main Modules)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:36
+msgid "Printed circuit board (PCB)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:37
+msgid "Arduino Nano module (ATmega328p)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:38
+msgid "5V power supply circuitry"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:39
+msgid "Motor driver (DRV8834)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:40
+msgid "DC motors (2x)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:41
+msgid "Wheels and mounting hardware (2x)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:42
+msgid "Buzzer (1x)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:43
+msgid "RGB LEDs (2x)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:44
+msgid "Battery and battery holder (1x)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:45
+msgid "Light sensors (1x)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:46
+msgid "IR receiver (1x)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:47
+msgid "Ultrasonic sonar sensor (1x)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:48
+msgid "Line sensors (1x5)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:49
+msgid "Bluetooth module (1x)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:52
+msgid "Features"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:54
+msgid "Programmed autonomous movement"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:55
+msgid "Line-following mode"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:56
+msgid "Obstacle avoidance"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:57
+msgid "Bluetooth remote control"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:58
+msgid "Automatic headlights activation in low-light conditions"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:59
+msgid "Control of WS2812 addressable RGB LEDs"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:60
+msgid "Audible signal (buzzer)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:61
+msgid "Headlights and hazard warning lights control"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:62
+msgid "Automotive-style turn signal indication during turns"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:63
+msgid "Infrared (IR) remote control support"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:66
+msgid "Basic + Side Sensors"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:71
+msgid ""
+"Description of the robot with additional side infrared sensors. This "
+"configuration is recommended for maze navigation, where detecting walls "
+"on both sides of the robot is required. The added functionality includes "
+"side IR sensors (IR LEDs and IR phototransistors), an operational "
+"amplifier, and several supporting components such as resistors, "
+"capacitors, and a transistor."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:74
+#: ../../platforms/bybyte-nano-package-options.rst:99
+msgid "Included Components"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:76
+msgid "Side infrared distance sensors"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:77
+msgid "Operational amplifier (op-amp) with socket"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:78
+msgid "Power control transistor"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:79
+msgid "Supporting passive components (resistors and capacitors)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:82
+#: ../../platforms/bybyte-nano-package-options.rst:109
+msgid "Additional Features"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:84
+msgid "Maze navigation as the primary functionality."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:85
+msgid "Simple sensor-triggered tasks, such as obstacle detection and reaction."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:86
+msgid "Additional exercises focused on reading and processing analog signals."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:89
+msgid "Basic + Camera"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:94
+msgid ""
+"The camera configuration is intended for more advanced lessons involving "
+"computer vision and image processing. It can also be used for simple "
+"real-time video transmission while the robot is moving."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:96
+msgid ""
+"To use this configuration, a compatible camera module must be purchased "
+"separately. We recommend a camera with a 120-degree field of view and a "
+"longer ribbon cable to allow flexible mounting. For optimal visibility, "
+"the camera should be installed on a dedicated holder positioned slightly "
+"above the main chassis, providing a better viewing angle of the robot's "
+"surroundings."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:101
+msgid "ESP-CAM module"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:102
+msgid "Camera module with 120° field of view"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:103
+msgid "Camera mounting bracket"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:104
+msgid "Push buttons"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:105
+msgid "3.3 V power supply components"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:106
+msgid "Jumper wires for connection to the Arduino module"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:111
+msgid "Real-time video streaming from the robot camera"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:112
+msgid "Computer vision lessons and examples:"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:113
+msgid "Marker detection and recognition"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:114
+msgid "Lane and road following"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:115
+msgid "Traffic sign detection"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:116
+msgid "Object detection and tracking"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:117
+msgid "Remote robot control over Wi-Fi with live video streaming"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-package-options.rst:118
+msgid "Platform for experimenting with AI and computer vision algorithms"
+msgstr ""
+

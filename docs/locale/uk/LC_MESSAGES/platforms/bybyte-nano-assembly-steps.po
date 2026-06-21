@@ -1,0 +1,820 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-21 18:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:2
+msgid "ByByte Nano Assembly Process"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:5
+msgid "Assembly Preparation 🛠️"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:7
+msgid ""
+"Before starting assembly, prepare your workspace, tools, and all required"
+" components. The workspace should be clean, well organized, and free from"
+" unnecessary objects that could interfere with the assembly process. "
+"Ensure that the area is well lit and provides enough space to safely "
+"handle electronic components and tools."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:9
+msgid ""
+"Verify that all components included in your selected robot configuration "
+"are available before beginning assembly. It is also recommended to sort "
+"and identify the parts in advance to avoid confusion during the build "
+"process."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:11
+msgid ""
+"Inspect all tools before use. Every tool, especially the soldering iron, "
+"must be in good working condition and free from visible damage. Do not "
+"use defective equipment, damaged cables, or tools with exposed electrical"
+" conductors."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:15
+msgid ""
+"If the robot is being assembled by a child, all necessary safety "
+"precautions must be taken. The equipment should be inspected and approved"
+" by an adult before use, and an adult must supervise the entire assembly "
+"process. Special attention should be given when using soldering "
+"equipment, sharp tools, or any device that may cause injury if handled "
+"improperly."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:18
+msgid "Step 1 - Prepare Power⚡"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:21
+msgid "Prepare and Configure Power Components"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:23
+msgid ""
+"Before soldering any components onto the PCB, prepare the power supply "
+"circuitry. The first component that must be configured is the DC-DC "
+"voltage regulator."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:25
+msgid ""
+"Connect the DC-DC regulator to a suitable power source and adjust its "
+"output voltage to the required value using the onboard adjustment "
+"potentiometer. Verify the output voltage with a multimeter before "
+"proceeding."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:27
+msgid ""
+"Once the regulator has been configured and tested, set aside all power-"
+"related components for installation in the following assembly steps. This"
+" ensures that the power system is ready and correctly adjusted before any"
+" other components are soldered onto the board."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:29
+msgid "Two DC-DC regulator variants can be used with the robot:"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:31
+msgid ""
+"`Mini-360 <https://components101.com/modules/mini360-dc-dc-buck-"
+"converter-module>`_"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:32
+msgid ""
+"`HW-613 <https://ampere-electronics.com/product/hw-613-mini-step-down-"
+"module-12-24vdc-to-5vdc-3a>`_ (recommended)"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:34
+msgid ""
+"The HW-613 is the recommended option because it supports selecting a "
+"predefined output voltage using solder jumpers. The Mini-360 requires "
+"voltage adjustment by turning a potentiometer. When the robot is used by "
+"children, the potentiometer may be accidentally rotated, changing the "
+"voltage setting and potentially damaging robot components. If the HW-613 "
+"is not available and a Mini-360 is used, the potentiometer should be "
+"secured after adjustment, for example with a small drop of suitable "
+"adhesive."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:38
+msgid ""
+"The HW-613 must be configured using its solder jumpers. Note that, by "
+"default, the jumper connected to the potentiometer adjustment mode is "
+"already closed on the module. This connection must be cut before "
+"soldering the jumper corresponding to the desired fixed output voltage."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:41
+msgid "Configure the Mini-360"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:43
+msgid ""
+"Connect the battery to the input of the Mini-360 regulator and set the "
+"multimeter to DC voltage measurement mode . Measure the output voltage "
+"and carefully rotate the potentiometer adjustment screw until the "
+"required voltage is reached. For a 5 V supply, adjust the output to "
+"approximately 5.1 V. For a 3.3 V supply, the output should be within the "
+"range of 3.2–3.4 V. After the regulator has been adjusted and verified, "
+"it can be soldered onto the PCB. To prevent accidental changes to the "
+"setting during operation, secure the potentiometer with a small drop of "
+"glue or lacquer."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:58
+msgid "Configure the HW-613"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:60
+msgid ""
+"For the HW-613 regulator, first cut the solder jumper marked ADJ and then"
+" solder the jumper corresponding to the required output voltage. Before "
+"installing the regulator on the PCB, connect the battery to the regulator"
+" input and set the multimeter to DC voltage measurement mode. Measure the"
+" output voltage to verify that it is within the allowed range for the "
+"selected setting. Only after the output voltage has been confirmed should"
+" the regulator be soldered onto the PCB."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:75
+msgid ""
+"After the regulators have been configured and verified, solder the power "
+"supply components onto the PCB according to the selected robot "
+"configuration."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:77
+msgid ""
+"The 5 V power supply is mandatory for all ByByte Nano configurations and "
+"must always be installed. Solder the 5 V DC-DC regulator together with "
+"all associated power-supply components, including capacitors, filters, "
+"and any other parts required by the 5 V circuit. Verify that all solder "
+"joints are clean and properly formed before proceeding."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:91
+msgid ""
+"The 3.3 V power supply is optional and is only required when assembling a"
+" robot configuration that includes the camera module. If the camera is "
+"not used, the entire 3.3 V power-supply circuit may be omitted, including"
+" the regulator, capacitors, filters, and other associated components. For"
+" camera-equipped configurations, solder all components of the 3.3 V "
+"power-supply circuit into their designated positions on the PCB and "
+"inspect all connections before continuing."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:105
+msgid ""
+"After soldering the regulators, visually inspect the board for solder "
+"bridges, cold joints, or incorrectly installed components. Pay particular"
+" attention to the regulator orientation and polarity markings. If "
+"available, use a multimeter in continuity mode to verify that there is no"
+" short circuit between the power rails before proceeding to the next "
+"assembly step."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:107
+msgid ""
+"After the inspection, connect the battery and verify all power rails with"
+" a multimeter. Check that each regulator provides the expected output "
+"voltage and that power is correctly distributed throughout the board."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:111
+msgid ""
+"Do not continue the assembly process until all supply voltages have been "
+"measured and confirmed to be within their expected ranges."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:114
+msgid "Step 2 - Side IR Sensors ⚡"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:117
+msgid "Mount and Test Side Obstacle Sensors"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:121
+msgid ""
+"This step applies only if you are building the **Basic + Side Sensors** "
+"configuration. If your robot does not include side infrared obstacle "
+"sensors, skip this step and continue with Step 3."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:123
+msgid ""
+"If you plan to use the side IR sensors, mount them next and verify that "
+"the circuit works correctly before continuing the assembly. Prepare the "
+"required components and tools in advance."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:126
+msgid "Mount Components on the Main PCB"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:128
+msgid "**Start with resistors** 🔍"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:130
+msgid "Solder the resistor components onto the main PCB first."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:132
+msgid ""
+"**Install the op-amp socket, control transistor, and ceramic capacitors**"
+" 🔍"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:134
+msgid ""
+"After the resistors, solder the op-amp socket, the control transistor, "
+"and the ceramic capacitors."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:136
+msgid "**Prepare and mount the IR phototransistors** 🔍"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:138
+msgid ""
+"Before soldering, wrap each IR phototransistor in black heat-shrink "
+"tubing with a diameter of about 6 mm so that the sensor sits in a short "
+"tunnel. **Black heat-shrink tubing is required.**"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:140
+msgid ""
+"Solder the IR phototransistors (**TEFT4300**) onto the main PCB. "
+"Carefully check the pin markings on the PCB and compare them with the "
+"pinout shown in the component  `datasheet "
+"<https://www.vishay.com/docs/81549/teft4300.pdf>`_."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:142
+msgid "TEFT4300 wrapped in black heat-shrink tubing"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:148
+msgid ""
+"If the IR receiver orientation is incorrect, the side-sensor circuit will"
+" not work."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:150
+msgid "**Prepare the IR LED boards** 🔍"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:152
+msgid ""
+"When all components on the main PCB are in place, move on to the IR LEDs "
+"(**SFH4545**). They are mounted on separate small boards that are "
+"separated from the panel with pliers. Trim or file any sharp edges left "
+"from the breakaway tabs."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:154
+msgid "IR LED board prepare"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:158
+msgid "**Prepare and solder the IR LEDs** 🔍"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:160
+msgid ""
+"Wrap each IR LED in black heat-shrink tubing so that only the narrow "
+"front tip remains visible. Only after this preparation, solder the LED "
+"onto the auxiliary board. Pay close attention to the pin orientation. On "
+"the `SFH4545 pdf <https://look.ams-"
+"osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf>`_, the **longer lead "
+"is the cathode (negative)**."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:162
+msgid "SFH4545 wrapped in black heat-shrink tubing"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:166
+msgid "**Install the vertical IR sensor assemblies** 🔍"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:168
+msgid ""
+"Mount the completed IR sensor assemblies vertically ongto the main PCB "
+"using 90-degree pin headers."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:170
+msgid "IR side sensor mount"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:174
+msgid "**Install the op-amp and prepare for testing** 🔍"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:176
+msgid ""
+"When all parts are soldered in place, install the operational amplifier "
+"in its socket. The side-sensor circuit is now ready for a functionality "
+"test."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:178
+msgid "ByByte Nano IR side components"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:183
+msgid "Test the Side-Sensor Circuit"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:185
+msgid ""
+"You will need a multimeter, a battery with PP3/Krona-style leads, and a "
+"jumper wire (a short piece of tinned wire)."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:187
+msgid "**Connect the power supply** 🔋"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:189
+msgid "Connect the battery and set the multimeter to DC voltage measurement mode."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:191
+msgid "**Verify op-amp supply voltage** 🔍"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:193
+msgid ""
+"Turn on the power switch and measure the voltage on the op-amp power pins"
+" (pins 4 and 8). You should read **5 V**. If the voltage is present, "
+"continue to the next check."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:195
+msgid "ByByte Nano IR side validate power voltage"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:199
+msgid "**Measure the op-amp outputs with the IR LEDs off** 🔍"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:201
+msgid ""
+"Measure the voltage on the op-amp outputs (pins 1 and 7). With the IR "
+"LEDs off, the output voltage should be low, up to about **0.1 V**. If "
+"this is correct, continue."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:203
+msgid "ByByte Nano IR side check when IR LEDs off"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:207
+msgid "**Enable the IR LEDs and verify sensor response** 🔍"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:209
+msgid ""
+"Turn the IR LEDs on by applying a **5 V** control signal to the driver "
+"transistor input. Use a jumper wire to connect **5 V** (Arduino 5 V rail)"
+" to **D4** on the PCB."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:211
+msgid ""
+"You can use a phone camera to confirm that the IR LEDs are on, because "
+"many cameras can detect infrared light."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:213
+msgid "ByByte Nano IR side LED enable"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:217
+msgid ""
+"Measure the voltage on the op-amp outputs (pins 1 and 7) again. The "
+"voltage should now increase when an obstacle is moved closer to the "
+"sensor. The closer the obstacle, the higher the voltage. At maximum "
+"proximity, the level should reach about **3.8 V**."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:219
+msgid "ByByte Nano IR side test sensors"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:223
+msgid "**Confirm both channels** ✅"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:225
+msgid ""
+"Verify that both outputs respond correctly (**pin 1 — left sensor**, "
+"**pin 7 — right sensor**). If both channels behave as expected, the side "
+"sensors are working and you can continue with the robot assembly."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:227
+msgid ""
+"If something does not work, go to the :doc:`Troubleshooting <bybyte-nano-"
+"troubleshooting>` section. Before assembly, review the video instructions"
+" for this step."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:230
+msgid "Step 3 - Solder Small Components⚡"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:233
+msgid "Solder Small Components and Basic Sensors"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:235
+msgid ""
+"Begin by soldering all low-profile through-hole components, including "
+"resistors, diodes, capacitors, and other small passive parts. Installing "
+"these components first makes the remaining assembly steps easier and "
+"provides better access to the PCB."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:237
+msgid "Next, solder the basic sensors used in all robot configurations:"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:239
+msgid "Light sensor"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:240
+msgid "IR receiver"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:242
+msgid ""
+"After completing this step, inspect all solder joints and verify "
+"component orientation before proceeding."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:245
+msgid "Step 4 - Connectors and Motors⚡"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:248
+msgid "Solder Connectors and Install Motors"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:250
+msgid ""
+"At this stage, solder all connectors on the main PCB according to the "
+"board markings."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:252
+msgid ""
+"Next, separate the motor adapter boards from the panel and solder the "
+"corresponding connectors onto each adapter. After that, solder the "
+"adapter boards directly to the N20 motors. Repeat this process for both "
+"motors."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:254
+msgid ""
+"Once both motor adapters are soldered to the motors and all connectors "
+"are installed on the main PCB, proceed with motor installation."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:256
+msgid ""
+"The motors are mounted using dedicated plastic brackets designed for N20 "
+"motors. Secure each motor in its bracket and attach the assembly to the "
+"main PCB."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:260
+msgid ""
+"When mounting the motors, the screw head must be located on the underside"
+" of the PCB. The nut is inserted from the top into the dedicated slot in "
+"the plastic bracket. This prevents the nut from rotating during assembly "
+"and makes installation easier."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:263
+msgid "Step 5 - Install Sensors⚡"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:266
+msgid "Install and Solder the Ultrasonic Sensor and Line Tracker Module"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:269
+msgid ""
+"Begin with the ultrasonic sensor mounted at the front of the PCB. Before "
+"soldering, measure the required pin length and trim the leads as close to"
+" the PCB as possible. The sensor pins should not protrude below the "
+"board, so keep the exposed leads to a minimum. During soldering, ensure "
+"that the solder joint provides sufficient mechanical support from the "
+"component side of the PCB. Large solder pads are provided specifically "
+"for this purpose."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:271
+msgid ""
+"After soldering, any remaining pin protrusions should be minimal, as "
+"clearance is required for the line tracker connector installed nearby."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:273
+msgid ""
+"Next, install the line tracker connector. This connector is mounted from "
+"the bottom side of the PCB (solder side) and soldered from the top side "
+"(component side)."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:275
+msgid ""
+"Once the connector is installed, attach the line tracker sensor module. "
+"The PCB includes dedicated mounting tabs for this purpose. Secure the "
+"module using M3 screws and locking nuts. To maintain the correct spacing "
+"between the boards, use 5 mm plastic spacers."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:277
+msgid ""
+"After the ultrasonic sensor, line tracker module, Arduino controller, and"
+" all remaining modules are installed and secured in place, proceed to the"
+" next assembly step."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:280
+msgid "Step 6 - Wheels and Battery Holder⚡"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:283
+msgid "Install Roller Wheels and Battery Holder"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:285
+msgid "Now it is time to install the roller wheels and the battery holder."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:287
+msgid ""
+"First, install the roller wheels. This step must be completed before "
+"mounting the battery holder, because once the holder is fixed in place, "
+"access to the roller wheel mounting holes will be blocked."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:289
+msgid "Before installation, remove the screws from each roller wheel assembly."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:293
+msgid ""
+"Be careful: inside the wheel assembly there are several small balls and "
+"one larger ball. When removing the screws, the assembly may come apart "
+"and there is a risk of losing these parts. Disassemble the wheel "
+"carefully and avoid pressing on the main roller."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:296
+msgid "To mount the roller wheels:"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:298
+msgid ""
+"Insert the removed screws through the PCB from the component side (see "
+"the markings on the board). Position the roller wheel on the underside of"
+" the PCB. Tighten the screws until the wheel is firmly secured and does "
+"not wobble."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:302
+msgid "Repeat the same procedure for the second roller wheel."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:305
+msgid "Mount the Battery Holder"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:307
+msgid "Once both wheels are installed, proceed with mounting the battery holder."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:309
+msgid ""
+"A battery holder with pre-attached wires is recommended. Measure the "
+"required wire length, cut off any excess, strip and tin the wire ends, "
+"then solder them to the designated pads on the PCB."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:311
+msgid "Secure the battery holder using M2 screws and self-locking nuts."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:313
+msgid "Congratulations! Your robot is almost ready for operation."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:316
+msgid "Step 7 - Bluetooth and Battery⚡"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:319
+msgid "Install Bluetooth Module and Battery"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:321
+msgid ""
+"The final assembly stage is installing the Bluetooth module and "
+"connecting the battery."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:323
+msgid ""
+"The Bluetooth module is mounted directly onto the PCB using 90-degree "
+"angled pin headers. In most cases, these headers are already soldered to "
+"the module. If your module has a 6-pin header installed, remove the two "
+"outer pins, as only four connections are required: power and data lines."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:325
+msgid ""
+"Position the module according to the markings on the main PCB. The module"
+" should sit flush against the board without any gap between the Bluetooth"
+" module and the PCB. Once properly aligned, solder all four pins and trim"
+" any excess leads."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:327
+msgid ""
+"After soldering, verify that the module is firmly attached and does not "
+"move."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:331
+msgid ""
+"Avoid mounting the module at a distance from the PCB, as this makes it "
+"more vulnerable to mechanical damage and causes it to protrude "
+"unnecessarily."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:333
+msgid ""
+"With the Bluetooth module installed, perform one final visual inspection "
+"of all solder joints and components. Check that there are no solder "
+"bridges, loose connections, or incorrectly installed parts."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:335
+msgid "The hardware assembly is now complete."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:338
+msgid "Step 8 - Initial Inspection⚡"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:340
+msgid ""
+"Before powering the robot for the first time, carefully inspect all "
+"solder joints, connectors, and wiring. Verify that all components are "
+"installed in the correct orientation and that there are no accidental "
+"shorts between adjacent pads or traces."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:342
+msgid "Perform a final visual inspection of the assembled robot:"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:344
+msgid "Check all soldered connections."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:345
+msgid "Verify motor wiring polarity."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:346
+msgid "Confirm that sensors and modules are firmly connected."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:347
+msgid "Ensure that no loose wires can interfere with moving parts."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:348
+msgid "Check that the battery connection is correct."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:350
+msgid "Correct any issues before proceeding."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:353
+msgid "Step 9 - Firmware Upload⚡"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:355
+msgid "The robot is now ready for firmware installation."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:357
+msgid ""
+"Connect the controller to your computer and upload the test sketch or the"
+" desired firmware version. For testing, upload the maintenance and "
+"diagnostics sketch that verifies all robot functions and is intended "
+"specifically for repair and servicing procedures. Detailed instructions "
+"are provided in the Firmware section."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:360
+msgid "Step 10 - Functional Test⚡"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:362
+msgid ""
+"After uploading the firmware, perform a complete functional test of the "
+"robot."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:366
+msgid ""
+"If the controller already contains previously installed firmware, the "
+"robot may begin moving immediately after power is applied."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:368
+msgid ""
+"Before switching on the robot, make sure the wheels do not touch the "
+"table or any other surface. Place the robot on a stand, hold it securely,"
+" or otherwise prevent unintended movement to avoid the robot \"escaping\""
+" during testing."
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:370
+msgid "**Verify the operation of:**"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:372
+msgid "Power system"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:373
+msgid "Motors"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:374
+msgid "Line sensors"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:375
+msgid "Distance sensors"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:376
+msgid "LEDs and indicators"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:377
+msgid "Communication modules"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:378
+msgid "Additional optional hardware"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:380
+msgid ""
+"If any problems are detected, disconnect power, identify the cause, and "
+"correct the issue before continuing. Once all tests pass successfully, "
+"the robot is ready for normal operation and further software development."
+msgstr ""
+

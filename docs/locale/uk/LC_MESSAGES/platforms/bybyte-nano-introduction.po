@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-21 18:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../platforms/bybyte-nano-introduction.rst:2
+msgid "ByByte Nano Introduction"
+msgstr "Вступ до БАБАЙ Nano"
+
+#: ../../platforms/bybyte-nano-introduction.rst:4
+msgid ""
+"Welcome to **ByByte Nano** — an open-source educational robotics platform"
+" designed to make learning electronics, programming, and robotics "
+"accessible, practical, and engaging."
+msgstr ""
+"Ласкаво просимо до **БАБАЙ Nano** — відкритої освітньої платформи для робототехніки, "
+"призначеної для того, щоб навчання електроніки, програмування та робототехніки "
+"було доступним, практичним та захоплювальним."
+
+#: ../../platforms/bybyte-nano-introduction.rst:6
+msgid ""
+"The project combines a compact Arduino Nano–based robot with a structured learning ecosystem that includes hardware documentation, software libraries, tutorials, lessons, and practical projects. ByByte Nano was created to help beginners move beyond simple theory and start building real robots from the very first lessons."
+msgstr ""
+"Проект поєднує компактного робота на основі Arduino Nano з структурованою освітньою екосистемою, "
+"яка включає документацію зі зборки, бібліотеки програмного забезпечення, уроки, навчальні матеріали та практичні проекти. "
+"БАБАЙ Nano був створений для того, щоб допомогти новачкам відмовитися від просто теорії та почати будувати справжні роботи з перших уроків."
+
+#: ../../platforms/bybyte-nano-introduction.rst:8
+msgid "Why ByByte Nano?"
+msgstr "Чому БАБАЙ Nano?"
+
+#: ../../platforms/bybyte-nano-introduction.rst:10
+msgid ""
+"Many educational robotics kits are either too limited for long-term learning or too expensive for schools, makerspaces, and hobbyists. ByByte Nano aims to provide a balance between simplicity, affordability, and expandability."
+msgstr ""
+"Багато освітніх робототехнічних наборів або дуже обмежені для довгострокового навчання, "
+"або занадто дорогі для школ, аматорів та хобі. БАБАЙ Nano спрямований на створення балансу між простотою, доступністю та можливістю розширення."
+
+#: ../../platforms/bybyte-nano-introduction.rst:12
+msgid "The platform is designed to:"
+msgstr "Платформа спрямована на:"
+
+#: ../../platforms/bybyte-nano-introduction.rst:14
+msgid "Introduce electronics and programming through hands-on projects."
+msgstr "Ввести електроніку та програмування через практичні проекти."
+
+#: ../../platforms/bybyte-nano-introduction.rst:16
+msgid ""
+"Teach fundamental robotics concepts using real sensors and actuators."
+msgstr ""
+"Викладати основні поняття робототехніки за допомогою реальних сенсорів та модулів."
+
+#: ../../platforms/bybyte-nano-introduction.rst:18
+msgid ""
+"Provide a clear learning path from beginner to advanced topics."
+msgstr ""
+"Забезпечити чіткий шлях навчання від початку до продвинутих тем."
+
+#: ../../platforms/bybyte-nano-introduction.rst:20
+msgid "Encourage experimentation, creativity, and engineering thinking."
+msgstr "Призначено для експериментів, творчості та інженерного мислення."
+
+#: ../../platforms/bybyte-nano-introduction.rst:22
+msgid "Remain fully open-source and community-driven."
+msgstr "Залишається повністю відкритим та спрямованим на спільноту."
+
+#: ../../platforms/bybyte-nano-introduction.rst:24
+msgid "Who Is It For?"
+msgstr "Кому це підходить?"
+
+#: ../../platforms/bybyte-nano-introduction.rst:26
+msgid "ByByte Nano is suitable for:"
+msgstr "БАБАЙ Nano підходить для:"
+
+#: ../../platforms/bybyte-nano-introduction.rst:28
+msgid "Students learning robotics and programming."
+msgstr "Студенти, які навчаються робототехніці та програмуванню."
+
+#: ../../platforms/bybyte-nano-introduction.rst:30
+msgid "Teachers and STEM educators."
+msgstr "Вчителі та освітні працівники STEM."
+
+#: ../../platforms/bybyte-nano-introduction.rst:32
+msgid "Robotics clubs and makerspaces."
+msgstr "Клуби робототехніки та майстерні."
+
+#: ../../platforms/bybyte-nano-introduction.rst:34
+msgid "Hobbyists interested in Arduino-based projects."
+msgstr "Хобі, які цікавляться проектами на основі Arduino."
+
+#: ../../platforms/bybyte-nano-introduction.rst:36
+msgid ""
+"Anyone who wants to learn how robots work by building and programming one."
+msgstr ""
+"Людина, яка хоче навчитись, як працюють роботи, будуючи та програмуючи їх."
+
+#: ../../platforms/bybyte-nano-introduction.rst:38
+msgid ""
+"ByByte Nano is not intended to be a fully functional consumer or industrial robot. Instead, it is a DIY educational platform designed specifically for learning, experimentation, and hands-on practice. The focus is on understanding robotics concepts, electronics, and programming through building, modifying, and testing real hardware rather than using a finished robotic product."
+msgstr ""
+"БАБАЙ Nano не призначений для повноцінного використання як споживчого або промислового робота. Натомість, це платформа для освіти, яка призначена для навчання, експериментування та практичної роботи. Акцент робиться на розумінні понять робототехніки, електроніки та програмування через побудову, модифікацію та тестування реального обладнання, а не використання готового робота."
+
+#: ../../platforms/bybyte-nano-introduction.rst:40
+msgid "Platform Features"
+msgstr "Особливості платформи"
+
+#: ../../platforms/bybyte-nano-introduction.rst:42
+msgid ""
+"The standard ByByte Nano robot includes a variety of sensors and modules that allow students to explore different areas of robotics:"
+msgstr ""
+"Стандартний робот ByByte Nano включає різноманітні сенсори та модулі, які дозволяють студентам досліджувати різні області робототехніки:"
+
+#: ../../platforms/bybyte-nano-introduction.rst:44
+msgid "Line-following sensors"
+msgstr "Сенсори для відстеження лінії"
+
+#: ../../platforms/bybyte-nano-introduction.rst:46
+msgid "Ultrasonic distance sensor"
+msgstr "Ультразвуковий сенсор для вимірювання відстані"
+
+#: ../../platforms/bybyte-nano-introduction.rst:48
+msgid "Infrared obstacle sensors"
+msgstr "Сенсори інфрачервоного випромінювання для виявлення перешкод"
+
+#: ../../platforms/bybyte-nano-introduction.rst:50
+msgid "Light sensor"
+msgstr "Сенсор освітлення"
+
+#: ../../platforms/bybyte-nano-introduction.rst:52
+msgid "Infrared receiver"
+msgstr "ІЧ приймач"
+
+#: ../../platforms/bybyte-nano-introduction.rst:54
+msgid "RGB WS2812 LEDs"
+msgstr "RGB-світлодіоди WS2813"
+
+#: ../../platforms/bybyte-nano-introduction.rst:56
+msgid "Bluetooth communication"
+msgstr "Блютуз-комунікація"
+
+#: ../../platforms/bybyte-nano-introduction.rst:58
+msgid "Frontal ESP camera (optional)"
+msgstr "Фронтальна камера ESP (опціонально)"
+
+#: ../../platforms/bybyte-nano-introduction.rst:60
+msgid ""
+"These components make it possible to create projects involving autonomous navigation, obstacle avoidance, remote control, environmental monitoring, and many other robotics applications."
+msgstr ""
+"Ці компоненти дозволяють створювати проекти, що включають автономне навігаційне управління, уникання перешкод, дистанційне управління, моніторинг середовища та багато інших робототехнічних застосувань."
+
+#: ../../platforms/bybyte-nano-introduction.rst:62
+msgid "Learning Philosophy"
+msgstr "Філософія навчання"
+
+#: ../../platforms/bybyte-nano-introduction.rst:64
+msgid ""
+"The ByByte Nano educational approach is based on the principle:"
+msgstr ""
+"Підхід БАБАЙ Nano до освіти базується на принципі:"
+
+#: ../../platforms/bybyte-nano-introduction.rst:66
+msgid "``Learn by building``"
+msgstr "``Навчайся будуючи``"
+
+#: ../../platforms/bybyte-nano-introduction.rst:68
+msgid ""
+"Instead of focusing solely on theory, students are encouraged to assemble, modify, test, and improve real robotic systems. Every lesson introduces practical challenges that reinforce engineering, programming, and problem-solving skills."
+msgstr ""
+"Натомість, акцент робиться на теорії, студентам пропонуються практичні завдання, які вимагають побудови, модифікації, тестування та вдосконалення реальних робототехнічних систем. Кожен урок вводить практичні виклики, які підкреслюють інженерні, програмні та навички вирішення проблем."
+
+#: ../../platforms/bybyte-nano-introduction.rst:70
+msgid "Open Source"
+msgstr "Відкритий проект"
+
+#: ../../platforms/bybyte-nano-introduction.rst:72
+msgid ""
+"ByByte Nano is developed as an open-source project. Hardware designs, software, documentation, and educational materials are publicly available and can be studied, modified, and improved by the community."
+msgstr ""
+"БАБАЙ Nano розроблений як відкритий проект. Дизайн обладнання, програмне забезпечення, документація та навчальні матеріали доступні у відкритому доступі та можуть бути вивчені, модифіковані та вдосконалені спільнотою."
+
+#: ../../platforms/bybyte-nano-introduction.rst:74
+msgid ""
+"We believe that open knowledge accelerates learning and helps create a stronger educational ecosystem for future engineers, developers, and makers."
+msgstr ""
+"Ми віримо, що відкрите знання прискорює навчання та допомагає створити сильнішу освітню екосистему для майбутніх інженерів, розробників та майстрів."
+
+#: ../../platforms/bybyte-nano-introduction.rst:76
+msgid "Getting Started"
+msgstr "Для початку"
+
+#: ../../platforms/bybyte-nano-introduction.rst:78
+msgid "This documentation will guide you through:"
+msgstr "В цій документації:"
+
+#: ../../platforms/bybyte-nano-introduction.rst:80
+msgid "Robot assembly"
+msgstr "Збірка робота"
+
+#: ../../platforms/bybyte-nano-introduction.rst:82
+msgid "Hardware overview"
+msgstr "Огляд обладнання"
+
+#: ../../platforms/bybyte-nano-introduction.rst:84
+msgid "Software installation"
+msgstr "Встановлення програмного забезпечення"
+
+#: ../../platforms/bybyte-nano-introduction.rst:86
+msgid "Programming tutorials"
+msgstr "Уроки програмування"
+
+#: ../../platforms/bybyte-nano-introduction.rst:88
+msgid "Sensor and module usage"
+msgstr "Використання сенсорів та модулів"
+
+#: ../../platforms/bybyte-nano-introduction.rst:90
+msgid "Example projects"
+msgstr "Приклади проектів"
+
+#: ../../platforms/bybyte-nano-introduction.rst:92
+msgid "Troubleshooting and maintenance"
+msgstr "Налагодження та обслуговування"
+
+#: ../../platforms/bybyte-nano-introduction.rst:94
+msgid "Advanced robotics topics"
+msgstr "Теми робототехніки"
+
+#: ../../platforms/bybyte-nano-introduction.rst:96
+msgid ""
+"Whether you are a student, educator, or enthusiast, ByByte Nano provides a practical path into the world of robotics and embedded systems."
+msgstr ""
+"Незалежно від того, чи ви студент, вчитель або ентузіаст, БАБАЙ Nano надає практичний шлях у світ робототехніки та інтегрованих систем."
+
+#: ../../platforms/bybyte-nano-introduction.rst:98
+msgid "Welcome to the ByByte Nano community!"
+msgstr "Ласкаво просимо до спільноти БАБАЙ Nano!"

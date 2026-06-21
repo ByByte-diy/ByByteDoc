@@ -1,0 +1,1590 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-21 18:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../platforms/bybyte-nano-bill-of-materials.rst:2
+msgid "Bill of Materials"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-bill-of-materials.rst:4
+msgid ""
+"The complete parts list for **ByByte Nano** is maintained in the `ByByte-"
+"diy/ByByteNano <https://github.com/ByByte-diy/ByByteNano>`_ repository."
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:1
+msgid "**ByByte Nano** — main board (`Board1_main`)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:3
+msgid "Full component list for robot assembly. Tables are grouped by part type."
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:7
+msgid "PCB, power & protection"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "#"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Designator"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Qty"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Description"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Value / model"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Image"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`BAT1`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Battery holder"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "BH9VPC"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/01_bat1.png\" alt=\"Battery holder\""
+" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "2"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`Li-ion Battery`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "9V Li-ion rechargeable battery (PP3 / “Krona” form factor)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "BAT-6F22"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/02_li-ion-battery.png\" alt=\"9V Li-"
+"ion rechargeable battery\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "3"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`C1,C4,C17`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Electrolytic capacitor, low ESR"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "470uF 16v"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/03_c1.png\" alt=\"Electrolytic "
+"capacitor, low ESR\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "4"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`C3,C5`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "470uF 6.3v"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/04_c3.png\" alt=\"Electrolytic "
+"capacitor, low ESR\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "5"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`D4`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Schottky diode"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1N5822"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/05_d4.png\" alt=\"Schottky diode\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "6"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`D5`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1N5817"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/d5-1n5817.png\" alt=\"Schottky "
+"diode\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "7"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`F1`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Fuse (optional)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "TRF250-1000 (optional)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/06_f1.png\" alt=\"Fuse (optional)\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "8"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`L1,L2`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Leaded EMI ferrite bead"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "R6H-3.0T"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/07_l1.png\" alt=\"Leaded EMI ferrite"
+" bead\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "9"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U3,U4`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "DC-DC buck module"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "MH-MINI-361 (or HW-613)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/08_u3.png\" alt=\"DC-DC buck "
+"module\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "10"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`pcb`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Main ByByte nano board"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "PCB"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/pcb.png\" alt=\"Main ByByte nano "
+"board\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:22
+msgid "Passive components"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "11"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`C2,C6,C7,C9,C11,C12,C13,C14,C18`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Ceramic capacitor"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1uF 50v"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/09_c2.png\" alt=\"Ceramic "
+"capacitor\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "12"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`C8,C10,C19`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "0.1uF 50v"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/10_c8.png\" alt=\"Ceramic capacitor "
+"(100 nF)\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "13"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`C15,C16`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "10nF 50v"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/11_c15.png\" alt=\"Ceramic "
+"capacitor\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "14"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`R1,R2`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1/8 W resistor"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1kΩ"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/12_r1.png\" alt=\"1/8 W resistor\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "15"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`R3,R6,R9,R10,R14`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "10kΩ"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/13_r3.png\" alt=\"1/8 W resistor\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "16"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`R4,R5`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1/4 W resistor"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "39Ω"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/14_r4.png\" alt=\"1/2 W resistor\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "17"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`R7,R8`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1.8kΩ"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/15_r7.png\" alt=\"1/8 W resistor\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "18"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`R11,R12`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "100kΩ"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/16_r11.png\" alt=\"1/8 W resistor\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "19"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`R13`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "330Ω"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/17_r13.png\" alt=\"1/8 W resistor\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "20"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`R15`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "100Ω"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/18_r15.png\" alt=\"1/8 W resistor\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:37
+msgid "Semiconductors & diodes"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "21"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`D1,D2`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "IR LED"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "SFH4545"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/19_d1.png\" alt=\"IR LED\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "22"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`D3`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Diode"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1N4148"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/20_d3.png\" alt=\"Diode\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "23"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`LED1`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Green LED 3 mm"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "FYL-3004GD"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/21_led1.png\" alt=\"Green LED 3 mm\""
+" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "24"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`LED2,LED3`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "5 mm addressable RGB LED (WS2812)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "WS2812B-TH"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/22_led2.png\" alt=\"5 mm addressable"
+" RGB LED (WS2812)\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "25"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`Q1`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "NPN transistor"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "9014-C"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/23_q1.png\" alt=\"NPN transistor\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "26"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`Q2,Q3`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "IR phototransistor"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "TEFT4300"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/24_q2.png\" alt=\"IR "
+"phototransistor\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "27"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`Q4`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "HEXFET / MOSFET transistor"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "BS170"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/25_q4.png\" alt=\"HEXFET / MOSFET "
+"transistor\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "28"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U9`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Operational amplifier"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "LM358AP"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/26_u9.png\" alt=\"Operational "
+"amplifier\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "29"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "DIP-8 IC socket"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "GOLD-8P"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/27_u9.png\" alt=\"DIP-8 IC socket\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:51
+msgid "Modules & controllers"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "30"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`BLUETOOTH1`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Bluetooth module (HC-02 / HC-05 / HC-06)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "HC-06"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/28_bluetooth1.png\" alt=\"Bluetooth "
+"module\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "31"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`BUZZER1`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Passive buzzer 5V"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "buzzer-12X9"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/29_buzzer1.png\" alt=\"Passive "
+"buzzer 5V\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "32"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`LDR1`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Photo-resistor (LDR)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "10k"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/30_ldr1.png\" alt=\"Photo-resistor "
+"(LDR)\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "33"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U1`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Arduino Nano (ATmega328)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Arduino nano v3 (old)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/31_u1.png\" alt=\"Arduino Nano "
+"(ATmega328)\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "34"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U2`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Motor driver module"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "DRV8833"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/32_u2.png\" alt=\"Motor driver "
+"module\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "35"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U5`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Ultrasonic distance sensor"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "HC-SR04"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/33_u5.png\" alt=\"Ultrasonic "
+"distance sensor\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "36"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U6`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Line tracker module (5 channels)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "TRCT5000 5way module"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/34_u6.png\" alt=\"Line tracker "
+"module (5 channels)\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "37"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U7`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "IR receiver IC"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "VS1838B"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/35_u7.png\" alt=\"IR receiver IC\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "38"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U8`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "ESP32-CAM module with 120° camera"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "ESP32-CAM"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/36_u8.png\" alt=\"ESP32-CAM module "
+"with 120° camera\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:65
+msgid "Connectors, switches & buttons"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "39"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`H1,H2,H5,H6,J1,J2,J3`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1×40 pin header, 2.54 mm pitch"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "ZL201-40G"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/37_h1.jpg\" alt=\"1×40 pin header, "
+"2.54 mm pitch\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "40"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`H3,H4`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "2×1 female header, 2.54 mm, 90°"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "ZL263-2SG"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/38_h3.png\" alt=\"2×1 female header,"
+" 2.54 mm, 90°\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "41"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`XP3,XP4`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1×40 pin header, 2.54 mm pitch, 90°"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "ZL211-40KG-S"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/39_xp3.jpg\" alt=\"1×40 pin header, "
+"2.54 mm pitch, 90°\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "42"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`KEY1,KEY2`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "6 mm tactile button, 4 pins"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1301.9301"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/40_key1.png\" alt=\"6 mm tactile "
+"button, 4 pins\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "43"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`SW1`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Slider switch, 90°"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "SS-12D"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/41_sw1.png\" alt=\"Slider switch, "
+"90°\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "44"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U1 holder`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1×15 female header, 2.54 mm (for Nano)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "PBS-15"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/42_u1-holder.png\" alt=\"1×15 female"
+" header\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "45"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U8 holder`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1×8 female header, 2.54 mm (for ESP32-CAM)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "ZL262-8SG"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/43_u8-holder.png\" alt=\"1×8 female "
+"header, 2.54 mm (for ESP32-CAM)\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "46"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U6 holder`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1×7 female header, 2.54 mm (for line trackers)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "PBS-07R"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/u6-holder.png\" alt=\"1×7 female "
+"header, 2.54 mm\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "47"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`U2 holder`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "1×6 female header, 2.54 mm"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "PBS-06"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/pbs-06-zl262-6sg.png\" alt=\"1×6 "
+"female header, 2.54 mm\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:79
+msgid "Mechanics & drive"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "48"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`M1,M2`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "DC geared motor N20, 6V"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "N20 motor 500-1000 rpm"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/44_m1.png\" alt=\"DC geared motor "
+"N20, 6V\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "49"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`Mount,Mount1`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "N20 ABS motor mount with screw"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "N20 mount"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/45_mount.png\" alt=\"N20 ABS motor "
+"mount with screw\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "50"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`Ball wheel`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "N20 mini caster / ball wheel"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Ball wheel mini"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/46_ball-wheel.png\" alt=\"N20 mini "
+"caster / ball wheel\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "51"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`Wheel`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "N20 wheel, 44 mm, 3 mm shaft"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "N20 44mm"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/47_wheel.png\" alt=\"N20 wheel, 44 "
+"mm, 3 mm shaft\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "52"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`M2 x 8mm screw`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "M2 screw 8mm length"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "M2x8mm"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/m2x6-screw.png\" alt=\"M2 screw 8mm "
+"length\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "53"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`M3 x 12mm screw`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "M3 screw 12mm length"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "M3x12mm"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/m3x12-screw.jpg\" alt=\"M3 screw "
+"12mm length\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "54"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`HTP-320`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Plastic standoff 20mm M3 double-sided"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "HTP-320"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/standoff-m3x20.png\" alt=\"Plastic "
+"standoff 20mm M3 double-sided\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "55"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`HTP-305`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Plastic standoff 5mm M3 double-sided"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "HTP-305"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/standoff-m3x5.jpg\" alt=\"Plastic "
+"standoff 5mm M3 double-sided\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "56"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`M3 DIN 985`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "M3 self-locking nut"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "M3 DIN985"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/m3-din985.png\" alt=\"M3 self-"
+"locking nut\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "57"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "`M2 DIN 985`"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "M2 self-locking nut"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "M2 DIN985"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/m2-din985.png\" alt=\"M2 self-"
+"locking nut\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:95
+msgid "Consumables"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:97
+msgid ""
+"Materials used during assembly; not included in the robot BOM line count "
+"above."
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Notes"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Solder wire, 0.8–1.0 mm"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Sn60/Pb40 (Cynel recommended); for through-hole components and headers"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/solder-cynel.png\" alt=\"Solder "
+"wire\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Flux paste or rosin flux"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "(Optional) makes soldering easier on pads and pin headers"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/flux-amtech.png\" alt=\"Flux paste "
+"or rosin flux\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Isopropyl alcohol (IPA), 99%"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "(Optional) flux residue cleaning after soldering"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/ipa-99.png\" alt=\"Isopropyl alcohol"
+" (IPA), 99%\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Heat shrink tubing 8mm diameter **BLACK!**"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "for isolating IR LEDs"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/hs-8mm.png\" alt=\"Heat shrink "
+"tubing\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:106
+msgid "Required tools"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Tool"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Purpose"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Soldering iron (25–60 W, temperature-controlled)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Soldering passives, semiconductors, connectors, and modules"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/iron-25w.png\" alt=\"Soldering "
+"iron\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Side / flush cutters"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Trimming component leads; cutting pin headers to length"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/cutters.png\" alt=\"Side / flush "
+"cutters\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Multimeter"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"Setting DC-DC outputs to 5 V and 3.3 V; polarity and rail checks before "
+"first power-up"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/multimeter.png\" alt=\"Multimeter\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Small Phillips screwdriver"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "M2/M3 assembly; adjusting DC-DC module trim pots"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/screwdriver.png\" alt=\"Small "
+"Phillips screwdriver\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "USB cable (Mini-B or Micro-B or Type-C, per Nano revision)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Uploading firmware to Arduino Nano"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/usb-cable.png\" alt=\"USB cable\" "
+"width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "PC with Arduino IDE"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Programming and testing"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid ""
+"<img src=\"https://raw.githubusercontent.com/ByByte-"
+"diy/ByByteNano/main/hardware/bom/img/laptop.png\" alt=\"PC with Arduino "
+"IDE\" width=\"80\" />"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:117
+msgid "**Optional:** helping hands / PCB holder, magnifying lamp."
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md:121
+msgid "Summary"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Parameter"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Value"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Unique line items"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Optional parts"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "F1 (fuse)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Bluetooth"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "HC-02 / HC-05 / HC-06"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "DC-DC modules"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "MH-MINI-361 or HW-613 (recommended)"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Controller"
+msgstr ""
+
+#: ../../../shared/bybyte-nano/BOM.md
+msgid "Arduino Nano v3 (ATmega328)"
+msgstr ""
+
