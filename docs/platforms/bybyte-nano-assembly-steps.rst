@@ -226,6 +226,18 @@ You will need a multimeter, a battery with PP3/Krona-style leads, and a jumper w
 
 If something does not work, go to the :doc:`Troubleshooting <bybyte-nano-troubleshooting>` section. Before assembly, review the video instructions for this step.
 
+.. raw:: html
+
+   <div class="video-embed">
+    <iframe
+      src="https://www.youtube.com/embed/9_2A6fj84Rg"
+      title="ByByte Nano Side IR Sensors Assembly"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+   </div>
+
 Step 3 - Solder Small Components⚡
 ----------------------------------
 
@@ -238,8 +250,22 @@ Next, solder the basic sensors used in all robot configurations:
 
 * Light sensor
 * IR receiver
+* Buzzer
+* RGB LEDs
 
 After completing this step, inspect all solder joints and verify component orientation before proceeding.
+
+.. raw:: html
+
+   <div class="video-embed">
+    <iframe
+      src="https://www.youtube.com/embed/NSkhaYWHZUU"
+      title="ByByte Nano peripheral components soldering"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+   </div>
 
 Step 4 - Connectors and Motors⚡
 --------------------------------
