@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ByByte 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-21 18:37+0300\n"
+"POT-Creation-Date: 2026-07-11 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: uk\n"
@@ -23,81 +23,97 @@ msgstr ""
 #: ../../index.rst:6
 msgid "About ByByte DIY"
 msgstr "Про БАБАЙ.DIY"
+
 #: ../../index.rst:6
 msgid "Mission"
 msgstr "Місія"
 
 #: ../../index.rst:6
-msgid "Roadmap"
-msgstr "Мапа розвитку"
-#: ../../index.rst:6
-msgid "Project Status"
-msgstr "Стан проекту"
-#: ../../index.rst:6
 msgid "Quick Start"
-msgstr "Для початку"
+msgstr "Швидкий старт"
+
 #: ../../index.rst:6
 msgid "Organization Documents"
 msgstr "Документи організації"
+
 #: ../../index.rst:6
 msgid "Home:"
 msgstr "Головна:"
 
-#: ../../index.rst:17
+#: ../../index.rst:15
 msgid "Getting Started:"
-msgstr "Початок роботи:"
-#: ../../index.rst:29
+msgstr "З чого почати:"
+
+#: ../../index.rst:27
 msgid "ByByte Nano"
 msgstr "БАБАЙ Nano"
-#: ../../index.rst:29
+
+#: ../../index.rst:27
 msgid "Platforms:"
 msgstr "Платформи:"
-#: ../../index.rst:36
+
+#: ../../index.rst:34
 msgid "Additional Information:"
 msgstr "Додаткова інформація:"
+
 #: ../../index.rst:2
 msgid "ByByte Documentation"
 msgstr "Документація БАБАЙ"
+
 #: ../../index.rst:4
 msgid ""
 "Welcome to ByByte.DIY's documentation! This is an open-source ecosystem "
 "for robotics, electronics, and STEM education."
-msgstr "Ласкаво просимо до документації БАБАЙ.DIY! Це відкрита система для робототехніки, електроніки та освіти STEM."
-#: ../../index.rst:44
+msgstr ""
+"Ласкаво просимо до документації БАБАЙ.DIY! Це відкрита система для "
+"робототехніки, електроніки та освіти STEM."
+
+#: ../../index.rst:42
 msgid "Overview"
 msgstr "Огляд"
 
-#: ../../index.rst:46
+#: ../../index.rst:44
 msgid "ByByte is an Arduino-based project designed for..."
 msgstr "БАБАЙ.DIY — це проект на основі Arduino, призначений для..."
-#: ../../index.rst:49
+
+#: ../../index.rst:47
 msgid "This documentation is automatically built and published on ReadTheDocs."
-msgstr "Ця документація автоматично буде побудована та опублікована на ReadTheDocs."
-#: ../../index.rst:52
+msgstr ""
+"Ця документація автоматично буде побудована та опублікована на "
+"ReadTheDocs."
+
+#: ../../index.rst:50
 msgid "Features"
 msgstr "Особливості"
-#: ../../index.rst:54
+
+#: ../../index.rst:52
 msgid "Feature 1"
 msgstr "Особливість 1"
-#: ../../index.rst:55
+
+#: ../../index.rst:53
 msgid "Feature 2"
 msgstr "Особливість 2"
-#: ../../index.rst:56
+
+#: ../../index.rst:54
 msgid "Feature 3"
 msgstr "Особливість 3"
-#: ../../index.rst:59
+
+#: ../../index.rst:57
 msgid "Quick Links"
 msgstr "Швидкі посилання"
-#: ../../index.rst:61
-msgid ":ref:`genindex`"
-msgstr "":ref:`genindex`"
-#: ../../index.rst:62
-msgid ":ref:`modindex`"
-msgstr "":ref:`modindex`"
 
-#: ../../index.rst:63
+#: ../../index.rst:59
+msgid ":ref:`genindex`"
+msgstr "\":ref:`genindex`"
+
+#: ../../index.rst:60
+msgid ":ref:`modindex`"
+msgstr "\":ref:`modindex`"
+
+#: ../../index.rst:61
 msgid ":ref:`search`"
-msgstr "":ref:`search`"
+msgstr "\":ref:`search`"
+
 #~ msgid "Home"
 #~ msgstr "Домашня"
 
@@ -109,4 +125,10 @@ msgstr "":ref:`search`"
 
 #~ msgid "Welcome to ByByte's documentation! This is an Arduino-based project."
 #~ msgstr "Ласкаво просимо до документації БАБАЙ.DIY"
+
+#~ msgid "Roadmap"
+#~ msgstr "Мапа розвитку"
+
+#~ msgid "Project Status"
+#~ msgstr "Стан проекту"
 

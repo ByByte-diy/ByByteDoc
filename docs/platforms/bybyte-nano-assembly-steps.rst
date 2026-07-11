@@ -285,6 +285,18 @@ The motors are mounted using dedicated plastic brackets designed for N20 motors.
 
   When mounting the motors, the screw head must be located on the underside of the PCB. The nut is inserted from the top into the dedicated slot in the plastic bracket. This prevents the nut from rotating during assembly and makes installation easier.
 
+.. raw:: html
+
+   <div class="video-embed">
+    <iframe
+      src="https://www.youtube.com/embed/HU9ykMDvNG0"
+      title="ByByte Nano motors and connectors soldering"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+   </div>
+
 Step 5 - Install Sensors⚡
 --------------------------
 

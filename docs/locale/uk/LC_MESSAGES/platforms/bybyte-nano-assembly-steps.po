@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ByByte.DIY™ 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-21 18:37+0300\n"
+"POT-Creation-Date: 2026-07-11 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: uk\n"
@@ -450,15 +450,15 @@ msgid ""
 " for this step."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:230
+#: ../../platforms/bybyte-nano-assembly-steps.rst:242
 msgid "Step 3 - Solder Small Components⚡"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:233
+#: ../../platforms/bybyte-nano-assembly-steps.rst:245
 msgid "Solder Small Components and Basic Sensors"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:235
+#: ../../platforms/bybyte-nano-assembly-steps.rst:247
 msgid ""
 "Begin by soldering all low-profile through-hole components, including "
 "resistors, diodes, capacitors, and other small passive parts. Installing "
@@ -466,39 +466,47 @@ msgid ""
 "provides better access to the PCB."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:237
+#: ../../platforms/bybyte-nano-assembly-steps.rst:249
 msgid "Next, solder the basic sensors used in all robot configurations:"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:239
+#: ../../platforms/bybyte-nano-assembly-steps.rst:251
 msgid "Light sensor"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:240
+#: ../../platforms/bybyte-nano-assembly-steps.rst:252
 msgid "IR receiver"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:242
+#: ../../platforms/bybyte-nano-assembly-steps.rst:253
+msgid "Buzzer"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:254
+msgid "RGB LEDs"
+msgstr ""
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:256
 msgid ""
 "After completing this step, inspect all solder joints and verify "
 "component orientation before proceeding."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:245
+#: ../../platforms/bybyte-nano-assembly-steps.rst:271
 msgid "Step 4 - Connectors and Motors⚡"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:248
+#: ../../platforms/bybyte-nano-assembly-steps.rst:274
 msgid "Solder Connectors and Install Motors"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:250
+#: ../../platforms/bybyte-nano-assembly-steps.rst:276
 msgid ""
 "At this stage, solder all connectors on the main PCB according to the "
 "board markings."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:252
+#: ../../platforms/bybyte-nano-assembly-steps.rst:278
 msgid ""
 "Next, separate the motor adapter boards from the panel and solder the "
 "corresponding connectors onto each adapter. After that, solder the "
@@ -506,20 +514,20 @@ msgid ""
 "motors."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:254
+#: ../../platforms/bybyte-nano-assembly-steps.rst:280
 msgid ""
 "Once both motor adapters are soldered to the motors and all connectors "
 "are installed on the main PCB, proceed with motor installation."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:256
+#: ../../platforms/bybyte-nano-assembly-steps.rst:282
 msgid ""
 "The motors are mounted using dedicated plastic brackets designed for N20 "
 "motors. Secure each motor in its bracket and attach the assembly to the "
 "main PCB."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:260
+#: ../../platforms/bybyte-nano-assembly-steps.rst:286
 msgid ""
 "When mounting the motors, the screw head must be located on the underside"
 " of the PCB. The nut is inserted from the top into the dedicated slot in "
@@ -527,15 +535,15 @@ msgid ""
 "and makes installation easier."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:263
+#: ../../platforms/bybyte-nano-assembly-steps.rst:301
 msgid "Step 5 - Install Sensors⚡"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:266
+#: ../../platforms/bybyte-nano-assembly-steps.rst:304
 msgid "Install and Solder the Ultrasonic Sensor and Line Tracker Module"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:269
+#: ../../platforms/bybyte-nano-assembly-steps.rst:307
 msgid ""
 "Begin with the ultrasonic sensor mounted at the front of the PCB. Before "
 "soldering, measure the required pin length and trim the leads as close to"
@@ -546,20 +554,20 @@ msgid ""
 "for this purpose."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:271
+#: ../../platforms/bybyte-nano-assembly-steps.rst:309
 msgid ""
 "After soldering, any remaining pin protrusions should be minimal, as "
 "clearance is required for the line tracker connector installed nearby."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:273
+#: ../../platforms/bybyte-nano-assembly-steps.rst:311
 msgid ""
 "Next, install the line tracker connector. This connector is mounted from "
 "the bottom side of the PCB (solder side) and soldered from the top side "
 "(component side)."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:275
+#: ../../platforms/bybyte-nano-assembly-steps.rst:313
 msgid ""
 "Once the connector is installed, attach the line tracker sensor module. "
 "The PCB includes dedicated mounting tabs for this purpose. Secure the "
@@ -567,37 +575,37 @@ msgid ""
 "between the boards, use 5 mm plastic spacers."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:277
+#: ../../platforms/bybyte-nano-assembly-steps.rst:315
 msgid ""
 "After the ultrasonic sensor, line tracker module, Arduino controller, and"
 " all remaining modules are installed and secured in place, proceed to the"
 " next assembly step."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:280
+#: ../../platforms/bybyte-nano-assembly-steps.rst:318
 msgid "Step 6 - Wheels and Battery Holder⚡"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:283
+#: ../../platforms/bybyte-nano-assembly-steps.rst:321
 msgid "Install Roller Wheels and Battery Holder"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:285
+#: ../../platforms/bybyte-nano-assembly-steps.rst:323
 msgid "Now it is time to install the roller wheels and the battery holder."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:287
+#: ../../platforms/bybyte-nano-assembly-steps.rst:325
 msgid ""
 "First, install the roller wheels. This step must be completed before "
 "mounting the battery holder, because once the holder is fixed in place, "
 "access to the roller wheel mounting holes will be blocked."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:289
+#: ../../platforms/bybyte-nano-assembly-steps.rst:327
 msgid "Before installation, remove the screws from each roller wheel assembly."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:293
+#: ../../platforms/bybyte-nano-assembly-steps.rst:331
 msgid ""
 "Be careful: inside the wheel assembly there are several small balls and "
 "one larger ball. When removing the screws, the assembly may come apart "
@@ -605,11 +613,11 @@ msgid ""
 "carefully and avoid pressing on the main roller."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:296
+#: ../../platforms/bybyte-nano-assembly-steps.rst:334
 msgid "To mount the roller wheels:"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:298
+#: ../../platforms/bybyte-nano-assembly-steps.rst:336
 msgid ""
 "Insert the removed screws through the PCB from the component side (see "
 "the markings on the board). Position the roller wheel on the underside of"
@@ -617,48 +625,48 @@ msgid ""
 "not wobble."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:302
+#: ../../platforms/bybyte-nano-assembly-steps.rst:340
 msgid "Repeat the same procedure for the second roller wheel."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:305
+#: ../../platforms/bybyte-nano-assembly-steps.rst:343
 msgid "Mount the Battery Holder"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:307
+#: ../../platforms/bybyte-nano-assembly-steps.rst:345
 msgid "Once both wheels are installed, proceed with mounting the battery holder."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:309
+#: ../../platforms/bybyte-nano-assembly-steps.rst:347
 msgid ""
 "A battery holder with pre-attached wires is recommended. Measure the "
 "required wire length, cut off any excess, strip and tin the wire ends, "
 "then solder them to the designated pads on the PCB."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:311
+#: ../../platforms/bybyte-nano-assembly-steps.rst:349
 msgid "Secure the battery holder using M2 screws and self-locking nuts."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:313
+#: ../../platforms/bybyte-nano-assembly-steps.rst:351
 msgid "Congratulations! Your robot is almost ready for operation."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:316
+#: ../../platforms/bybyte-nano-assembly-steps.rst:354
 msgid "Step 7 - Bluetooth and Battery⚡"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:319
+#: ../../platforms/bybyte-nano-assembly-steps.rst:357
 msgid "Install Bluetooth Module and Battery"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:321
+#: ../../platforms/bybyte-nano-assembly-steps.rst:359
 msgid ""
 "The final assembly stage is installing the Bluetooth module and "
 "connecting the battery."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:323
+#: ../../platforms/bybyte-nano-assembly-steps.rst:361
 msgid ""
 "The Bluetooth module is mounted directly onto the PCB using 90-degree "
 "angled pin headers. In most cases, these headers are already soldered to "
@@ -666,7 +674,7 @@ msgid ""
 "outer pins, as only four connections are required: power and data lines."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:325
+#: ../../platforms/bybyte-nano-assembly-steps.rst:363
 msgid ""
 "Position the module according to the markings on the main PCB. The module"
 " should sit flush against the board without any gap between the Bluetooth"
@@ -674,35 +682,35 @@ msgid ""
 " any excess leads."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:327
+#: ../../platforms/bybyte-nano-assembly-steps.rst:365
 msgid ""
 "After soldering, verify that the module is firmly attached and does not "
 "move."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:331
+#: ../../platforms/bybyte-nano-assembly-steps.rst:369
 msgid ""
 "Avoid mounting the module at a distance from the PCB, as this makes it "
 "more vulnerable to mechanical damage and causes it to protrude "
 "unnecessarily."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:333
+#: ../../platforms/bybyte-nano-assembly-steps.rst:371
 msgid ""
 "With the Bluetooth module installed, perform one final visual inspection "
 "of all solder joints and components. Check that there are no solder "
 "bridges, loose connections, or incorrectly installed parts."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:335
+#: ../../platforms/bybyte-nano-assembly-steps.rst:373
 msgid "The hardware assembly is now complete."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:338
+#: ../../platforms/bybyte-nano-assembly-steps.rst:376
 msgid "Step 8 - Initial Inspection⚡"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:340
+#: ../../platforms/bybyte-nano-assembly-steps.rst:378
 msgid ""
 "Before powering the robot for the first time, carefully inspect all "
 "solder joints, connectors, and wiring. Verify that all components are "
@@ -710,43 +718,43 @@ msgid ""
 "shorts between adjacent pads or traces."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:342
+#: ../../platforms/bybyte-nano-assembly-steps.rst:380
 msgid "Perform a final visual inspection of the assembled robot:"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:344
+#: ../../platforms/bybyte-nano-assembly-steps.rst:382
 msgid "Check all soldered connections."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:345
+#: ../../platforms/bybyte-nano-assembly-steps.rst:383
 msgid "Verify motor wiring polarity."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:346
+#: ../../platforms/bybyte-nano-assembly-steps.rst:384
 msgid "Confirm that sensors and modules are firmly connected."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:347
+#: ../../platforms/bybyte-nano-assembly-steps.rst:385
 msgid "Ensure that no loose wires can interfere with moving parts."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:348
+#: ../../platforms/bybyte-nano-assembly-steps.rst:386
 msgid "Check that the battery connection is correct."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:350
+#: ../../platforms/bybyte-nano-assembly-steps.rst:388
 msgid "Correct any issues before proceeding."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:353
+#: ../../platforms/bybyte-nano-assembly-steps.rst:391
 msgid "Step 9 - Firmware Upload⚡"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:355
+#: ../../platforms/bybyte-nano-assembly-steps.rst:393
 msgid "The robot is now ready for firmware installation."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:357
+#: ../../platforms/bybyte-nano-assembly-steps.rst:395
 msgid ""
 "Connect the controller to your computer and upload the test sketch or the"
 " desired firmware version. For testing, upload the maintenance and "
@@ -755,23 +763,23 @@ msgid ""
 "are provided in the Firmware section."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:360
+#: ../../platforms/bybyte-nano-assembly-steps.rst:398
 msgid "Step 10 - Functional Test⚡"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:362
+#: ../../platforms/bybyte-nano-assembly-steps.rst:400
 msgid ""
 "After uploading the firmware, perform a complete functional test of the "
 "robot."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:366
+#: ../../platforms/bybyte-nano-assembly-steps.rst:404
 msgid ""
 "If the controller already contains previously installed firmware, the "
 "robot may begin moving immediately after power is applied."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:368
+#: ../../platforms/bybyte-nano-assembly-steps.rst:406
 msgid ""
 "Before switching on the robot, make sure the wheels do not touch the "
 "table or any other surface. Place the robot on a stand, hold it securely,"
@@ -779,39 +787,39 @@ msgid ""
 " during testing."
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:370
+#: ../../platforms/bybyte-nano-assembly-steps.rst:408
 msgid "**Verify the operation of:**"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:372
+#: ../../platforms/bybyte-nano-assembly-steps.rst:410
 msgid "Power system"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:373
+#: ../../platforms/bybyte-nano-assembly-steps.rst:411
 msgid "Motors"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:374
+#: ../../platforms/bybyte-nano-assembly-steps.rst:412
 msgid "Line sensors"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:375
+#: ../../platforms/bybyte-nano-assembly-steps.rst:413
 msgid "Distance sensors"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:376
+#: ../../platforms/bybyte-nano-assembly-steps.rst:414
 msgid "LEDs and indicators"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:377
+#: ../../platforms/bybyte-nano-assembly-steps.rst:415
 msgid "Communication modules"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:378
+#: ../../platforms/bybyte-nano-assembly-steps.rst:416
 msgid "Additional optional hardware"
 msgstr ""
 
-#: ../../platforms/bybyte-nano-assembly-steps.rst:380
+#: ../../platforms/bybyte-nano-assembly-steps.rst:418
 msgid ""
 "If any problems are detected, disconnect power, identify the cause, and "
 "correct the issue before continuing. Once all tests pass successfully, "

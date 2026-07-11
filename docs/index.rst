@@ -9,8 +9,6 @@ Welcome to ByByte.DIY's documentation! This is an open-source ecosystem for robo
 
    About ByByte DIY <home/about>
    Mission <home/mission>
-   Roadmap <home/roadmap>
-   Project Status <home/project-status>
    Quick Start <home/quick-start>
    Organization Documents <home/organization-documents>
 

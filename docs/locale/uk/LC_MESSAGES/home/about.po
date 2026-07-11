@@ -23,139 +23,143 @@ msgstr ""
 
 #: ../../../shared/github/profile/README.md:1
 msgid "ByByte.DIY™"
-msgstr ""
+msgstr "БАБАЙ.DIY™"
 
 #: ../../../shared/github/profile/README.md:3
 msgid "Open Robotics & STEM Education Ecosystem"
-msgstr ""
+msgstr "Відкрита навчальна платформа 'Робототехніки'"
 
 #: ../../../shared/github/profile/README.md:5
 msgid ""
 "ByByte.DIY™ is an open-source ecosystem for robotics, electronics, and "
 "STEM education."
 msgstr ""
+"БАБАЙ.DIY™ відкрита екосистема робототехніки, електроніки, та "
+"STEM навчання."
 
 #: ../../../shared/github/profile/README.md:7
 msgid "We build:"
-msgstr ""
+msgstr "Ми створюємо:"
 
 #: ../../../shared/github/profile/README.md:9
 msgid "educational robotics platforms;"
-msgstr ""
+msgstr "платформу навчання робототехніці;"
 
 #: ../../../shared/github/profile/README.md:10
 msgid "open hardware;"
-msgstr ""
+msgstr "відкрита аппаратна частина;"
 
 #: ../../../shared/github/profile/README.md:11
 msgid "firmware and software tools;"
-msgstr ""
+msgstr "мікрокод та програмне забезпечення;"
 
 #: ../../../shared/github/profile/README.md:12
 msgid "learning materials;"
-msgstr ""
+msgstr "навчальні матеріали;"
 
 #: ../../../shared/github/profile/README.md:13
 msgid "and maker-friendly engineering projects."
-msgstr ""
+msgstr "та інженерні проекти для самостійної збірки."
 
 #: ../../../shared/github/profile/README.md:15
 msgid ""
 "Designed for: students, educators, makers, robotics clubs, and STEM "
 "communities."
 msgstr ""
+"Розроблено для: студентів, викладачів, хобі, кружків робототехніки, та STEM "
+"спільнот."
 
 #: ../../../shared/github/profile/README.md:20
 msgid "Platforms 🏎️"
-msgstr ""
+msgstr "Платформи 🏎️"
 
 #: ../../../shared/github/profile/README.md:22
 msgid "[ByByte Nano™](https://github.com/ByByte-diy/ByByteNano)"
-msgstr ""
+msgstr ".. _link  БАБАЙ Nano™: https://github.com/ByByte-diy/ByByteNano"
 
 #: ../../../shared/github/profile/README.md:24
 msgid "Compact beginner-friendly robotics platform."
-msgstr ""
+msgstr "Зручна роботизована платформа для початківців."
 
 #: ../../../shared/github/profile/README.md:26
 msgid "[ByByte Mega™](https://github.com/ByByte-diy/ByByteMega)"
-msgstr ""
+msgstr ".. _link БАБАЙ Mega™: https://github.com/ByByte-diy/ByByteMega"
 
 #: ../../../shared/github/profile/README.md:28
 msgid "Advanced modular platform for deep learning and advanced STEM projects."
-msgstr ""
+msgstr "Розширена професійна платформа для поглибленого навчання та STEM проектів."
 
 #: ../../../shared/github/profile/README.md:30
 msgid "[ByByte NanoBoy™](https://github.com/ByByte-diy/ByByteNanoBoy)"
-msgstr ""
+msgstr ".. _link БАБАЙ NanoBoy™: https://github.com/ByByte-diy/ByByteNanoBoy"
 
 #: ../../../shared/github/profile/README.md:32
 msgid "Portable experimentation and embedded learning platform."
-msgstr ""
+msgstr "Портативна консоль для навчання та експериментів."
 
 #: ../../../shared/github/profile/README.md:36
 msgid "Open Ecosystem 🆓"
-msgstr ""
+msgstr "Відкритість системи 🆓"
 
 #: ../../../shared/github/profile/README.md:38
 msgid "ByByte.DIY encourages:"
-msgstr ""
+msgstr "БАБАЙ.DIY пропонує:"
 
 #: ../../../shared/github/profile/README.md:40
 msgid "learning by building;"
-msgstr ""
+msgstr "Навчатись практикою;"
 
 #: ../../../shared/github/profile/README.md:41
 msgid "experimentation;"
-msgstr ""
+msgstr "Експериментувати;"
 
 #: ../../../shared/github/profile/README.md:42
 msgid "open collaboration;"
-msgstr ""
+msgstr "відкрита для колаборації;"
 
 #: ../../../shared/github/profile/README.md:43
 msgid "hardware modifications;"
-msgstr ""
+msgstr "можна створювати свої модифікації;"
 
 #: ../../../shared/github/profile/README.md:44
 msgid "and community-driven innovation."
-msgstr ""
+msgstr "та підтримується спільнотою."
 
 #: ../../../shared/github/profile/README.md:48
 msgid "Contributing 🤝"
-msgstr ""
+msgstr "Спільні внески 🤝"
 
 #: ../../../shared/github/profile/README.md:50
 msgid "We welcome contributions in:"
-msgstr ""
+msgstr "Вітається допомога в розробці:"
 
 #: ../../../shared/github/profile/README.md:52
 msgid "software;"
-msgstr ""
+msgstr "програмного забезпечення;"
 
 #: ../../../shared/github/profile/README.md:53
 msgid "hardware;"
-msgstr ""
+msgstr "апаратної частини;"
 
 #: ../../../shared/github/profile/README.md:54
 msgid "documentation;"
-msgstr ""
+msgstr "документації;"
 
 #: ../../../shared/github/profile/README.md:55
 msgid "educational content;"
-msgstr ""
+msgstr "навчальних матеріалів;"
 
 #: ../../../shared/github/profile/README.md:56
 msgid "testing;"
-msgstr ""
+msgstr "тестування;"
 
 #: ../../../shared/github/profile/README.md:57
 msgid "and translations."
-msgstr ""
+msgstr "та перекладах на інші мови."
 
 #: ../../../shared/github/profile/README.md:59
 msgid "Please read:"
-msgstr ""
+msgstr "Для ознайомлення:"
 
 #: ../../../shared/github/profile/README.md:61
 msgid ""
@@ -183,7 +187,7 @@ msgstr ""
 
 #: ../../../shared/github/profile/README.md:68
 msgid "Licensing ⚖️"
-msgstr ""
+msgstr "Ліцензія ⚖️"
 
 #: ../../../shared/github/profile/README.md:70
 msgid ""
@@ -191,14 +195,19 @@ msgid ""
 "[`LICENSE`](https://github.com/ByByte-diy/.github/blob/main/LICENSE.md) "
 "(software, hardware, and documentation)."
 msgstr ""
+"Правила ліцензування описані в "
+"`LICENSE <https://github.com/ByByte-diy/.github/blob/main/LICENSE.md>`_ "
+"(ПЗ, залізо, та документація)."
 
 #: ../../../shared/github/profile/README.md:74
 msgid "Trademark ™️"
-msgstr ""
+msgstr "Торгова марка ™️"
 
 #: ../../../shared/github/profile/README.md:76
 msgid ""
 "ByByte.DIY™, ByByte Nano™, ByByte Mega™, and ByByte NanoBoy™ are "
 "trademarks of the project maintainers."
 msgstr ""
+"БАБАЙ.DIY™, БАБАЙ Nano™, БАБАЙ Mega™, та БАБАЙ NanoBoy™ є "
+"торговими марками супроводжуючих проект."
 

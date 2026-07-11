@@ -204,7 +204,7 @@ msgstr ""
 
 #: ../../platforms/bybyte-nano-introduction.rst:76
 msgid "Getting Started"
-msgstr "Для початку"
+msgstr "З чого почати"
 
 #: ../../platforms/bybyte-nano-introduction.rst:78
 msgid "This documentation will guide you through:"
