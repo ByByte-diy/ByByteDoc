@@ -4,7 +4,6 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: ByByte.DIY™ 0.1\n"
@@ -23,29 +22,30 @@ msgstr ""
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:8
 msgid "Package Options"
-msgstr ""
+msgstr "Варіанти комплектації"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:8
 msgid "Bill of Materials"
-msgstr ""
+msgstr "Специфікація матеріалів"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:8
 msgid "Assembly Steps"
-msgstr ""
+msgstr "Кроки складання"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:8
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Усунення несправностей"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:2
 msgid "ByByte Nano Assembly Guide"
-msgstr ""
+msgstr "Посібник зі складання ByByte Nano"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:4
 msgid ""
 "This section describes the hardware assembly process of the ByByte Nano "
 "robot platform."
 msgstr ""
+"У цьому розділі описано процес складання апаратної частини робототехнічної платформи ByByte Nano."
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:6
 msgid ""
@@ -53,10 +53,12 @@ msgid ""
 "available and that you have the necessary tools for soldering and "
 "mechanical assembly."
 msgstr ""
+"Перед початком складання переконайтеся, що всі необхідні компоненти є в наявності, "
+"а також що у вас є потрібні інструменти для паяння та механічного складання."
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:17
 msgid "Overview"
-msgstr ""
+msgstr "Огляд"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:19
 msgid ""
@@ -64,115 +66,120 @@ msgid ""
 "can build a minimal robot configuration and later expand it with "
 "additional sensors and modules."
 msgstr ""
+"Платформа ByByte Nano розроблена за модульною архітектурою. Користувачі "
+"можуть зібрати мінімальну конфігурацію робота, а згодом розширити її "
+"за допомогою додаткових датчиків та модулів."
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:21
 msgid "The assembly process consists of four major stages:"
 msgstr ""
+"Процес складання складається з чотирьох основних етапів:"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:23
 msgid "Selecting a robot configuration."
-msgstr ""
+msgstr "Вибір конфігурації робота."
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:24
 msgid "Preparing all required components."
-msgstr ""
+msgstr "Підготовка всіх необхідних компонентів."
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:25
 msgid "Understanding the hardware modules."
-msgstr ""
+msgstr "Ознайомлення з апаратними модулями."
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:26
 msgid "Assembling and testing the robot."
-msgstr ""
+msgstr "Складання та тестування робота."
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:29
 msgid "Assembly Difficulty"
-msgstr ""
+msgstr "Складність складання"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:32
 msgid "Configuration"
-msgstr ""
+msgstr "Конфігурація"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:32
 msgid "Difficulty"
-msgstr ""
+msgstr "Складність"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:34
 msgid "Basic"
-msgstr ""
+msgstr "Базова"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:34
 msgid "Beginner"
-msgstr ""
+msgstr "Початковий"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:36
 msgid "Basic + Side Sensors"
-msgstr ""
+msgstr "Базова + бічні датчики"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:36
 #: ../../platforms/bybyte-nano-assembly-guide.rst:38
 msgid "Intermediate"
-msgstr ""
+msgstr "Середній"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:38
 msgid "Basic + Camera"
-msgstr ""
+msgstr "Базова + камера"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:42
 msgid "Tools Required"
-msgstr ""
+msgstr "Необхідні інструменти"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:44
 msgid "Soldering iron"
-msgstr ""
+msgstr "Паяльник"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:45
 msgid "Solder wire"
-msgstr ""
+msgstr "Припій"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:46
 msgid "Side cutters"
-msgstr ""
+msgstr "Бокорізи"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:47
 msgid "Pliers"
-msgstr ""
+msgstr "Плоскогубці"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:48
 msgid "Small screwdrivers"
-msgstr ""
+msgstr "Маленькі викрутки"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:49
 msgid "Utility knife"
-msgstr ""
+msgstr "Канцелярський ніж"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:50
 msgid "Multimeter"
-msgstr ""
+msgstr "Мультиметр"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:51
 msgid "Tweezers (optional)"
-msgstr ""
+msgstr "Пінцет (опціонально)"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:52
 msgid "PCB holder (optional)"
-msgstr ""
+msgstr "Тримач друкованих плат (опціонально)"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:53
 msgid "Heat-resistant mat (optional)"
-msgstr ""
+msgstr "Термостійкий килимок (опціонально)"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:56
 msgid "Safety Notes"
-msgstr ""
+msgstr "Правила безпеки"
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:60
 msgid ""
 "Assembly requires soldering and the use of electronic tools. Children "
 "should perform assembly under adult supervision."
 msgstr ""
+"Складання вимагає паяння та використання електронних інструментів. Діти повинні виконувати складання під наглядом дорослих."
 
 #: ../../platforms/bybyte-nano-assembly-guide.rst:65
 msgid "Always disconnect the battery before modifying or servicing the robot."
 msgstr ""
-
+"Завжди від'єднуйте акумулятор перед модифікацією або обслуговуванням робота."

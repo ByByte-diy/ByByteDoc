@@ -12,104 +12,133 @@ msgstr ""
 "POT-Creation-Date: 2026-07-11 21:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: uk\n"
 "Language-Team: uk <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:2
 msgid "ByByte Nano Assembly Process"
-msgstr ""
+msgstr "Процес збирання БАБАЙ Nano"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:5
 msgid "Assembly Preparation 🛠️"
-msgstr ""
+msgstr "Підготовка до збирання 🛠️"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:7
 msgid ""
-"Before starting assembly, prepare your workspace, tools, and all required"
-" components. The workspace should be clean, well organized, and free from"
-" unnecessary objects that could interfere with the assembly process. "
-"Ensure that the area is well lit and provides enough space to safely "
-"handle electronic components and tools."
+"Before starting assembly, prepare your workspace, tools, and all required "
+"components. The workspace should be clean, well organized, and free from "
+"unnecessary objects that could interfere with the assembly process. Ensure "
+"that the area is well lit and provides enough space to safely handle "
+"electronic components and tools."
 msgstr ""
+"Перед початком збирання підготуйте робоче місце, інструменти та всі "
+"необхідні компоненти. Робоче місце має бути чистим, добре організованим і "
+"вільним від зайвих предметів, які можуть заважати процесу збирання. "
+"Переконайтеся, що зона добре освітлена та має достатньо простору для "
+"безпечної роботи з електронними компонентами та інструментами."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:9
 msgid ""
-"Verify that all components included in your selected robot configuration "
-"are available before beginning assembly. It is also recommended to sort "
-"and identify the parts in advance to avoid confusion during the build "
-"process."
+"Verify that all components included in your selected robot configuration are"
+" available before beginning assembly. It is also recommended to sort and "
+"identify the parts in advance to avoid confusion during the build process."
 msgstr ""
+"Перед початком збирання перевірте наявність усіх компонентів, що входять до "
+"обраної вами конфігурації робота. Також рекомендується заздалегідь "
+"відсортувати та ідентифікувати деталі, щоб уникнути плутанини під час "
+"процесу збирання."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:11
 msgid ""
 "Inspect all tools before use. Every tool, especially the soldering iron, "
-"must be in good working condition and free from visible damage. Do not "
-"use defective equipment, damaged cables, or tools with exposed electrical"
-" conductors."
+"must be in good working condition and free from visible damage. Do not use "
+"defective equipment, damaged cables, or tools with exposed electrical "
+"conductors."
 msgstr ""
+"Огляньте всі інструменти перед використанням. Кожен інструмент, особливо "
+"паяльник, має бути у справному стані та не мати видимих пошкоджень. Не "
+"використовуйте несправне обладнання, пошкоджені кабелі або інструменти з "
+"оголеними електричними провідниками."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:15
 msgid ""
-"If the robot is being assembled by a child, all necessary safety "
-"precautions must be taken. The equipment should be inspected and approved"
-" by an adult before use, and an adult must supervise the entire assembly "
-"process. Special attention should be given when using soldering "
-"equipment, sharp tools, or any device that may cause injury if handled "
-"improperly."
+"If the robot is being assembled by a child, all necessary safety precautions"
+" must be taken. The equipment should be inspected and approved by an adult "
+"before use, and an adult must supervise the entire assembly process. Special"
+" attention should be given when using soldering equipment, sharp tools, or "
+"any device that may cause injury if handled improperly."
 msgstr ""
+"Якщо робот збирається дитиною, необхідно вжити всіх необхідних заходів "
+"безпеки. Обладнання має бути перевірене та схвалене дорослим перед "
+"використанням, а дорослий повинен контролювати весь процес збирання. "
+"Особливу увагу слід приділяти під час використання паяльного обладнання, "
+"гострих інструментів або будь-яких пристроїв, які можуть спричинити травму "
+"при неправильному поводженні."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:18
 msgid "Step 1 - Prepare Power⚡"
-msgstr ""
+msgstr "Крок 1 - Підготовка живлення⚡"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:21
 msgid "Prepare and Configure Power Components"
-msgstr ""
+msgstr "Підготовка та налаштування компонентів живлення"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:23
 msgid ""
 "Before soldering any components onto the PCB, prepare the power supply "
-"circuitry. The first component that must be configured is the DC-DC "
-"voltage regulator."
+"circuitry. The first component that must be configured is the DC-DC voltage "
+"regulator."
 msgstr ""
+"Перед паянням будь-яких компонентів на друковану плату підготуйте схему "
+"живлення. Першим компонентом, який необхідно налаштувати, є DC-DC "
+"перетворювач напруги."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:25
 msgid ""
-"Connect the DC-DC regulator to a suitable power source and adjust its "
-"output voltage to the required value using the onboard adjustment "
-"potentiometer. Verify the output voltage with a multimeter before "
-"proceeding."
+"Connect the DC-DC regulator to a suitable power source and adjust its output"
+" voltage to the required value using the onboard adjustment potentiometer. "
+"Verify the output voltage with a multimeter before proceeding."
 msgstr ""
+"Підключіть DC-DC перетворювач до відповідного джерела живлення та налаштуйте"
+" його вихідну напругу до необхідного значення за допомогою вбудованого "
+"потенціометра. Перед продовженням перевірте вихідну напругу мультиметром."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:27
 msgid ""
 "Once the regulator has been configured and tested, set aside all power-"
-"related components for installation in the following assembly steps. This"
-" ensures that the power system is ready and correctly adjusted before any"
-" other components are soldered onto the board."
+"related components for installation in the following assembly steps. This "
+"ensures that the power system is ready and correctly adjusted before any "
+"other components are soldered onto the board."
 msgstr ""
+"Після того, як перетворювач було налаштовано та протестовано, відкладіть усі"
+" компоненти живлення для встановлення на наступних етапах збирання. Це "
+"гарантує, що система живлення готова та правильно налаштована перед тим, як "
+"інші компоненти будуть припаяні до плати."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:29
 msgid "Two DC-DC regulator variants can be used with the robot:"
-msgstr ""
+msgstr "З роботом можна використовувати два варіанти DC-DC перетворювачів:"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:31
 msgid ""
-"`Mini-360 <https://components101.com/modules/mini360-dc-dc-buck-"
-"converter-module>`_"
+"`Mini-360 <https://components101.com/modules/mini360-dc-dc-buck-converter-"
+"module>`_"
 msgstr ""
+"`Mini-360 <https://components101.com/modules/mini360-dc-dc-buck-converter-"
+"module>`_"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:32
 msgid ""
 "`HW-613 <https://ampere-electronics.com/product/hw-613-mini-step-down-"
 "module-12-24vdc-to-5vdc-3a>`_ (recommended)"
 msgstr ""
+"`HW-613 <https://ampere-electronics.com/product/hw-613-mini-step-down-"
+"module-12-24vdc-to-5vdc-3a>`_ (рекомендовано)"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:34
 msgid ""
@@ -117,51 +146,77 @@ msgid ""
 "predefined output voltage using solder jumpers. The Mini-360 requires "
 "voltage adjustment by turning a potentiometer. When the robot is used by "
 "children, the potentiometer may be accidentally rotated, changing the "
-"voltage setting and potentially damaging robot components. If the HW-613 "
-"is not available and a Mini-360 is used, the potentiometer should be "
-"secured after adjustment, for example with a small drop of suitable "
-"adhesive."
+"voltage setting and potentially damaging robot components. If the HW-613 is "
+"not available and a Mini-360 is used, the potentiometer should be secured "
+"after adjustment, for example with a small drop of suitable adhesive."
 msgstr ""
+"HW-613 є рекомендованим варіантом, оскільки він підтримує вибір попередньо "
+"встановленої вихідної напруги за допомогою паяльних перемичок. Mini-360 "
+"потребує налаштування напруги шляхом обертання потенціометра. Коли робот "
+"використовується дітьми, потенціометр може бути випадково повернутий, що "
+"змінить налаштування напруги та потенційно пошкодить компоненти робота. Якщо"
+" HW-613 недоступний і використовується Mini-360, потенціометр слід "
+"зафіксувати після налаштування, наприклад, невеликою краплею відповідного "
+"клею."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:38
 msgid ""
 "The HW-613 must be configured using its solder jumpers. Note that, by "
 "default, the jumper connected to the potentiometer adjustment mode is "
-"already closed on the module. This connection must be cut before "
-"soldering the jumper corresponding to the desired fixed output voltage."
+"already closed on the module. This connection must be cut before soldering "
+"the jumper corresponding to the desired fixed output voltage."
 msgstr ""
+"HW-613 необхідно налаштувати за допомогою його паяльних перемичок. Зауважте,"
+" що за замовчуванням перемичка, підключена до режиму налаштування "
+"потенціометром, вже замкнена на модулі. Це з'єднання необхідно розірвати "
+"перед паянням перемички, що відповідає бажаній фіксованій вихідній напрузі."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:41
 msgid "Configure the Mini-360"
-msgstr ""
+msgstr "Налаштування Mini-360"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:43
 msgid ""
 "Connect the battery to the input of the Mini-360 regulator and set the "
-"multimeter to DC voltage measurement mode . Measure the output voltage "
-"and carefully rotate the potentiometer adjustment screw until the "
-"required voltage is reached. For a 5 V supply, adjust the output to "
-"approximately 5.1 V. For a 3.3 V supply, the output should be within the "
-"range of 3.2–3.4 V. After the regulator has been adjusted and verified, "
-"it can be soldered onto the PCB. To prevent accidental changes to the "
-"setting during operation, secure the potentiometer with a small drop of "
-"glue or lacquer."
+"multimeter to DC voltage measurement mode . Measure the output voltage and "
+"carefully rotate the potentiometer adjustment screw until the required "
+"voltage is reached. For a 5 V supply, adjust the output to approximately 5.1"
+" V. For a 3.3 V supply, the output should be within the range of 3.2–3.4 V. "
+"After the regulator has been adjusted and verified, it can be soldered onto "
+"the PCB. To prevent accidental changes to the setting during operation, "
+"secure the potentiometer with a small drop of glue or lacquer."
 msgstr ""
+"Підключіть акумулятор до входу перетворювача Mini-360 і встановіть "
+"мультиметр у режим вимірювання постійної напруги. Виміряйте вихідну напругу "
+"та обережно обертайте гвинт налаштування потенціометра, доки не буде "
+"досягнуто необхідної напруги. Для живлення 5 В налаштуйте вихід приблизно на"
+" 5,1 В. Для живлення 3,3 В вихід має бути в діапазоні 3,2–3,4 В. Після того,"
+" як перетворювач було налаштовано та перевірено, його можна припаяти до "
+"друкованої плати. Щоб запобігти випадковим змінам налаштувань під час "
+"роботи, зафіксуйте потенціометр невеликою краплею клею або лаку."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:58
 msgid "Configure the HW-613"
-msgstr ""
+msgstr "Налаштування HW-613"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:60
 msgid ""
-"For the HW-613 regulator, first cut the solder jumper marked ADJ and then"
-" solder the jumper corresponding to the required output voltage. Before "
-"installing the regulator on the PCB, connect the battery to the regulator"
-" input and set the multimeter to DC voltage measurement mode. Measure the"
-" output voltage to verify that it is within the allowed range for the "
-"selected setting. Only after the output voltage has been confirmed should"
-" the regulator be soldered onto the PCB."
+"For the HW-613 regulator, first cut the solder jumper marked ADJ and then "
+"solder the jumper corresponding to the required output voltage. Before "
+"installing the regulator on the PCB, connect the battery to the regulator "
+"input and set the multimeter to DC voltage measurement mode. Measure the "
+"output voltage to verify that it is within the allowed range for the "
+"selected setting. Only after the output voltage has been confirmed should "
+"the regulator be soldered onto the PCB."
 msgstr ""
+"Для перетворювача HW-613 спочатку розірвіть паяльну перемичку з позначкою "
+"ADJ, а потім припаяйте перемичку, що відповідає необхідній вихідній напрузі."
+" Перед встановленням перетворювача на друковану плату підключіть акумулятор "
+"до входу перетворювача та встановіть мультиметр у режим вимірювання "
+"постійної напруги. Виміряйте вихідну напругу, щоб переконатися, що вона "
+"знаходиться в межах допустимого діапазону для обраного налаштування. Тільки "
+"після підтвердження вихідної напруги перетворювач слід припаювати до "
+"друкованої плати."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:75
 msgid ""
@@ -169,57 +224,83 @@ msgid ""
 "supply components onto the PCB according to the selected robot "
 "configuration."
 msgstr ""
+"Після того, як перетворювачі були налаштовані та перевірені, припаяйте "
+"компоненти живлення до друкованої плати відповідно до обраної конфігурації "
+"робота."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:77
 msgid ""
 "The 5 V power supply is mandatory for all ByByte Nano configurations and "
-"must always be installed. Solder the 5 V DC-DC regulator together with "
-"all associated power-supply components, including capacitors, filters, "
-"and any other parts required by the 5 V circuit. Verify that all solder "
-"joints are clean and properly formed before proceeding."
+"must always be installed. Solder the 5 V DC-DC regulator together with all "
+"associated power-supply components, including capacitors, filters, and any "
+"other parts required by the 5 V circuit. Verify that all solder joints are "
+"clean and properly formed before proceeding."
 msgstr ""
+"Джерело живлення 5 В є обов'язковим для всіх конфігурацій ByByte Nano і має "
+"бути встановлене завжди. Припаяйте DC-DC перетворювач 5 В разом з усіма "
+"відповідними компонентами живлення, включаючи конденсатори, фільтри та будь-"
+"які інші деталі, необхідні для кола 5 В. Перед продовженням перевірте, чи "
+"всі паяні з'єднання чисті та правильно сформовані."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:91
 msgid ""
-"The 3.3 V power supply is optional and is only required when assembling a"
-" robot configuration that includes the camera module. If the camera is "
-"not used, the entire 3.3 V power-supply circuit may be omitted, including"
-" the regulator, capacitors, filters, and other associated components. For"
-" camera-equipped configurations, solder all components of the 3.3 V "
-"power-supply circuit into their designated positions on the PCB and "
-"inspect all connections before continuing."
+"The 3.3 V power supply is optional and is only required when assembling a "
+"robot configuration that includes the camera module. If the camera is not "
+"used, the entire 3.3 V power-supply circuit may be omitted, including the "
+"regulator, capacitors, filters, and other associated components. For camera-"
+"equipped configurations, solder all components of the 3.3 V power-supply "
+"circuit into their designated positions on the PCB and inspect all "
+"connections before continuing."
 msgstr ""
+"Джерело живлення 3,3 В є необов'язковим і потрібне лише при збиранні "
+"конфігурації робота, яка включає модуль камери. Якщо камера не "
+"використовується, можна пропустити всю схему живлення 3,3 В, включаючи "
+"перетворювач, конденсатори, фільтри та інші відповідні компоненти. Для "
+"конфігурацій з камерою припаяйте всі компоненти схеми живлення 3,3 В на їхні"
+" визначені місця на друкованій платі та перевірте всі з'єднання перед "
+"продовженням."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:105
 msgid ""
 "After soldering the regulators, visually inspect the board for solder "
-"bridges, cold joints, or incorrectly installed components. Pay particular"
-" attention to the regulator orientation and polarity markings. If "
-"available, use a multimeter in continuity mode to verify that there is no"
-" short circuit between the power rails before proceeding to the next "
-"assembly step."
+"bridges, cold joints, or incorrectly installed components. Pay particular "
+"attention to the regulator orientation and polarity markings. If available, "
+"use a multimeter in continuity mode to verify that there is no short circuit"
+" between the power rails before proceeding to the next assembly step."
 msgstr ""
+"Після паяння перетворювачів візуально огляньте плату на наявність перемичок "
+"припою, холодних пайок або неправильно встановлених компонентів. Зверніть "
+"особливу увагу на орієнтацію перетворювача та маркування полярності. Якщо є "
+"можливість, скористайтеся мультиметром у режимі прозвонки, щоб переконатися "
+"у відсутності короткого замикання між шинами живлення, перш ніж переходити "
+"до наступного кроку збирання."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:107
 msgid ""
-"After the inspection, connect the battery and verify all power rails with"
-" a multimeter. Check that each regulator provides the expected output "
-"voltage and that power is correctly distributed throughout the board."
+"After the inspection, connect the battery and verify all power rails with a "
+"multimeter. Check that each regulator provides the expected output voltage "
+"and that power is correctly distributed throughout the board."
 msgstr ""
+"Після огляду підключіть акумулятор і перевірте всі шини живлення за "
+"допомогою мультиметра. Переконайтеся, що кожен перетворювач забезпечує "
+"очікувану вихідну напругу і що живлення правильно розподіляється по всій "
+"платі."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:111
 msgid ""
 "Do not continue the assembly process until all supply voltages have been "
 "measured and confirmed to be within their expected ranges."
 msgstr ""
+"Не продовжуйте процес збирання, доки всі напруги живлення не будуть виміряні"
+" та підтверджені як такі, що знаходяться в очікуваних діапазонах."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:114
 msgid "Step 2 - Side IR Sensors ⚡"
-msgstr ""
+msgstr "Крок 2 - Бічні ІЧ-датчики ⚡"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:117
 msgid "Mount and Test Side Obstacle Sensors"
-msgstr ""
+msgstr "Встановлення та тестування бічних датчиків перешкод"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:121
 msgid ""
@@ -227,236 +308,296 @@ msgid ""
 "configuration. If your robot does not include side infrared obstacle "
 "sensors, skip this step and continue with Step 3."
 msgstr ""
+"Цей крок застосовується лише в тому випадку, якщо ви збираєте конфігурацію "
+"**Basic + Side Sensors**. Якщо ваш робот не включає бічні інфрачервоні "
+"датчики перешкод, пропустіть цей крок і продовжуйте з Кроку 3."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:123
 msgid ""
-"If you plan to use the side IR sensors, mount them next and verify that "
-"the circuit works correctly before continuing the assembly. Prepare the "
-"required components and tools in advance."
+"If you plan to use the side IR sensors, mount them next and verify that the "
+"circuit works correctly before continuing the assembly. Prepare the required"
+" components and tools in advance."
 msgstr ""
+"Якщо ви плануєте використовувати бічні ІЧ-датчики, встановіть їх наступними "
+"та перевірте правильність роботи схеми перед продовженням збирання. "
+"Заздалегідь підготуйте необхідні компоненти та інструменти."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:126
 msgid "Mount Components on the Main PCB"
-msgstr ""
+msgstr "Монтаж компонентів на головну друковану плату"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:128
 msgid "**Start with resistors** 🔍"
-msgstr ""
+msgstr "**Почніть з резисторів** 🔍"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:130
 msgid "Solder the resistor components onto the main PCB first."
-msgstr ""
+msgstr "Спочатку припаяйте резистори на головну друковану плату."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:132
 msgid ""
-"**Install the op-amp socket, control transistor, and ceramic capacitors**"
-" 🔍"
+"**Install the op-amp socket, control transistor, and ceramic capacitors** 🔍"
 msgstr ""
+"**Встановіть панельку для операційного підсилювача, керуючий транзистор та "
+"керамічні конденсатори** 🔍"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:134
 msgid ""
-"After the resistors, solder the op-amp socket, the control transistor, "
-"and the ceramic capacitors."
+"After the resistors, solder the op-amp socket, the control transistor, and "
+"the ceramic capacitors."
 msgstr ""
+"Після резисторів припаяйте панельку для операційного підсилювача, керуючий "
+"транзистор та керамічні конденсатори."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:136
 msgid "**Prepare and mount the IR phototransistors** 🔍"
-msgstr ""
+msgstr "**Підготуйте та встановіть ІЧ-фототранзистори** 🔍"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:138
 msgid ""
-"Before soldering, wrap each IR phototransistor in black heat-shrink "
-"tubing with a diameter of about 6 mm so that the sensor sits in a short "
-"tunnel. **Black heat-shrink tubing is required.**"
+"Before soldering, wrap each IR phototransistor in black heat-shrink tubing "
+"with a diameter of about 6 mm so that the sensor sits in a short tunnel. "
+"**Black heat-shrink tubing is required.**"
 msgstr ""
+"Перед паянням обгорніть кожен ІЧ-фототранзистор чорною термоусадочною "
+"трубкою діаметром близько 6 мм так, щоб сенсор опинився в короткому тунелі. "
+"**Використання чорної термоусадки є обов'язковим.**"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:140
 msgid ""
-"Solder the IR phototransistors (**TEFT4300**) onto the main PCB. "
-"Carefully check the pin markings on the PCB and compare them with the "
-"pinout shown in the component  `datasheet "
+"Solder the IR phototransistors (**TEFT4300**) onto the main PCB. Carefully "
+"check the pin markings on the PCB and compare them with the pinout shown in "
+"the component  `datasheet "
 "<https://www.vishay.com/docs/81549/teft4300.pdf>`_."
 msgstr ""
+"Припаяйте ІЧ-фототранзистори (**TEFT4300**) на головну друковану плату. "
+"Уважно перевірте маркування виводів на платі та порівняйте їх із "
+"розпіновкою, наведеною в `datasheet "
+"<https://www.vishay.com/docs/81549/teft4300.pdf>`_ компонента."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:142
 msgid "TEFT4300 wrapped in black heat-shrink tubing"
-msgstr ""
+msgstr "TEFT4300, обгорнутий чорною термоусадочною трубкою"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:148
 msgid ""
-"If the IR receiver orientation is incorrect, the side-sensor circuit will"
-" not work."
+"If the IR receiver orientation is incorrect, the side-sensor circuit will "
+"not work."
 msgstr ""
+"Якщо орієнтація ІЧ-приймача неправильна, схема бокового датчика не "
+"працюватиме."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:150
 msgid "**Prepare the IR LED boards** 🔍"
-msgstr ""
+msgstr "**Підготуйте плати ІЧ-світлодіодів** 🔍"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:152
 msgid ""
 "When all components on the main PCB are in place, move on to the IR LEDs "
-"(**SFH4545**). They are mounted on separate small boards that are "
-"separated from the panel with pliers. Trim or file any sharp edges left "
-"from the breakaway tabs."
+"(**SFH4545**). They are mounted on separate small boards that are separated "
+"from the panel with pliers. Trim or file any sharp edges left from the "
+"breakaway tabs."
 msgstr ""
+"Коли всі компоненти на головній платі встановлені, перейдіть до ІЧ-"
+"світлодіодів (**SFH4545**). Вони монтуються на окремих маленьких платах, які"
+" відокремлюються від панелі за допомогою плоскогубців. Підрівняйте або "
+"зашліфуйте гострі краї, що залишилися від місць кріплення."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:154
 msgid "IR LED board prepare"
-msgstr ""
+msgstr "Підготовка плати ІЧ-світлодіода"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:158
 msgid "**Prepare and solder the IR LEDs** 🔍"
-msgstr ""
+msgstr "**Підготуйте та припаяйте ІЧ-світлодіоди** 🔍"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:160
 msgid ""
-"Wrap each IR LED in black heat-shrink tubing so that only the narrow "
-"front tip remains visible. Only after this preparation, solder the LED "
-"onto the auxiliary board. Pay close attention to the pin orientation. On "
-"the `SFH4545 pdf <https://look.ams-"
-"osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf>`_, the **longer lead "
-"is the cathode (negative)**."
+"Wrap each IR LED in black heat-shrink tubing so that only the narrow front "
+"tip remains visible. Only after this preparation, solder the LED onto the "
+"auxiliary board. Pay close attention to the pin orientation. On the `SFH4545"
+" pdf <https://look.ams-"
+"osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf>`_, the **longer lead is "
+"the cathode (negative)**."
 msgstr ""
+"Обгорніть кожен ІЧ-світлодіод чорною термоусадочною трубкою так, щоб "
+"залишався видимим лише вузький передній кінчик. Тільки після цієї підготовки"
+" припаяйте світлодіод до допоміжної плати. Зверніть особливу увагу на "
+"орієнтацію виводів. Згідно з `SFH4545 pdf <https://look.ams-"
+"osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf>`_, **довший вивід — це "
+"катод (негативний)**."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:162
 msgid "SFH4545 wrapped in black heat-shrink tubing"
-msgstr ""
+msgstr "SFH4545, обгорнутий чорною термоусадочною трубкою"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:166
 msgid "**Install the vertical IR sensor assemblies** 🔍"
-msgstr ""
+msgstr "**Встановіть вертикальні вузли ІЧ-датчиків** 🔍"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:168
 msgid ""
-"Mount the completed IR sensor assemblies vertically ongto the main PCB "
-"using 90-degree pin headers."
+"Mount the completed IR sensor assemblies vertically ongto the main PCB using"
+" 90-degree pin headers."
 msgstr ""
+"Встановіть зібрані вузли ІЧ-датчиків вертикально на головну друковану плату,"
+" використовуючи 90-градусні штирові роз'єми."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:170
 msgid "IR side sensor mount"
-msgstr ""
+msgstr "Монтаж бокового ІЧ-датчика"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:174
 msgid "**Install the op-amp and prepare for testing** 🔍"
-msgstr ""
+msgstr "**Встановіть операційний підсилювач та підготуйтеся до тестування** 🔍"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:176
 msgid ""
-"When all parts are soldered in place, install the operational amplifier "
-"in its socket. The side-sensor circuit is now ready for a functionality "
-"test."
+"When all parts are soldered in place, install the operational amplifier in "
+"its socket. The side-sensor circuit is now ready for a functionality test."
 msgstr ""
+"Коли всі деталі припаяні, встановіть операційний підсилювач у його панельку."
+" Тепер схема бокового датчика готова до перевірки працездатності."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:178
 msgid "ByByte Nano IR side components"
-msgstr ""
+msgstr "Компоненти бокового ІЧ-датчика ByByte Nano"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:183
 msgid "Test the Side-Sensor Circuit"
-msgstr ""
+msgstr "Тестування схеми бокового датчика"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:185
 msgid ""
 "You will need a multimeter, a battery with PP3/Krona-style leads, and a "
 "jumper wire (a short piece of tinned wire)."
 msgstr ""
+"Вам знадобляться мультиметр, батарейка з роз'ємом типу PP3/Krona та "
+"перемичка (короткий шматок лудженого дроту)."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:187
 msgid "**Connect the power supply** 🔋"
-msgstr ""
+msgstr "**Підключіть живлення** 🔋"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:189
-msgid "Connect the battery and set the multimeter to DC voltage measurement mode."
+msgid ""
+"Connect the battery and set the multimeter to DC voltage measurement mode."
 msgstr ""
+"Підключіть батарейку та встановіть мультиметр у режим вимірювання постійної "
+"напруги."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:191
 msgid "**Verify op-amp supply voltage** 🔍"
-msgstr ""
+msgstr "**Перевірте напругу живлення операційного підсилювача** 🔍"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:193
 msgid ""
-"Turn on the power switch and measure the voltage on the op-amp power pins"
-" (pins 4 and 8). You should read **5 V**. If the voltage is present, "
-"continue to the next check."
+"Turn on the power switch and measure the voltage on the op-amp power pins "
+"(pins 4 and 8). You should read **5 V**. If the voltage is present, continue"
+" to the next check."
 msgstr ""
+"Увімкніть вимикач живлення та виміряйте напругу на виводах живлення "
+"операційного підсилювача (виводи 4 та 8). Ви повинні отримати значення **5 "
+"В**. Якщо напруга присутня, переходьте до наступної перевірки."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:195
 msgid "ByByte Nano IR side validate power voltage"
-msgstr ""
+msgstr "Перевірка напруги живлення бокового ІЧ-датчика ByByte Nano"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:199
 msgid "**Measure the op-amp outputs with the IR LEDs off** 🔍"
 msgstr ""
+"**Виміряйте виходи операційного підсилювача з вимкненими ІЧ-світлодіодами** "
+"🔍"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:201
 msgid ""
-"Measure the voltage on the op-amp outputs (pins 1 and 7). With the IR "
-"LEDs off, the output voltage should be low, up to about **0.1 V**. If "
-"this is correct, continue."
+"Measure the voltage on the op-amp outputs (pins 1 and 7). With the IR LEDs "
+"off, the output voltage should be low, up to about **0.1 V**. If this is "
+"correct, continue."
 msgstr ""
+"Виміряйте напругу на виходах операційного підсилювача (контакти 1 та 7). "
+"Коли ІЧ-світлодіоди вимкнені, вихідна напруга має бути низькою, приблизно до"
+" **0,1 В**. Якщо це так, продовжуйте."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:203
 msgid "ByByte Nano IR side check when IR LEDs off"
-msgstr ""
+msgstr "Перевірка ІЧ-боку ByByte Nano при вимкнених ІЧ-світлодіодах"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:207
 msgid "**Enable the IR LEDs and verify sensor response** 🔍"
-msgstr ""
+msgstr "**Увімкніть ІЧ-світлодіоди та перевірте реакцію датчиків** 🔍"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:209
 msgid ""
 "Turn the IR LEDs on by applying a **5 V** control signal to the driver "
-"transistor input. Use a jumper wire to connect **5 V** (Arduino 5 V rail)"
-" to **D4** on the PCB."
+"transistor input. Use a jumper wire to connect **5 V** (Arduino 5 V rail) to"
+" **D4** on the PCB."
 msgstr ""
+"Увімкніть ІЧ-світлодіоди, подавши керуючий сигнал **5 В** на вхід драйвера "
+"транзистора. Використовуйте перемичку, щоб з'єднати **5 В** (шина 5 В "
+"Arduino) з контактом **D4** на друкованій платі."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:211
 msgid ""
-"You can use a phone camera to confirm that the IR LEDs are on, because "
-"many cameras can detect infrared light."
+"You can use a phone camera to confirm that the IR LEDs are on, because many "
+"cameras can detect infrared light."
 msgstr ""
+"Ви можете скористатися камерою телефону, щоб переконатися, що ІЧ-світлодіоди"
+" увімкнені, оскільки багато камер можуть виявляти інфрачервоне світло."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:213
 msgid "ByByte Nano IR side LED enable"
-msgstr ""
+msgstr "Увімкнення ІЧ-світлодіодів на боці ByByte Nano"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:217
 msgid ""
-"Measure the voltage on the op-amp outputs (pins 1 and 7) again. The "
-"voltage should now increase when an obstacle is moved closer to the "
-"sensor. The closer the obstacle, the higher the voltage. At maximum "
-"proximity, the level should reach about **3.8 V**."
+"Measure the voltage on the op-amp outputs (pins 1 and 7) again. The voltage "
+"should now increase when an obstacle is moved closer to the sensor. The "
+"closer the obstacle, the higher the voltage. At maximum proximity, the level"
+" should reach about **3.8 V**."
 msgstr ""
+"Знову виміряйте напругу на виходах операційного підсилювача (контакти 1 та "
+"7). Тепер напруга має зростати, коли перешкода наближається до датчика. Чим "
+"ближче перешкода, тим вища напруга. При максимальній близькості рівень має "
+"досягати приблизно **3,8 В**."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:219
 msgid "ByByte Nano IR side test sensors"
-msgstr ""
+msgstr "Тестування датчиків ІЧ-боку ByByte Nano"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:223
 msgid "**Confirm both channels** ✅"
-msgstr ""
+msgstr "**Підтвердьте роботу обох каналів** ✅"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:225
 msgid ""
-"Verify that both outputs respond correctly (**pin 1 — left sensor**, "
-"**pin 7 — right sensor**). If both channels behave as expected, the side "
-"sensors are working and you can continue with the robot assembly."
+"Verify that both outputs respond correctly (**pin 1 — left sensor**, **pin 7"
+" — right sensor**). If both channels behave as expected, the side sensors "
+"are working and you can continue with the robot assembly."
 msgstr ""
+"Переконайтеся, що обидва виходи реагують правильно (**контакт 1 — лівий "
+"датчик**, **контакт 7 — правий датчик**). Якщо обидва канали працюють "
+"належним чином, бічні датчики справні, і ви можете продовжувати збирання "
+"робота."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:227
 msgid ""
 "If something does not work, go to the :doc:`Troubleshooting <bybyte-nano-"
-"troubleshooting>` section. Before assembly, review the video instructions"
-" for this step."
+"troubleshooting>` section. Before assembly, review the video instructions "
+"for this step."
 msgstr ""
+"Якщо щось не працює, перейдіть до розділу :doc:`Усунення несправностей "
+"<bybyte-nano-troubleshooting>`. Перед збиранням перегляньте відеоінструкції "
+"для цього кроку."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:242
 msgid "Step 3 - Solder Small Components⚡"
-msgstr ""
+msgstr "Крок 3 - Паяння дрібних компонентів⚡"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:245
 msgid "Solder Small Components and Basic Sensors"
-msgstr ""
+msgstr "Паяння дрібних компонентів та базових датчиків"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:247
 msgid ""
@@ -465,134 +606,175 @@ msgid ""
 "these components first makes the remaining assembly steps easier and "
 "provides better access to the PCB."
 msgstr ""
+"Почніть із паяння всіх низькопрофільних компонентів для монтажу в отвори, "
+"включаючи резистори, діоди, конденсатори та інші дрібні пасивні деталі. "
+"Встановлення цих компонентів спочатку полегшує подальші етапи збирання та "
+"забезпечує кращий доступ до друкованої плати."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:249
 msgid "Next, solder the basic sensors used in all robot configurations:"
 msgstr ""
+"Далі припаяйте базові датчики, що використовуються в усіх конфігураціях "
+"робота:"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:251
 msgid "Light sensor"
-msgstr ""
+msgstr "Датчик освітленості"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:252
 msgid "IR receiver"
-msgstr ""
+msgstr "ІЧ-приймач"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:253
 msgid "Buzzer"
-msgstr ""
+msgstr "Зумер"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:254
 msgid "RGB LEDs"
-msgstr ""
+msgstr "RGB-світлодіоди"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:256
 msgid ""
-"After completing this step, inspect all solder joints and verify "
-"component orientation before proceeding."
+"After completing this step, inspect all solder joints and verify component "
+"orientation before proceeding."
 msgstr ""
+"Після завершення цього кроку перевірте всі паяні з'єднання та переконайтеся "
+"в правильній орієнтації компонентів, перш ніж продовжувати."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:271
 msgid "Step 4 - Connectors and Motors⚡"
-msgstr ""
+msgstr "Крок 4 - Роз'єми та двигуни⚡"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:274
 msgid "Solder Connectors and Install Motors"
-msgstr ""
+msgstr "Паяння роз'ємів та встановлення двигунів"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:276
 msgid ""
-"At this stage, solder all connectors on the main PCB according to the "
-"board markings."
+"At this stage, solder all connectors on the main PCB according to the board "
+"markings."
 msgstr ""
+"На цьому етапі припаяйте всі роз'єми на головній друкованій платі відповідно"
+" до маркування на платі."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:278
 msgid ""
 "Next, separate the motor adapter boards from the panel and solder the "
-"corresponding connectors onto each adapter. After that, solder the "
-"adapter boards directly to the N20 motors. Repeat this process for both "
-"motors."
+"corresponding connectors onto each adapter. After that, solder the adapter "
+"boards directly to the N20 motors. Repeat this process for both motors."
 msgstr ""
+"Далі відокремте плати адаптерів двигунів від панелі та припаяйте відповідні "
+"роз'єми на кожен адаптер. Після цього припаяйте плати адаптерів "
+"безпосередньо до двигунів N20. Повторіть цей процес для обох двигунів."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:280
 msgid ""
-"Once both motor adapters are soldered to the motors and all connectors "
-"are installed on the main PCB, proceed with motor installation."
+"Once both motor adapters are soldered to the motors and all connectors are "
+"installed on the main PCB, proceed with motor installation."
 msgstr ""
+"Коли обидва адаптери двигунів припаяні до двигунів, а всі роз'єми "
+"встановлені на головній друкованій платі, переходьте до встановлення "
+"двигунів."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:282
 msgid ""
 "The motors are mounted using dedicated plastic brackets designed for N20 "
-"motors. Secure each motor in its bracket and attach the assembly to the "
-"main PCB."
+"motors. Secure each motor in its bracket and attach the assembly to the main"
+" PCB."
 msgstr ""
+"Двигуни кріпляться за допомогою спеціальних пластикових кронштейнів, "
+"розроблених для двигунів N20. Закріпіть кожен двигун у його кронштейні та "
+"приєднайте вузол до головної друкованої плати."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:286
 msgid ""
-"When mounting the motors, the screw head must be located on the underside"
-" of the PCB. The nut is inserted from the top into the dedicated slot in "
-"the plastic bracket. This prevents the nut from rotating during assembly "
-"and makes installation easier."
+"When mounting the motors, the screw head must be located on the underside of"
+" the PCB. The nut is inserted from the top into the dedicated slot in the "
+"plastic bracket. This prevents the nut from rotating during assembly and "
+"makes installation easier."
 msgstr ""
+"При монтажі двигунів головка гвинта повинна знаходитися з нижнього боку "
+"друкованої плати. Гайка вставляється зверху у спеціальний паз у пластиковому"
+" кронштейні. Це запобігає прокручуванню гайки під час збирання та полегшує "
+"встановлення."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:301
 msgid "Step 5 - Install Sensors⚡"
-msgstr ""
+msgstr "Крок 5 - Встановлення датчиків⚡"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:304
 msgid "Install and Solder the Ultrasonic Sensor and Line Tracker Module"
 msgstr ""
+"Встановлення та паяння ультразвукового датчика та модуля відстеження лінії"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:307
 msgid ""
 "Begin with the ultrasonic sensor mounted at the front of the PCB. Before "
-"soldering, measure the required pin length and trim the leads as close to"
-" the PCB as possible. The sensor pins should not protrude below the "
-"board, so keep the exposed leads to a minimum. During soldering, ensure "
-"that the solder joint provides sufficient mechanical support from the "
-"component side of the PCB. Large solder pads are provided specifically "
-"for this purpose."
+"soldering, measure the required pin length and trim the leads as close to "
+"the PCB as possible. The sensor pins should not protrude below the board, so"
+" keep the exposed leads to a minimum. During soldering, ensure that the "
+"solder joint provides sufficient mechanical support from the component side "
+"of the PCB. Large solder pads are provided specifically for this purpose."
 msgstr ""
+"Почніть з ультразвукового датчика, встановленого в передній частині "
+"друкованої плати. Перед паянням виміряйте необхідну довжину контактів і "
+"обріжте виводи якомога ближче до плати. Контакти датчика не повинні "
+"виступати під платою, тому мінімізуйте довжину виступаючих виводів. Під час "
+"паяння переконайтеся, що паяне з'єднання забезпечує достатню механічну "
+"підтримку з боку компонента друкованої плати. Для цього передбачені великі "
+"контактні майданчики."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:309
 msgid ""
 "After soldering, any remaining pin protrusions should be minimal, as "
 "clearance is required for the line tracker connector installed nearby."
 msgstr ""
+"Після паяння виступи виводів мають бути мінімальними, оскільки потрібен "
+"зазор для роз'єму датчика лінії, що встановлюється поруч."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:311
 msgid ""
-"Next, install the line tracker connector. This connector is mounted from "
-"the bottom side of the PCB (solder side) and soldered from the top side "
+"Next, install the line tracker connector. This connector is mounted from the"
+" bottom side of the PCB (solder side) and soldered from the top side "
 "(component side)."
 msgstr ""
+"Далі встановіть роз'єм датчика лінії. Цей роз'єм монтується з нижнього боку "
+"друкованої плати (з боку паяння) і припаюється з верхнього боку (з боку "
+"компонентів)."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:313
 msgid ""
-"Once the connector is installed, attach the line tracker sensor module. "
-"The PCB includes dedicated mounting tabs for this purpose. Secure the "
-"module using M3 screws and locking nuts. To maintain the correct spacing "
-"between the boards, use 5 mm plastic spacers."
+"Once the connector is installed, attach the line tracker sensor module. The "
+"PCB includes dedicated mounting tabs for this purpose. Secure the module "
+"using M3 screws and locking nuts. To maintain the correct spacing between "
+"the boards, use 5 mm plastic spacers."
 msgstr ""
+"Після встановлення роз'єму приєднайте модуль датчика лінії. На друкованій "
+"платі передбачені спеціальні монтажні вушка для цього. Закріпіть модуль за "
+"допомогою гвинтів M3 та контргайок. Щоб підтримувати правильну відстань між "
+"платами, використовуйте пластикові стійки заввишки 5 мм."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:315
 msgid ""
-"After the ultrasonic sensor, line tracker module, Arduino controller, and"
-" all remaining modules are installed and secured in place, proceed to the"
-" next assembly step."
+"After the ultrasonic sensor, line tracker module, Arduino controller, and "
+"all remaining modules are installed and secured in place, proceed to the "
+"next assembly step."
 msgstr ""
+"Після того, як ультразвуковий датчик, модуль датчика лінії, контролер "
+"Arduino та всі інші модулі будуть встановлені та закріплені, перейдіть до "
+"наступного етапу збирання."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:318
 msgid "Step 6 - Wheels and Battery Holder⚡"
-msgstr ""
+msgstr "Крок 6 — Колеса та тримач акумулятора⚡"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:321
 msgid "Install Roller Wheels and Battery Holder"
-msgstr ""
+msgstr "Встановлення роликових коліс та тримача акумулятора"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:323
 msgid "Now it is time to install the roller wheels and the battery holder."
-msgstr ""
+msgstr "Тепер настав час встановити роликові колеса та тримач акумулятора."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:325
 msgid ""
@@ -600,229 +782,287 @@ msgid ""
 "mounting the battery holder, because once the holder is fixed in place, "
 "access to the roller wheel mounting holes will be blocked."
 msgstr ""
+"Спочатку встановіть роликові колеса. Цей крок необхідно виконати до монтажу "
+"тримача акумулятора, оскільки після фіксації тримача доступ до монтажних "
+"отворів роликових коліс буде заблоковано."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:327
-msgid "Before installation, remove the screws from each roller wheel assembly."
+msgid ""
+"Before installation, remove the screws from each roller wheel assembly."
 msgstr ""
+"Перед встановленням викрутіть гвинти з кожного вузла роликового колеса."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:331
 msgid ""
-"Be careful: inside the wheel assembly there are several small balls and "
-"one larger ball. When removing the screws, the assembly may come apart "
-"and there is a risk of losing these parts. Disassemble the wheel "
-"carefully and avoid pressing on the main roller."
+"Be careful: inside the wheel assembly there are several small balls and one "
+"larger ball. When removing the screws, the assembly may come apart and there"
+" is a risk of losing these parts. Disassemble the wheel carefully and avoid "
+"pressing on the main roller."
 msgstr ""
+"Будьте обережні: всередині вузла колеса є кілька маленьких кульок і одна "
+"більша кулька. Під час викручування гвинтів вузол може розпастися, і є ризик"
+" загубити ці деталі. Розбирайте колесо обережно і уникайте натискання на "
+"основний ролик."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:334
 msgid "To mount the roller wheels:"
-msgstr ""
+msgstr "Щоб змонтувати роликові колеса:"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:336
 msgid ""
-"Insert the removed screws through the PCB from the component side (see "
-"the markings on the board). Position the roller wheel on the underside of"
-" the PCB. Tighten the screws until the wheel is firmly secured and does "
-"not wobble."
+"Insert the removed screws through the PCB from the component side (see the "
+"markings on the board). Position the roller wheel on the underside of the "
+"PCB. Tighten the screws until the wheel is firmly secured and does not "
+"wobble."
 msgstr ""
+"Вставте викручені гвинти крізь друковану плату з боку компонентів (див. "
+"маркування на платі). Розташуйте роликове колесо з нижнього боку друкованої "
+"плати. Затягніть гвинти, доки колесо не буде надійно закріплено і не "
+"хитатиметься."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:340
 msgid "Repeat the same procedure for the second roller wheel."
-msgstr ""
+msgstr "Повторіть ту саму процедуру для другого роликового колеса."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:343
 msgid "Mount the Battery Holder"
-msgstr ""
+msgstr "Монтаж тримача акумулятора"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:345
-msgid "Once both wheels are installed, proceed with mounting the battery holder."
+msgid ""
+"Once both wheels are installed, proceed with mounting the battery holder."
 msgstr ""
+"Після встановлення обох коліс перейдіть до монтажу тримача акумулятора."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:347
 msgid ""
 "A battery holder with pre-attached wires is recommended. Measure the "
-"required wire length, cut off any excess, strip and tin the wire ends, "
-"then solder them to the designated pads on the PCB."
+"required wire length, cut off any excess, strip and tin the wire ends, then "
+"solder them to the designated pads on the PCB."
 msgstr ""
+"Рекомендується використовувати тримач акумулятора з попередньо приєднаними "
+"дротами. Виміряйте необхідну довжину дротів, відріжте зайве, зачистьте та "
+"залудіть кінці дротів, а потім припаяйте їх до відповідних контактних "
+"майданчиків на друкованій платі."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:349
 msgid "Secure the battery holder using M2 screws and self-locking nuts."
 msgstr ""
+"Закріпіть тримач акумулятора за допомогою гвинтів M2 та самоконтрівних "
+"гайок."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:351
 msgid "Congratulations! Your robot is almost ready for operation."
-msgstr ""
+msgstr "Вітаємо! Ваш робот майже готовий до роботи."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:354
 msgid "Step 7 - Bluetooth and Battery⚡"
-msgstr ""
+msgstr "Крок 7 — Bluetooth та акумулятор⚡"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:357
 msgid "Install Bluetooth Module and Battery"
-msgstr ""
+msgstr "Встановлення модуля Bluetooth та акумулятора"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:359
 msgid ""
-"The final assembly stage is installing the Bluetooth module and "
-"connecting the battery."
+"The final assembly stage is installing the Bluetooth module and connecting "
+"the battery."
 msgstr ""
+"Фінальний етап збирання — це встановлення модуля Bluetooth та підключення "
+"акумулятора."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:361
 msgid ""
-"The Bluetooth module is mounted directly onto the PCB using 90-degree "
-"angled pin headers. In most cases, these headers are already soldered to "
-"the module. If your module has a 6-pin header installed, remove the two "
-"outer pins, as only four connections are required: power and data lines."
+"The Bluetooth module is mounted directly onto the PCB using 90-degree angled"
+" pin headers. In most cases, these headers are already soldered to the "
+"module. If your module has a 6-pin header installed, remove the two outer "
+"pins, as only four connections are required: power and data lines."
 msgstr ""
+"Модуль Bluetooth монтується безпосередньо на друковану плату за допомогою "
+"кутових штирьових роз'ємів (90 градусів). У більшості випадків ці роз'єми "
+"вже припаяні до модуля. Якщо на вашому модулі встановлено 6-контактний "
+"роз'єм, видаліть два крайні контакти, оскільки потрібно лише чотири "
+"з'єднання: лінії живлення та передачі даних."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:363
 msgid ""
-"Position the module according to the markings on the main PCB. The module"
-" should sit flush against the board without any gap between the Bluetooth"
-" module and the PCB. Once properly aligned, solder all four pins and trim"
-" any excess leads."
+"Position the module according to the markings on the main PCB. The module "
+"should sit flush against the board without any gap between the Bluetooth "
+"module and the PCB. Once properly aligned, solder all four pins and trim any"
+" excess leads."
 msgstr ""
+"Розташуйте модуль відповідно до маркування на основній друкованій платі. "
+"Модуль має щільно прилягати до плати без зазору між модулем Bluetooth та "
+"друкованою платою. Після правильного вирівнювання припаяйте всі чотири "
+"контакти та обріжте зайві виводи."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:365
 msgid ""
 "After soldering, verify that the module is firmly attached and does not "
 "move."
 msgstr ""
+"Після паяння переконайтеся, що модуль надійно закріплений і не рухається."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:369
 msgid ""
-"Avoid mounting the module at a distance from the PCB, as this makes it "
-"more vulnerable to mechanical damage and causes it to protrude "
-"unnecessarily."
+"Avoid mounting the module at a distance from the PCB, as this makes it more "
+"vulnerable to mechanical damage and causes it to protrude unnecessarily."
 msgstr ""
+"Уникайте монтажу модуля на відстані від друкованої плати, оскільки це робить"
+" його більш вразливим до механічних пошкоджень і призводить до того, що він "
+"зайво виступає."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:371
 msgid ""
-"With the Bluetooth module installed, perform one final visual inspection "
-"of all solder joints and components. Check that there are no solder "
-"bridges, loose connections, or incorrectly installed parts."
+"With the Bluetooth module installed, perform one final visual inspection of "
+"all solder joints and components. Check that there are no solder bridges, "
+"loose connections, or incorrectly installed parts."
 msgstr ""
+"Після встановлення модуля Bluetooth виконайте фінальний візуальний огляд "
+"усіх паяних з'єднань та компонентів. Перевірте, чи немає замикань припоєм, "
+"слабких контактів або неправильно встановлених деталей."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:373
 msgid "The hardware assembly is now complete."
-msgstr ""
+msgstr "Апаратне збирання завершено."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:376
 msgid "Step 8 - Initial Inspection⚡"
-msgstr ""
+msgstr "Крок 8 — Початкова перевірка⚡"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:378
 msgid ""
-"Before powering the robot for the first time, carefully inspect all "
-"solder joints, connectors, and wiring. Verify that all components are "
-"installed in the correct orientation and that there are no accidental "
-"shorts between adjacent pads or traces."
+"Before powering the robot for the first time, carefully inspect all solder "
+"joints, connectors, and wiring. Verify that all components are installed in "
+"the correct orientation and that there are no accidental shorts between "
+"adjacent pads or traces."
 msgstr ""
+"Перед першим увімкненням робота уважно огляньте всі паяні з'єднання, роз'єми"
+" та проводку. Переконайтеся, що всі компоненти встановлені в правильній "
+"орієнтації і що немає випадкових замикань між сусідніми майданчиками або "
+"доріжками."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:380
 msgid "Perform a final visual inspection of the assembled robot:"
-msgstr ""
+msgstr "Виконайте фінальний візуальний огляд зібраного робота:"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:382
 msgid "Check all soldered connections."
-msgstr ""
+msgstr "Перевірте всі паяні з'єднання."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:383
 msgid "Verify motor wiring polarity."
-msgstr ""
+msgstr "Перевірте полярність підключення двигунів."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:384
 msgid "Confirm that sensors and modules are firmly connected."
-msgstr ""
+msgstr "Переконайтеся, що датчики та модулі надійно підключені."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:385
 msgid "Ensure that no loose wires can interfere with moving parts."
 msgstr ""
+"Переконайтеся, що жоден вільний дріт не може заважати рухомим частинам."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:386
 msgid "Check that the battery connection is correct."
-msgstr ""
+msgstr "Перевірте правильність підключення акумулятора."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:388
 msgid "Correct any issues before proceeding."
-msgstr ""
+msgstr "Виправте будь-які проблеми перед продовженням."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:391
 msgid "Step 9 - Firmware Upload⚡"
-msgstr ""
+msgstr "Крок 9 - Завантаження прошивки⚡"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:393
 msgid "The robot is now ready for firmware installation."
-msgstr ""
+msgstr "Робот тепер готовий до встановлення прошивки."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:395
 msgid ""
-"Connect the controller to your computer and upload the test sketch or the"
-" desired firmware version. For testing, upload the maintenance and "
+"Connect the controller to your computer and upload the test sketch or the "
+"desired firmware version. For testing, upload the maintenance and "
 "diagnostics sketch that verifies all robot functions and is intended "
-"specifically for repair and servicing procedures. Detailed instructions "
-"are provided in the Firmware section."
+"specifically for repair and servicing procedures. Detailed instructions are "
+"provided in the Firmware section."
 msgstr ""
+"Підключіть контролер до комп'ютера та завантажте тестовий скетч або потрібну"
+" версію прошивки. Для тестування завантажте скетч обслуговування та "
+"діагностики, який перевіряє всі функції робота і призначений спеціально для "
+"процедур ремонту та обслуговування. Детальні інструкції наведено в розділі "
+"«Прошивка»."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:398
 msgid "Step 10 - Functional Test⚡"
-msgstr ""
+msgstr "Крок 10 - Функціональне тестування⚡"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:400
 msgid ""
 "After uploading the firmware, perform a complete functional test of the "
 "robot."
 msgstr ""
+"Після завантаження прошивки виконайте повне функціональне тестування робота."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:404
 msgid ""
-"If the controller already contains previously installed firmware, the "
-"robot may begin moving immediately after power is applied."
+"If the controller already contains previously installed firmware, the robot "
+"may begin moving immediately after power is applied."
 msgstr ""
+"Якщо на контролері вже встановлена попередня прошивка, робот може почати "
+"рухатися одразу після подачі живлення."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:406
 msgid ""
-"Before switching on the robot, make sure the wheels do not touch the "
-"table or any other surface. Place the robot on a stand, hold it securely,"
-" or otherwise prevent unintended movement to avoid the robot \"escaping\""
-" during testing."
+"Before switching on the robot, make sure the wheels do not touch the table "
+"or any other surface. Place the robot on a stand, hold it securely, or "
+"otherwise prevent unintended movement to avoid the robot \"escaping\" during"
+" testing."
 msgstr ""
+"Перед увімкненням робота переконайтеся, що колеса не торкаються столу чи "
+"будь-якої іншої поверхні. Помістіть робота на підставку, надійно тримайте "
+"його або іншим чином запобігайте ненавмисному руху, щоб уникнути «втечі» "
+"робота під час тестування."
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:408
 msgid "**Verify the operation of:**"
-msgstr ""
+msgstr "**Перевірте роботу:**"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:410
 msgid "Power system"
-msgstr ""
+msgstr "Система живлення"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:411
 msgid "Motors"
-msgstr ""
+msgstr "Двигуни"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:412
 msgid "Line sensors"
-msgstr ""
+msgstr "Датчики лінії"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:413
 msgid "Distance sensors"
-msgstr ""
+msgstr "Датчики відстані"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:414
 msgid "LEDs and indicators"
-msgstr ""
+msgstr "Світлодіоди та індикатори"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:415
 msgid "Communication modules"
-msgstr ""
+msgstr "Комунікаційні модулі"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:416
 msgid "Additional optional hardware"
-msgstr ""
+msgstr "Додаткове обладнання"
 
 #: ../../platforms/bybyte-nano-assembly-steps.rst:418
 msgid ""
 "If any problems are detected, disconnect power, identify the cause, and "
-"correct the issue before continuing. Once all tests pass successfully, "
-"the robot is ready for normal operation and further software development."
+"correct the issue before continuing. Once all tests pass successfully, the "
+"robot is ready for normal operation and further software development."
 msgstr ""
-
+"Якщо виявлено будь-які проблеми, вимкніть живлення, визначте причину та "
+"виправте проблему перед продовженням. Після успішного проходження всіх "
+"тестів робот готовий до нормальної експлуатації та подальшої розробки "
+"програмного забезпечення."

@@ -4,7 +4,6 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: ByByte.DIY™ 0.1\n"
@@ -23,7 +22,7 @@ msgstr ""
 
 #: ../../home/organization-documents.rst:2
 msgid "Organization Documents"
-msgstr ""
+msgstr "Документи організації"
 
 #: ../../home/organization-documents.rst:4
 msgid ""
@@ -33,10 +32,14 @@ msgid ""
 "repository and serve as the canonical reference for every project "
 "repository."
 msgstr ""
+"Ця сторінка містить посилання на загальноорганізаційні політики та документи спільноти, "
+"які застосовуються в усій екосистемі ByByte.DIY. Вони підтримуються в "
+"репозиторії `ByByte-diy/.github <https://github.com/ByByte-diy/.github>`_ "
+"і слугують канонічним орієнтиром для кожного репозиторію проєкту."
 
 #: ../../home/organization-documents.rst:10
 msgid "Core documents"
-msgstr ""
+msgstr "Основні документи"
 
 #: ../../home/organization-documents.rst:12
 msgid ""
@@ -45,6 +48,10 @@ msgid ""
 "logos, and visual identity in educational, community, and commercial "
 "contexts."
 msgstr ""
+"`BRAND_GUIDELINES.md <https://github.com/ByByte-"
+"diy/.github/blob/main/BRAND_GUIDELINES.md>`_ — правильне використання "
+"назв, логотипів та візуального стилю в освітньому контексті, контексті "
+"спільноти та комерційному контексті."
 
 #: ../../home/organization-documents.rst:16
 msgid ""
@@ -52,6 +59,10 @@ msgid ""
 "diy/.github/blob/main/CODE_OF_CONDUCT.md>`_ — expected behavior, "
 "reporting, and maintainer responsibilities for a welcoming community."
 msgstr ""
+"`CODE_OF_CONDUCT.md <https://github.com/ByByte-"
+"diy/.github/blob/main/CODE_OF_CONDUCT.md>`_ — очікувана поведінка, "
+"повідомлення про порушення та обов'язки супроводжувачів для створення "
+"привітної спільноти."
 
 #: ../../home/organization-documents.rst:20
 msgid ""
@@ -59,6 +70,10 @@ msgid ""
 "diy/.github/blob/main/LICENSE.md>`_ — canonical licensing policy for "
 "software, hardware, and documentation across the ecosystem."
 msgstr ""
+"`LICENSE.md <https://github.com/ByByte-"
+"diy/.github/blob/main/LICENSE.md>`_ — канонічна політика ліцензування "
+"програмного забезпечення, апаратного забезпечення та документації "
+"в усій екосистемі."
 
 #: ../../home/organization-documents.rst:24
 msgid ""
@@ -67,4 +82,7 @@ msgid ""
 "prohibited uses, forks, logo rules, and how open licenses relate to "
 "branding."
 msgstr ""
-
+"`TRADEMARK.md <https://github.com/ByByte-"
+"diy/.github/blob/main/TRADEMARK.md>`_ — політика щодо торговельних марок: "
+"дозволене та заборонене використання, форки, правила використання "
+"логотипів та те, як відкриті ліцензії співвідносяться з брендингом."
