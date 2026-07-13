@@ -1,0 +1,6 @@
+[submodule "shared/github"]
+	path = shared/github
+	url = https://github.com/ByByte-diy/.github
+[submodule "shared/bybyte-nano"]
+	path = shared/bybyte-nano
+	url = https://github.com/ByByte-diy/ByByteNano

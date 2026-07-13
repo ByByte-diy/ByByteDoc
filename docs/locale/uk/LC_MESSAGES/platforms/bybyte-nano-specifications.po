@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-21 18:37+0300\n"
+"PO-Revision-Date: 2026-06-21 18:37+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../platforms/bybyte-nano-specifications.rst:2
+msgid "ByByte Nano Specifications"
+msgstr "Технічні характеристики БАБАЙ Nano"
+
+#: ../../platforms/bybyte-nano-specifications.rst:4
+msgid ""
+"This page provides an overview of the hardware specifications of the "
+"ByByte Nano educational robot platform."
+msgstr ""
+"На цій сторінці наведено огляд апаратних характеристик освітньої "
+"робототехнічної платформи БАБАЙ Nano."
+
+#: ../../platforms/bybyte-nano-specifications.rst:7
+msgid "General"
+msgstr "Загальне"
+
+#: ../../platforms/bybyte-nano-specifications.rst:10
+#: ../../platforms/bybyte-nano-specifications.rst:27
+#: ../../platforms/bybyte-nano-specifications.rst:57
+#: ../../platforms/bybyte-nano-specifications.rst:70
+#: ../../platforms/bybyte-nano-specifications.rst:110
+msgid "Parameter"
+msgstr "Параметр"
+
+#: ../../platforms/bybyte-nano-specifications.rst:10
+#: ../../platforms/bybyte-nano-specifications.rst:27
+#: ../../platforms/bybyte-nano-specifications.rst:57
+#: ../../platforms/bybyte-nano-specifications.rst:70
+#: ../../platforms/bybyte-nano-specifications.rst:110
+msgid "Value"
+msgstr "Значення"
+
+#: ../../platforms/bybyte-nano-specifications.rst:12
+msgid "Platform Type"
+msgstr "Тип платформи"
+
+#: ../../platforms/bybyte-nano-specifications.rst:12
+msgid "Educational Mobile Robot"
+msgstr "Освітній мобільний робот"
+
+#: ../../platforms/bybyte-nano-specifications.rst:14
+msgid "Controller"
+msgstr "Контролер"
+
+#: ../../platforms/bybyte-nano-specifications.rst:14
+msgid "Arduino Nano (ATmega328p) Compatible"
+msgstr "Сумісний з Arduino Nano (ATmega328p)"
+
+#: ../../platforms/bybyte-nano-specifications.rst:16
+msgid "Architecture"
+msgstr "Архітектура"
+
+#: ../../platforms/bybyte-nano-specifications.rst:16
+msgid "AVR 8-bit"
+msgstr "AVR 8-біт"
+
+#: ../../platforms/bybyte-nano-specifications.rst:18
+msgid "Programming Language"
+msgstr "Мова програмування"
+
+#: ../../platforms/bybyte-nano-specifications.rst:18
+msgid "C/C++ (Arduino Framework)"
+msgstr "C/C++ (фреймворк Arduino)"
+
+#: ../../platforms/bybyte-nano-specifications.rst:20
+msgid "Expansion Support"
+msgstr "Підтримка розширень"
+
+#: ../../platforms/bybyte-nano-specifications.rst:20
+msgid "Yes"
+msgstr "Так"
+
+#: ../../platforms/bybyte-nano-specifications.rst:24
+msgid "Locomotion"
+msgstr "Переміщення"
+
+#: ../../platforms/bybyte-nano-specifications.rst:29
+msgid "Drive Type"
+msgstr "Тип приводу"
+
+#: ../../platforms/bybyte-nano-specifications.rst:29
+msgid "Differential Drive"
+msgstr "Диференціальний привід"
+
+#: ../../platforms/bybyte-nano-specifications.rst:31
+msgid "Motors"
+msgstr "Двигуни"
+
+#: ../../platforms/bybyte-nano-specifications.rst:31
+msgid "2 x DC Gear Motors"
+msgstr "2 × DC редукторні двигуни"
+
+#: ../../platforms/bybyte-nano-specifications.rst:33
+msgid "Wheel Count"
+msgstr "Кількість коліс"
+
+#: ../../platforms/bybyte-nano-specifications.rst:33
+msgid "2 Drive Wheels + 2 x Caster Wheels"
+msgstr "2 приводних колеса + 2 × поворотні (кастер) колеса"
+
+#: ../../platforms/bybyte-nano-specifications.rst:37
+msgid "Sensors"
+msgstr "Сенсори"
+
+#: ../../platforms/bybyte-nano-specifications.rst:40
+msgid "Sensor"
+msgstr "Сенсор"
+
+#: ../../platforms/bybyte-nano-specifications.rst:40
+msgid "Quantity"
+msgstr "Кількість"
+
+#: ../../platforms/bybyte-nano-specifications.rst:42
+msgid "Line Tracking Sensors"
+msgstr "Сенсори для відстеження лінії"
+
+#: ../../platforms/bybyte-nano-specifications.rst:42
+msgid "5"
+msgstr "5"
+
+#: ../../platforms/bybyte-nano-specifications.rst:44
+msgid "Ultrasonic Distance Sensor"
+msgstr "Ультразвуковий сенсор для вимірювання відстані"
+
+#: ../../platforms/bybyte-nano-specifications.rst:44
+#: ../../platforms/bybyte-nano-specifications.rst:48
+#: ../../platforms/bybyte-nano-specifications.rst:50
+msgid "1"
+msgstr "1"
+
+#: ../../platforms/bybyte-nano-specifications.rst:46
+msgid "Infrared Obstacle Sensors"
+msgstr "Сенсори інфрачервоного випромінювання для виявлення перешкод"
+
+#: ../../platforms/bybyte-nano-specifications.rst:46
+msgid "2"
+msgstr "2"
+
+#: ../../platforms/bybyte-nano-specifications.rst:48
+msgid "Light Sensor"
+msgstr "Сенсор освітлення"
+
+#: ../../platforms/bybyte-nano-specifications.rst:50
+msgid "Infrared Receiver"
+msgstr "ІЧ приймач"
+
+#: ../../platforms/bybyte-nano-specifications.rst:54
+msgid "Communication"
+msgstr "Комунікація"
+
+#: ../../platforms/bybyte-nano-specifications.rst:59
+msgid "Bluetooth"
+msgstr "Блютуз"
+
+#: ../../platforms/bybyte-nano-specifications.rst:59
+msgid "HC-05 / HC-06 / HC-02 Compatible"
+msgstr "Сумісний з HC-05 / HC-06 / HC-02"
+
+#: ../../platforms/bybyte-nano-specifications.rst:61
+msgid "USB"
+msgstr "USB"
+
+#: ../../platforms/bybyte-nano-specifications.rst:61
+msgid "USB Programming Interface"
+msgstr "Інтерфейс програмування USB"
+
+#: ../../platforms/bybyte-nano-specifications.rst:63
+msgid "IR receiver"
+msgstr "ІЧ приймач"
+
+#: ../../platforms/bybyte-nano-specifications.rst:63
+msgid "Receiver IR remote control"
+msgstr "Приймач ІЧ пульта дистанційного керування"
+
+#: ../../platforms/bybyte-nano-specifications.rst:67
+msgid "Indicators"
+msgstr "Індикатори"
+
+#: ../../platforms/bybyte-nano-specifications.rst:72
+msgid "RGB LEDs"
+msgstr "RGB-світлодіоди"
+
+#: ../../platforms/bybyte-nano-specifications.rst:72
+msgid "2 x WS2812"
+msgstr "2 × WS2812"
+
+#: ../../platforms/bybyte-nano-specifications.rst:74
+msgid "Green LED"
+msgstr "Зелений світлодіод"
+
+#: ../../platforms/bybyte-nano-specifications.rst:74
+msgid "1 x Power LED"
+msgstr "1 × світлодіод живлення"
+
+#: ../../platforms/bybyte-nano-specifications.rst:78
+msgid "Optional Modules"
+msgstr "Додаткові модулі"
+
+#: ../../platforms/bybyte-nano-specifications.rst:81
+msgid "Module"
+msgstr "Модуль"
+
+#: ../../platforms/bybyte-nano-specifications.rst:81
+msgid "Description"
+msgstr "Опис"
+
+#: ../../platforms/bybyte-nano-specifications.rst:83
+msgid "ESP Camera"
+msgstr "Камера ESP"
+
+#: ../../platforms/bybyte-nano-specifications.rst:83
+msgid "Front-facing camera module"
+msgstr "Фронтальний модуль камери"
+
+#: ../../platforms/bybyte-nano-specifications.rst:87
+msgid "Educational Features"
+msgstr "Освітні можливості"
+
+#: ../../platforms/bybyte-nano-specifications.rst:89
+msgid "Line following"
+msgstr "Відстеження лінії"
+
+#: ../../platforms/bybyte-nano-specifications.rst:90
+msgid "Obstacle avoidance"
+msgstr "Уникнення перешкод"
+
+#: ../../platforms/bybyte-nano-specifications.rst:91
+msgid "Remote control"
+msgstr "Дистанційне керування"
+
+#: ../../platforms/bybyte-nano-specifications.rst:92
+msgid "Autonomous navigation"
+msgstr "Автономна навігація"
+
+#: ../../platforms/bybyte-nano-specifications.rst:93
+msgid "Sensor data acquisition"
+msgstr "Збір даних сенсорів"
+
+#: ../../platforms/bybyte-nano-specifications.rst:94
+msgid "Environmental monitoring"
+msgstr "Моніторинг середовища"
+
+#: ../../platforms/bybyte-nano-specifications.rst:95
+msgid "Bluetooth communication"
+msgstr "Блютуз-комунікація"
+
+#: ../../platforms/bybyte-nano-specifications.rst:96
+msgid "Computer vision experiments (with optional ESP camera)"
+msgstr "Експерименти з комп'ютерним зором (з опціональною камерою ESP)"
+
+#: ../../platforms/bybyte-nano-specifications.rst:99
+msgid "Power"
+msgstr "Живлення"
+
+#: ../../platforms/bybyte-nano-specifications.rst:101
+msgid "Battery powered (9v 6F22)"
+msgstr "Живлення від батареї (9V 6F22)"
+
+#: ../../platforms/bybyte-nano-specifications.rst:102
+msgid "Rechargeable battery support"
+msgstr "Підтримка акумуляторної батареї"
+
+#: ../../platforms/bybyte-nano-specifications.rst:105
+msgid "Physical Dimensions"
+msgstr "Габаритні розміри"
+
+#: ../../platforms/bybyte-nano-specifications.rst:107
+msgid "The exact dimensions and weight may vary depending on the robot revision."
+msgstr ""
+"Точні розміри та вага можуть відрізнятися залежно від ревізії робота."
+
+#: ../../platforms/bybyte-nano-specifications.rst:112
+msgid "Length"
+msgstr "Довжина"
+
+#: ../../platforms/bybyte-nano-specifications.rst:112
+msgid "147mm"
+msgstr "147 мм"
+
+#: ../../platforms/bybyte-nano-specifications.rst:114
+msgid "Width"
+msgstr "Ширина"
+
+#: ../../platforms/bybyte-nano-specifications.rst:114
+msgid "132mm"
+msgstr "132 мм"
+
+#: ../../platforms/bybyte-nano-specifications.rst:116
+msgid "Height"
+msgstr "Висота"
+
+#: ../../platforms/bybyte-nano-specifications.rst:116
+msgid "60mm"
+msgstr "60 мм"
+
+#: ../../platforms/bybyte-nano-specifications.rst:118
+msgid "Weight"
+msgstr "Вага"
+
+#: ../../platforms/bybyte-nano-specifications.rst:118
+msgid "217g"
+msgstr "217 г"

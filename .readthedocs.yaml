@@ -16,6 +16,11 @@ build:
       # Show installed packages for debugging
       - pip list
 
+# Fetch git submodules (shared/github, shared/bybyte-nano, …)
+submodules:
+  include: all
+  recursive: true
+
 # Sphinx configuration
 sphinx:
   configuration: docs/conf.py

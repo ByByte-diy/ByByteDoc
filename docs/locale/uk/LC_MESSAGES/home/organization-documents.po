@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-21 18:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../home/organization-documents.rst:2
+msgid "Organization Documents"
+msgstr "Документи організації"
+
+#: ../../home/organization-documents.rst:4
+msgid ""
+"This page links to the organization-wide policies and community documents"
+" that apply across the whole ByByte.DIY ecosystem. They are maintained in"
+" the `ByByte-diy/.github <https://github.com/ByByte-diy/.github>`_ "
+"repository and serve as the canonical reference for every project "
+"repository."
+msgstr ""
+"Ця сторінка містить посилання на загальноорганізаційні політики та документи спільноти, "
+"які застосовуються в усій екосистемі ByByte.DIY. Вони підтримуються в "
+"репозиторії `ByByte-diy/.github <https://github.com/ByByte-diy/.github>`_ "
+"і слугують канонічним орієнтиром для кожного репозиторію проєкту."
+
+#: ../../home/organization-documents.rst:10
+msgid "Core documents"
+msgstr "Основні документи"
+
+#: ../../home/organization-documents.rst:12
+msgid ""
+"`BRAND_GUIDELINES.md <https://github.com/ByByte-"
+"diy/.github/blob/main/BRAND_GUIDELINES.md>`_ — correct use of names, "
+"logos, and visual identity in educational, community, and commercial "
+"contexts."
+msgstr ""
+"`BRAND_GUIDELINES.md <https://github.com/ByByte-"
+"diy/.github/blob/main/BRAND_GUIDELINES.md>`_ — правильне використання "
+"назв, логотипів та візуального стилю в освітньому контексті, контексті "
+"спільноти та комерційному контексті."
+
+#: ../../home/organization-documents.rst:16
+msgid ""
+"`CODE_OF_CONDUCT.md <https://github.com/ByByte-"
+"diy/.github/blob/main/CODE_OF_CONDUCT.md>`_ — expected behavior, "
+"reporting, and maintainer responsibilities for a welcoming community."
+msgstr ""
+"`CODE_OF_CONDUCT.md <https://github.com/ByByte-"
+"diy/.github/blob/main/CODE_OF_CONDUCT.md>`_ — очікувана поведінка, "
+"повідомлення про порушення та обов'язки супроводжувачів для створення "
+"привітної спільноти."
+
+#: ../../home/organization-documents.rst:20
+msgid ""
+"`LICENSE.md <https://github.com/ByByte-"
+"diy/.github/blob/main/LICENSE.md>`_ — canonical licensing policy for "
+"software, hardware, and documentation across the ecosystem."
+msgstr ""
+"`LICENSE.md <https://github.com/ByByte-"
+"diy/.github/blob/main/LICENSE.md>`_ — канонічна політика ліцензування "
+"програмного забезпечення, апаратного забезпечення та документації "
+"в усій екосистемі."
+
+#: ../../home/organization-documents.rst:24
+msgid ""
+"`TRADEMARK.md <https://github.com/ByByte-"
+"diy/.github/blob/main/TRADEMARK.md>`_ — trademark policy: allowed and "
+"prohibited uses, forks, logo rules, and how open licenses relate to "
+"branding."
+msgstr ""
+"`TRADEMARK.md <https://github.com/ByByte-"
+"diy/.github/blob/main/TRADEMARK.md>`_ — політика щодо торговельних марок: "
+"дозволене та заборонене використання, форки, правила використання "
+"логотипів та те, як відкриті ліцензії співвідносяться з брендингом."

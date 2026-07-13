@@ -1,0 +1,83 @@
+/*
+ * Responsive content width and typography for sphinx_book_theme.
+ * Breakpoints: 480px (mobile), 768px (tablet), 1100px (desktop).
+ */
+
+/* Mobile — phones (≤480px) */
+@media screen and (max-width: 480px) {
+  .bd-main .bd-content {
+    max-width: 100%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .bd-content table.docutils {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Tablet — portrait / small screens (481px–768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .bd-main .bd-content {
+    max-width: 100%;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+}
+
+/* Desktop — medium screens (769px–1099px) */
+@media screen and (min-width: 769px) and (max-width: 1099px) {
+  .bd-main .bd-content {
+    max-width: calc(100vw - 320px);
+  }
+}
+
+/* Large desktop (≥1100px) */
+@media screen and (min-width: 1100px) {
+  .bd-main .bd-content {
+    max-width: min(1400px, calc(100vw - 320px));
+  }
+}
+
+/* Responsive YouTube / iframe embeds */
+.video-embed {
+  width: 100%;
+  max-width: 720px;
+  margin: 1em auto;
+}
+
+.video-embed iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+}
+
+/* Underline all subheadings (h2–h6) in document content */
+.bd-content h2 {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+/* Numbered troubleshooting steps: bold markers, hanging indent for body text */
+.bd-content ol.arabic {
+  list-style-position: outside;
+  padding-left: 1.75rem;
+  margin-left: 0;
+}
+
+.bd-content ol.arabic > li::marker {
+  font-weight: 700;
+}
+
+.bd-content ol.arabic > li > p + p,
+.bd-content ol.arabic > li > ul {
+  margin-top: 0.5em;
+}
+
+.bd-content ol.arabic > li > ul {
+  padding-left: 1.25rem;
+}

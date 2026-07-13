@@ -1,0 +1,342 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-21 18:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../platforms/bybyte-nano-package-options.rst:2
+msgid "ByByte Nano Package Options"
+msgstr "Варіанти комплектації ByByte Nano"
+
+#: ../../platforms/bybyte-nano-package-options.rst:4
+msgid ""
+"This page describes the available hardware configurations of the ByByte "
+"Nano robot."
+msgstr ""
+"На цій сторінці описано доступні апаратні конфігурації робота ByByte Nano."
+
+#: ../../platforms/bybyte-nano-package-options.rst:7
+msgid "Basic Configuration"
+msgstr "Базова конфігурація"
+
+#: ../../platforms/bybyte-nano-package-options.rst:12
+msgid ""
+"The minimal configuration includes the core sensors, drive system, and "
+"Bluetooth connectivity required for most educational and robotics "
+"projects."
+msgstr ""
+"Мінімальна конфігурація містить основні датчики, систему приводу та зв'язок Bluetooth, необхідні для більшості навчальних і робототехнічних проєктів."
+
+#: ../../platforms/bybyte-nano-package-options.rst:14
+msgid "**Included hardware:**"
+msgstr ""
+"**Апаратне забезпечення в комплекті:**"
+
+#: ../../platforms/bybyte-nano-package-options.rst:16
+msgid "Arduino Nano controller"
+msgstr "Контролер Arduino Nano"
+
+#: ../../platforms/bybyte-nano-package-options.rst:17
+msgid "Motor driver"
+msgstr "Драйвер двигунів"
+
+#: ../../platforms/bybyte-nano-package-options.rst:18
+msgid "Two DC motors"
+msgstr "Два двигуни постійного струму"
+
+#: ../../platforms/bybyte-nano-package-options.rst:19
+msgid "Wheels"
+msgstr "Колеса"
+
+#: ../../platforms/bybyte-nano-package-options.rst:20
+msgid "Bluetooth communication module"
+msgstr "Модуль зв'язку Bluetooth"
+
+#: ../../platforms/bybyte-nano-package-options.rst:22
+msgid "**Built-in sensors and indicators:**"
+msgstr ""
+"**Вбудовані датчики та індикатори:**"
+
+#: ../../platforms/bybyte-nano-package-options.rst:24
+msgid "Line sensors"
+msgstr "Датчики лінії"
+
+#: ../../platforms/bybyte-nano-package-options.rst:25
+msgid "Ultrasonic distance sensor (sonar)"
+msgstr "Ультразвуковий датчик відстані (сонар)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:26
+msgid "Light sensor"
+msgstr "Датчик світла"
+
+#: ../../platforms/bybyte-nano-package-options.rst:27
+msgid "Infrared remote-control receiver"
+msgstr "Приймач інфрачервоного дистанційного керування"
+
+#: ../../platforms/bybyte-nano-package-options.rst:28
+msgid "Buzzer"
+msgstr "Зумер"
+
+#: ../../platforms/bybyte-nano-package-options.rst:29
+msgid "WS2812 RGB LEDs"
+msgstr "RGB-світлодіоди WS2812"
+
+#: ../../platforms/bybyte-nano-package-options.rst:31
+msgid ""
+"This configuration provides all essential functionality for line "
+"following, obstacle detection, remote control, wireless communication, "
+"and basic autonomous robot operation."
+msgstr ""
+"Ця конфігурація забезпечує всі основні функції для руху по лінії, виявлення перешкод, дистанційного керування, бездротового зв'язку та базової автономної роботи робота."
+
+#: ../../platforms/bybyte-nano-package-options.rst:34
+msgid "Included Components (Main Modules)"
+msgstr "Компоненти в комплекті (основні модулі)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:36
+msgid "Printed circuit board (PCB)"
+msgstr "Друкована плата (PCB)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:37
+msgid "Arduino Nano module (ATmega328p)"
+msgstr "Модуль Arduino Nano (ATmega328p)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:38
+msgid "5V power supply circuitry"
+msgstr "Схема живлення 5 В"
+
+#: ../../platforms/bybyte-nano-package-options.rst:39
+msgid "Motor driver (DRV8834)"
+msgstr "Драйвер двигунів (DRV8834)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:40
+msgid "DC motors (2x)"
+msgstr "Двигуни постійного струму (2 шт.)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:41
+msgid "Wheels and mounting hardware (2x)"
+msgstr "Колеса та кріплення (2 шт.)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:42
+msgid "Buzzer (1x)"
+msgstr "Зумер (1 шт.)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:43
+msgid "RGB LEDs (2x)"
+msgstr "RGB-світлодіоди (2 шт.)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:44
+msgid "Battery and battery holder (1x)"
+msgstr "Акумулятор та тримач акумулятора (1 шт.)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:45
+msgid "Light sensors (1x)"
+msgstr "Датчики світла (1 шт.)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:46
+msgid "IR receiver (1x)"
+msgstr "ІЧ-приймач (1 шт.)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:47
+msgid "Ultrasonic sonar sensor (1x)"
+msgstr "Ультразвуковий датчик-сонар (1 шт.)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:48
+msgid "Line sensors (1x5)"
+msgstr "Датчики лінії (1x5)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:49
+msgid "Bluetooth module (1x)"
+msgstr "Bluetooth-модуль (1 шт.)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:52
+msgid "Features"
+msgstr "Можливості"
+
+#: ../../platforms/bybyte-nano-package-options.rst:54
+msgid "Programmed autonomous movement"
+msgstr "Програмований автономний рух"
+
+#: ../../platforms/bybyte-nano-package-options.rst:55
+msgid "Line-following mode"
+msgstr "Режим руху по лінії"
+
+#: ../../platforms/bybyte-nano-package-options.rst:56
+msgid "Obstacle avoidance"
+msgstr "Уникання перешкод"
+
+#: ../../platforms/bybyte-nano-package-options.rst:57
+msgid "Bluetooth remote control"
+msgstr "Дистанційне керування через Bluetooth"
+
+#: ../../platforms/bybyte-nano-package-options.rst:58
+msgid "Automatic headlights activation in low-light conditions"
+msgstr "Автоматичне ввімкнення фар за умов низької освітленості"
+
+#: ../../platforms/bybyte-nano-package-options.rst:59
+msgid "Control of WS2812 addressable RGB LEDs"
+msgstr "Керування адресними RGB-світлодіодами WS2812"
+
+#: ../../platforms/bybyte-nano-package-options.rst:60
+msgid "Audible signal (buzzer)"
+msgstr "Звуковий сигнал (зумер)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:61
+msgid "Headlights and hazard warning lights control"
+msgstr "Керування фарами та аварійною сигналізацією"
+
+#: ../../platforms/bybyte-nano-package-options.rst:62
+msgid "Automotive-style turn signal indication during turns"
+msgstr "Індикація поворотів в автомобільному стилі під час поворотів"
+
+#: ../../platforms/bybyte-nano-package-options.rst:63
+msgid "Infrared (IR) remote control support"
+msgstr "Підтримка інфрачервоного (ІЧ) дистанційного керування"
+
+#: ../../platforms/bybyte-nano-package-options.rst:66
+msgid "Basic + Side Sensors"
+msgstr "Базова + бічні датчики"
+
+#: ../../platforms/bybyte-nano-package-options.rst:71
+msgid ""
+"Description of the robot with additional side infrared sensors. This "
+"configuration is recommended for maze navigation, where detecting walls "
+"on both sides of the robot is required. The added functionality includes "
+"side IR sensors (IR LEDs and IR phototransistors), an operational "
+"amplifier, and several supporting components such as resistors, "
+"capacitors, and a transistor."
+msgstr ""
+"Опис робота з додатковими бічними інфрачервоними датчиками. Ця конфігурація рекомендована для навігації в лабіринті, де потрібно виявляти стіни з обох боків робота. Додатковий функціонал включає бічні ІЧ-датчики (ІЧ-світлодіоди та ІЧ-фототранзистори), операційний підсилювач та кілька допоміжних компонентів, таких як резистори, конденсатори та транзистор."
+
+#: ../../platforms/bybyte-nano-package-options.rst:74
+#: ../../platforms/bybyte-nano-package-options.rst:99
+msgid "Included Components"
+msgstr "Компоненти в комплекті"
+
+#: ../../platforms/bybyte-nano-package-options.rst:76
+msgid "Side infrared distance sensors"
+msgstr "Бічні інфрачервоні датчики відстані"
+
+#: ../../platforms/bybyte-nano-package-options.rst:77
+msgid "Operational amplifier (op-amp) with socket"
+msgstr "Операційний підсилювач (ОП) із панелькою"
+
+#: ../../platforms/bybyte-nano-package-options.rst:78
+msgid "Power control transistor"
+msgstr "Транзистор керування живленням"
+
+#: ../../platforms/bybyte-nano-package-options.rst:79
+msgid "Supporting passive components (resistors and capacitors)"
+msgstr "Допоміжні пасивні компоненти (резистори та конденсатори)"
+
+#: ../../platforms/bybyte-nano-package-options.rst:82
+#: ../../platforms/bybyte-nano-package-options.rst:109
+msgid "Additional Features"
+msgstr "Додаткові можливості"
+
+#: ../../platforms/bybyte-nano-package-options.rst:84
+msgid "Maze navigation as the primary functionality."
+msgstr "Навігація в лабіринті як основний функціонал."
+
+#: ../../platforms/bybyte-nano-package-options.rst:85
+msgid "Simple sensor-triggered tasks, such as obstacle detection and reaction."
+msgstr "Прості завдання, що запускаються датчиками, як-от виявлення перешкод та реакція на них."
+
+#: ../../platforms/bybyte-nano-package-options.rst:86
+msgid "Additional exercises focused on reading and processing analog signals."
+msgstr "Додаткові вправи, зосереджені на зчитуванні та обробці аналогових сигналів."
+
+#: ../../platforms/bybyte-nano-package-options.rst:89
+msgid "Basic + Camera"
+msgstr "Базова + камера"
+
+#: ../../platforms/bybyte-nano-package-options.rst:94
+msgid ""
+"The camera configuration is intended for more advanced lessons involving "
+"computer vision and image processing. It can also be used for simple "
+"real-time video transmission while the robot is moving."
+msgstr ""
+"Конфігурація з камерою призначена для більш просунутих занять з комп'ютерного зору та обробки зображень. Вона також може використовуватися для простої трансляції відео в реальному часі під час руху робота."
+
+#: ../../platforms/bybyte-nano-package-options.rst:96
+msgid ""
+"To use this configuration, a compatible camera module must be purchased "
+"separately. We recommend a camera with a 120-degree field of view and a "
+"longer ribbon cable to allow flexible mounting. For optimal visibility, "
+"the camera should be installed on a dedicated holder positioned slightly "
+"above the main chassis, providing a better viewing angle of the robot's "
+"surroundings."
+msgstr ""
+"Для використання цієї конфігурації сумісний модуль камери потрібно придбати окремо. Ми рекомендуємо камеру з кутом огляду 120 градусів і довшим шлейфом для гнучкого монтажу. Для оптимальної видимості камеру слід встановити на спеціальному тримачі трохи вище основного шасі, що забезпечує кращий кут огляду оточення робота."
+
+#: ../../platforms/bybyte-nano-package-options.rst:101
+msgid "ESP-CAM module"
+msgstr "Модуль ESP-CAM"
+
+#: ../../platforms/bybyte-nano-package-options.rst:102
+msgid "Camera module with 120° field of view"
+msgstr "Модуль камери з кутом огляду 120°"
+
+#: ../../platforms/bybyte-nano-package-options.rst:103
+msgid "Camera mounting bracket"
+msgstr "Кронштейн для кріплення камери"
+
+#: ../../platforms/bybyte-nano-package-options.rst:104
+msgid "Push buttons"
+msgstr "Кнопки"
+
+#: ../../platforms/bybyte-nano-package-options.rst:105
+msgid "3.3 V power supply components"
+msgstr "Компоненти джерела живлення 3,3 В"
+
+#: ../../platforms/bybyte-nano-package-options.rst:106
+msgid "Jumper wires for connection to the Arduino module"
+msgstr "З'єднувальні дроти (перемички) для підключення до модуля Arduino"
+
+#: ../../platforms/bybyte-nano-package-options.rst:111
+msgid "Real-time video streaming from the robot camera"
+msgstr "Потокова трансляція відео в реальному часі з камери робота"
+
+#: ../../platforms/bybyte-nano-package-options.rst:112
+msgid "Computer vision lessons and examples:"
+msgstr "Уроки та приклади з комп'ютерного зору:"
+
+#: ../../platforms/bybyte-nano-package-options.rst:113
+msgid "Marker detection and recognition"
+msgstr "Виявлення та розпізнавання маркерів"
+
+#: ../../platforms/bybyte-nano-package-options.rst:114
+msgid "Lane and road following"
+msgstr "Рух по смузі та дорозі"
+
+#: ../../platforms/bybyte-nano-package-options.rst:115
+msgid "Traffic sign detection"
+msgstr "Виявлення дорожніх знаків"
+
+#: ../../platforms/bybyte-nano-package-options.rst:116
+msgid "Object detection and tracking"
+msgstr "Виявлення та відстеження об'єктів"
+
+#: ../../platforms/bybyte-nano-package-options.rst:117
+msgid "Remote robot control over Wi-Fi with live video streaming"
+msgstr "Дистанційне керування роботом через Wi-Fi з трансляцією відео наживо"
+
+#: ../../platforms/bybyte-nano-package-options.rst:118
+msgid "Platform for experimenting with AI and computer vision algorithms"
+msgstr "Платформа для експериментів з алгоритмами ШІ та комп'ютерного зору"

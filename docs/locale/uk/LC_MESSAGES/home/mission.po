@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-21 18:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../../shared/github/MISSION.md:1
+msgid "Mission of the ByByte DIY Project"
+msgstr "Місія проекту БАБАЙ DIY"
+
+#: ../../../shared/github/MISSION.md:3
+msgid ""
+"Modern life is impossible to imagine without technology. Yet quality "
+"technical education often remains expensive, difficult to understand, or "
+"disconnected from real-world practice. Many people who want to learn "
+"robotics, electronics, and programming on their own face scattered "
+"learning materials, a steep entry barrier, and a lack of guidance or "
+"support. As a result, motivation fades quickly, and learning turns into "
+"an endless search for random solutions instead of a structured path "
+"toward real skills."
+msgstr ""
+"Сучасне життя неможливо уявити без технологій. Проте якісна "
+"технічна освіта часто залишається дорогою, складною для розуміння або "
+"відірваною від реальної практики. Багато людей, які хочуть самостійно "
+"вивчати робототехніку, електроніку та програмування, стикаються з "
+"розрізненими навчальними матеріалами, високим порогом входу та браком "
+"наставництва чи підтримки. У результаті мотивація швидко згасає, а навчання "
+"перетворюється на нескінченний пошук випадкових рішень замість послідовного "
+"шляху до здобуття реальних навичок."
+
+#: ../../../shared/github/MISSION.md:5
+msgid ""
+"The “ByByte DIY” project was created to make modern STEM education open, "
+"understandable, and accessible to everyone. We develop open-source "
+"robotics platforms, practical learning materials, and structured courses "
+"that help children, teenagers, students, educators, and technology "
+"enthusiasts learn through hands-on experience, experimentation, and "
+"building real projects."
+msgstr ""
+"Проєкт БАБАЙ DIY» створено, щоб зробити сучасну STEM-освіту відкритою, "
+"зрозумілою та доступною для кожного. Ми розробляємо робототехнічні "
+"платформи з відкритим вихідним кодом, практичні навчальні матеріали та "
+"структуровані курси, які допомагають дітям, підліткам, студентам, "
+"викладачам і ентузіастам технологій навчатися через практичний досвід, "
+"експерименти та створення реальних проєктів."
+
+
+#: ../../../shared/github/MISSION.md:7
+msgid ""
+"We believe that the best way to learn is by creating. Building robots, "
+"writing code, experimenting, and solving real problems help develop true "
+"engineering thinking, creativity, and confidence. DIY culture encourages "
+"curiosity, freedom to experiment, and the ability to modify, improve, and"
+" invent new things. The open nature of the project allows anyone not only"
+" to learn, but also to share their own ideas and improvements with the "
+"community."
+msgstr ""
+"Ми віримо, що найкращий спосіб навчатися — це створювати. Збирання роботів, "
+"написання коду, експериментування та розв’язання реальних проблем допомагають "
+"розвивати справжнє інженерне мислення, творчість і впевненість у собі. "
+"DIY-культура заохочує допитливість, свободу експериментувати та здатність "
+"модифікувати, удосконалювати й винаходити нові речі. Відкритість проєкту "
+"дозволяє кожному не лише навчатися, а й ділитися власними ідеями та "
+"вдосконаленнями зі спільнотою."
+
+#: ../../../shared/github/MISSION.md:9
+msgid ""
+"All ByByte DIY platforms and educational materials are developed around "
+"the principles of openness and collaborative growth. Anyone can build "
+"their own project, follow the learning path, adapt materials for their "
+"own needs, or contribute to the community. We strive to create an "
+"environment where people are not left alone with technical challenges, "
+"but instead learn, explore, and grow together."
+msgstr ""
+"Усі платформи та навчальні матеріали ByByte DIY розробляються на основі "
+"принципів відкритості та спільного розвитку. Кожен може створити власний "
+"проєкт, пройти навчальний шлях, адаптувати матеріали до власних потреб або "
+"зробити внесок у розвиток спільноти. Ми прагнемо створити середовище, де "
+"люди не залишаються сам на сам із технічними викликами, а навчаються, "
+"досліджують і розвиваються разом."
+
+#: ../../../shared/github/MISSION.md:11
+msgid ""
+"Our mission is to help the next generation move from consuming technology"
+" to creating it. We envision a future where children and adults are not "
+"intimidated by complex technologies, but understand them, work with them "
+"confidently, and use their knowledge to create, innovate, and improve the"
+" world around them."
+msgstr ""
+"Наша місія — допомогти наступному поколінню перейти від споживання технологій "
+"до їх створення. Ми бачимо майбутнє, у якому діти й дорослі не бояться "
+"складних технологій, а розуміють їх, упевнено з ними працюють і використовують "
+"свої знання, щоб створювати, впроваджувати інновації та покращувати світ "
+"навколо себе."
+
+#: ../../../shared/github/MISSION.md:13
+msgid ""
+"We aim to inspire and grow a new generation of creators, engineers, and "
+"inventors — people who do not simply use technology, but actively shape "
+"the future with their own ideas and hands."
+msgstr ""
+"Ми прагнемо надихати та розвивати нове покоління творців, інженерів і "
+"винахідників — людей, які не просто використовують технології, а активно "
+"формують майбутнє власними ідеями та власними руками."
+

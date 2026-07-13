@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ByByte Team
+# This file is distributed under the same license as the ByByte package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 12:58+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../usage.rst:2
+msgid "Usage Guide"
+msgstr ""
+
+#: ../../usage.rst:4
+msgid "This guide covers the main features and usage patterns of ByByte."
+msgstr ""
+
+#: ../../usage.rst:7
+msgid "Overview"
+msgstr ""
+
+#: ../../usage.rst:9
+msgid ""
+"ByByte provides a simple interface for communicating with Arduino-based "
+"devices."
+msgstr ""
+
+#: ../../usage.rst:12
+msgid "Basic Concepts"
+msgstr ""
+
+#: ../../usage.rst:15
+msgid "Connection Management"
+msgstr ""
+
+#: ../../usage.rst:17
+msgid "Managing device connections:"
+msgstr ""
+
+#: ../../usage.rst:34
+msgid "Using context manager (recommended):"
+msgstr ""
+
+#: ../../usage.rst:43
+msgid "Sending Commands"
+msgstr ""
+
+#: ../../usage.rst:45
+msgid "Send commands to your device:"
+msgstr ""
+
+#: ../../usage.rst:59
+msgid "Advanced Features"
+msgstr ""
+
+#: ../../usage.rst:62
+msgid "Async Operations"
+msgstr ""
+
+#: ../../usage.rst:64
+msgid "For non-blocking operations:"
+msgstr ""
+
+#: ../../usage.rst:79
+msgid "Event Handling"
+msgstr ""
+
+#: ../../usage.rst:81
+msgid "Listen for device events:"
+msgstr ""
+
+#: ../../usage.rst:92
+msgid "Configuration"
+msgstr ""
+
+#: ../../usage.rst:94
+msgid ""
+"You can configure ByByte using a configuration file or environment "
+"variables."
+msgstr ""
+
+#: ../../usage.rst:97
+msgid "Configuration File"
+msgstr ""
+
+#: ../../usage.rst:99
+msgid "Create a ``config.ini`` file:"
+msgstr ""
+
+#: ../../usage.rst:112
+msgid "Load configuration:"
+msgstr ""
+
+#: ../../usage.rst:119
+msgid "Environment Variables"
+msgstr ""
+
+#: ../../usage.rst:121
+msgid "Alternatively, use environment variables:"
+msgstr ""
+
+#: ../../usage.rst:129
+msgid "Best Practices"
+msgstr ""
+
+#: ../../usage.rst:131
+msgid "**Always close connections** - Use context managers when possible"
+msgstr ""
+
+#: ../../usage.rst:132
+msgid "**Handle exceptions** - Wrap operations in try-except blocks"
+msgstr ""
+
+#: ../../usage.rst:133
+msgid "**Set appropriate timeouts** - Prevent hanging operations"
+msgstr ""
+
+#: ../../usage.rst:134
+msgid "**Validate responses** - Check command responses before using them"
+msgstr ""
+
+#: ../../usage.rst:135
+msgid "**Log operations** - Enable logging for debugging"
+msgstr ""
+
+#: ../../usage.rst:138
+msgid "Error Handling"
+msgstr ""
+
+#: ../../usage.rst:140
+msgid "Common exceptions and how to handle them:"
+msgstr ""
+
+#: ../../usage.rst:164
+msgid "See Also"
+msgstr ""
+
+#: ../../usage.rst:166
+msgid ":doc:`api` - Complete API reference"
+msgstr ""
+
+#: ../../usage.rst:167
+msgid ":doc:`quickstart` - Quick start guide"
+msgstr ""
+
+#: ../../usage.rst:168
+msgid ":doc:`contributing` - Contributing guidelines"
+msgstr ""
+

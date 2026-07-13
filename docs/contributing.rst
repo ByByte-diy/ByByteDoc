@@ -20,7 +20,7 @@ Clone the repository:
 
 .. code-block:: bash
 
-   git clone https://github.com/vergilium/ByByte.git
+   git clone --recurse-submodules https://github.com/vergilium/ByByteDoc.git
    cd ByByte
 
 Install development dependencies:
@@ -29,31 +29,18 @@ Install development dependencies:
 
    pip install -r requirements-dev.txt
 
+.. note::
+
+   Use the README.md for additional setup instructions.
+
 Coding Standards
 ----------------
 
 * Follow PEP 8 style guide for Python code
 * Use meaningful variable and function names
 * Add docstrings to all functions and classes
-* Write unit tests for new features
+* Write unit tests for new features if applicable
 * Keep commits focused and atomic
-
-Testing
--------
-
-Run tests before submitting:
-
-.. code-block:: bash
-
-   # Run unit tests
-   pytest tests/
-
-   # Run with coverage
-   pytest --cov=bybyte tests/
-
-   # Run linting
-   flake8 bybyte/
-   pylint bybyte/
 
 Documentation
 -------------
@@ -69,6 +56,8 @@ Update documentation when adding new features:
       cd docs
       make html
       # Open docs/_build/html/index.html
+4. update locale files if needed. (See `README.md` for instructions)
+5. make a pull request with your changes
 
 Submitting Changes
 ------------------
