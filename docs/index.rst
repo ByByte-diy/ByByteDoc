@@ -43,7 +43,6 @@ Home
 
    home/about
    home/mission
-   home/quick-start
    home/organization-documents
 
 Platforms

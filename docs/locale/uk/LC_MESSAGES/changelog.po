@@ -8,83 +8,72 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ByByte 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 12:58+0300\n"
+"POT-Creation-Date: 2026-07-13 19:59+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: uk\n"
 "Language-Team: uk <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../changelog.rst:2
 msgid "Changelog"
-msgstr ""
+msgstr "Журнал змін"
 
 #: ../../changelog.rst:4
 msgid "All notable changes to this project will be documented in this file."
 msgstr ""
+"Усі значущі зміни в цьому проєкті будуть задокументовані в цьому файлі."
 
 #: ../../changelog.rst:7
-msgid "Version 1.0.0 (2025-01-XX)"
-msgstr ""
+msgid "Version 1.0.0 (Development)"
+msgstr "Версія 1.0.0 (Розробка)"
 
 #: ../../changelog.rst:9
 msgid "Initial release."
-msgstr ""
+msgstr "Початковий випуск."
 
 #: ../../changelog.rst:12
 msgid "Added"
-msgstr ""
+msgstr "Додано"
 
 #: ../../changelog.rst:14
-msgid "Basic device communication"
-msgstr ""
+msgid "Basic project structure and documentation"
+msgstr "Базова структура проєкту та документація"
 
 #: ../../changelog.rst:15
-msgid "Serial port support"
-msgstr ""
+msgid "ByByte Nano platform overview and documentation"
+msgstr "Огляд платформи ByByte Nano та документація"
 
 #: ../../changelog.rst:16
-msgid "Command sending and receiving"
-msgstr ""
+msgid "Contributing guidelines and instructions"
+msgstr "Рекомендації та інструкції щодо участі в розробці"
 
 #: ../../changelog.rst:17
-msgid "Configuration management"
-msgstr ""
+msgid "Changelog file for tracking changes and updates"
+msgstr "Файл журналу змін для відстеження оновлень"
 
 #: ../../changelog.rst:18
-msgid "Comprehensive documentation"
-msgstr ""
+msgid ""
+"Additional information section for project principles and development "
+"history"
+msgstr "Розділ додаткової інформації про принципи проєкту та історію розробки"
 
-#: ../../changelog.rst:19
-msgid "Example scripts"
-msgstr ""
-
-#: ../../changelog.rst:22
+#: ../../changelog.rst:21
 msgid "Fixed"
-msgstr ""
+msgstr "Виправлено"
 
-#: ../../changelog.rst:24
+#: ../../changelog.rst:23
 msgid "Initial bug fixes"
-msgstr ""
+msgstr "Початкові виправлення помилок"
 
-#: ../../changelog.rst:27
+#: ../../changelog.rst:26
 msgid "Changed"
-msgstr ""
+msgstr "Змінено"
 
-#: ../../changelog.rst:29
+#: ../../changelog.rst:28
 msgid "Initial implementation"
-msgstr ""
-
-#: ../../changelog.rst:32
-msgid "Version 0.1.0 (Development)"
-msgstr ""
-
-#: ../../changelog.rst:34
-msgid "Initial development version"
-msgstr ""
-
+msgstr "Початкова реалізація"

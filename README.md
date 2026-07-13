@@ -128,6 +128,8 @@ The documentation is written in English (`en`) and can be translated into other
 locales using [`sphinx-intl`](https://www.sphinx-doc.org/en/master/usage/advanced/intl.html).
 Translation catalogs live in `docs/locale/<lang>/LC_MESSAGES/`.
 
+#### Manual Translation Setup
+
 Run all commands from the **project root**. Replace `uk` with your target locale code
 (e.g. `de`, `fr`, `es`).
 
@@ -141,12 +143,86 @@ Run all commands from the **project root**. Replace `uk` with your target locale
    sphinx-intl update -p docs/_build/gettext -d docs/locale -l uk
    ```
 
-3. **Translate** the generated `.po` files in `docs/locale/uk/LC_MESSAGES/`.
+3. **Translate** the generated `.po` files in `docs/locale/uk/LC_MESSAGES/` manually or use the automatic translation script below.
 
 4. **Build the HTML for that locale** into its own output folder:
    ```bash
    sphinx-build -b html -D language=uk docs docs/_build/html/uk
    ```
+
+#### Automatic Translation with AI (Gemini)
+
+For fast and consistent translations, use the `translate_po.py` script to automatically
+translate `.po` files using the Google Gemini API. First, create the `.po` files using
+the manual setup steps above (steps 1–2).
+
+**Prerequisites:**
+
+1. Set the `GEMINI_API_KEY` environment variable with your Google Gemini API key:
+
+   **Linux/macOS:**
+   ```bash
+   export GEMINI_API_KEY="your-api-key-here"
+   ```
+
+   **Windows (PowerShell):**
+   ```powershell
+   $env:GEMINI_API_KEY = "your-api-key-here"
+   ```
+
+   **Windows (Command Prompt):**
+   ```cmd
+   set GEMINI_API_KEY=your-api-key-here
+   ```
+
+2. Install Python dependencies:
+   ```bash
+   pip install -r docs/requirements.txt pyyaml google-genai
+   ```
+
+**Usage:**
+
+Translate a `.po` file to Ukrainian (default):
+```bash
+python scripts/translate_po.py docs/locale/uk/LC_MESSAGES/index.po
+```
+
+Translate to a specific language:
+```bash
+python scripts/translate_po.py docs/locale/uk/LC_MESSAGES/index.po --language uk
+python scripts/translate_po.py docs/locale/ru/LC_MESSAGES/index.po --language ru
+```
+
+See available languages and options:
+```bash
+python scripts/translate_po.py --help
+```
+
+**Adding a New Language:**
+
+1. Create a rule file `scripts/rule_xx.md` (where `xx` is the language code):
+
+```markdown
+---
+name: German
+target_language: German
+---
+
+You are a professional technical translator for the ByByte-DIY robotics
+education project.
+
+Translate English Sphinx documentation into natural, technically accurate
+German.
+
+Rules:
+- Preserve the complete meaning.
+- Use natural German suitable for educational technical documentation.
+- Preserve all Sphinx/reStructuredText markup.
+- Preserve placeholders exactly.
+- ...
+```
+
+2. The script automatically discovers the new language. No code changes needed!
 
 #### Paths to open a built locale
 
@@ -177,21 +253,25 @@ ByByteDoc/
 │   ├── github/          #   ByByte-diy/.github — org docs & policies
 │   └── bybyte-nano/     #   ByByte-diy/ByByteNano — BOM & hardware assets
 └── docs/
-    ├── conf.py          # Sphinx configuration
-    ├── index.rst        # Main documentation page
-    ├── installation.rst # Installation guide
-    ├── quickstart.rst   # Quick start guide
-    ├── usage.rst        # Usage guide
-    ├── api.rst          # API reference
-    ├── changelog.rst    # Version changelog
-    ├── contributing.rst # Contributing guidelines
-    ├── requirements.txt # Python dependencies
-    ├── Makefile         # Sphinx makefile (Linux/macOS)
-    ├── make.bat         # Sphinx build script (Windows)
-    ├── _ext/            # Custom Sphinx extensions
-    │   └── shared_include/  # Rewrites links in shared/ includes
-    ├── _static/         # Static files (images, CSS, etc.)
-    └── locale/          # Translation catalogs (.po) per locale
+   ├── index.rst            # Main documentation page
+   ├── contributing.rst     # Contributing guidelines
+   ├── changelog.rst        # Version changelog
+   ├── home/
+   │   ├── about.rst        # About section
+   │   ├── mission.rst      # Mission section
+   │   ├── quick-start.rst  # Quick start section
+   │   └── organization-documents.rst  # Organization documents section
+   │
+   ├── platforms/           # Platforms documentation files
+   │
+   ├── conf.py              # Sphinx configuration
+   ├── requirements.txt     # Python dependencies
+   ├── Makefile             # Sphinx makefile (Linux/macOS)
+   ├── make.bat             # Sphinx build script (Windows)
+   ├── _ext/                # Custom Sphinx extensions
+   │   └── shared_include/  # Rewrites links in shared/ includes
+   ├── _static/             # Static files (images, CSS, etc.)
+   └── locale/              # Translation catalogs (.po) per locale
 ```
 
 ## ✏️ Contributing to Documentation

@@ -4,6 +4,7 @@ import argparse
 import os
 import sys
 import time
+import yaml
 from pathlib import Path
 
 import polib
@@ -12,30 +13,120 @@ from google.genai import types
 from pydantic import BaseModel, Field
 
 
-SYSTEM_PROMPT = """
-You are a professional technical translator for the ByByte-DIY robotics
-education project.
+# ============================================================================
+# Sphinx Documentation Translation Script via Gemini API
+# ============================================================================
+# 
+# This script translates Sphinx gettext PO files to multiple target languages
+# using the Gemini API. Each language has its own rule file (rule_ua.md, rule_ru.md, etc.)
+# that defines translation guidelines and system prompts.
+#
+# Usage:
+#   python translate_po.py path/to/file.po                  # Translate to Ukrainian (default)
+#   python translate_po.py path/to/file.po --language uk    # Explicit Ukrainian
+#   python translate_po.py path/to/file.po --language ru    # Russian translation
+#   python translate_po.py path/to/file.po --language uk --dry-run --batch-size 10
+#
+# To add a new language:
+#   1. Create a new file: rule_xx.md (where xx is language code)
+#   2. Use YAML frontmatter for metadata: name, target_language
+#   3. Add translation system prompt after frontmatter
+#   4. No script modification needed!
+#
+# Rule file format (rule_ua.md):
+#   ---
+#   name: Ukrainian
+#   target_language: Ukrainian
+#   ---
+#   
+#   You are a professional technical translator...
+#
+# Environment:
+#   Set GEMINI_API_KEY environment variable before running
+# ============================================================================
 
-Translate English Sphinx documentation into natural, technically accurate
-Ukrainian.
 
-Rules:
-- Preserve the complete meaning.
-- Use natural Ukrainian suitable for educational technical documentation.
-- Preserve all Sphinx/reStructuredText markup.
-- Preserve placeholders exactly.
-- Preserve URLs, reference targets, code, commands, file paths, API names,
-  function names, variable names, hardware model numbers, and product names.
-- Do not translate: ByByte-DIY, ByByte Nano, ByByte Mega, ByByte NanoBoy,
-  Arduino, ESP32, ESP32-CAM, GitHub, Discord, YouTube.
-- Do not add explanations or information absent from the source.
-- Return exactly one translation for every input item.
-"""
+def get_rules_dir() -> Path:
+    """Get the directory containing rule files."""
+    return Path(__file__).parent
+
+
+def parse_rule_file(rule_path: Path) -> dict:
+    """
+    Parse a rule markdown file with YAML frontmatter.
+    
+    Returns a dict with:
+        - name: Language name
+        - target_language: Target language for prompts
+        - system_prompt: Full system prompt from file content
+    """
+    content = rule_path.read_text(encoding="utf-8")
+    
+    # Split frontmatter and content
+    if not content.startswith("---"):
+        raise ValueError(f"Rule file must start with YAML frontmatter: {rule_path}")
+    
+    parts = content.split("---", 2)
+    if len(parts) < 3:
+        raise ValueError(f"Invalid rule file format: {rule_path}")
+    
+    frontmatter_text = parts[1]
+    prompt_text = parts[2].strip()
+    
+    # Parse YAML frontmatter
+    try:
+        metadata = yaml.safe_load(frontmatter_text)
+    except yaml.YAMLError as e:
+        raise ValueError(f"Invalid YAML in {rule_path}: {e}")
+    
+    if not isinstance(metadata, dict):
+        raise ValueError(f"Rule file frontmatter must be a YAML object: {rule_path}")
+    
+    required_fields = {"name", "target_language"}
+    missing_fields = required_fields - set(metadata.keys())
+    if missing_fields:
+        raise ValueError(
+            f"Rule file missing required fields: {missing_fields} in {rule_path}"
+        )
+    
+    return {
+        "name": metadata["name"],
+        "target_language": metadata["target_language"],
+        "system_prompt": prompt_text,
+    }
+
+
+def load_available_rules() -> dict:
+    """
+    Load all available translation rules from rule_*.md files.
+    
+    Returns dict: {language_code: {name, target_language, system_prompt}}
+    """
+    rules_dir = get_rules_dir()
+    rules = {}
+    
+    for rule_file in sorted(rules_dir.glob("rule_*.md")):
+        language_code = rule_file.stem.replace("rule_", "")
+        
+        try:
+            rule = parse_rule_file(rule_file)
+            rules[language_code] = rule
+        except Exception as e:
+            print(f"Warning: Failed to load {rule_file}: {e}", file=sys.stderr)
+    
+    if not rules:
+        print(
+            "No translation rules found. Create rule_*.md files in the scripts directory.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    
+    return rules
 
 
 class Translation(BaseModel):
     id: int = Field(description="The unchanged numeric ID of the source item")
-    translation: str = Field(description="Ukrainian translation")
+    translation: str = Field(description="Target language translation")
 
 
 class TranslationBatch(BaseModel):
@@ -43,6 +134,10 @@ class TranslationBatch(BaseModel):
 
 
 def parse_args():
+    # Load available rules to populate choices
+    available_rules = load_available_rules()
+    available_languages = sorted(available_rules.keys())
+    
     parser = argparse.ArgumentParser(
         description="Translate a Sphinx gettext PO file using Gemini."
     )
@@ -51,6 +146,13 @@ def parse_args():
         "file",
         type=Path,
         help="Path to the .po file",
+    )
+
+    parser.add_argument(
+        "--language",
+        default="uk",
+        choices=available_languages,
+        help=f"Target language (default: uk). Available: {', '.join(available_languages)}",
     )
 
     parser.add_argument(
@@ -136,11 +238,13 @@ def translate_batch(
     model: str,
     entries,
     max_retries: int,
+    system_prompt: str,
+    target_language: str,
 ):
     batch = build_batch(entries)
 
     prompt = f"""
-Translate the following entries into Ukrainian.
+Translate the following entries into {target_language}.
 
 The `id` field is an immutable identifier. Return the same IDs.
 
@@ -155,7 +259,7 @@ Input entries:
                 model=model,
                 contents=prompt,
                 config=types.GenerateContentConfig(
-                    system_instruction=SYSTEM_PROMPT,
+                    system_instruction=system_prompt,
                     temperature=0.1,
                     response_mime_type="application/json",
                     response_schema=TranslationBatch,
@@ -204,6 +308,19 @@ def main():
         print(f"File not found: {args.file}", file=sys.stderr)
         sys.exit(1)
 
+    # Load all available rules and validate language
+    available_rules = load_available_rules()
+    
+    if args.language not in available_rules:
+        print(
+            f"Unknown language: {args.language}\n"
+            f"Available: {', '.join(sorted(available_rules.keys()))}",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    rule = available_rules[args.language]
+
     api_key = os.environ.get("GEMINI_API_KEY")
 
     if not api_key:
@@ -225,6 +342,7 @@ def main():
         return
 
     print(f"File: {args.file}")
+    print(f"Language: {rule['name']} ({args.language})")
     print(f"Model: {args.model}")
     print(f"Entries: {len(entries)}")
     print(f"Batch size: {args.batch_size}")
@@ -260,6 +378,8 @@ def main():
             model=args.model,
             entries=batch_entries,
             max_retries=args.max_retries,
+            system_prompt=rule["system_prompt"],
+            target_language=rule["target_language"],
         )
 
         for index, entry in enumerate(batch_entries):
