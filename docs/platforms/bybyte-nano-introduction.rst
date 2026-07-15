@@ -49,7 +49,7 @@ The standard ByByte Nano robot includes a variety of sensors and modules that al
 These components make it possible to create projects involving autonomous navigation, obstacle avoidance, remote control, environmental monitoring, and many other robotics applications.
 
 Learning Philosophy
-------------------
+--------------------
 
 The ByByte Nano educational approach is based on the principle:
 

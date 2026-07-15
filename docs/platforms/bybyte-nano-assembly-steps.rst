@@ -28,8 +28,8 @@ Once the regulator has been configured and tested, set aside all power-related c
 
 Two DC-DC regulator variants can be used with the robot: 
 
-* `Mini-360 <https://components101.com/modules/mini360-dc-dc-buck-converter-module>`_
-* `HW-613 <https://ampere-electronics.com/product/hw-613-mini-step-down-module-12-24vdc-to-5vdc-3a>`_ (recommended)
+* `Mini-360 <../_static/img/mini360-module.jpg>`_
+* `HW-613 <../_static/img/hw613-module.png>`_ (recommended)
  
 The HW-613 is the recommended option because it supports selecting a predefined output voltage using solder jumpers. The Mini-360 requires voltage adjustment by turning a potentiometer. When the robot is used by children, the potentiometer may be accidentally rotated, changing the voltage setting and potentially damaging robot components. If the HW-613 is not available and a Mini-360 is used, the potentiometer should be secured after adjustment, for example with a small drop of suitable adhesive.
 

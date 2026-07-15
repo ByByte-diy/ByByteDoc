@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-13 20:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../contributing.rst:2
+msgid "Contributing"
+msgstr "Вклад в проект"
+
+#: ../../contributing.rst:4
+msgid ""
+"We welcome contributions to ByByte! This document provides guidelines for "
+"contributing."
+msgstr ""
+"Мы приветствуем вклад в развитие БАБАЙ! В этом документе приведены "
+"рекомендации по внесению вклада."
+
+#: ../../contributing.rst:7
+msgid "Getting Started"
+msgstr "Начало работы"
+
+#: ../../contributing.rst:9
+msgid "Fork the repository on GitHub"
+msgstr "Сделайте форк репозитория на GitHub"
+
+#: ../../contributing.rst:10
+msgid "Clone your fork locally"
+msgstr "Клонируйте свой форк локально"
+
+#: ../../contributing.rst:11
+msgid "Create a new branch for your feature or bugfix"
+msgstr "Создайте новую ветку для вашей функции или исправления ошибки"
+
+#: ../../contributing.rst:12
+msgid "Make your changes"
+msgstr "Внесите свои изменения"
+
+#: ../../contributing.rst:13
+msgid "Test your changes"
+msgstr "Протестируйте свои изменения"
+
+#: ../../contributing.rst:14
+msgid "Submit a pull request"
+msgstr "Отправьте pull request"
+
+#: ../../contributing.rst:17
+msgid "Development Setup"
+msgstr "Настройка среды разработки"
+
+#: ../../contributing.rst:19
+msgid "Clone the repository:"
+msgstr "Клонируйте репозиторий:"
+
+#: ../../contributing.rst:26
+msgid "Install development dependencies:"
+msgstr "Установите зависимости для разработки:"
+
+#: ../../contributing.rst:34
+msgid "Use the README.md for additional setup instructions."
+msgstr ""
+"Используйте README.md для получения дополнительных инструкций по настройке."
+
+#: ../../contributing.rst:37
+msgid "Coding Standards"
+msgstr "Стандарты кодирования"
+
+#: ../../contributing.rst:39
+msgid "Follow PEP 8 style guide for Python code"
+msgstr "Следуйте руководству по стилю PEP 8 для кода на Python"
+
+#: ../../contributing.rst:40
+msgid "Use meaningful variable and function names"
+msgstr "Используйте осмысленные имена переменных и функций"
+
+#: ../../contributing.rst:41
+msgid "Add docstrings to all functions and classes"
+msgstr "Добавляйте docstrings ко всем функциям и классам"
+
+#: ../../contributing.rst:42
+msgid "Write unit tests for new features if applicable"
+msgstr "Пишите модульные тесты для новых функций, если это применимо"
+
+#: ../../contributing.rst:43
+msgid "Keep commits focused and atomic"
+msgstr "Делайте коммиты сфокусированными и атомарными"
+
+#: ../../contributing.rst:46
+msgid "Documentation"
+msgstr "Документация"
+
+#: ../../contributing.rst:48
+msgid "Update documentation when adding new features:"
+msgstr "Обновляйте документацию при добавлении новых функций:"
+
+#: ../../contributing.rst:50
+msgid "Add docstrings to code"
+msgstr "Добавляйте docstrings в код"
+
+#: ../../contributing.rst:51
+msgid "Update relevant .rst files in docs/"
+msgstr "Обновляйте соответствующие файлы .rst в папке docs/"
+
+#: ../../contributing.rst:52
+msgid "Build documentation locally to verify:"
+msgstr "Соберите документацию локально для проверки:"
+
+#: ../../contributing.rst:59
+msgid "update locale files if needed. (See `README.md` for instructions)"
+msgstr ""
+"обновите файлы локализации, если это необходимо. (Инструкции см. в "
+"`README.md`)"
+
+#: ../../contributing.rst:60
+msgid "make a pull request with your changes"
+msgstr "создайте pull request с вашими изменениями"
+
+#: ../../contributing.rst:63
+msgid "Submitting Changes"
+msgstr "Отправка изменений"
+
+#: ../../contributing.rst:66
+msgid "Pull Request Process"
+msgstr "Процесс pull request"
+
+#: ../../contributing.rst:68
+msgid "Update the README.md with details of changes if needed"
+msgstr ""
+"Обновите README.md с подробным описанием изменений, если это необходимо"
+
+#: ../../contributing.rst:69
+msgid "Update the CHANGELOG.rst with your changes"
+msgstr "Обновите CHANGELOG.rst с вашими изменениями"
+
+#: ../../contributing.rst:70
+msgid "Ensure all tests pass"
+msgstr "Убедитесь, что все тесты проходят"
+
+#: ../../contributing.rst:71
+msgid "Submit pull request with clear description"
+msgstr "Отправьте pull request с четким описанием"
+
+#: ../../contributing.rst:74
+msgid "Commit Messages"
+msgstr "Сообщения коммитов"
+
+#: ../../contributing.rst:76
+msgid "Write clear commit messages:"
+msgstr "Пишите понятные сообщения коммитов:"
+
+#: ../../contributing.rst:78
+msgid "Use present tense (\"Add feature\" not \"Added feature\")"
+msgstr "Используйте настоящее время («Add feature», а не «Added feature»)"
+
+#: ../../contributing.rst:79
+msgid "Use imperative mood (\"Move cursor to...\" not \"Moves cursor to...\")"
+msgstr ""
+"Используйте повелительное наклонение («Move cursor to...», а не «Moves "
+"cursor to...»)"
+
+#: ../../contributing.rst:80
+msgid "Limit first line to 72 characters"
+msgstr "Ограничьте первую строку 72 символами"
+
+#: ../../contributing.rst:81
+msgid "Reference issues and pull requests"
+msgstr "Ссылайтесь на issues и pull requests"
+
+#: ../../contributing.rst:83
+msgid "Example:"
+msgstr "Пример:"
+
+#: ../../contributing.rst:97
+msgid "Code Review"
+msgstr "Обзор кода"
+
+#: ../../contributing.rst:99
+msgid ""
+"All submissions require review. We use GitHub pull requests for this "
+"purpose."
+msgstr ""
+"Все материалы требуют проверки. Для этого мы используем GitHub pull "
+"requests."
+
+#: ../../contributing.rst:101
+msgid "Reviewers will check:"
+msgstr "Рецензенты проверят:"
+
+#: ../../contributing.rst:103
+msgid "Code quality and style"
+msgstr "Качество и стиль кода"
+
+#: ../../contributing.rst:104
+msgid "Test coverage"
+msgstr "Покрытие тестами"
+
+#: ../../contributing.rst:105
+msgid "Documentation completeness"
+msgstr "Полноту документации"
+
+#: ../../contributing.rst:106
+msgid "Backwards compatibility"
+msgstr "Обратную совместимость"
+
+#: ../../contributing.rst:109
+msgid "Bug Reports"
+msgstr "Отчеты об ошибках"
+
+#: ../../contributing.rst:111
+msgid "When filing a bug report, include:"
+msgstr "При подаче отчета об ошибке укажите:"
+
+#: ../../contributing.rst:113
+msgid "Clear description of the issue"
+msgstr "Четкое описание проблемы"
+
+#: ../../contributing.rst:114
+msgid "Steps to reproduce"
+msgstr "Шаги для воспроизведения"
+
+#: ../../contributing.rst:115
+msgid "Expected behavior"
+msgstr "Ожидаемое поведение"
+
+#: ../../contributing.rst:116
+msgid "Actual behavior"
+msgstr "Фактическое поведение"
+
+#: ../../contributing.rst:117
+msgid "System information (OS, Python version, etc.)"
+msgstr "Системную информацию (ОС, версию Python и т. д.)"
+
+#: ../../contributing.rst:118
+msgid "Error messages and stack traces"
+msgstr "Сообщения об ошибках и трассировки стека"
+
+#: ../../contributing.rst:121
+msgid "Feature Requests"
+msgstr "Запросы на добавление функций"
+
+#: ../../contributing.rst:123
+msgid "We welcome feature requests! Please include:"
+msgstr "Мы приветствуем запросы на добавление функций! Пожалуйста, укажите:"
+
+#: ../../contributing.rst:125
+msgid "Clear description of the feature"
+msgstr "Четкое описание функции"
+
+#: ../../contributing.rst:126
+msgid "Use cases and benefits"
+msgstr "Варианты использования и преимущества"
+
+#: ../../contributing.rst:127
+msgid "Possible implementation approach"
+msgstr "Возможный подход к реализации"
+
+#: ../../contributing.rst:128
+msgid "Willingness to contribute implementation"
+msgstr "Готовность помочь с реализацией"
+
+#: ../../contributing.rst:131
+msgid "Community"
+msgstr "Сообщество"
+
+#: ../../contributing.rst:133
+msgid "Be respectful and inclusive"
+msgstr "Будьте уважительны и инклюзивны"
+
+#: ../../contributing.rst:134
+msgid "Welcome newcomers"
+msgstr "Приветствуйте новичков"
+
+#: ../../contributing.rst:135
+msgid "Help others learn"
+msgstr "Помогайте другим учиться"
+
+#: ../../contributing.rst:136
+msgid "Give constructive feedback"
+msgstr "Давайте конструктивную обратную связь"
+
+#: ../../contributing.rst:139
+msgid "License"
+msgstr "Лицензия"
+
+#: ../../contributing.rst:141
+msgid ""
+"By contributing, you agree that your contributions will be licensed under "
+"the same license as the project."
+msgstr ""
+"Внося свой вклад, вы соглашаетесь с тем, что ваши материалы будут "
+"лицензированы на тех же условиях, что и проект."
+
+#: ../../contributing.rst:144
+msgid "Questions?"
+msgstr "Есть вопросы?"
+
+#: ../../contributing.rst:146
+msgid "If you have questions about contributing, feel free to:"
+msgstr "Если у вас есть вопросы по поводу участия, не стесняйтесь:"
+
+#: ../../contributing.rst:148
+msgid "Open an issue on GitHub"
+msgstr "Открыть issue на GitHub"
+
+#: ../../contributing.rst:149
+msgid "Contact the maintainers"
+msgstr "Связаться с сопровождающими проекта"
+
+#: ../../contributing.rst:150
+msgid "Join our community discussions"
+msgstr "Присоединиться к обсуждениям в нашем сообществе"
+
+#: ../../contributing.rst:152
+msgid "Thank you for contributing to ByByte! 🎉"
+msgstr "Спасибо, что вносите свой вклад в БАБАЙ! 🎉"
