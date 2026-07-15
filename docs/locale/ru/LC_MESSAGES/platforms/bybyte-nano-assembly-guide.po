@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-13 20:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:8
+msgid "Package Options"
+msgstr "Варианты комплектации"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:8
+msgid "Bill of Materials"
+msgstr "Спецификация компонентов"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:8
+msgid "Assembly Steps"
+msgstr "Этапы сборки"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:8
+msgid "Troubleshooting"
+msgstr "Устранение неисправностей"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:2
+msgid "ByByte Nano Assembly Guide"
+msgstr "Руководство по сборке БАБАЙ Nano"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:4
+msgid ""
+"This section describes the hardware assembly process of the ByByte Nano "
+"robot platform."
+msgstr ""
+"В этом разделе описан процесс сборки аппаратной части робототехнической "
+"платформы БАБАЙ Nano."
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:6
+msgid ""
+"Before starting assembly, verify that all required components are available "
+"and that you have the necessary tools for soldering and mechanical assembly."
+msgstr ""
+"Перед началом сборки убедитесь, что все необходимые компоненты в наличии, а "
+"также имеются инструменты для пайки и механической сборки."
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:17
+msgid "Overview"
+msgstr "Обзор"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:19
+msgid ""
+"The ByByte Nano platform is designed with a modular architecture. Users can "
+"build a minimal robot configuration and later expand it with additional "
+"sensors and modules."
+msgstr ""
+"Платформа БАБАЙ Nano разработана с использованием модульной архитектуры. "
+"Пользователи могут собрать минимальную конфигурацию робота, а затем "
+"расширить её дополнительными датчиками и модулями."
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:21
+msgid "The assembly process consists of four major stages:"
+msgstr "Процесс сборки состоит из четырех основных этапов:"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:23
+msgid "Selecting a robot configuration."
+msgstr "Выбор конфигурации робота."
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:24
+msgid "Preparing all required components."
+msgstr "Подготовка всех необходимых компонентов."
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:25
+msgid "Understanding the hardware modules."
+msgstr "Изучение аппаратных модулей."
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:26
+msgid "Assembling and testing the robot."
+msgstr "Сборка и тестирование робота."
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:29
+msgid "Assembly Difficulty"
+msgstr "Сложность сборки"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:32
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:32
+msgid "Difficulty"
+msgstr "Сложность"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:34
+msgid "Basic"
+msgstr "Базовая"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:34
+msgid "Beginner"
+msgstr "Для начинающих"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:36
+msgid "Basic + Side Sensors"
+msgstr "Базовая + боковые датчики"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:36
+#: ../../platforms/bybyte-nano-assembly-guide.rst:38
+msgid "Intermediate"
+msgstr "Средняя"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:38
+msgid "Basic + Camera"
+msgstr "Базовая + камера"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:42
+msgid "Tools Required"
+msgstr "Необходимые инструменты"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:44
+msgid "Soldering iron"
+msgstr "Паяльник"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:45
+msgid "Solder wire"
+msgstr "Припой"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:46
+msgid "Side cutters"
+msgstr "Бокорезы"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:47
+msgid "Pliers"
+msgstr "Плоскогубцы"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:48
+msgid "Small screwdrivers"
+msgstr "Маленькие отвертки"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:49
+msgid "Utility knife"
+msgstr "Универсальный нож"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:50
+msgid "Multimeter"
+msgstr "Мультиметр"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:51
+msgid "Tweezers (optional)"
+msgstr "Пинцет (опционально)"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:52
+msgid "PCB holder (optional)"
+msgstr "Держатель для печатных плат (опционально)"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:53
+msgid "Heat-resistant mat (optional)"
+msgstr "Термостойкий коврик (опционально)"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:56
+msgid "Safety Notes"
+msgstr "Техника безопасности"
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:60
+msgid ""
+"Assembly requires soldering and the use of electronic tools. Children should"
+" perform assembly under adult supervision."
+msgstr ""
+"Сборка требует пайки и использования электронных инструментов. Дети должны "
+"выполнять сборку под присмотром взрослых."
+
+#: ../../platforms/bybyte-nano-assembly-guide.rst:65
+msgid "Always disconnect the battery before modifying or servicing the robot."
+msgstr ""
+"Всегда отключайте аккумулятор перед модификацией или обслуживанием робота."

@@ -1,0 +1,325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-13 20:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../platforms/bybyte-nano-specifications.rst:2
+msgid "ByByte Nano Specifications"
+msgstr "Технические характеристики ByByte Nano"
+
+#: ../../platforms/bybyte-nano-specifications.rst:4
+msgid ""
+"This page provides an overview of the hardware specifications of the ByByte "
+"Nano educational robot platform."
+msgstr ""
+"На этой странице представлен обзор аппаратных характеристик образовательной "
+"робототехнической платформы ByByte Nano."
+
+#: ../../platforms/bybyte-nano-specifications.rst:7
+msgid "General"
+msgstr "Общие сведения"
+
+#: ../../platforms/bybyte-nano-specifications.rst:10
+#: ../../platforms/bybyte-nano-specifications.rst:27
+#: ../../platforms/bybyte-nano-specifications.rst:57
+#: ../../platforms/bybyte-nano-specifications.rst:70
+#: ../../platforms/bybyte-nano-specifications.rst:110
+msgid "Parameter"
+msgstr "Параметр"
+
+#: ../../platforms/bybyte-nano-specifications.rst:10
+#: ../../platforms/bybyte-nano-specifications.rst:27
+#: ../../platforms/bybyte-nano-specifications.rst:57
+#: ../../platforms/bybyte-nano-specifications.rst:70
+#: ../../platforms/bybyte-nano-specifications.rst:110
+msgid "Value"
+msgstr "Значение"
+
+#: ../../platforms/bybyte-nano-specifications.rst:12
+msgid "Platform Type"
+msgstr "Тип платформы"
+
+#: ../../platforms/bybyte-nano-specifications.rst:12
+msgid "Educational Mobile Robot"
+msgstr "Образовательный мобильный робот"
+
+#: ../../platforms/bybyte-nano-specifications.rst:14
+msgid "Controller"
+msgstr "Контроллер"
+
+#: ../../platforms/bybyte-nano-specifications.rst:14
+msgid "Arduino Nano (ATmega328p) Compatible"
+msgstr "Совместим с Arduino Nano (ATmega328p)"
+
+#: ../../platforms/bybyte-nano-specifications.rst:16
+msgid "Architecture"
+msgstr "Архитектура"
+
+#: ../../platforms/bybyte-nano-specifications.rst:16
+msgid "AVR 8-bit"
+msgstr "AVR 8-бит"
+
+#: ../../platforms/bybyte-nano-specifications.rst:18
+msgid "Programming Language"
+msgstr "Язык программирования"
+
+#: ../../platforms/bybyte-nano-specifications.rst:18
+msgid "C/C++ (Arduino Framework)"
+msgstr "C/C++ (фреймворк Arduino)"
+
+#: ../../platforms/bybyte-nano-specifications.rst:20
+msgid "Expansion Support"
+msgstr "Поддержка расширений"
+
+#: ../../platforms/bybyte-nano-specifications.rst:20
+msgid "Yes"
+msgstr "Да"
+
+#: ../../platforms/bybyte-nano-specifications.rst:24
+msgid "Locomotion"
+msgstr "Передвижение"
+
+#: ../../platforms/bybyte-nano-specifications.rst:29
+msgid "Drive Type"
+msgstr "Тип привода"
+
+#: ../../platforms/bybyte-nano-specifications.rst:29
+msgid "Differential Drive"
+msgstr "Дифференциальный привод"
+
+#: ../../platforms/bybyte-nano-specifications.rst:31
+msgid "Motors"
+msgstr "Двигатели"
+
+#: ../../platforms/bybyte-nano-specifications.rst:31
+msgid "2 x DC Gear Motors"
+msgstr "2 x мотор-редуктора постоянного тока"
+
+#: ../../platforms/bybyte-nano-specifications.rst:33
+msgid "Wheel Count"
+msgstr "Количество колес"
+
+#: ../../platforms/bybyte-nano-specifications.rst:33
+msgid "2 Drive Wheels + 2 x Caster Wheels"
+msgstr "2 ведущих колеса + 2 опорных ролика"
+
+#: ../../platforms/bybyte-nano-specifications.rst:37
+msgid "Sensors"
+msgstr "Датчики"
+
+#: ../../platforms/bybyte-nano-specifications.rst:40
+msgid "Sensor"
+msgstr "Датчик"
+
+#: ../../platforms/bybyte-nano-specifications.rst:40
+msgid "Quantity"
+msgstr "Количество"
+
+#: ../../platforms/bybyte-nano-specifications.rst:42
+msgid "Line Tracking Sensors"
+msgstr "Датчики линии"
+
+#: ../../platforms/bybyte-nano-specifications.rst:42
+msgid "5"
+msgstr "5"
+
+#: ../../platforms/bybyte-nano-specifications.rst:44
+msgid "Ultrasonic Distance Sensor"
+msgstr "Ультразвуковой датчик расстояния"
+
+#: ../../platforms/bybyte-nano-specifications.rst:44
+#: ../../platforms/bybyte-nano-specifications.rst:48
+#: ../../platforms/bybyte-nano-specifications.rst:50
+msgid "1"
+msgstr "1"
+
+#: ../../platforms/bybyte-nano-specifications.rst:46
+msgid "Infrared Obstacle Sensors"
+msgstr "Инфракрасные датчики препятствий"
+
+#: ../../platforms/bybyte-nano-specifications.rst:46
+msgid "2"
+msgstr "2"
+
+#: ../../platforms/bybyte-nano-specifications.rst:48
+msgid "Light Sensor"
+msgstr "Датчик освещенности"
+
+#: ../../platforms/bybyte-nano-specifications.rst:50
+msgid "Infrared Receiver"
+msgstr "Инфракрасный приемник"
+
+#: ../../platforms/bybyte-nano-specifications.rst:54
+msgid "Communication"
+msgstr "Связь"
+
+#: ../../platforms/bybyte-nano-specifications.rst:59
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: ../../platforms/bybyte-nano-specifications.rst:59
+msgid "HC-05 / HC-06 / HC-02 Compatible"
+msgstr "Совместим с HC-05 / HC-06 / HC-02"
+
+#: ../../platforms/bybyte-nano-specifications.rst:61
+msgid "USB"
+msgstr "USB"
+
+#: ../../platforms/bybyte-nano-specifications.rst:61
+msgid "USB Programming Interface"
+msgstr "Интерфейс программирования USB"
+
+#: ../../platforms/bybyte-nano-specifications.rst:63
+msgid "IR receiver"
+msgstr "ИК-приемник"
+
+#: ../../platforms/bybyte-nano-specifications.rst:63
+msgid "Receiver IR remote control"
+msgstr "Приемник для ИК-пульта дистанционного управления"
+
+#: ../../platforms/bybyte-nano-specifications.rst:67
+msgid "Indicators"
+msgstr "Индикаторы"
+
+#: ../../platforms/bybyte-nano-specifications.rst:72
+msgid "RGB LEDs"
+msgstr "RGB светодиоды"
+
+#: ../../platforms/bybyte-nano-specifications.rst:72
+msgid "2 x WS2812"
+msgstr "2 x WS2812"
+
+#: ../../platforms/bybyte-nano-specifications.rst:74
+msgid "Green LED"
+msgstr "Зеленый светодиод"
+
+#: ../../platforms/bybyte-nano-specifications.rst:74
+msgid "1 x Power LED"
+msgstr "1 x светодиод питания"
+
+#: ../../platforms/bybyte-nano-specifications.rst:78
+msgid "Optional Modules"
+msgstr "Дополнительные модули"
+
+#: ../../platforms/bybyte-nano-specifications.rst:81
+msgid "Module"
+msgstr "Модуль"
+
+#: ../../platforms/bybyte-nano-specifications.rst:81
+msgid "Description"
+msgstr "Описание"
+
+#: ../../platforms/bybyte-nano-specifications.rst:83
+msgid "ESP Camera"
+msgstr "ESP Camera"
+
+#: ../../platforms/bybyte-nano-specifications.rst:83
+msgid "Front-facing camera module"
+msgstr "Фронтальный модуль камеры"
+
+#: ../../platforms/bybyte-nano-specifications.rst:87
+msgid "Educational Features"
+msgstr "Образовательные возможности"
+
+#: ../../platforms/bybyte-nano-specifications.rst:89
+msgid "Line following"
+msgstr "Следование по линии"
+
+#: ../../platforms/bybyte-nano-specifications.rst:90
+msgid "Obstacle avoidance"
+msgstr "Обход препятствий"
+
+#: ../../platforms/bybyte-nano-specifications.rst:91
+msgid "Remote control"
+msgstr "Дистанционное управление"
+
+#: ../../platforms/bybyte-nano-specifications.rst:92
+msgid "Autonomous navigation"
+msgstr "Автономная навигация"
+
+#: ../../platforms/bybyte-nano-specifications.rst:93
+msgid "Sensor data acquisition"
+msgstr "Сбор данных с датчиков"
+
+#: ../../platforms/bybyte-nano-specifications.rst:94
+msgid "Environmental monitoring"
+msgstr "Мониторинг окружающей среды"
+
+#: ../../platforms/bybyte-nano-specifications.rst:95
+msgid "Bluetooth communication"
+msgstr "Связь по Bluetooth"
+
+#: ../../platforms/bybyte-nano-specifications.rst:96
+msgid "Computer vision experiments (with optional ESP camera)"
+msgstr "Эксперименты с компьютерным зрением (с опциональной камерой ESP-CAM)"
+
+#: ../../platforms/bybyte-nano-specifications.rst:99
+msgid "Power"
+msgstr "Питание"
+
+#: ../../platforms/bybyte-nano-specifications.rst:101
+msgid "Battery powered (9v 6F22)"
+msgstr "Питание от батареи (9В 6F22)"
+
+#: ../../platforms/bybyte-nano-specifications.rst:102
+msgid "Rechargeable battery support"
+msgstr "Поддержка аккумуляторных батарей"
+
+#: ../../platforms/bybyte-nano-specifications.rst:105
+msgid "Physical Dimensions"
+msgstr "Физические размеры"
+
+#: ../../platforms/bybyte-nano-specifications.rst:107
+msgid ""
+"The exact dimensions and weight may vary depending on the robot revision."
+msgstr ""
+"Точные размеры и вес могут варьироваться в зависимости от ревизии робота."
+
+#: ../../platforms/bybyte-nano-specifications.rst:112
+msgid "Length"
+msgstr "Длина"
+
+#: ../../platforms/bybyte-nano-specifications.rst:112
+msgid "147mm"
+msgstr "147 мм"
+
+#: ../../platforms/bybyte-nano-specifications.rst:114
+msgid "Width"
+msgstr "Ширина"
+
+#: ../../platforms/bybyte-nano-specifications.rst:114
+msgid "132mm"
+msgstr "132 мм"
+
+#: ../../platforms/bybyte-nano-specifications.rst:116
+msgid "Height"
+msgstr "Высота"
+
+#: ../../platforms/bybyte-nano-specifications.rst:116
+msgid "60mm"
+msgstr "60 мм"
+
+#: ../../platforms/bybyte-nano-specifications.rst:118
+msgid "Weight"
+msgstr "Вес"
+
+#: ../../platforms/bybyte-nano-specifications.rst:118
+msgid "217g"
+msgstr "217 г"

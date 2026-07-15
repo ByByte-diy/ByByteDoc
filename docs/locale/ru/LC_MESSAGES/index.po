@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-13 20:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../index.rst:56 ../../index.rst:65
+msgid "ByByte Nano"
+msgstr "ByByte Nano"
+
+#: ../../index.rst:2
+msgid "ByByte Documentation"
+msgstr "Документация БАБАЙ.DIY"
+
+#: ../../index.rst:4
+msgid "**Open-source robotics, electronics, and STEM education.**"
+msgstr ""
+"**Робототехника, электроника и STEM-образование с открытым исходным кодом.**"
+
+#: ../../index.rst:6
+msgid "Welcome to the official **ByByte.DIY documentation**."
+msgstr "Добро пожаловать в официальную **документацию БАБАЙ.DIY**."
+
+#: ../../index.rst:8
+msgid "ByByte.DIY open-source educational robotics projects"
+msgstr ""
+"Образовательные робототехнические проекты БАБАЙ.DIY с открытым исходным "
+"кодом"
+
+#: ../../index.rst:13
+msgid ""
+"ByByte.DIY is an open-source educational ecosystem built around a simple "
+"idea: the best way to understand technology is to build it yourself."
+msgstr ""
+"БАБАЙ.DIY — это образовательная экосистема с открытым исходным кодом, "
+"построенная на простой идее: лучший способ понять технологии — это создать "
+"их самостоятельно."
+
+#: ../../index.rst:16
+msgid ""
+"Here you can explore our robotics platforms, learn how the hardware works, "
+"assemble your own devices, program them, experiment with electronics, and "
+"use the same materials for self-learning, STEM education, or robotics "
+"classes."
+msgstr ""
+"Здесь вы можете изучить наши робототехнические платформы, узнать, как "
+"работает оборудование, собрать свои собственные устройства, "
+"запрограммировать их, поэкспериментировать с электроникой и использовать те "
+"же материалы для самообучения, STEM-образования или занятий по "
+"робототехнике."
+
+#: ../../index.rst:21
+msgid "🚧 **The project is under active development.**"
+msgstr "🚧 **Проект находится в стадии активной разработки.**"
+
+#: ../../index.rst:23
+msgid ""
+"Some sections of the documentation are still being written and may change as"
+" the hardware, software, and educational materials evolve."
+msgstr ""
+"Некоторые разделы документации еще пишутся и могут измениться по мере "
+"развития аппаратного обеспечения, программного обеспечения и учебных "
+"материалов."
+
+#: ../../index.rst:27
+msgid "Start Exploring"
+msgstr "Начать изучение"
+
+#: ../../index.rst:29
+msgid ""
+"New to the project? Start with the introduction to understand what "
+"ByByte.DIY is and how the ecosystem is organized."
+msgstr ""
+"Впервые в проекте? Начните с введения, чтобы понять, что такое БАБАЙ.DIY и "
+"как устроена экосистема."
+
+#: ../../index.rst:32
+msgid ""
+"Already building a robot? Go directly to the platform documentation for "
+"specifications, components, assembly instructions, and troubleshooting."
+msgstr ""
+"Уже собираете робота? Переходите сразу к документации по платформе, где вы "
+"найдете спецификации, компоненты, инструкции по сборке и устранению "
+"неполадок."
+
+#: ../../index.rst:35
+msgid ""
+"Looking for the project principles, contribution guidelines, or development "
+"history? See the additional information section."
+msgstr ""
+"Ищете принципы проекта, рекомендации по участию или историю разработки? "
+"Ознакомьтесь с разделом дополнительной информации."
+
+#: ../../index.rst:39
+msgid "Home"
+msgstr "Главная"
+
+#: ../../index.rst:49
+msgid "Platforms"
+msgstr "Платформы"
+
+#: ../../index.rst:51
+msgid ""
+"ByByte.DIY platforms are designed as practical learning tools rather than "
+"finished consumer products. Each platform provides a foundation for "
+"exploring electronics, programming, robotics, and engineering through real "
+"hardware."
+msgstr ""
+"Платформы БАБАЙ.DIY разработаны как практические инструменты обучения, а не"
+" как готовые потребительские товары. Каждая платформа служит фундаментом для"
+" изучения электроники, программирования, робототехники и инженерии на "
+"реальном оборудовании."
+
+#: ../../index.rst:58
+msgid ""
+"**ByByte Nano** is a compact Arduino Nano–based educational robot designed "
+"for learning robotics from the ground up."
+msgstr ""
+"**БАБАЙ Nano** — это компактный образовательный робот на базе Arduino Nano,"
+" предназначенный для изучения робототехники с нуля."
+
+#: ../../index.rst:61
+msgid ""
+"Build the robot yourself, understand its electronic systems, program its "
+"behavior, work with sensors and motors, and gradually move toward more "
+"advanced topics such as autonomous navigation and computer vision."
+msgstr ""
+"Соберите робота самостоятельно, разберитесь в его электронных системах, "
+"запрограммируйте его поведение, поработайте с датчиками и двигателями и "
+"постепенно переходите к более сложным темам, таким как автономная навигация "
+"и компьютерное зрение."
+
+#: ../../index.rst:70
+msgid "🔧 More platforms are coming"
+msgstr "🔧 Другие платформы в разработке"
+
+#: ../../index.rst:73
+msgid "**TODO:** Add a short overview of future ByByte.DIY platforms here."
+msgstr "**TODO:** Добавить здесь краткий обзор будущих платформ БАБАЙ.DIY."
+
+#: ../../index.rst:76
+msgid "Additional Information"
+msgstr "Дополнительная информация"
+
+#: ../../index.rst:78
+msgid ""
+"The project is continuously evolving. Use these sections to follow "
+"development and learn how to participate."
+msgstr ""
+"Проект постоянно развивается. Используйте эти разделы, чтобы следить за "
+"разработкой и узнать, как принять участие."
+
+#: ../../index.rst:88
+msgid "Why ByByte.DIY?"
+msgstr "Почему БАБАЙ.DIY?"
+
+#: ../../index.rst:90
+msgid ""
+"ByByte.DIY is built around openness, practical learning, and "
+"experimentation."
+msgstr ""
+"БАБАЙ.DIY строится на принципах открытости, практического обучения и "
+"экспериментов."
+
+#: ../../index.rst:92
+msgid ""
+"**🔓 Open by design** Hardware designs, software, documentation, and "
+"educational materials are created to be studied, modified, and improved."
+msgstr ""
+"**🔓 Открытость по дизайну** Аппаратные проекты, программное обеспечение, "
+"документация и учебные материалы созданы для того, чтобы их можно было "
+"изучать, изменять и улучшать."
+
+#: ../../index.rst:96
+msgid ""
+"**🛠 Learn by building** Instead of treating hardware as a black box, "
+"learners assemble devices, explore how individual components work, and solve"
+" real technical problems."
+msgstr ""
+"**🛠 Обучение через создание** Вместо того чтобы относиться к оборудованию "
+"как к «черному ящику», учащиеся собирают устройства, исследуют работу "
+"отдельных компонентов и решают реальные технические задачи."
+
+#: ../../index.rst:100
+msgid ""
+"**📚 Built for education** The ecosystem is intended for independent "
+"learners, teachers, robotics clubs, makerspaces, and anyone interested in "
+"practical STEM education."
+msgstr ""
+"**📚 Создано для образования** Экосистема предназначена для самостоятельных "
+"учащихся, преподавателей, кружков робототехники, мейкерспейсов и всех, кто "
+"интересуется практическим STEM-образованием."
+
+#: ../../index.rst:104
+msgid ""
+"**🌱 Designed to grow** Start with basic electronics and programming, then "
+"progress toward robotics, embedded systems, wireless communication, computer"
+" vision, and more."
+msgstr ""
+"**🌱 Развитие вместе с вами** Начните с основ электроники и программирования,"
+" а затем переходите к робототехнике, встраиваемым системам, беспроводной "
+"связи, компьютерному зрению и многому другому."
+
+#: ../../index.rst:110
+msgid "Community"
+msgstr "Сообщество"
+
+#: ../../index.rst:112
+msgid ""
+"ByByte.DIY grows through people who build, learn, teach, experiment, and "
+"share."
+msgstr ""
+"БАБАЙ.DIY растет благодаря людям, которые создают, учатся, преподают, "
+"экспериментируют и делятся опытом."
+
+#: ../../index.rst:114
+msgid ""
+"You can contribute by improving hardware, developing software, creating "
+"educational materials, reporting issues, improving documentation, or simply "
+"building something new with the platform."
+msgstr ""
+"Вы можете внести свой вклад, улучшая аппаратное обеспечение, разрабатывая "
+"программное обеспечение, создавая учебные материалы, сообщая о проблемах, "
+"улучшая документацию или просто создавая что-то новое на базе этой "
+"платформы."
+
+#: ../../index.rst:117
+msgid "🌍 Community links"
+msgstr "🌍 Ссылки на сообщество"
+
+#: ../../index.rst:120
+msgid ""
+"`**Discord** <https://discord.gg/t5wnTq3C'>`_ channel for real-time "
+"discussion, questions, and support."
+msgstr ""
+"`**Discord** <https://discord.gg/t5wnTq3C'>`_ канал для общения в реальном "
+"времени, вопросов и поддержки."
+
+#: ../../index.rst:122
+msgid ""
+"`**Telegram** <https://t.me/bybytediy'>`_ channel for project updates and "
+"community announcements."
+msgstr ""
+"`**Telegram** <https://t.me/bybytediy'>`_ канал для обновлений проекта и "
+"объявлений сообщества."
+
+#: ../../index.rst:125
+msgid "What's Next?"
+msgstr "Что дальше?"
+
+#: ../../index.rst:127
+msgid "🚀 Project updates"
+msgstr "🚀 Обновления проекта"
+
+#: ../../index.rst:130
+msgid ""
+"**TODO:** Add current development highlights, recently released platforms, "
+"featured lessons, or important project announcements."
+msgstr ""
+"**TODO:** Добавьте актуальные новости разработки, недавно выпущенные "
+"платформы, избранные уроки или важные объявления о проекте."
+
+#: ../../index.rst:134
+msgid "**Build it. Understand it. Improve it. Share it.**"
+msgstr "**Собери. Пойми. Улучши. Поделись.**"

@@ -1,0 +1,1278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-13 20:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:2
+msgid "ByByte Nano Troubleshooting"
+msgstr "Устранение неполадок ByByte Nano"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:5
+msgid "Power supply issues 🔌"
+msgstr "Проблемы с питанием 🔌"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:8
+msgid "Power LED does not light up after enabling the power switch"
+msgstr "Светодиод питания не загорается после включения выключателя"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:10
+msgid "**Symptoms**:"
+msgstr "**Симптомы**:"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:12
+msgid "The 5 V power circuit has been soldered."
+msgstr "Цепь питания 5 В припаяна."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:13
+msgid "The power source is connected."
+msgstr "Источник питания подключен."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:14
+msgid "The power switch is turned on."
+msgstr "Выключатель питания включен."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:15
+msgid "The power indicator LED remains off."
+msgstr "Светодиодный индикатор питания не горит."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:16
+msgid "No 5 V power is present on the board."
+msgstr "На плате отсутствует напряжение 5 В."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:18
+#: ../../platforms/bybyte-nano-troubleshooting.rst:77
+#: ../../platforms/bybyte-nano-troubleshooting.rst:187
+#: ../../platforms/bybyte-nano-troubleshooting.rst:275
+#: ../../platforms/bybyte-nano-troubleshooting.rst:384
+#: ../../platforms/bybyte-nano-troubleshooting.rst:405
+#: ../../platforms/bybyte-nano-troubleshooting.rst:426
+msgid "**Possible causes and checks:**"
+msgstr "**Возможные причины и проверки:**"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:20
+msgid "**Check the power source** 🔋"
+msgstr "**Проверьте источник питания** 🔋"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:22
+msgid ""
+"Verify that the battery or external power supply is charged and connected "
+"correctly. Measure the voltage directly at the power input connector."
+msgstr ""
+"Убедитесь, что аккумулятор или внешний источник питания заряжены и "
+"подключены правильно. Измерьте напряжение непосредственно на разъеме "
+"питания."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:24
+msgid "**Inspect solder joints** 🔍"
+msgstr "**Осмотрите места пайки** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:26
+msgid ""
+"Carefully inspect all solder joints in the 5 V power circuit. Cold solder "
+"joints, solder bridges, or unsoldered pins may interrupt power delivery."
+msgstr ""
+"Внимательно осмотрите все места пайки в цепи питания 5 В. Холодная пайка, "
+"перемычки из припоя или непропаянные контакты могут прерывать подачу "
+"питания."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:28
+msgid "**Verify component orientation** 🔍"
+msgstr "**Проверьте полярность компонентов** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:30
+msgid "Check that all polarized components are installed correctly:"
+msgstr "Убедитесь, что все поляризованные компоненты установлены правильно:"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:32
+msgid "Voltage regulator"
+msgstr "Стабилизатор напряжения"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:33
+msgid "Protection diode"
+msgstr "Защитный диод"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:34
+msgid "Electrolytic capacitors"
+msgstr "Электролитические конденсаторы"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:35
+msgid "Power indicator LED"
+msgstr "Светодиодный индикатор питания"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:37
+msgid "**Check the power switch** 🔍"
+msgstr "**Проверьте выключатель питания** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:39
+msgid ""
+"Use a multimeter in continuity mode to verify that the switch closes the "
+"circuit when turned on."
+msgstr ""
+"Используйте мультиметр в режиме прозвонки, чтобы убедиться, что выключатель "
+"замыкает цепь при включении."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:41
+msgid "**Measure voltage step by step** 🔍"
+msgstr "**Измерьте напряжение пошагово** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:43
+msgid "Follow the power path with a multimeter:"
+msgstr "Проследите путь питания с помощью мультиметра:"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:45
+msgid "Power input connector"
+msgstr "Разъем питания"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:46
+msgid "Before the power switch"
+msgstr "До выключателя питания"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:47
+msgid "After the power switch"
+msgstr "После выключателя питания"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:48
+msgid "Regulator input"
+msgstr "Вход стабилизатора"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:49
+msgid "Regulator output (5 V rail)"
+msgstr "Выход стабилизатора (линия 5 В)"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:51
+msgid ""
+"The point where voltage disappears usually indicates the location of the "
+"fault."
+msgstr ""
+"Точка, в которой пропадает напряжение, обычно указывает на место "
+"неисправности."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:53
+msgid "**Check for short circuits** ⚡"
+msgstr "**Проверьте наличие короткого замыкания** ⚡"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:55
+msgid ""
+"With power disconnected, measure the resistance between the 5 V rail and "
+"GND. A very low resistance may indicate a solder bridge or incorrectly "
+"installed component."
+msgstr ""
+"При отключенном питании измерьте сопротивление между линией 5 В и GND. Очень"
+" низкое сопротивление может указывать на перемычку из припоя или неправильно"
+" установленный компонент."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:57
+#: ../../platforms/bybyte-nano-troubleshooting.rst:161
+#: ../../platforms/bybyte-nano-troubleshooting.rst:260
+#: ../../platforms/bybyte-nano-troubleshooting.rst:365
+#: ../../platforms/bybyte-nano-troubleshooting.rst:392
+#: ../../platforms/bybyte-nano-troubleshooting.rst:413
+#: ../../platforms/bybyte-nano-troubleshooting.rst:435
+msgid "**Expected result:**"
+msgstr "**Ожидаемый результат:**"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:59
+msgid ""
+"After correcting the issue, the power indicator LED should illuminate when "
+"the switch is turned on, and a stable 5 V supply should be present on the "
+"board."
+msgstr ""
+"После устранения проблемы светодиодный индикатор питания должен загораться "
+"при включении выключателя, а на плате должно присутствовать стабильное "
+"напряжение 5 В."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:62
+msgid ""
+"When assembling a configuration that includes the optional 3.3 V power rail,"
+" the assembly and verification procedure is almost identical to the 5 V "
+"rail. The main difference is that the 3.3 V circuit does not include a power"
+" indicator LED or the protection diode used in the 5 V supply path. Apart "
+"from these omitted components, install and inspect the regulator, "
+"capacitors, filters, and all other associated parts in the same manner as "
+"described for the 5 V power supply. Verify the output voltage after assembly"
+" and confirm that the 3.3 V rail is free of shorts before continuing."
+msgstr ""
+"При сборке конфигурации, включающей дополнительную линию питания 3,3 В, "
+"процедура сборки и проверки практически идентична линии 5 В. Основное "
+"отличие заключается в том, что цепь 3,3 В не включает светодиодный индикатор"
+" питания или защитный диод, используемый в цепи питания 5 В. Помимо этих "
+"отсутствующих компонентов, устанавливайте и проверяйте стабилизатор, "
+"конденсаторы, фильтры и все остальные связанные детали так же, как описано "
+"для источника питания 5 В. Проверьте выходное напряжение после сборки и "
+"убедитесь, что на линии 3,3 В нет коротких замыканий, прежде чем продолжать."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:65
+msgid "Motor issues 🔄"
+msgstr "Проблемы с двигателями 🔄"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:68
+msgid "Motors do not move after uploading the test firmware"
+msgstr "Двигатели не вращаются после загрузки тестовой прошивки"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:70
+#: ../../platforms/bybyte-nano-troubleshooting.rst:180
+#: ../../platforms/bybyte-nano-troubleshooting.rst:267
+#: ../../platforms/bybyte-nano-troubleshooting.rst:378
+#: ../../platforms/bybyte-nano-troubleshooting.rst:399
+#: ../../platforms/bybyte-nano-troubleshooting.rst:420
+msgid "**Symptoms:**"
+msgstr "**Симптомы:**"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:72
+#: ../../platforms/bybyte-nano-troubleshooting.rst:380
+msgid "The robot powers on normally."
+msgstr "Робот включается нормально."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:73
+msgid "The controller is programmed successfully."
+msgstr "Контроллер успешно запрограммирован."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:74
+msgid "The test firmware starts running."
+msgstr "Тестовая прошивка запускается."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:75
+msgid "The motors do not rotate, or only one motor rotates."
+msgstr "Двигатели не вращаются или вращается только один двигатель."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:79
+msgid "**Check motor solder joints** 🔍"
+msgstr "**Проверьте места пайки двигателей** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:81
+msgid ""
+"Inspect the solder joints between the motor terminals and the motor adapter "
+"boards. Poor solder joints or broken connections can prevent power from "
+"reaching the motors."
+msgstr ""
+"Осмотрите места пайки между выводами двигателей и платами-адаптерами "
+"двигателей. Плохая пайка или обрыв соединений могут препятствовать подаче "
+"питания на двигатели."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:83
+msgid ""
+"Gently pull on the wires or adapter board and verify that the connection is "
+"mechanically secure."
+msgstr ""
+"Аккуратно потяните за провода или плату-адаптер и убедитесь, что соединение "
+"механически надежно."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:85
+msgid "**Check motor driver solder joints** 🔍"
+msgstr "**Проверьте места пайки драйвера двигателей** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:87
+msgid ""
+"Carefully inspect all solder joints associated with the motor driver socket "
+"and surrounding components. Look for:"
+msgstr ""
+"Внимательно осмотрите все места пайки, связанные с разъемом драйвера "
+"двигателей и окружающими компонентами. Ищите:"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:89
+#: ../../platforms/bybyte-nano-troubleshooting.rst:283
+msgid "Cold solder joints"
+msgstr "Холодную пайку"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:90
+#: ../../platforms/bybyte-nano-troubleshooting.rst:284
+msgid "Unsoldered pins"
+msgstr "Непропаянные контакты"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:91
+#: ../../platforms/bybyte-nano-troubleshooting.rst:285
+msgid "Solder bridges between adjacent pins"
+msgstr "Перемычки из припоя между соседними контактами"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:93
+msgid "**Verify motor driver installation** 🔍"
+msgstr "**Проверка установки драйвера двигателя** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:95
+msgid ""
+"Ensure that the motor driver module is inserted into the socket in the "
+"correct orientation."
+msgstr ""
+"Убедитесь, что модуль драйвера двигателя вставлен в разъем в правильной "
+"ориентации."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:97
+msgid ""
+"Installing the driver backwards may prevent operation and can potentially "
+"damage the module."
+msgstr ""
+"Установка драйвера в обратном направлении может предотвратить работу и "
+"потенциально повредить модуль."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:99
+msgid ""
+"Compare the driver orientation with the PCB markings and assembly "
+"photographs."
+msgstr ""
+"Сравните ориентацию драйвера с маркировкой на печатной плате и фотографиями "
+"сборки."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:101
+msgid "**Check motor driver power** 🔍"
+msgstr "**Проверка питания драйвера двигателя** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:103
+msgid "Most motor driver modules include a power indicator LED."
+msgstr ""
+"Большинство модулей драйверов двигателей оснащены светодиодным индикатором "
+"питания."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:105
+msgid "Turn on the robot."
+msgstr "Включите робота."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:106
+msgid "Verify that the LED on the motor driver is illuminated."
+msgstr "Убедитесь, что светодиод на драйвере двигателя светится."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:107
+msgid "If the LED is off, measure the supply voltage on the driver module."
+msgstr ""
+"Если светодиод не горит, измерьте напряжение питания на модуле драйвера."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:109
+msgid ""
+"If no voltage is present, inspect the power connections between the main PCB"
+" and the driver."
+msgstr ""
+"Если напряжение отсутствует, проверьте соединения питания между основной "
+"печатной платой и драйвером."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:111
+msgid "**Verify motor connector installation** 🔍"
+msgstr "**Проверка установки разъемов двигателей** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:113
+msgid ""
+"Confirm that both motor connectors are fully inserted and connected to the "
+"correct sockets."
+msgstr ""
+"Убедитесь, что оба разъема двигателей полностью вставлены и подключены к "
+"правильным гнездам."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:115
+msgid ""
+"A partially inserted connector may appear connected while making poor "
+"electrical contact."
+msgstr ""
+"Частично вставленный разъем может выглядеть подключенным, но иметь плохой "
+"электрический контакт."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:117
+msgid "**Measure voltage on motor outputs** 🔍"
+msgstr "**Измерение напряжения на выходах двигателей** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:119
+msgid ""
+"While the test firmware is commanding the motors to run, measure the voltage"
+" on the motor output terminals of the driver."
+msgstr ""
+"Пока тестовая прошивка подает команду на работу двигателей, измерьте "
+"напряжение на выходных клеммах драйвера для двигателей."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:121
+msgid ""
+"If voltage is present but the motor does not rotate, the problem is likely "
+"in the motor wiring or the motor itself. If no voltage is present, the issue"
+" is likely related to the driver, controller signals, or firmware "
+"configuration."
+msgstr ""
+"Если напряжение присутствует, но двигатель не вращается, проблема, скорее "
+"всего, в проводке двигателя или в самом двигателе. Если напряжение "
+"отсутствует, проблема, вероятно, связана с драйвером, сигналами контроллера "
+"или конфигурацией прошивки."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:124
+msgid "**Check controller installation** 🔍"
+msgstr "**Проверка установки контроллера** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:126
+msgid ""
+"Verify that the Arduino controller is correctly installed in its socket and "
+"fully seated."
+msgstr ""
+"Убедитесь, что контроллер Arduino правильно установлен в свой разъем и "
+"плотно посажен."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:128
+msgid ""
+"Bent pins or poor contact can prevent the motor control signals from "
+"reaching the driver."
+msgstr ""
+"Погнутые контакты или плохой контакт могут помешать сигналам управления "
+"двигателем дойти до драйвера."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:130
+msgid "**Verify firmware configuration** 🔍"
+msgstr "**Проверка конфигурации прошивки** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:132
+msgid ""
+"Ensure that the correct test firmware was uploaded and that the motor "
+"control pins match the hardware revision being assembled."
+msgstr ""
+"Убедитесь, что была загружена правильная тестовая прошивка и что контакты "
+"управления двигателем соответствуют собираемой ревизии оборудования."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:134
+msgid "If custom firmware is used, verify:"
+msgstr "Если используется пользовательская прошивка, проверьте:"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:136
+msgid "Motor enable pins"
+msgstr "Контакты разрешения работы двигателей (enable)"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:137
+msgid "Direction pins"
+msgstr "Контакты направления"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:138
+msgid "PWM outputs"
+msgstr "Выходы ШИМ (PWM)"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:140
+msgid "**Check battery voltage under load** 🔍"
+msgstr "**Проверка напряжения аккумулятора под нагрузкой** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:142
+msgid ""
+"A weak or discharged battery may provide enough power for the controller but"
+" not enough current for the motors."
+msgstr ""
+"Слабый или разряженный аккумулятор может обеспечивать достаточно питания для"
+" контроллера, но недостаточно тока для двигателей."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:144
+msgid ""
+"Measure the battery voltage while the motors are commanded to run. A "
+"significant voltage drop indicates that the battery should be charged or "
+"replaced."
+msgstr ""
+"Измерьте напряжение аккумулятора, пока двигатели работают по команде. "
+"Значительное падение напряжения указывает на то, что аккумулятор следует "
+"зарядить или заменить."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:146
+msgid "**Test motors directly** 🔍"
+msgstr "**Прямое тестирование двигателей** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:148
+msgid ""
+"Disconnect the motors from the driver and briefly connect them directly to a"
+" suitable power source."
+msgstr ""
+"Отсоедините двигатели от драйвера и кратковременно подключите их напрямую к "
+"подходящему источнику питания."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:150
+msgid ""
+"If a motor does not rotate during this test, the motor or its wiring may be "
+"defective."
+msgstr ""
+"Если двигатель не вращается во время этого теста, возможно, неисправен сам "
+"двигатель или его проводка."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:152
+msgid "**Check for mechanical blockage** 🔍"
+msgstr "**Проверка на наличие механических препятствий** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:154
+#: ../../platforms/bybyte-nano-troubleshooting.rst:297
+msgid "Verify that:"
+msgstr "Убедитесь, что:"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:156
+msgid "Wheels rotate freely."
+msgstr "Колеса вращаются свободно."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:157
+msgid "No screws are rubbing against moving parts."
+msgstr "Винты не трутся о движущиеся части."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:158
+msgid "Wires are not trapped in the drivetrain."
+msgstr "Провода не зажаты в трансмиссии."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:159
+msgid "The gearbox is not damaged."
+msgstr "Редуктор не поврежден."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:163
+msgid ""
+"When the motor driver receives power and control signals correctly, both "
+"motors should rotate during the test program. If only one motor operates, "
+"compare the wiring, solder joints, and driver connections of the working "
+"side with the non-working side to identify the difference."
+msgstr ""
+"Когда драйвер двигателя получает питание и управляющие сигналы корректно, "
+"оба двигателя должны вращаться во время выполнения тестовой программы. Если "
+"работает только один двигатель, сравните проводку, паяные соединения и "
+"подключения драйвера на работающей стороне с неработающей, чтобы выявить "
+"разницу."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:166
+msgid "**USB Power and Motor Operation**"
+msgstr "**Питание от USB и работа двигателей**"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:168
+msgid ""
+"When the robot is powered from the USB connector, the controller, sensors, "
+"LEDs, and other low-power electronics can operate even if the main power "
+"switch is turned off. This allows firmware upload, debugging, and basic "
+"testing without enabling the motor power circuit."
+msgstr ""
+"Когда робот питается от USB-разъема, контроллер, датчики, светодиоды и "
+"другая маломощная электроника могут работать, даже если главный выключатель "
+"питания выключен. Это позволяет загружать прошивку, выполнять отладку и "
+"базовое тестирование без включения цепи питания двигателей."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:170
+msgid ""
+"However, the motors are powered through the switched power path. If the "
+"power switch is in the OFF position, the motor driver will not receive motor"
+" supply voltage and the motors will not move."
+msgstr ""
+"Однако двигатели питаются через коммутируемую цепь питания. Если выключатель"
+" питания находится в положении OFF, драйвер двигателя не получит напряжение "
+"питания двигателей, и они не будут двигаться."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:172
+msgid ""
+"To operate the motors, the main power switch must be turned ON, regardless "
+"of whether the robot is powered from the battery or from USB."
+msgstr ""
+"Для работы двигателей главный выключатель питания должен быть включен (ON), "
+"независимо от того, питается ли робот от аккумулятора или от USB."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:175
+msgid "Arduino issues 💻"
+msgstr "Проблемы с Arduino 💻"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:178
+msgid "Arduino Nano cannot be programmed"
+msgstr "Arduino Nano не программируется"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:182
+msgid "The Arduino Nano is connected to a computer using a USB cable."
+msgstr "Arduino Nano подключена к компьютеру с помощью USB-кабеля."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:183
+msgid "The Arduino IDE cannot upload firmware."
+msgstr "Arduino IDE не может загрузить прошивку."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:184
+msgid "An error message appears during upload."
+msgstr "Во время загрузки появляется сообщение об ошибке."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:185
+msgid "The board does not appear in the list of available serial ports."
+msgstr "Плата не отображается в списке доступных последовательных портов."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:189
+msgid "**Check the USB cable** 🔌"
+msgstr "**Проверьте USB-кабель** 🔌"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:191
+msgid ""
+"Many USB cables are intended only for charging and do not contain data "
+"wires."
+msgstr ""
+"Многие USB-кабели предназначены только для зарядки и не содержат проводов "
+"для передачи данных."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:193
+msgid "Try a known-good USB data cable and reconnect the board."
+msgstr ""
+"Попробуйте заведомо исправный USB-кабель для передачи данных и "
+"переподключите плату."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:195
+msgid "**Verify USB connection** 🔍"
+msgstr "**Проверьте USB-подключение** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:197
+msgid ""
+"Ensure that the USB connector is fully inserted into both the computer and "
+"the Arduino Nano."
+msgstr ""
+"Убедитесь, что USB-разъем полностью вставлен как в компьютер, так и в "
+"Arduino Nano."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:199
+msgid "Inspect the connector for mechanical damage or poor solder joints."
+msgstr ""
+"Осмотрите разъем на предмет механических повреждений или некачественной "
+"пайки."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:201
+msgid "**Check that the board powers up** ⚡"
+msgstr "**Проверьте, включается ли питание платы** ⚡"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:203
+msgid ""
+"When connected through USB, the power LED on the Arduino Nano should "
+"illuminate."
+msgstr ""
+"При подключении через USB светодиод питания на Arduino Nano должен "
+"загореться."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:205
+msgid ""
+"If no LEDs light up, verify the USB cable and inspect the board for shorts."
+msgstr ""
+"Если светодиоды не горят, проверьте USB-кабель и осмотрите плату на наличие "
+"коротких замыканий."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:207
+msgid "**Select the correct board** 🔍"
+msgstr "**Выберите правильную плату** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:209
+msgid "In the Arduino IDE, verify that the correct board type is selected:"
+msgstr "В Arduino IDE убедитесь, что выбран правильный тип платы:"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:211
+msgid "Tools → Board → Arduino Nano"
+msgstr "Инструменты → Плата → Arduino Nano"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:213
+msgid "**Select the correct processor** 🔍"
+msgstr "**Выберите правильный процессор** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:215
+msgid "Some Nano-compatible boards use the older bootloader."
+msgstr "Некоторые платы, совместимые с Nano, используют старый загрузчик."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:217
+msgid "If upload fails, try:"
+msgstr "Если загрузка не удалась, попробуйте:"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:219
+msgid "Tools → Processor → ATmega328P"
+msgstr "Инструменты → Процессор → ATmega328P"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:220
+msgid "Tools → Processor → ATmega328P (Old Bootloader)"
+msgstr "Инструменты → Процессор → ATmega328P (Old Bootloader)"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:222
+msgid "Test both options if you are unsure which version is installed."
+msgstr "Проверьте оба варианта, если не уверены, какая версия установлена."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:224
+msgid "**Select the correct serial port** 🔍"
+msgstr "**Выберите правильный последовательный порт** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:226
+msgid ""
+"Verify that the correct COM port (Windows) or serial device (Linux/macOS) is"
+" selected in the Arduino IDE."
+msgstr ""
+"Убедитесь, что в Arduino IDE выбран правильный COM-порт (Windows) или "
+"последовательное устройство (Linux/macOS)."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:228
+msgid "Disconnect and reconnect the board to identify which port appears."
+msgstr ""
+"Отключите и снова подключите плату, чтобы определить, какой порт появился."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:230
+msgid "**Install USB drivers** 💻"
+msgstr "**Установите USB-драйверы** 💻"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:232
+msgid "Many Nano-compatible boards use the CH340 USB-to-serial converter."
+msgstr ""
+"Многие платы, совместимые с Nano, используют преобразователь USB-to-serial "
+"CH340."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:234
+msgid ""
+"If the board is not detected by the operating system, install the "
+"appropriate USB driver and reconnect the board."
+msgstr ""
+"Если плата не обнаруживается операционной системой, установите "
+"соответствующий USB-драйвер и переподключите плату."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:236
+msgid "**Check for shorts on RX and TX pins** 🔍"
+msgstr "**Проверьте наличие коротких замыканий на контактах RX и TX** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:238
+msgid ""
+"Devices connected to pins D0 (RX) and D1 (TX) can interfere with "
+"programming."
+msgstr ""
+"Устройства, подключенные к контактам D0 (RX) и D1 (TX), могут мешать "
+"программированию."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:240
+msgid ""
+"Disconnect any external modules connected to these pins and try uploading "
+"again."
+msgstr ""
+"Отключите любые внешние модули, подключенные к этим контактам, и попробуйте "
+"загрузить снова."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:242
+msgid ""
+"If an ESP-CAM module is installed, verify the communication switch settings."
+" When the switches are configured for communication with the camera, they "
+"may interfere with uploading firmware to the Arduino Nano."
+msgstr ""
+"Если установлен модуль ESP32-CAM, проверьте настройки переключателя связи. "
+"Когда переключатели настроены на связь с камерой, они могут мешать загрузке "
+"прошивки в Arduino Nano."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:244
+msgid "**Inspect solder joints and headers** 🔍"
+msgstr "**Осмотрите места пайки и разъемы** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:246
+msgid ""
+"If the Nano is installed in sockets, verify that all pins are correctly "
+"aligned and fully inserted."
+msgstr ""
+"Если Nano установлена в разъемы, убедитесь, что все контакты правильно "
+"выровнены и полностью вставлены."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:248
+msgid "Look for bent pins, solder bridges, or damaged traces."
+msgstr ""
+"Проверьте наличие погнутых контактов, перемычек припоя или поврежденных "
+"дорожек."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:250
+msgid "**Try manual reset during upload** 🔍"
+msgstr "**Попробуйте сбросить вручную во время загрузки** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:252
+msgid ""
+"Start the upload process and briefly press the RESET button when the IDE "
+"displays the upload message."
+msgstr ""
+"Запустите процесс загрузки и кратковременно нажмите кнопку RESET, когда в "
+"IDE появится сообщение о загрузке."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:254
+msgid "**Test with a simple sketch** 🔍"
+msgstr "**Протестируйте с помощью простого скетча** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:256
+msgid "Upload the standard Blink example."
+msgstr "Загрузите стандартный пример Blink."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:258
+msgid ""
+"If Blink uploads successfully, the programming interface is working "
+"correctly and the issue may be related to the firmware being uploaded."
+msgstr ""
+"Если Blink загружается успешно, значит интерфейс программирования работает "
+"правильно, и проблема может быть связана с загружаемой прошивкой."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:262
+msgid ""
+"After correcting the issue, the Arduino Nano should be detected by the "
+"computer, appear as a serial port, and accept firmware uploads without "
+"errors."
+msgstr ""
+"После устранения проблемы Arduino Nano должна обнаруживаться компьютером, "
+"отображаться как последовательный порт и принимать загрузку прошивки без "
+"ошибок."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:265
+msgid "Line Sensor Problems 📉"
+msgstr "Проблемы с датчиком линии 📉"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:269
+msgid "The robot does not detect the line at all."
+msgstr "Робот вообще не обнаруживает линию."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:270
+msgid "One or more sensors always report the same state."
+msgstr ""
+"Один или несколько датчиков всегда сообщают об одном и том же состоянии."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:271
+msgid "The robot detects the line inconsistently."
+msgstr "Робот обнаруживает линию нестабильно."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:272
+msgid "All sensors appear permanently active regardless of the surface color."
+msgstr ""
+"Все датчики кажутся постоянно активными независимо от цвета поверхности."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:273
+msgid "Line following works on one track but fails on another."
+msgstr ""
+"Следование по линии работает на одной трассе, но не работает на другой."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:277
+msgid "**Check connector installation** 🔍"
+msgstr "**Проверьте установку разъема** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:279
+msgid ""
+"Verify that the line sensor connector is soldered correctly and that all "
+"pins have reliable electrical contact."
+msgstr ""
+"Убедитесь, что разъем датчика линии припаян правильно и что все контакты "
+"имеют надежный электрический контакт."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:281
+msgid "Inspect for:"
+msgstr "Проверьте на наличие:"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:287
+msgid "**Verify sensor module orientation** 🔍"
+msgstr "**Проверьте ориентацию модуля датчика** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:289
+msgid ""
+"Ensure that the line sensor module is mounted in the correct orientation and"
+" connected to the proper connector."
+msgstr ""
+"Убедитесь, что модуль датчика линии установлен в правильной ориентации и "
+"подключен к соответствующему разъему."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:291
+msgid ""
+"Incorrect installation may swap sensor outputs or prevent operation "
+"entirely."
+msgstr ""
+"Неправильная установка может привести к перепутыванию выходов датчиков или "
+"полному отсутствию работы."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:293
+msgid "**Check mounting height** 🔍"
+msgstr "**Проверьте высоту установки** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:295
+msgid "The distance between the sensor module and the surface is critical."
+msgstr ""
+"Расстояние между модулем датчика и поверхностью имеет решающее значение."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:299
+msgid "The specified spacers are installed."
+msgstr "Указанные проставки установлены."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:300
+msgid "The module is parallel to the floor."
+msgstr "Модуль расположен параллельно полу."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:301
+msgid "The sensor is not tilted."
+msgstr "Датчик не наклонен."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:303
+msgid ""
+"Excessive distance may reduce sensitivity, while insufficient distance may "
+"cause unreliable readings."
+msgstr ""
+"Слишком большое расстояние может снизить чувствительность, а слишком малое —"
+" привести к ненадежным показаниям."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:305
+msgid "**Inspect the sensor module** 🔍"
+msgstr "**Осмотрите модуль датчика** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:307
+msgid ""
+"Examine the module for damaged components, cracked solder joints, or "
+"contamination on the infrared LEDs and phototransistors."
+msgstr ""
+"Проверьте модуль на наличие поврежденных компонентов, трещин в местах пайки "
+"или загрязнений на инфракрасных светодиодах и фототранзисторах."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:309
+msgid "Dust, glue residue, fingerprints, or scratches can affect performance."
+msgstr ""
+"Пыль, остатки клея, отпечатки пальцев или царапины могут повлиять на "
+"производительность."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:311
+msgid "**Verify power supply** 🔍"
+msgstr "**Проверьте питание** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:313
+msgid "Measure the supply voltage on the sensor module."
+msgstr "Измерьте напряжение питания на модуле датчика."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:315
+msgid ""
+"Ensure that the module receives the expected voltage and that GND is "
+"connected correctly."
+msgstr ""
+"Убедитесь, что на модуль подается ожидаемое напряжение и что GND подключен "
+"правильно."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:317
+msgid "**Test individual sensor outputs** 🔍"
+msgstr "**Протестируйте выходы отдельных датчиков** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:319
+msgid ""
+"Using a multimeter or diagnostic firmware, verify that each sensor changes "
+"state when moved between a dark line and a light background."
+msgstr ""
+"С помощью мультиметра или диагностической прошивки убедитесь, что каждый "
+"датчик меняет состояние при перемещении между темной линией и светлым фоном."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:321
+msgid ""
+"If only one channel fails, the problem is likely localized to that sensor "
+"element or its associated circuitry."
+msgstr ""
+"Если не работает только один канал, проблема, скорее всего, локализована в "
+"этом элементе датчика или связанной с ним схеме."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:323
+msgid "**Check the track material** 🔍"
+msgstr "**Проверьте материал трассы** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:325
+msgid "Different materials reflect infrared light differently."
+msgstr "Разные материалы по-разному отражают инфракрасный свет."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:327
+msgid ""
+"A line that appears visually black may still reflect significant infrared "
+"light, while some colored materials may absorb infrared radiation "
+"effectively."
+msgstr ""
+"Линия, которая визуально кажется черной, может отражать значительное "
+"количество инфракрасного света, в то время как некоторые цветные материалы "
+"могут эффективно поглощать инфракрасное излучение."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:329
+msgid "Always test the robot on the actual track material intended for use."
+msgstr ""
+"Всегда тестируйте робота на том материале трассы, который планируется "
+"использовать."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:331
+msgid "**Sensor module is too sensitive** 🔍"
+msgstr "**Модуль датчика слишком чувствителен** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:333
+msgid "This is a common issue with inexpensive line sensor modules."
+msgstr "Это распространенная проблема недорогих модулей линейных датчиков."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:335
+msgid ""
+"Some modules are configured with very high infrared LED current and may "
+"report line detection continuously, regardless of whether the sensor is "
+"positioned over a dark or light surface."
+msgstr ""
+"Некоторые модули настроены на очень высокий ток инфракрасного светодиода и "
+"могут постоянно сообщать об обнаружении линии, независимо от того, находится"
+" ли датчик над темной или светлой поверхностью."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:337
+msgid "Typical symptoms include:"
+msgstr "Типичные симптомы включают:"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:339
+msgid "All sensors always active."
+msgstr "Все датчики всегда активны."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:340
+msgid "Little or no difference between black and white surfaces."
+msgstr "Малая разница или ее отсутствие между черной и белой поверхностями."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:341
+msgid "Reliable operation only at unusually large distances from the floor."
+msgstr "Надежная работа только на необычно больших расстояниях от пола."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:343
+msgid "**Reduce infrared LED current** 🔍"
+msgstr "**Уменьшите ток инфракрасного светодиода** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:345
+msgid ""
+"If the sensor module is excessively sensitive, the infrared LED current "
+"should be reduced."
+msgstr ""
+"Если модуль датчика чрезмерно чувствителен, ток инфракрасного светодиода "
+"следует уменьшить."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:347
+msgid ""
+"On many commonly available modules, each sensor channel contains an SMD "
+"resistor in series with the infrared LED. These resistors are often marked "
+"221 (220 Ω)."
+msgstr ""
+"На многих распространенных модулях каждый канал датчика содержит SMD-"
+"резистор, включенный последовательно с инфракрасным светодиодом. Эти "
+"резисторы часто имеют маркировку 221 (220 Ом)."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:349
+msgid "*To reduce sensitivity:*"
+msgstr "*Чтобы снизить чувствительность:*"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:351
+msgid ""
+"Replace the five 220 Ω resistors with higher-value resistors. Typical "
+"replacement values are between 1 kΩ and 2 kΩ. The optimal value depends on "
+"the track material, ambient lighting conditions, and required detection "
+"distance."
+msgstr ""
+"Замените пять резисторов по 220 Ом на резисторы с большим номиналом. "
+"Типичные значения для замены составляют от 1 кОм до 2 кОм. Оптимальное "
+"значение зависит от материала трассы, условий окружающего освещения и "
+"требуемого расстояния обнаружения."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:355
+msgid ""
+"This modification requires desoldering and replacing all five SMD resistors "
+"on the module."
+msgstr ""
+"Эта модификация требует выпаивания и замены всех пяти SMD-резисторов на "
+"модуле."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:357
+msgid ""
+"After replacement, test the sensor on the intended track and adjust the "
+"resistor value if necessary."
+msgstr ""
+"После замены протестируйте датчик на целевой трассе и при необходимости "
+"скорректируйте номинал резистора."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:359
+msgid "**Ambient light interference** 🔍"
+msgstr "**Помехи от окружающего света** 🔍"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:361
+msgid ""
+"Strong sunlight or intense infrared sources may affect sensor readings."
+msgstr ""
+"Яркий солнечный свет или интенсивные источники инфракрасного излучения могут"
+" влиять на показания датчиков."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:363
+msgid ""
+"Test the robot indoors or under controlled lighting conditions to determine "
+"whether ambient light is contributing to the problem."
+msgstr ""
+"Протестируйте робота в помещении или при контролируемом освещении, чтобы "
+"определить, влияет ли окружающий свет на проблему."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:367
+msgid ""
+"Each sensor should clearly distinguish between the line and the surrounding "
+"surface. Sensor outputs should change reliably when moving between dark and "
+"light areas, and the robot should be able to follow the track consistently."
+msgstr ""
+"Каждый датчик должен четко различать линию и окружающую поверхность. Выходы "
+"датчиков должны надежно меняться при перемещении между темными и светлыми "
+"участками, а робот должен стабильно следовать по трассе."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:371
+msgid ""
+"The currently supported line sensor modules are commercially available "
+"third-party products. Their characteristics may vary significantly between "
+"manufacturers and production batches."
+msgstr ""
+"В настоящее время поддерживаемые модули линейных датчиков являются "
+"коммерчески доступными сторонними продуктами. Их характеристики могут "
+"значительно различаться в зависимости от производителя и партии."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:373
+msgid ""
+"Future revisions of the ByByte Nano platform are planned to include custom-"
+"designed line sensor modules with improved consistency, optimized "
+"sensitivity, and better suitability for educational robotics applications."
+msgstr ""
+"В будущих версиях платформы ByByte Nano планируется включить специально "
+"разработанные модули линейных датчиков с улучшенной согласованностью, "
+"оптимизированной чувствительностью и лучшей приспособленностью для "
+"образовательных робототехнических приложений."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:376
+msgid "Buzzer does not work 🔊"
+msgstr "Зуммер не работает 🔊"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:381
+msgid "Firmware is running."
+msgstr "Прошивка запущена."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:382
+msgid "No sound is produced by the buzzer."
+msgstr "Зуммер не издает звука."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:386
+msgid "Verify that the buzzer is installed in the correct orientation."
+msgstr "Убедитесь, что зуммер установлен в правильной ориентации."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:387
+msgid ""
+"Inspect the buzzer solder joints for cold joints or missing connections."
+msgstr ""
+"Осмотрите места пайки зуммера на наличие холодной пайки или отсутствующих "
+"соединений."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:388
+msgid ""
+"Check continuity between the buzzer pins and the controller. Verify that the"
+" transistor controlling the buzzer is installed in the correct position and "
+"orientation, and confirm that its component value matches the schematic."
+msgstr ""
+"Проверьте целостность цепи между выводами зуммера и контроллером. Убедитесь,"
+" что транзистор, управляющий зуммером, установлен в правильном положении и "
+"ориентации, а также подтвердите, что номинал его компонента соответствует "
+"схеме."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:389
+msgid "Confirm that the firmware actually enables the buzzer output."
+msgstr "Подтвердите, что прошивка действительно активирует выход зуммера."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:390
+msgid ""
+"Measure the voltage on the buzzer pins while a sound should be playing."
+msgstr ""
+"Измерьте напряжение на выводах зуммера в момент, когда должен "
+"воспроизводиться звук."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:394
+msgid ""
+"The buzzer should produce an audible tone when activated by the firmware."
+msgstr "Зуммер должен издавать слышимый тон при активации прошивкой."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:397
+msgid "Light Sensor Problems 💡"
+msgstr "Проблемы с датчиком освещенности 💡"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:401
+msgid "The robot always reports the same light level."
+msgstr "Робот всегда сообщает об одном и том же уровне освещенности."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:402
+msgid "Light measurements do not change when illumination changes."
+msgstr "Показания освещенности не меняются при изменении освещения."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:403
+msgid "Readings are unstable or excessively noisy."
+msgstr "Показания нестабильны или имеют чрезмерный шум."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:407
+msgid "Verify that the light sensor is installed in the correct orientation."
+msgstr ""
+"Убедитесь, что датчик освещенности установлен в правильной ориентации."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:408
+msgid ""
+"Inspect all solder joints associated with the sensor and its supporting "
+"components."
+msgstr ""
+"Осмотрите все места пайки, относящиеся к датчику и его вспомогательным "
+"компонентам."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:409
+msgid "Check that the sensor receives the correct supply voltage."
+msgstr "Проверьте, что на датчик подается правильное напряжение питания."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:410
+msgid ""
+"Measure the sensor output while changing the light level. The voltage should"
+" change accordingly."
+msgstr ""
+"Измерьте выходной сигнал датчика при изменении уровня освещенности. "
+"Напряжение должно изменяться соответствующим образом."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:411
+msgid ""
+"Ensure that the firmware is configured to use the correct analog input pin."
+msgstr ""
+"Убедитесь, что прошивка настроена на использование правильного аналогового "
+"входного контакта."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:415
+msgid ""
+"The reported light level should change smoothly when the sensor is exposed "
+"to different lighting conditions."
+msgstr ""
+"Отображаемый уровень освещенности должен плавно изменяться при воздействии "
+"на датчик различных условий освещения."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:418
+msgid "IR Receiver Problems 📡"
+msgstr "Проблемы с ИК-приемником 📡"
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:422
+msgid "The robot does not respond to the remote control."
+msgstr "Робот не реагирует на пульт дистанционного управления."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:423
+msgid "Only some button presses are detected."
+msgstr "Распознаются только некоторые нажатия кнопок."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:424
+msgid "Reception distance is very short."
+msgstr "Дальность приема очень мала."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:428
+msgid "Verify that the IR receiver is installed in the correct orientation."
+msgstr "Убедитесь, что ИК-приемник установлен в правильной ориентации."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:429
+msgid ""
+"Inspect the solder joints and confirm that all receiver pins are connected "
+"properly."
+msgstr ""
+"Осмотрите места пайки и убедитесь, что все выводы приемника подключены "
+"правильно."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:430
+msgid "Check that the receiver receives the correct supply voltage."
+msgstr "Проверьте, что на приемник подается правильное напряжение питания."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:431
+msgid "Confirm that the remote control battery is charged."
+msgstr "Убедитесь, что батарейка в пульте дистанционного управления заряжена."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:432
+msgid ""
+"Ensure that the firmware is configured for the correct IR receiver pin and "
+"protocol."
+msgstr ""
+"Убедитесь, что прошивка настроена на правильный контакт ИК-приемника и "
+"протокол."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:433
+msgid ""
+"Avoid direct sunlight or strong infrared light sources during testing, as "
+"they may interfere with reception."
+msgstr ""
+"Избегайте попадания прямых солнечных лучей или воздействия сильных "
+"источников инфракрасного излучения во время тестирования, так как они могут "
+"создавать помехи при приеме."
+
+#: ../../platforms/bybyte-nano-troubleshooting.rst:437
+msgid ""
+"The robot should reliably detect commands from a compatible IR remote "
+"control at normal operating distances."
+msgstr ""
+"Робот должен надежно распознавать команды от совместимого ИК-пульта "
+"дистанционного управления на нормальных рабочих расстояниях."

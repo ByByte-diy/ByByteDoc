@@ -20,3 +20,4 @@ Rules:
   Arduino, ESP32, ESP32-CAM, GitHub, Discord, YouTube.
 - Do not add explanations or information absent from the source.
 - Return exactly one translation for every input item.
+- - ByByte name translate to БАБАЙ.

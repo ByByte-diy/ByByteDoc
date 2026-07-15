@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-13 20:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../../shared/github/profile/README.md:1
+msgid "ByByte.DIY™"
+msgstr "БАБАЙ.DIY™"
+
+#: ../../../shared/github/profile/README.md:3
+msgid "Open Robotics & STEM Education Ecosystem"
+msgstr "Экосистема открытой робототехники и STEM-образования"
+
+#: ../../../shared/github/profile/README.md:5
+msgid ""
+"ByByte.DIY™ is an open-source ecosystem for robotics, electronics, and STEM "
+"education."
+msgstr ""
+"БАБАЙ.DIY™ — это экосистема с открытым исходным кодом для робототехники, "
+"электроники и STEM-образования."
+
+#: ../../../shared/github/profile/README.md:7
+msgid "We build:"
+msgstr "Мы создаем:"
+
+#: ../../../shared/github/profile/README.md:9
+msgid "educational robotics platforms;"
+msgstr "образовательные робототехнические платформы;"
+
+#: ../../../shared/github/profile/README.md:10
+msgid "open hardware;"
+msgstr "открытое аппаратное обеспечение;"
+
+#: ../../../shared/github/profile/README.md:11
+msgid "firmware and software tools;"
+msgstr "прошивки и программные инструменты;"
+
+#: ../../../shared/github/profile/README.md:12
+msgid "learning materials;"
+msgstr "учебные материалы;"
+
+#: ../../../shared/github/profile/README.md:13
+msgid "and maker-friendly engineering projects."
+msgstr "и инженерные проекты для мейкеров."
+
+#: ../../../shared/github/profile/README.md:15
+msgid ""
+"Designed for: students, educators, makers, robotics clubs, and STEM "
+"communities."
+msgstr ""
+"Разработано для: студентов, преподавателей, мейкеров, робототехнических "
+"кружков и STEM-сообществ."
+
+#: ../../../shared/github/profile/README.md:20
+msgid "Platforms 🏎️"
+msgstr "Платформы 🏎️"
+
+#: ../../../shared/github/profile/README.md:22
+msgid "[ByByte Nano™](https://github.com/ByByte-diy/ByByteNano)"
+msgstr "`ByByte Nano™ <https://github.com/ByByte-diy/ByByteNano>`_"
+
+#: ../../../shared/github/profile/README.md:24
+msgid "Compact beginner-friendly robotics platform."
+msgstr "Компактная робототехническая платформа для начинающих."
+
+#: ../../../shared/github/profile/README.md:26
+msgid "[ByByte Mega™](https://github.com/ByByte-diy/ByByteMega)"
+msgstr "`ByByte Mega™ <https://github.com/ByByte-diy/ByByteMega>`_"
+
+#: ../../../shared/github/profile/README.md:28
+msgid ""
+"Advanced modular platform for deep learning and advanced STEM projects."
+msgstr ""
+"Продвинутая модульная платформа для глубокого обучения и сложных STEM-"
+"проектов."
+
+#: ../../../shared/github/profile/README.md:30
+msgid "[ByByte NanoBoy™](https://github.com/ByByte-diy/ByByteNanoBoy)"
+msgstr "`ByByte NanoBoy™ <https://github.com/ByByte-diy/ByByteNanoBoy>`_"
+
+#: ../../../shared/github/profile/README.md:32
+msgid "Portable experimentation and embedded learning platform."
+msgstr ""
+"Портативная платформа для экспериментов и изучения встраиваемых систем."
+
+#: ../../../shared/github/profile/README.md:36
+msgid "Open Ecosystem 🆓"
+msgstr "Открытая экосистема 🆓"
+
+#: ../../../shared/github/profile/README.md:38
+msgid "ByByte.DIY encourages:"
+msgstr "БАБАЙ.DIY поощряет:"
+
+#: ../../../shared/github/profile/README.md:40
+msgid "learning by building;"
+msgstr "обучение через создание;"
+
+#: ../../../shared/github/profile/README.md:41
+msgid "experimentation;"
+msgstr "экспериментирование;"
+
+#: ../../../shared/github/profile/README.md:42
+msgid "open collaboration;"
+msgstr "открытое сотрудничество;"
+
+#: ../../../shared/github/profile/README.md:43
+msgid "hardware modifications;"
+msgstr "модификацию аппаратного обеспечения;"
+
+#: ../../../shared/github/profile/README.md:44
+msgid "and community-driven innovation."
+msgstr "и инновации, движимые сообществом."
+
+#: ../../../shared/github/profile/README.md:48
+msgid "Contributing 🤝"
+msgstr "Участие в проекте 🤝"
+
+#: ../../../shared/github/profile/README.md:50
+msgid "We welcome contributions in:"
+msgstr "Мы приветствуем вклад в:"
+
+#: ../../../shared/github/profile/README.md:52
+msgid "software;"
+msgstr "программное обеспечение;"
+
+#: ../../../shared/github/profile/README.md:53
+msgid "hardware;"
+msgstr "аппаратное обеспечение;"
+
+#: ../../../shared/github/profile/README.md:54
+msgid "documentation;"
+msgstr "документацию;"
+
+#: ../../../shared/github/profile/README.md:55
+msgid "educational content;"
+msgstr "образовательный контент;"
+
+#: ../../../shared/github/profile/README.md:56
+msgid "testing;"
+msgstr "тестирование;"
+
+#: ../../../shared/github/profile/README.md:57
+msgid "and translations."
+msgstr "и переводы."
+
+#: ../../../shared/github/profile/README.md:59
+msgid "Please read:"
+msgstr "Пожалуйста, ознакомьтесь с:"
+
+#: ../../../shared/github/profile/README.md:61
+msgid ""
+"[`CONTRIBUTING.md`](https://github.com/ByByte-"
+"diy/.github/blob/main/CONTRIBUTING.md)"
+msgstr ""
+"`CONTRIBUTING.md <https://github.com/ByByte-diy/.github/blob/main/CONTRIBUTING.md>`_"
+
+#: ../../../shared/github/profile/README.md:62
+msgid ""
+"[`CODE_OF_CONDUCT.md`](https://github.com/ByByte-"
+"diy/.github/blob/main/CODE_OF_CONDUCT.md)"
+msgstr ""
+"`CODE_OF_CONDUCT.md <https://github.com/ByByte-diy/.github/blob/main/CODE_OF_CONDUCT.md>`_"
+
+#: ../../../shared/github/profile/README.md:63
+msgid ""
+"[`PROJECT_PRINCIPLES.md`](https://github.com/ByByte-"
+"diy/.github/blob/main/PROJECT_PRINCIPLES.md)"
+msgstr ""
+"`PROJECT_PRINCIPLES.md <https://github.com/ByByte-diy/.github/blob/main/PROJECT_PRINCIPLES.md>`_"
+
+#: ../../../shared/github/profile/README.md:64
+msgid ""
+"[`TRADEMARK.md`](https://github.com/ByByte-"
+"diy/.github/blob/main/TRADEMARK.md)"
+msgstr ""
+"`TRADEMARK.md <https://github.com/ByByte-diy/.github/blob/main/TRADEMARK.md>`_"
+
+#: ../../../shared/github/profile/README.md:68
+msgid "Licensing ⚖️"
+msgstr "Лицензирование ⚖️"
+
+#: ../../../shared/github/profile/README.md:70
+msgid ""
+"Licensing rules for the ecosystem are defined in "
+"[`LICENSE`](https://github.com/ByByte-diy/.github/blob/main/LICENSE.md) "
+"(software, hardware, and documentation)."
+msgstr ""
+"Правила лицензирования экосистемы определены в "
+"`LICENSE <https://github.com/ByByte-diy/.github/blob/main/LICENSE.md>`_ "
+"(программное обеспечение, аппаратное обеспечение и документация)."
+
+#: ../../../shared/github/profile/README.md:74
+msgid "Trademark ™️"
+msgstr "Товарный знак ™️"
+
+#: ../../../shared/github/profile/README.md:76
+msgid ""
+"ByByte.DIY™, ByByte Nano™, ByByte Mega™, and ByByte NanoBoy™ are trademarks "
+"of the project maintainers."
+msgstr ""
+"БАБАЙ.DIY™, ByByte Nano™, ByByte Mega™ и ByByte NanoBoy™ являются товарными "
+"знаками сопровождающих проект лиц."

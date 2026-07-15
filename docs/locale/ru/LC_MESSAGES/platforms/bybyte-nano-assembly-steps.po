@@ -1,0 +1,1056 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, ByByte.DIY™ Robotics
+# This file is distributed under the same license as the ByByte.DIY™
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ByByte.DIY™ 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-15 20:49+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:2
+msgid "ByByte Nano Assembly Process"
+msgstr "Процесс сборки ByByte Nano"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:5
+msgid "Assembly Preparation 🛠️"
+msgstr "Подготовка к сборке 🛠️"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:7
+msgid ""
+"Before starting assembly, prepare your workspace, tools, and all required "
+"components. The workspace should be clean, well organized, and free from "
+"unnecessary objects that could interfere with the assembly process. Ensure "
+"that the area is well lit and provides enough space to safely handle "
+"electronic components and tools."
+msgstr ""
+"Перед началом сборки подготовьте рабочее место, инструменты и все "
+"необходимые компоненты. Рабочее место должно быть чистым, хорошо "
+"организованным и свободным от лишних предметов, которые могут помешать "
+"процессу сборки. Убедитесь, что зона хорошо освещена и обеспечивает "
+"достаточно места для безопасной работы с электронными компонентами и "
+"инструментами."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:9
+msgid ""
+"Verify that all components included in your selected robot configuration are"
+" available before beginning assembly. It is also recommended to sort and "
+"identify the parts in advance to avoid confusion during the build process."
+msgstr ""
+"Перед началом сборки убедитесь в наличии всех компонентов, входящих в "
+"выбранную конфигурацию робота. Также рекомендуется заранее рассортировать и "
+"идентифицировать детали, чтобы избежать путаницы во время процесса сборки."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:11
+msgid ""
+"Inspect all tools before use. Every tool, especially the soldering iron, "
+"must be in good working condition and free from visible damage. Do not use "
+"defective equipment, damaged cables, or tools with exposed electrical "
+"conductors."
+msgstr ""
+"Осмотрите все инструменты перед использованием. Каждый инструмент, особенно "
+"паяльник, должен быть в исправном состоянии и не иметь видимых повреждений. "
+"Не используйте неисправное оборудование, поврежденные кабели или инструменты"
+" с оголенными электрическими проводниками."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:15
+msgid ""
+"If the robot is being assembled by a child, all necessary safety precautions"
+" must be taken. The equipment should be inspected and approved by an adult "
+"before use, and an adult must supervise the entire assembly process. Special"
+" attention should be given when using soldering equipment, sharp tools, or "
+"any device that may cause injury if handled improperly."
+msgstr ""
+"Если робот собирается ребенком, необходимо соблюдать все меры "
+"предосторожности. Оборудование должно быть проверено и одобрено взрослым "
+"перед использованием, а взрослый должен контролировать весь процесс сборки. "
+"Особое внимание следует уделять при использовании паяльного оборудования, "
+"острых инструментов или любых устройств, которые могут нанести травму при "
+"неправильном обращении."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:18
+msgid "Step 1 - Prepare Power⚡"
+msgstr "Шаг 1 - Подготовка питания⚡"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:21
+msgid "Prepare and Configure Power Components"
+msgstr "Подготовка и настройка компонентов питания"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:23
+msgid ""
+"Before soldering any components onto the PCB, prepare the power supply "
+"circuitry. The first component that must be configured is the DC-DC voltage "
+"regulator."
+msgstr ""
+"Перед пайкой любых компонентов на печатную плату подготовьте схему питания. "
+"Первым компонентом, который необходимо настроить, является DC-DC "
+"преобразователь напряжения."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:25
+msgid ""
+"Connect the DC-DC regulator to a suitable power source and adjust its output"
+" voltage to the required value using the onboard adjustment potentiometer. "
+"Verify the output voltage with a multimeter before proceeding."
+msgstr ""
+"Подключите DC-DC преобразователь к подходящему источнику питания и "
+"отрегулируйте его выходное напряжение до требуемого значения с помощью "
+"встроенного потенциометра. Перед продолжением проверьте выходное напряжение "
+"с помощью мультиметра."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:27
+msgid ""
+"Once the regulator has been configured and tested, set aside all power-"
+"related components for installation in the following assembly steps. This "
+"ensures that the power system is ready and correctly adjusted before any "
+"other components are soldered onto the board."
+msgstr ""
+"После того как преобразователь был настроен и протестирован, отложите все "
+"компоненты, связанные с питанием, для установки на следующих этапах сборки. "
+"Это гарантирует, что система питания готова и правильно настроена до того, "
+"как любые другие компоненты будут припаяны к плате."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:29
+msgid "Two DC-DC regulator variants can be used with the robot:"
+msgstr "С роботом можно использовать два варианта DC-DC преобразователей:"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:31
+msgid "`Mini-360 <../_static/img/mini360-module.jpg>`_"
+msgstr "`Mini-360 <../_static/img/mini360-module.jpg>`_"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:32
+msgid "`HW-613 <../_static/img/hw613-module.png>`_ (recommended)"
+msgstr "`HW-613 <../_static/img/hw613-module.png>`_ (рекомендуется)"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:34
+msgid ""
+"The HW-613 is the recommended option because it supports selecting a "
+"predefined output voltage using solder jumpers. The Mini-360 requires "
+"voltage adjustment by turning a potentiometer. When the robot is used by "
+"children, the potentiometer may be accidentally rotated, changing the "
+"voltage setting and potentially damaging robot components. If the HW-613 is "
+"not available and a Mini-360 is used, the potentiometer should be secured "
+"after adjustment, for example with a small drop of suitable adhesive."
+msgstr ""
+"HW-613 является рекомендуемым вариантом, поскольку он поддерживает выбор "
+"предустановленного выходного напряжения с помощью перемычек (джамперов). "
+"Mini-360 требует регулировки напряжения путем вращения потенциометра. Когда "
+"робот используется детьми, потенциометр может быть случайно повернут, что "
+"изменит настройку напряжения и потенциально повредит компоненты робота. Если"
+" HW-613 недоступен и используется Mini-360, потенциометр следует "
+"зафиксировать после регулировки, например, небольшой каплей подходящего "
+"клея."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:38
+msgid ""
+"The HW-613 must be configured using its solder jumpers. Note that, by "
+"default, the jumper connected to the potentiometer adjustment mode is "
+"already closed on the module. This connection must be cut before soldering "
+"the jumper corresponding to the desired fixed output voltage."
+msgstr ""
+"HW-613 должен быть настроен с помощью своих перемычек. Обратите внимание, "
+"что по умолчанию перемычка, подключенная к режиму регулировки "
+"потенциометром, уже замкнута на модуле. Это соединение необходимо разорвать "
+"перед пайкой перемычки, соответствующей желаемому фиксированному выходному "
+"напряжению."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:41
+msgid "Configure the Mini-360"
+msgstr "Настройка Mini-360"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:43
+msgid ""
+"Connect the battery to the input of the Mini-360 regulator and set the "
+"multimeter to DC voltage measurement mode . Measure the output voltage and "
+"carefully rotate the potentiometer adjustment screw until the required "
+"voltage is reached. For a 5 V supply, adjust the output to approximately 5.1"
+" V. For a 3.3 V supply, the output should be within the range of 3.2–3.4 V. "
+"After the regulator has been adjusted and verified, it can be soldered onto "
+"the PCB. To prevent accidental changes to the setting during operation, "
+"secure the potentiometer with a small drop of glue or lacquer."
+msgstr ""
+"Подключите аккумулятор к входу преобразователя Mini-360 и установите "
+"мультиметр в режим измерения постоянного напряжения. Измерьте выходное "
+"напряжение и осторожно вращайте регулировочный винт потенциометра, пока не "
+"будет достигнуто требуемое напряжение. Для питания 5 В установите выходное "
+"напряжение примерно 5,1 В. Для питания 3,3 В выходное напряжение должно быть"
+" в диапазоне 3,2–3,4 В. После того как преобразователь был настроен и "
+"проверен, его можно припаять к печатной плате. Чтобы предотвратить случайное"
+" изменение настройки во время работы, зафиксируйте потенциометр небольшой "
+"каплей клея или лака."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:58
+msgid "Configure the HW-613"
+msgstr "Настройка HW-613"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:60
+msgid ""
+"For the HW-613 regulator, first cut the solder jumper marked ADJ and then "
+"solder the jumper corresponding to the required output voltage. Before "
+"installing the regulator on the PCB, connect the battery to the regulator "
+"input and set the multimeter to DC voltage measurement mode. Measure the "
+"output voltage to verify that it is within the allowed range for the "
+"selected setting. Only after the output voltage has been confirmed should "
+"the regulator be soldered onto the PCB."
+msgstr ""
+"Для преобразователя HW-613 сначала перережьте перемычку с маркировкой ADJ, а"
+" затем припаяйте перемычку, соответствующую требуемому выходному напряжению."
+" Перед установкой преобразователя на печатную плату подключите аккумулятор к"
+" входу преобразователя и установите мультиметр в режим измерения постоянного"
+" напряжения. Измерьте выходное напряжение, чтобы убедиться, что оно "
+"находится в допустимом диапазоне для выбранной настройки. Только после "
+"подтверждения выходного напряжения преобразователь следует припаивать к "
+"печатной плате."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:75
+msgid ""
+"After the regulators have been configured and verified, solder the power "
+"supply components onto the PCB according to the selected robot "
+"configuration."
+msgstr ""
+"После того как преобразователи были настроены и проверены, припаяйте "
+"компоненты питания к печатной плате в соответствии с выбранной конфигурацией"
+" робота."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:77
+msgid ""
+"The 5 V power supply is mandatory for all ByByte Nano configurations and "
+"must always be installed. Solder the 5 V DC-DC regulator together with all "
+"associated power-supply components, including capacitors, filters, and any "
+"other parts required by the 5 V circuit. Verify that all solder joints are "
+"clean and properly formed before proceeding."
+msgstr ""
+"Источник питания 5 В является обязательным для всех конфигураций БАБАЙ Nano "
+"и должен быть установлен всегда. Припаяйте DC-DC преобразователь 5 В вместе "
+"со всеми связанными компонентами питания, включая конденсаторы, фильтры и "
+"любые другие детали, требуемые для цепи 5 В. Перед продолжением убедитесь, "
+"что все паяные соединения чистые и правильно сформированы."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:91
+msgid ""
+"The 3.3 V power supply is optional and is only required when assembling a "
+"robot configuration that includes the camera module. If the camera is not "
+"used, the entire 3.3 V power-supply circuit may be omitted, including the "
+"regulator, capacitors, filters, and other associated components. For camera-"
+"equipped configurations, solder all components of the 3.3 V power-supply "
+"circuit into their designated positions on the PCB and inspect all "
+"connections before continuing."
+msgstr ""
+"Источник питания 3,3 В является опциональным и требуется только при сборке "
+"конфигурации робота, включающей модуль камеры. Если камера не используется, "
+"вся цепь питания 3,3 В может быть исключена, включая преобразователь, "
+"конденсаторы, фильтры и другие связанные компоненты. Для конфигураций с "
+"камерой припаяйте все компоненты цепи питания 3,3 В на их отведенные места "
+"на печатной плате и осмотрите все соединения перед продолжением."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:105
+msgid ""
+"After soldering the regulators, visually inspect the board for solder "
+"bridges, cold joints, or incorrectly installed components. Pay particular "
+"attention to the regulator orientation and polarity markings. If available, "
+"use a multimeter in continuity mode to verify that there is no short circuit"
+" between the power rails before proceeding to the next assembly step."
+msgstr ""
+"После пайки преобразователей визуально осмотрите плату на наличие перемычек "
+"припоя, непропаев или неправильно установленных компонентов. Уделите особое "
+"внимание ориентации преобразователя и маркировке полярности. Если есть "
+"возможность, используйте мультиметр в режиме прозвонки, чтобы убедиться в "
+"отсутствии короткого замыкания между шинами питания, прежде чем переходить к"
+" следующему этапу сборки."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:107
+msgid ""
+"After the inspection, connect the battery and verify all power rails with a "
+"multimeter. Check that each regulator provides the expected output voltage "
+"and that power is correctly distributed throughout the board."
+msgstr ""
+"После осмотра подключите аккумулятор и проверьте все шины питания с помощью "
+"мультиметра. Убедитесь, что каждый преобразователь выдает ожидаемое выходное"
+" напряжение и что питание правильно распределяется по всей плате."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:111
+msgid ""
+"Do not continue the assembly process until all supply voltages have been "
+"measured and confirmed to be within their expected ranges."
+msgstr ""
+"Не продолжайте процесс сборки, пока все напряжения питания не будут измерены"
+" и подтверждены как находящиеся в ожидаемых диапазонах."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:114
+msgid "Step 2 - Side IR Sensors ⚡"
+msgstr "Шаг 2 - Боковые ИК-датчики ⚡"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:117
+msgid "Mount and Test Side Obstacle Sensors"
+msgstr "Установка и тестирование боковых датчиков препятствий"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:121
+msgid ""
+"This step applies only if you are building the **Basic + Side Sensors** "
+"configuration. If your robot does not include side infrared obstacle "
+"sensors, skip this step and continue with Step 3."
+msgstr ""
+"Этот шаг применим только в том случае, если вы собираете конфигурацию "
+"**Basic + Side Sensors**. Если ваш робот не включает боковые инфракрасные "
+"датчики препятствий, пропустите этот шаг и переходите к Шагу 3."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:123
+msgid ""
+"If you plan to use the side IR sensors, mount them next and verify that the "
+"circuit works correctly before continuing the assembly. Prepare the required"
+" components and tools in advance."
+msgstr ""
+"Если вы планируете использовать боковые ИК-датчики, установите их следующими"
+" и проверьте правильность работы цепи перед продолжением сборки. Заранее "
+"подготовьте необходимые компоненты и инструменты."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:126
+msgid "Mount Components on the Main PCB"
+msgstr "Установка компонентов на основную печатную плату"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:128
+msgid "**Start with resistors** 🔍"
+msgstr "**Начните с резисторов** 🔍"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:130
+msgid "Solder the resistor components onto the main PCB first."
+msgstr "Сначала припаяйте резисторы на основную печатную плату."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:132
+msgid ""
+"**Install the op-amp socket, control transistor, and ceramic capacitors** 🔍"
+msgstr ""
+"**Установите панельку для операционного усилителя, управляющий транзистор и "
+"керамические конденсаторы** 🔍"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:134
+msgid ""
+"After the resistors, solder the op-amp socket, the control transistor, and "
+"the ceramic capacitors."
+msgstr ""
+"После резисторов припаяйте панельку для операционного усилителя, управляющий"
+" транзистор и керамические конденсаторы."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:136
+msgid "**Prepare and mount the IR phototransistors** 🔍"
+msgstr "**Подготовьте и установите ИК-фототранзисторы** 🔍"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:138
+msgid ""
+"Before soldering, wrap each IR phototransistor in black heat-shrink tubing "
+"with a diameter of about 6 mm so that the sensor sits in a short tunnel. "
+"**Black heat-shrink tubing is required.**"
+msgstr ""
+"Перед пайкой оберните каждый ИК-фототранзистор черной термоусадочной трубкой"
+" диаметром около 6 мм так, чтобы датчик находился в коротком туннеле. "
+"**Черная термоусадочная трубка обязательна.**"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:140
+msgid ""
+"Solder the IR phototransistors (**TEFT4300**) onto the main PCB. Carefully "
+"check the pin markings on the PCB and compare them with the pinout shown in "
+"the component  `datasheet "
+"<https://www.vishay.com/docs/81549/teft4300.pdf>`_."
+msgstr ""
+"Припаяйте ИК-фототранзисторы (**TEFT4300**) на основную печатную плату. "
+"Внимательно проверьте маркировку выводов на печатной плате и сравните их с "
+"распиновкой, показанной в `техническом описании (datasheet) "
+"<https://www.vishay.com/docs/81549/teft4300.pdf>`_ компонента."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:142
+msgid "TEFT4300 wrapped in black heat-shrink tubing"
+msgstr "TEFT4300, обернутый в черную термоусадочную трубку"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:148
+msgid ""
+"If the IR receiver orientation is incorrect, the side-sensor circuit will "
+"not work."
+msgstr ""
+"Если ориентация ИК-приемника выбрана неверно, цепь бокового датчика работать"
+" не будет."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:150
+msgid "**Prepare the IR LED boards** 🔍"
+msgstr "**Подготовьте платы ИК-светодиодов** 🔍"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:152
+msgid ""
+"When all components on the main PCB are in place, move on to the IR LEDs "
+"(**SFH4545**). They are mounted on separate small boards that are separated "
+"from the panel with pliers. Trim or file any sharp edges left from the "
+"breakaway tabs."
+msgstr ""
+"Когда все компоненты на основной печатной плате установлены, переходите к "
+"ИК-светодиодам (**SFH4545**). Они устанавливаются на отдельные маленькие "
+"платы, которые отделяются от панели с помощью плоскогубцев. Обрежьте или "
+"зачистите напильником любые острые края, оставшиеся от перемычек."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:154
+msgid "IR LED board prepare"
+msgstr "Подготовка платы ИК-светодиода"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:158
+msgid "**Prepare and solder the IR LEDs** 🔍"
+msgstr "**Подготовьте и припаяйте ИК-светодиоды** 🔍"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:160
+msgid ""
+"Wrap each IR LED in black heat-shrink tubing so that only the narrow front "
+"tip remains visible. Only after this preparation, solder the LED onto the "
+"auxiliary board. Pay close attention to the pin orientation. On the `SFH4545"
+" pdf <https://look.ams-"
+"osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf>`_, the **longer lead is "
+"the cathode (negative)**."
+msgstr ""
+"Оберните каждый ИК-светодиод черной термоусадочной трубкой так, чтобы "
+"остался виден только узкий передний кончик. Только после этой подготовки "
+"припаяйте светодиод к вспомогательной плате. Обратите пристальное внимание "
+"на ориентацию выводов. В `PDF-файле SFH4545 <https://look.ams-"
+"osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf>`_ **более длинный вывод "
+"является катодом (отрицательным)**."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:162
+msgid "SFH4545 wrapped in black heat-shrink tubing"
+msgstr "SFH4545, обернутый в черную термоусадочную трубку"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:166
+msgid "**Install the vertical IR sensor assemblies** 🔍"
+msgstr "**Установите вертикальные сборки ИК-датчиков** 🔍"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:168
+msgid ""
+"Mount the completed IR sensor assemblies vertically ongto the main PCB using"
+" 90-degree pin headers."
+msgstr ""
+"Установите собранные ИК-датчики вертикально на основную печатную плату, "
+"используя угловые штыревые разъемы (90 градусов)."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:170
+msgid "IR side sensor mount"
+msgstr "Установка бокового ИК-датчика"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:174
+msgid "**Install the op-amp and prepare for testing** 🔍"
+msgstr ""
+"**Установите операционный усилитель и подготовьтесь к тестированию** 🔍"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:176
+msgid ""
+"When all parts are soldered in place, install the operational amplifier in "
+"its socket. The side-sensor circuit is now ready for a functionality test."
+msgstr ""
+"Когда все детали припаяны на свои места, установите операционный усилитель в"
+" панельку. Схема бокового датчика теперь готова к проверке "
+"работоспособности."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:178
+msgid "ByByte Nano IR side components"
+msgstr "Компоненты ИК-датчиков бокового обзора ByByte Nano"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:183
+msgid "Test the Side-Sensor Circuit"
+msgstr "Проверка схемы бокового датчика"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:185
+msgid ""
+"You will need a multimeter, a battery with PP3/Krona-style leads, and a "
+"jumper wire (a short piece of tinned wire)."
+msgstr ""
+"Вам понадобятся мультиметр, батарейка с разъемом типа PP3/«Крона» и "
+"перемычка (короткий отрезок луженого провода)."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:187
+msgid "**Connect the power supply** 🔋"
+msgstr "**Подключите питание** 🔋"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:189
+msgid ""
+"Connect the battery and set the multimeter to DC voltage measurement mode."
+msgstr ""
+"Подключите батарейку и установите мультиметр в режим измерения постоянного "
+"напряжения."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:191
+msgid "**Verify op-amp supply voltage** 🔍"
+msgstr "**Проверьте напряжение питания операционного усилителя** 🔍"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:193
+msgid ""
+"Turn on the power switch and measure the voltage on the op-amp power pins "
+"(pins 4 and 8). You should read **5 V**. If the voltage is present, continue"
+" to the next check."
+msgstr ""
+"Включите выключатель питания и измерьте напряжение на выводах питания "
+"операционного усилителя (выводы 4 и 8). Вы должны увидеть **5 В**. Если "
+"напряжение присутствует, переходите к следующей проверке."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:195
+msgid "ByByte Nano IR side validate power voltage"
+msgstr "Проверка напряжения питания ИК-датчиков бокового обзора ByByte Nano"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:199
+msgid "**Measure the op-amp outputs with the IR LEDs off** 🔍"
+msgstr ""
+"**Измерьте выходные сигналы операционного усилителя при выключенных ИК-"
+"светодиодах** 🔍"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:201
+msgid ""
+"Measure the voltage on the op-amp outputs (pins 1 and 7). With the IR LEDs "
+"off, the output voltage should be low, up to about **0.1 V**. If this is "
+"correct, continue."
+msgstr ""
+"Измерьте напряжение на выходах операционного усилителя (выводы 1 и 7). При "
+"выключенных ИК-светодиодах выходное напряжение должно быть низким, примерно "
+"до **0,1 В**. Если это так, продолжайте."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:203
+msgid "ByByte Nano IR side check when IR LEDs off"
+msgstr ""
+"Проверка ИК-датчиков бокового обзора ByByte Nano при выключенных светодиодах"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:207
+msgid "**Enable the IR LEDs and verify sensor response** 🔍"
+msgstr "**Включите ИК-светодиоды и проверьте реакцию датчиков** 🔍"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:209
+msgid ""
+"Turn the IR LEDs on by applying a **5 V** control signal to the driver "
+"transistor input. Use a jumper wire to connect **5 V** (Arduino 5 V rail) to"
+" **D4** on the PCB."
+msgstr ""
+"Включите ИК-светодиоды, подав управляющий сигнал **5 В** на вход транзистора"
+" драйвера. Используйте перемычку, чтобы соединить **5 В** (шина 5 В Arduino)"
+" с контактом **D4** на печатной плате."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:211
+msgid ""
+"You can use a phone camera to confirm that the IR LEDs are on, because many "
+"cameras can detect infrared light."
+msgstr ""
+"Вы можете использовать камеру телефона, чтобы убедиться, что ИК-светодиоды "
+"включены, так как многие камеры способны обнаруживать инфракрасный свет."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:213
+msgid "ByByte Nano IR side LED enable"
+msgstr "Включение ИК-светодиодов бокового обзора ByByte Nano"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:217
+msgid ""
+"Measure the voltage on the op-amp outputs (pins 1 and 7) again. The voltage "
+"should now increase when an obstacle is moved closer to the sensor. The "
+"closer the obstacle, the higher the voltage. At maximum proximity, the level"
+" should reach about **3.8 V**."
+msgstr ""
+"Снова измерьте напряжение на выходах операционного усилителя (выводы 1 и 7)."
+" Теперь напряжение должно увеличиваться при приближении препятствия к "
+"датчику. Чем ближе препятствие, тем выше напряжение. При максимальном "
+"приближении уровень должен достигать примерно **3,8 В**."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:219
+msgid "ByByte Nano IR side test sensors"
+msgstr "Тестирование ИК-датчиков бокового обзора ByByte Nano"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:223
+msgid "**Confirm both channels** ✅"
+msgstr "**Проверьте оба канала** ✅"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:225
+msgid ""
+"Verify that both outputs respond correctly (**pin 1 — left sensor**, **pin 7"
+" — right sensor**). If both channels behave as expected, the side sensors "
+"are working and you can continue with the robot assembly."
+msgstr ""
+"Убедитесь, что оба выхода реагируют правильно (**вывод 1 — левый датчик**, "
+"**вывод 7 — правый датчик**). Если оба канала работают как ожидается, "
+"боковые датчики исправны, и вы можете продолжить сборку робота."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:227
+msgid ""
+"If something does not work, go to the :doc:`Troubleshooting <bybyte-nano-"
+"troubleshooting>` section. Before assembly, review the video instructions "
+"for this step."
+msgstr ""
+"Если что-то не работает, перейдите в раздел :doc:`Устранение неисправностей "
+"<bybyte-nano-troubleshooting>`. Перед сборкой посмотрите видеоинструкции для"
+" этого этапа."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:242
+msgid "Step 3 - Solder Small Components⚡"
+msgstr "Шаг 3 - Пайка мелких компонентов⚡"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:245
+msgid "Solder Small Components and Basic Sensors"
+msgstr "Пайка мелких компонентов и базовых датчиков"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:247
+msgid ""
+"Begin by soldering all low-profile through-hole components, including "
+"resistors, diodes, capacitors, and other small passive parts. Installing "
+"these components first makes the remaining assembly steps easier and "
+"provides better access to the PCB."
+msgstr ""
+"Начните с пайки всех низкопрофильных компонентов для сквозного монтажа, "
+"включая резисторы, диоды, конденсаторы и другие мелкие пассивные детали. "
+"Установка этих компонентов в первую очередь упрощает дальнейшие этапы сборки"
+" и обеспечивает лучший доступ к печатной плате."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:249
+msgid "Next, solder the basic sensors used in all robot configurations:"
+msgstr ""
+"Затем припаяйте базовые датчики, используемые во всех конфигурациях робота:"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:251
+msgid "Light sensor"
+msgstr "Датчик освещенности"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:252
+msgid "IR receiver"
+msgstr "ИК-приемник"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:253
+msgid "Buzzer"
+msgstr "Зуммер"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:254
+msgid "RGB LEDs"
+msgstr "RGB-светодиоды"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:256
+msgid ""
+"After completing this step, inspect all solder joints and verify component "
+"orientation before proceeding."
+msgstr ""
+"После завершения этого этапа осмотрите все паяные соединения и проверьте "
+"ориентацию компонентов, прежде чем двигаться дальше."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:271
+msgid "Step 4 - Connectors and Motors⚡"
+msgstr "Шаг 4 - Разъемы и двигатели⚡"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:274
+msgid "Solder Connectors and Install Motors"
+msgstr "Пайка разъемов и установка двигателей"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:276
+msgid ""
+"At this stage, solder all connectors on the main PCB according to the board "
+"markings."
+msgstr ""
+"На этом этапе припаяйте все разъемы на основную печатную плату в "
+"соответствии с маркировкой на плате."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:278
+msgid ""
+"Next, separate the motor adapter boards from the panel and solder the "
+"corresponding connectors onto each adapter. After that, solder the adapter "
+"boards directly to the N20 motors. Repeat this process for both motors."
+msgstr ""
+"Затем отделите платы-адаптеры двигателей от панели и припаяйте "
+"соответствующие разъемы к каждому адаптеру. После этого припаяйте платы-"
+"адаптеры непосредственно к двигателям N20. Повторите этот процесс для обоих "
+"двигателей."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:280
+msgid ""
+"Once both motor adapters are soldered to the motors and all connectors are "
+"installed on the main PCB, proceed with motor installation."
+msgstr ""
+"Как только оба адаптера припаяны к двигателям, а все разъемы установлены на "
+"основную плату, приступайте к установке двигателей."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:282
+msgid ""
+"The motors are mounted using dedicated plastic brackets designed for N20 "
+"motors. Secure each motor in its bracket and attach the assembly to the main"
+" PCB."
+msgstr ""
+"Двигатели крепятся с помощью специальных пластиковых кронштейнов, "
+"разработанных для двигателей N20. Закрепите каждый двигатель в кронштейне и "
+"прикрепите сборку к основной печатной плате."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:286
+msgid ""
+"When mounting the motors, the screw head must be located on the underside of"
+" the PCB. The nut is inserted from the top into the dedicated slot in the "
+"plastic bracket. This prevents the nut from rotating during assembly and "
+"makes installation easier."
+msgstr ""
+"При монтаже двигателей головка винта должна находиться с нижней стороны "
+"печатной платы. Гайка вставляется сверху в специальный паз в пластиковом "
+"кронштейне. Это предотвращает вращение гайки во время сборки и облегчает "
+"установку."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:301
+msgid "Step 5 - Install Sensors⚡"
+msgstr "Шаг 5 - Установка датчиков⚡"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:304
+msgid "Install and Solder the Ultrasonic Sensor and Line Tracker Module"
+msgstr "Установка и пайка ультразвукового датчика и модуля отслеживания линии"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:307
+msgid ""
+"Begin with the ultrasonic sensor mounted at the front of the PCB. Before "
+"soldering, measure the required pin length and trim the leads as close to "
+"the PCB as possible. The sensor pins should not protrude below the board, so"
+" keep the exposed leads to a minimum. During soldering, ensure that the "
+"solder joint provides sufficient mechanical support from the component side "
+"of the PCB. Large solder pads are provided specifically for this purpose."
+msgstr ""
+"Начните с ультразвукового датчика, устанавливаемого в передней части "
+"печатной платы. Перед пайкой измерьте необходимую длину выводов и обрежьте "
+"их как можно ближе к плате. Выводы датчика не должны выступать под платой, "
+"поэтому оставляйте минимальную длину. Во время пайки убедитесь, что паяное "
+"соединение обеспечивает достаточную механическую поддержку со стороны "
+"компонентов. Для этой цели предусмотрены большие контактные площадки."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:309
+msgid ""
+"After soldering, any remaining pin protrusions should be minimal, as "
+"clearance is required for the line tracker connector installed nearby."
+msgstr ""
+"После пайки любые выступающие части выводов должны быть минимальными, так "
+"как требуется зазор для разъема датчика линии, установленного рядом."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:311
+msgid ""
+"Next, install the line tracker connector. This connector is mounted from the"
+" bottom side of the PCB (solder side) and soldered from the top side "
+"(component side)."
+msgstr ""
+"Затем установите разъем датчика линии. Этот разъем монтируется с нижней "
+"стороны печатной платы (сторона пайки) и припаивается с верхней стороны "
+"(сторона компонентов)."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:313
+msgid ""
+"Once the connector is installed, attach the line tracker sensor module. The "
+"PCB includes dedicated mounting tabs for this purpose. Secure the module "
+"using M3 screws and locking nuts. To maintain the correct spacing between "
+"the boards, use 5 mm plastic spacers."
+msgstr ""
+"После установки разъема прикрепите модуль датчика линии. На печатной плате "
+"предусмотрены специальные монтажные выступы для этой цели. Закрепите модуль "
+"с помощью винтов M3 и стопорных гаек. Чтобы сохранить правильное расстояние "
+"между платами, используйте пластиковые проставки 5 мм."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:315
+msgid ""
+"After the ultrasonic sensor, line tracker module, Arduino controller, and "
+"all remaining modules are installed and secured in place, proceed to the "
+"next assembly step."
+msgstr ""
+"После того как ультразвуковой датчик, модуль отслеживания линии, контроллер "
+"Arduino и все остальные модули установлены и закреплены, переходите к "
+"следующему этапу сборки."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:318
+msgid "Step 6 - Wheels and Battery Holder⚡"
+msgstr "Шаг 6 - Колеса и держатель батареи⚡"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:321
+msgid "Install Roller Wheels and Battery Holder"
+msgstr "Установка опорных роликов и держателя батареи"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:323
+msgid "Now it is time to install the roller wheels and the battery holder."
+msgstr "Теперь пришло время установить опорные ролики и держатель батареи."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:325
+msgid ""
+"First, install the roller wheels. This step must be completed before "
+"mounting the battery holder, because once the holder is fixed in place, "
+"access to the roller wheel mounting holes will be blocked."
+msgstr ""
+"Сначала установите опорные ролики. Этот шаг необходимо выполнить до "
+"установки держателя батареи, потому что после того, как держатель будет "
+"закреплен, доступ к монтажным отверстиям роликов будет заблокирован."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:327
+msgid ""
+"Before installation, remove the screws from each roller wheel assembly."
+msgstr "Перед установкой выкрутите винты из каждого узла опорного ролика."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:331
+msgid ""
+"Be careful: inside the wheel assembly there are several small balls and one "
+"larger ball. When removing the screws, the assembly may come apart and there"
+" is a risk of losing these parts. Disassemble the wheel carefully and avoid "
+"pressing on the main roller."
+msgstr ""
+"Будьте осторожны: внутри узла ролика есть несколько маленьких шариков и один"
+" шарик побольше. При выкручивании винтов узел может развалиться, и есть риск"
+" потерять эти детали. Разбирайте ролик аккуратно и не давите на основной "
+"ролик."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:334
+msgid "To mount the roller wheels:"
+msgstr "Для установки опорных роликов:"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:336
+msgid ""
+"Insert the removed screws through the PCB from the component side (see the "
+"markings on the board). Position the roller wheel on the underside of the "
+"PCB. Tighten the screws until the wheel is firmly secured and does not "
+"wobble."
+msgstr ""
+"Вставьте извлеченные винты через печатную плату со стороны компонентов (см. "
+"маркировку на плате). Расположите опорный ролик с нижней стороны печатной "
+"платы. Затяните винты до тех пор, пока ролик не будет надежно закреплен и не"
+" перестанет шататься."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:340
+msgid "Repeat the same procedure for the second roller wheel."
+msgstr "Повторите ту же процедуру для второго опорного ролика."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:343
+msgid "Mount the Battery Holder"
+msgstr "Установка держателя батареи"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:345
+msgid ""
+"Once both wheels are installed, proceed with mounting the battery holder."
+msgstr ""
+"После установки обоих роликов приступайте к монтажу держателя батареи."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:347
+msgid ""
+"A battery holder with pre-attached wires is recommended. Measure the "
+"required wire length, cut off any excess, strip and tin the wire ends, then "
+"solder them to the designated pads on the PCB."
+msgstr ""
+"Рекомендуется использовать держатель батареи с уже припаянными проводами. "
+"Отмерьте необходимую длину проводов, отрежьте лишнее, зачистите и залудите "
+"концы проводов, а затем припаяйте их к соответствующим контактным площадкам "
+"на печатной плате."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:349
+msgid "Secure the battery holder using M2 screws and self-locking nuts."
+msgstr ""
+"Закрепите держатель батареи с помощью винтов M2 и самоконтрящихся гаек."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:351
+msgid "Congratulations! Your robot is almost ready for operation."
+msgstr "Поздравляем! Ваш робот почти готов к работе."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:354
+msgid "Step 7 - Bluetooth and Battery⚡"
+msgstr "Шаг 7 — Bluetooth и батарея⚡"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:357
+msgid "Install Bluetooth Module and Battery"
+msgstr "Установка модуля Bluetooth и батареи"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:359
+msgid ""
+"The final assembly stage is installing the Bluetooth module and connecting "
+"the battery."
+msgstr ""
+"Заключительный этап сборки — установка модуля Bluetooth и подключение "
+"батареи."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:361
+msgid ""
+"The Bluetooth module is mounted directly onto the PCB using 90-degree angled"
+" pin headers. In most cases, these headers are already soldered to the "
+"module. If your module has a 6-pin header installed, remove the two outer "
+"pins, as only four connections are required: power and data lines."
+msgstr ""
+"Модуль Bluetooth устанавливается непосредственно на печатную плату с помощью"
+" угловых штыревых разъемов (90 градусов). В большинстве случаев эти разъемы "
+"уже припаяны к модулю. Если на вашем модуле установлен 6-контактный разъем, "
+"удалите два крайних контакта, так как требуется всего четыре соединения: "
+"линии питания и данных."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:363
+msgid ""
+"Position the module according to the markings on the main PCB. The module "
+"should sit flush against the board without any gap between the Bluetooth "
+"module and the PCB. Once properly aligned, solder all four pins and trim any"
+" excess leads."
+msgstr ""
+"Расположите модуль в соответствии с маркировкой на основной печатной плате. "
+"Модуль должен плотно прилегать к плате, без зазора между ним и печатной "
+"платой. После правильного выравнивания припаяйте все четыре контакта и "
+"обрежьте лишние выводы."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:365
+msgid ""
+"After soldering, verify that the module is firmly attached and does not "
+"move."
+msgstr "После пайки убедитесь, что модуль надежно закреплен и не двигается."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:369
+msgid ""
+"Avoid mounting the module at a distance from the PCB, as this makes it more "
+"vulnerable to mechanical damage and causes it to protrude unnecessarily."
+msgstr ""
+"Избегайте установки модуля на расстоянии от печатной платы, так как это "
+"делает его более уязвимым к механическим повреждениям и приводит к ненужному"
+" выступу."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:371
+msgid ""
+"With the Bluetooth module installed, perform one final visual inspection of "
+"all solder joints and components. Check that there are no solder bridges, "
+"loose connections, or incorrectly installed parts."
+msgstr ""
+"После установки модуля Bluetooth выполните последний визуальный осмотр всех "
+"паяных соединений и компонентов. Убедитесь в отсутствии перемычек припоя, "
+"ненадежных соединений или неправильно установленных деталей."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:373
+msgid "The hardware assembly is now complete."
+msgstr "Сборка аппаратной части завершена."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:376
+msgid "Step 8 - Initial Inspection⚡"
+msgstr "Шаг 8 — Первичный осмотр⚡"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:378
+msgid ""
+"Before powering the robot for the first time, carefully inspect all solder "
+"joints, connectors, and wiring. Verify that all components are installed in "
+"the correct orientation and that there are no accidental shorts between "
+"adjacent pads or traces."
+msgstr ""
+"Перед первым включением робота внимательно осмотрите все паяные соединения, "
+"разъемы и проводку. Убедитесь, что все компоненты установлены в правильной "
+"ориентации и что нет случайных коротких замыканий между соседними площадками"
+" или дорожками."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:380
+msgid "Perform a final visual inspection of the assembled robot:"
+msgstr "Выполните финальный визуальный осмотр собранного робота:"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:382
+msgid "Check all soldered connections."
+msgstr "Проверьте все паяные соединения."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:383
+msgid "Verify motor wiring polarity."
+msgstr "Проверьте полярность подключения двигателей."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:384
+msgid "Confirm that sensors and modules are firmly connected."
+msgstr "Убедитесь, что датчики и модули надежно подключены."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:385
+msgid "Ensure that no loose wires can interfere with moving parts."
+msgstr "Убедитесь, что свободные провода не могут помешать движущимся частям."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:386
+msgid "Check that the battery connection is correct."
+msgstr "Проверьте правильность подключения батареи."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:388
+msgid "Correct any issues before proceeding."
+msgstr "Устраните любые проблемы перед продолжением."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:391
+msgid "Step 9 - Firmware Upload⚡"
+msgstr "Шаг 9 — Загрузка прошивки⚡"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:393
+msgid "The robot is now ready for firmware installation."
+msgstr "Теперь робот готов к установке прошивки."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:395
+msgid ""
+"Connect the controller to your computer and upload the test sketch or the "
+"desired firmware version. For testing, upload the maintenance and "
+"diagnostics sketch that verifies all robot functions and is intended "
+"specifically for repair and servicing procedures. Detailed instructions are "
+"provided in the Firmware section."
+msgstr ""
+"Подключите контроллер к компьютеру и загрузите тестовый скетч или нужную "
+"версию прошивки. Для тестирования загрузите скетч обслуживания и "
+"диагностики, который проверяет все функции робота и предназначен специально "
+"для процедур ремонта и обслуживания. Подробные инструкции приведены в "
+"разделе «Прошивка»."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:398
+msgid "Step 10 - Functional Test⚡"
+msgstr "Шаг 10 — Функциональное тестирование⚡"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:400
+msgid ""
+"After uploading the firmware, perform a complete functional test of the "
+"robot."
+msgstr ""
+"После загрузки прошивки выполните полное функциональное тестирование робота."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:404
+msgid ""
+"If the controller already contains previously installed firmware, the robot "
+"may begin moving immediately after power is applied."
+msgstr ""
+"Если в контроллере уже установлена прошивка, робот может начать движение "
+"сразу после подачи питания."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:406
+msgid ""
+"Before switching on the robot, make sure the wheels do not touch the table "
+"or any other surface. Place the robot on a stand, hold it securely, or "
+"otherwise prevent unintended movement to avoid the robot \"escaping\" during"
+" testing."
+msgstr ""
+"Перед включением робота убедитесь, что колеса не касаются стола или другой "
+"поверхности. Поместите робота на подставку, надежно удерживайте его или иным"
+" образом предотвратите непреднамеренное движение, чтобы робот не «сбежал» во"
+" время тестирования."
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:408
+msgid "**Verify the operation of:**"
+msgstr "**Проверьте работу:**"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:410
+msgid "Power system"
+msgstr "Системы питания"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:411
+msgid "Motors"
+msgstr "Двигателей"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:412
+msgid "Line sensors"
+msgstr "Датчиков линии"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:413
+msgid "Distance sensors"
+msgstr "Датчиков расстояния"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:414
+msgid "LEDs and indicators"
+msgstr "Светодиодов и индикаторов"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:415
+msgid "Communication modules"
+msgstr "Модулей связи"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:416
+msgid "Additional optional hardware"
+msgstr "Дополнительного оборудования"
+
+#: ../../platforms/bybyte-nano-assembly-steps.rst:418
+msgid ""
+"If any problems are detected, disconnect power, identify the cause, and "
+"correct the issue before continuing. Once all tests pass successfully, the "
+"robot is ready for normal operation and further software development."
+msgstr ""
+"Если обнаружены какие-либо проблемы, отключите питание, определите причину и"
+" устраните неисправность перед продолжением. Как только все тесты пройдены "
+"успешно, робот готов к нормальной эксплуатации и дальнейшей разработке "
+"программного обеспечения."
